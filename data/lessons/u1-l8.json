@@ -1,0 +1,486 @@
+{
+  "id": "u1-l8",
+  "order": 8,
+  "title": "Učebnice 1 – lekce 8",
+  "description": "Slovníček – 61 slovíček, 17 frází.",
+  "source": "screenshots/lekce/u1-l8.jpg",
+  "items": [
+    {
+      "type": "word",
+      "en": "altogether",
+      "ipa": "ˌɔːltəˈgeðə",
+      "cs": "dohromady, celkem"
+    },
+    {
+      "type": "word",
+      "en": "anyway",
+      "ipa": "ˈenɪweɪ",
+      "cs": "stejně"
+    },
+    {
+      "type": "word",
+      "en": "as",
+      "ipa": "æz, əz",
+      "cs": "jako, jak"
+    },
+    {
+      "type": "word",
+      "en": "away",
+      "ipa": "əˈweɪ",
+      "cs": "pryč"
+    },
+    {
+      "type": "word",
+      "en": "bargain",
+      "ipa": "ˈbɑːgɪn",
+      "cs": "výhodná koupě"
+    },
+    {
+      "type": "word",
+      "en": "better",
+      "ipa": "ˈbetə",
+      "cs": "lepší"
+    },
+    {
+      "type": "word",
+      "en": "bit",
+      "ipa": "bɪt",
+      "cs": "trochu"
+    },
+    {
+      "type": "word",
+      "en": "blouse",
+      "ipa": "blaʊz",
+      "cs": "blůza, halenka"
+    },
+    {
+      "type": "word",
+      "en": "British",
+      "ipa": "ˈbrɪtɪʃ",
+      "cs": "britský"
+    },
+    {
+      "type": "word",
+      "en": "buy",
+      "ipa": "baɪ",
+      "cs": "koupit, kupovat"
+    },
+    {
+      "type": "word",
+      "en": "celebrate",
+      "ipa": "ˈseləbreɪt",
+      "cs": "slavit, oslavovat"
+    },
+    {
+      "type": "word",
+      "en": "change",
+      "ipa": "tʃeɪndʒ",
+      "cs": "změna; peníze nazpět; změnit, vyměnit"
+    },
+    {
+      "type": "word",
+      "en": "cost",
+      "ipa": "kɒst",
+      "cs": "stát",
+      "note": "o ceně"
+    },
+    {
+      "type": "word",
+      "en": "could: I could",
+      "ipa": "kʊd",
+      "cs": "mohl bych"
+    },
+    {
+      "type": "word",
+      "en": "dear",
+      "ipa": "dɪə",
+      "cs": "drahý, milý"
+    },
+    {
+      "type": "word",
+      "en": "delicious",
+      "ipa": "dɪˈlɪʃəs",
+      "cs": "výtečný",
+      "note": "o jídle"
+    },
+    {
+      "type": "word",
+      "en": "elegant",
+      "ipa": "ˈelɪgənt",
+      "cs": "elegantní"
+    },
+    {
+      "type": "word",
+      "en": "else",
+      "ipa": "els",
+      "cs": "jiný"
+    },
+    {
+      "type": "word",
+      "en": "fresh",
+      "ipa": "freʃ",
+      "cs": "čerstvý"
+    },
+    {
+      "type": "word",
+      "en": "get",
+      "ipa": "get",
+      "cs": "koupit; dostat, získat",
+      "note": "(tt); hovorově"
+    },
+    {
+      "type": "word",
+      "en": "groceries",
+      "ipa": "ˈgrəʊsərɪz",
+      "cs": "potraviny"
+    },
+    {
+      "type": "word",
+      "en": "happen",
+      "ipa": "ˈhæpən",
+      "cs": "stát se, přihodit se"
+    },
+    {
+      "type": "word",
+      "en": "just",
+      "ipa": "dʒʌst",
+      "cs": "jenom, prostě, akorát"
+    },
+    {
+      "type": "word",
+      "en": "leave",
+      "ipa": "liːv",
+      "cs": "odejít, odjet (z); opustit"
+    },
+    {
+      "type": "word",
+      "en": "market",
+      "ipa": "ˈmɑːkɪt",
+      "cs": "trh"
+    },
+    {
+      "type": "word",
+      "en": "material",
+      "ipa": "məˈtɪərɪəl",
+      "cs": "látka"
+    },
+    {
+      "type": "word",
+      "en": "more",
+      "ipa": "mɔː",
+      "cs": "víc, více"
+    },
+    {
+      "type": "word",
+      "en": "much",
+      "ipa": "mʌtʃ",
+      "cs": "mnohem"
+    },
+    {
+      "type": "word",
+      "en": "mushroom",
+      "ipa": "ˈmʌʃrʊm",
+      "cs": "žampion, houba"
+    },
+    {
+      "type": "word",
+      "en": "note",
+      "ipa": "nəʊt",
+      "cs": "bankovka"
+    },
+    {
+      "type": "word",
+      "en": "old-fashioned",
+      "ipa": "ˌəʊldˈfæʃnd",
+      "cs": "staromódní"
+    },
+    {
+      "type": "word",
+      "en": "orange",
+      "ipa": "ˈɒrɪndʒ",
+      "cs": "pomeranč"
+    },
+    {
+      "type": "word",
+      "en": "pay",
+      "ipa": "peɪ",
+      "cs": "zaplatit, platit"
+    },
+    {
+      "type": "word",
+      "en": "pence",
+      "ipa": "pens",
+      "cs": "pence",
+      "note": "mn. č."
+    },
+    {
+      "type": "word",
+      "en": "penny",
+      "ipa": "ˈpenɪ",
+      "cs": "pence",
+      "note": "j. č."
+    },
+    {
+      "type": "word",
+      "en": "people",
+      "ipa": "ˈpiːpl",
+      "cs": "lidé"
+    },
+    {
+      "type": "word",
+      "en": "person",
+      "ipa": "ˈpɜːsn",
+      "cs": "osoba, člověk"
+    },
+    {
+      "type": "word",
+      "en": "potato",
+      "ipa": "pəˈteɪtəʊ",
+      "cs": "brambor",
+      "note": "mn. č. -es"
+    },
+    {
+      "type": "word",
+      "en": "pound",
+      "ipa": "paʊnd",
+      "cs": "libra",
+      "note": "měna i váha (= 454 g)"
+    },
+    {
+      "type": "word",
+      "en": "practical",
+      "ipa": "ˈpræktɪkl",
+      "cs": "praktický"
+    },
+    {
+      "type": "word",
+      "en": "price",
+      "ipa": "praɪs",
+      "cs": "cena"
+    },
+    {
+      "type": "word",
+      "en": "put",
+      "ipa": "pʊt",
+      "cs": "položit, dát",
+      "note": "(tt); někam"
+    },
+    {
+      "type": "word",
+      "en": "put away",
+      "ipa": "ˌpʊtəˈweɪ",
+      "cs": "sklidit",
+      "note": "(tt)"
+    },
+    {
+      "type": "word",
+      "en": "sale",
+      "ipa": "seɪl",
+      "cs": "výprodej; prodej"
+    },
+    {
+      "type": "word",
+      "en": "sell",
+      "ipa": "sel",
+      "cs": "prodat, prodávat"
+    },
+    {
+      "type": "word",
+      "en": "seller",
+      "ipa": "ˈselə",
+      "cs": "prodejce"
+    },
+    {
+      "type": "word",
+      "en": "fruit seller",
+      "cs": "zelinář(ka)"
+    },
+    {
+      "type": "word",
+      "en": "shirt",
+      "ipa": "ʃɜːt",
+      "cs": "košile"
+    },
+    {
+      "type": "word",
+      "en": "skirt",
+      "ipa": "skɜːt",
+      "cs": "sukně"
+    },
+    {
+      "type": "word",
+      "en": "soft",
+      "ipa": "sɒft",
+      "cs": "hebký, jemný, měkký"
+    },
+    {
+      "type": "word",
+      "en": "Spanish",
+      "ipa": "ˈspænɪʃ",
+      "cs": "španělský; španělština"
+    },
+    {
+      "type": "word",
+      "en": "straight away",
+      "ipa": "ˌstreɪt əˈweɪ",
+      "cs": "ihned, okamžitě"
+    },
+    {
+      "type": "word",
+      "en": "style",
+      "ipa": "staɪl",
+      "cs": "styl"
+    },
+    {
+      "type": "word",
+      "en": "suit",
+      "ipa": "suːt",
+      "cs": "slušet"
+    },
+    {
+      "type": "word",
+      "en": "sweet",
+      "ipa": "swiːt",
+      "cs": "sladký"
+    },
+    {
+      "type": "word",
+      "en": "tangerine",
+      "ipa": "ˌtændʒəˈriːn",
+      "cs": "mandarinka"
+    },
+    {
+      "type": "word",
+      "en": "than",
+      "ipa": "ðæn, ðən",
+      "cs": "než"
+    },
+    {
+      "type": "word",
+      "en": "try on",
+      "cs": "vyzkoušet si",
+      "note": "oblečení"
+    },
+    {
+      "type": "word",
+      "en": "vegetables",
+      "ipa": "ˈvedʒtəblz",
+      "cs": "zelenina"
+    },
+    {
+      "type": "word",
+      "en": "young",
+      "ipa": "jʌŋ",
+      "cs": "mladý"
+    },
+    {
+      "type": "phrase",
+      "en": "in the sale",
+      "cs": "ve výprodeji",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at the market",
+      "cs": "na trhu, v tržnici",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at Jackson's, at Casa Mexicana",
+      "cs": "v obchodě Jackson's, v restauraci Casa Mexicana",
+      "note": "předložky"
+    },
+    {
+      "type": "word",
+      "en": "give",
+      "cs": "dát něco někomu",
+      "note": "give a put"
+    },
+    {
+      "type": "phrase",
+      "en": "somebody else",
+      "cs": "někdo jiný",
+      "note": "else"
+    },
+    {
+      "type": "phrase",
+      "en": "somewhere else",
+      "cs": "někde jinde",
+      "note": "else"
+    },
+    {
+      "type": "phrase",
+      "en": "something else",
+      "cs": "něco jiného",
+      "note": "else"
+    },
+    {
+      "type": "phrase",
+      "en": "anybody else",
+      "cs": "kdokoliv jiný",
+      "note": "else"
+    },
+    {
+      "type": "phrase",
+      "en": "anywhere else",
+      "cs": "kdekoliv jinde",
+      "note": "else"
+    },
+    {
+      "type": "phrase",
+      "en": "anything else",
+      "cs": "cokoliv jiného",
+      "note": "else"
+    },
+    {
+      "type": "phrase",
+      "en": "nobody else",
+      "cs": "nikdo jiný",
+      "note": "else"
+    },
+    {
+      "type": "phrase",
+      "en": "nowhere else",
+      "cs": "nikde jinde",
+      "note": "else"
+    },
+    {
+      "type": "phrase",
+      "en": "nothing else",
+      "cs": "nic jiného",
+      "note": "else"
+    },
+    {
+      "type": "phrase",
+      "en": "What else?",
+      "cs": "Co jiného?",
+      "note": "else"
+    },
+    {
+      "type": "phrase",
+      "en": "five pounds (and) twenty-seven pence",
+      "cs": "£5.27p",
+      "note": "ceny čteme"
+    },
+    {
+      "type": "phrase",
+      "en": "five pounds (and) twenty-seven 'p'",
+      "ipa": "piː",
+      "cs": "£5.27p",
+      "note": "ceny čteme"
+    },
+    {
+      "type": "phrase",
+      "en": "five pounds twenty-seven",
+      "cs": "£5.27p",
+      "note": "ceny čteme"
+    },
+    {
+      "type": "phrase",
+      "en": "five twenty-seven",
+      "cs": "£5.27p",
+      "note": "ceny čteme"
+    }
+  ]
+}

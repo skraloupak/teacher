@@ -1,0 +1,636 @@
+{
+  "id": "u1-l3",
+  "order": 3,
+  "title": "Učebnice 1 – lekce 3",
+  "description": "Slovníček – 86 slovíček, 15 frází.",
+  "source": "screenshots/lekce/u1-l3.jpg",
+  "items": [
+    {
+      "type": "word",
+      "en": "a little",
+      "ipa": "ə ˈlɪtl",
+      "cs": "trochu"
+    },
+    {
+      "type": "word",
+      "en": "a lot (of)",
+      "ipa": "ə ˈlɒt əv",
+      "cs": "hodně",
+      "note": "čeho; heslo uvedeno jako „lot: a lot (of)“, = lots (of)"
+    },
+    {
+      "type": "word",
+      "en": "about",
+      "ipa": "əˈbaʊt",
+      "cs": "o",
+      "note": "kom, čem"
+    },
+    {
+      "type": "word",
+      "en": "active",
+      "ipa": "ˈæktɪv",
+      "cs": "aktivní, čilý, činorodý"
+    },
+    {
+      "type": "word",
+      "en": "always",
+      "ipa": "ˈɔːlweɪz",
+      "cs": "vždy; neustále"
+    },
+    {
+      "type": "word",
+      "en": "art",
+      "ipa": "ɑːt",
+      "cs": "umění"
+    },
+    {
+      "type": "word",
+      "en": "book",
+      "ipa": "bʊk",
+      "cs": "kniha"
+    },
+    {
+      "type": "word",
+      "en": "both",
+      "ipa": "bəʊθ",
+      "cs": "oba, obě, oboje"
+    },
+    {
+      "type": "word",
+      "en": "breakfast",
+      "ipa": "ˈbrekfəst",
+      "cs": "snídaně"
+    },
+    {
+      "type": "word",
+      "en": "busy",
+      "ipa": "ˈbɪzɪ",
+      "cs": "zaneprázdněný; rušný"
+    },
+    {
+      "type": "word",
+      "en": "but",
+      "ipa": "bʌt",
+      "cs": "ale"
+    },
+    {
+      "type": "word",
+      "en": "cabbage",
+      "ipa": "ˈkæbɪdʒ",
+      "cs": "zelí, kapusta"
+    },
+    {
+      "type": "word",
+      "en": "classical music",
+      "ipa": "ˈklæsɪkl",
+      "cs": "vážná hudba"
+    },
+    {
+      "type": "word",
+      "en": "colour",
+      "ipa": "ˈkʌlə",
+      "cs": "barva"
+    },
+    {
+      "type": "word",
+      "en": "come",
+      "ipa": "kʌm",
+      "cs": "přijít, přijet"
+    },
+    {
+      "type": "word",
+      "en": "concert",
+      "ipa": "ˈkɒnsət",
+      "cs": "koncert"
+    },
+    {
+      "type": "word",
+      "en": "country",
+      "ipa": "ˈkʌntrɪ",
+      "cs": "venkov; krajina"
+    },
+    {
+      "type": "word",
+      "en": "creative",
+      "ipa": "kriːˈeɪtɪv",
+      "cs": "tvořivý, tvůrčí"
+    },
+    {
+      "type": "word",
+      "en": "day",
+      "ipa": "deɪ",
+      "cs": "den"
+    },
+    {
+      "type": "word",
+      "en": "design",
+      "ipa": "dɪˈzaɪn",
+      "cs": "návrh; navrhovat",
+      "note": "módní, technický ap."
+    },
+    {
+      "type": "word",
+      "en": "different",
+      "ipa": "ˈdɪfrənt",
+      "cs": "jiný, rozdílný"
+    },
+    {
+      "type": "word",
+      "en": "difficult",
+      "ipa": "ˈdɪfɪklt",
+      "cs": "obtížný"
+    },
+    {
+      "type": "word",
+      "en": "dinner",
+      "ipa": "ˈdɪnə",
+      "cs": "večeře; oběd"
+    },
+    {
+      "type": "word",
+      "en": "do",
+      "ipa": "duː",
+      "cs": "dělat",
+      "note": "pomocné sloveso"
+    },
+    {
+      "type": "word",
+      "en": "draw",
+      "ipa": "drɔː",
+      "cs": "kreslit"
+    },
+    {
+      "type": "word",
+      "en": "every",
+      "ipa": "ˈevrɪ",
+      "cs": "každý",
+      "note": "ve spojení s podstatným jménem"
+    },
+    {
+      "type": "word",
+      "en": "everyone",
+      "ipa": "ˈevrɪwʌn",
+      "cs": "každý, všichni"
+    },
+    {
+      "type": "word",
+      "en": "fashion",
+      "ipa": "ˈfæʃn",
+      "cs": "móda"
+    },
+    {
+      "type": "word",
+      "en": "fashion designer",
+      "ipa": "ˌfæʃən dɪˈzaɪnə",
+      "cs": "módní návrhář(ka)"
+    },
+    {
+      "type": "word",
+      "en": "free",
+      "ipa": "friː",
+      "cs": "volný"
+    },
+    {
+      "type": "word",
+      "en": "girlfriend",
+      "ipa": "ˈgɜːlfrend",
+      "cs": "přítelkyně"
+    },
+    {
+      "type": "word",
+      "en": "go",
+      "ipa": "gəʊ",
+      "cs": "jít, jet, chodit, jezdit"
+    },
+    {
+      "type": "word",
+      "en": "great",
+      "ipa": "greɪt",
+      "cs": "skvělý, báječný"
+    },
+    {
+      "type": "word",
+      "en": "home",
+      "ipa": "həʊm",
+      "cs": "domů"
+    },
+    {
+      "type": "word",
+      "en": "if",
+      "ipa": "ɪf",
+      "cs": "jestli, pokud, když"
+    },
+    {
+      "type": "word",
+      "en": "interview",
+      "ipa": "ˈɪntəvjuː",
+      "cs": "rozhovor, pohovor"
+    },
+    {
+      "type": "word",
+      "en": "jazz",
+      "ipa": "dʒæz",
+      "cs": "džez"
+    },
+    {
+      "type": "word",
+      "en": "journalist",
+      "ipa": "ˈdʒɜːnəlɪst",
+      "cs": "novinář(ka)"
+    },
+    {
+      "type": "word",
+      "en": "know",
+      "ipa": "nəʊ",
+      "cs": "znát; vědět"
+    },
+    {
+      "type": "word",
+      "en": "life",
+      "ipa": "laɪf",
+      "cs": "život",
+      "note": "mn. č. lives [laɪvz]"
+    },
+    {
+      "type": "word",
+      "en": "like",
+      "ipa": "laɪk",
+      "cs": "mít rád"
+    },
+    {
+      "type": "word",
+      "en": "listen (to)",
+      "ipa": "ˈlɪsn tʊ",
+      "cs": "poslouchat (co)"
+    },
+    {
+      "type": "word",
+      "en": "live",
+      "ipa": "lɪv",
+      "cs": "žít, bydlet"
+    },
+    {
+      "type": "word",
+      "en": "love",
+      "ipa": "lʌv",
+      "cs": "milovat, mít velmi rád; láska"
+    },
+    {
+      "type": "word",
+      "en": "meet",
+      "ipa": "miːt",
+      "cs": "seznámit se s; potkat, setkat se s"
+    },
+    {
+      "type": "word",
+      "en": "meeting",
+      "ipa": "ˈmiːtɪŋ",
+      "cs": "schůze, schůzka; setkání"
+    },
+    {
+      "type": "word",
+      "en": "mostly",
+      "ipa": "ˈməʊstlɪ",
+      "cs": "většinou, převážně"
+    },
+    {
+      "type": "word",
+      "en": "muesli",
+      "ipa": "ˈmjuːzlɪ",
+      "cs": "müsli"
+    },
+    {
+      "type": "word",
+      "en": "music",
+      "ipa": "ˈmjuːzɪk",
+      "cs": "hudba"
+    },
+    {
+      "type": "word",
+      "en": "next",
+      "ipa": "nekst",
+      "cs": "příští, další"
+    },
+    {
+      "type": "word",
+      "en": "novel",
+      "ipa": "ˈnɒvl",
+      "cs": "román"
+    },
+    {
+      "type": "word",
+      "en": "or",
+      "ipa": "ɔː",
+      "cs": "nebo"
+    },
+    {
+      "type": "word",
+      "en": "out",
+      "ipa": "aʊt",
+      "cs": "ven"
+    },
+    {
+      "type": "word",
+      "en": "paint",
+      "ipa": "peɪnt",
+      "cs": "malovat; barva",
+      "note": "na malování"
+    },
+    {
+      "type": "word",
+      "en": "photo(graph)",
+      "ipa": "ˈfəʊtəʊ; ˈfəʊtəgrɑːf",
+      "cs": "foto(grafie); (vy)fotit, fotografovat"
+    },
+    {
+      "type": "word",
+      "en": "plan",
+      "ipa": "plæn",
+      "cs": "plánovat; plán"
+    },
+    {
+      "type": "word",
+      "en": "read",
+      "ipa": "riːd",
+      "cs": "číst"
+    },
+    {
+      "type": "word",
+      "en": "rock",
+      "ipa": "rɒk",
+      "cs": "rock",
+      "note": "hudba"
+    },
+    {
+      "type": "word",
+      "en": "show",
+      "ipa": "ʃəʊ",
+      "cs": "přehlídka"
+    },
+    {
+      "type": "word",
+      "en": "singer",
+      "ipa": "ˈsɪŋə",
+      "cs": "zpěvák, zpěvačka"
+    },
+    {
+      "type": "word",
+      "en": "sport",
+      "ipa": "spɔːt",
+      "cs": "sport"
+    },
+    {
+      "type": "word",
+      "en": "start",
+      "ipa": "stɑːt",
+      "cs": "začít, začínat; začátek"
+    },
+    {
+      "type": "word",
+      "en": "studio",
+      "ipa": "ˈstjuːdɪəʊ",
+      "cs": "studio"
+    },
+    {
+      "type": "word",
+      "en": "take",
+      "ipa": "teɪk",
+      "cs": "vzít, brát; snímat"
+    },
+    {
+      "type": "word",
+      "en": "tell",
+      "ipa": "tel",
+      "cs": "říci, říkat; vyprávět"
+    },
+    {
+      "type": "word",
+      "en": "then",
+      "ipa": "ðen",
+      "cs": "pak, potom"
+    },
+    {
+      "type": "word",
+      "en": "thing",
+      "ipa": "θɪŋ",
+      "cs": "věc"
+    },
+    {
+      "type": "word",
+      "en": "tidy",
+      "ipa": "ˈtaɪdɪ",
+      "cs": "uklidit, udělat pořádek; uklizený, pořádný",
+      "note": "v čem"
+    },
+    {
+      "type": "word",
+      "en": "to",
+      "ipa": "tʊ",
+      "cs": "do, k, na",
+      "note": "předložka směru po slovesech pohybu"
+    },
+    {
+      "type": "word",
+      "en": "travel",
+      "ipa": "ˈtrævl",
+      "cs": "cestovat; cestování"
+    },
+    {
+      "type": "word",
+      "en": "typical",
+      "ipa": "ˈtɪpɪkl",
+      "cs": "typický"
+    },
+    {
+      "type": "word",
+      "en": "visit",
+      "ipa": "ˈvɪzɪt",
+      "cs": "navštívit, navštěvovat; návštěva"
+    },
+    {
+      "type": "word",
+      "en": "walk",
+      "ipa": "wɔːk",
+      "cs": "procházka; jít pěšky"
+    },
+    {
+      "type": "word",
+      "en": "work",
+      "ipa": "wɜːk",
+      "cs": "práce; pracovat"
+    },
+    {
+      "type": "word",
+      "en": "write",
+      "ipa": "raɪt",
+      "cs": "psát"
+    },
+    {
+      "type": "phrase",
+      "en": "in the country",
+      "cs": "na venkově, v přírodě",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the afternoon/in the evening",
+      "cs": "odpoledne/večer",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the morning",
+      "cs": "ráno, dopoledne",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in my/your/her (atd.) free time",
+      "cs": "ve svém volném čase",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "go out for lunch",
+      "cs": "jít/chodit na oběd",
+      "note": "předložky; do restaurace"
+    },
+    {
+      "type": "phrase",
+      "en": "time for (sport)",
+      "cs": "čas na (sport)",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "thanks for",
+      "cs": "díky za",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "thank for",
+      "cs": "(po)děkovat za",
+      "note": "předložky"
+    },
+    {
+      "type": "word",
+      "en": "Paris",
+      "ipa": "ˈpærɪs",
+      "cs": "Paříž",
+      "note": "výslovnost jmen hlavních měst"
+    },
+    {
+      "type": "word",
+      "en": "Tokyo",
+      "ipa": "ˈtəʊkɪəʊ",
+      "cs": "Tokio",
+      "note": "výslovnost jmen hlavních měst"
+    },
+    {
+      "type": "word",
+      "en": "New York",
+      "ipa": "ˌnjuː ˈjɔːk",
+      "cs": "New York",
+      "note": "výslovnost jmen hlavních měst; český překlad v učebnici neuveden"
+    },
+    {
+      "type": "word",
+      "en": "week",
+      "ipa": "wiːk",
+      "cs": "týden",
+      "note": "dny v týdnu"
+    },
+    {
+      "type": "word",
+      "en": "Monday",
+      "ipa": "ˈmʌndeɪ, ˈmʌndɪ",
+      "cs": "pondělí",
+      "note": "dny v týdnu"
+    },
+    {
+      "type": "word",
+      "en": "Tuesday",
+      "ipa": "ˈtjuːzdeɪ, ˈtjuːzdɪ",
+      "cs": "úterý",
+      "note": "dny v týdnu"
+    },
+    {
+      "type": "word",
+      "en": "Wednesday",
+      "ipa": "ˈwenzdeɪ, ˈwenzdɪ",
+      "cs": "středa",
+      "note": "dny v týdnu"
+    },
+    {
+      "type": "word",
+      "en": "Thursday",
+      "ipa": "ˈθɜːzdeɪ, ˈθɜːzdɪ",
+      "cs": "čtvrtek",
+      "note": "dny v týdnu"
+    },
+    {
+      "type": "word",
+      "en": "Friday",
+      "ipa": "ˈfraɪdeɪ, ˈfraɪdɪ",
+      "cs": "pátek",
+      "note": "dny v týdnu"
+    },
+    {
+      "type": "word",
+      "en": "Saturday",
+      "ipa": "ˈsætədeɪ, ˈsætədɪ",
+      "cs": "sobota",
+      "note": "dny v týdnu"
+    },
+    {
+      "type": "word",
+      "en": "Sunday",
+      "ipa": "ˈsʌndeɪ, ˈsʌndɪ",
+      "cs": "neděle",
+      "note": "dny v týdnu"
+    },
+    {
+      "type": "phrase",
+      "en": "on Monday",
+      "cs": "v pondělí",
+      "note": "dny v týdnu"
+    },
+    {
+      "type": "phrase",
+      "en": "on Mondays",
+      "cs": "(každý týden) v pondělí",
+      "note": "dny v týdnu"
+    },
+    {
+      "type": "phrase",
+      "en": "on Monday evening",
+      "cs": "v pondělí večer",
+      "note": "dny v týdnu"
+    },
+    {
+      "type": "phrase",
+      "en": "on Monday evenings",
+      "cs": "každé pondělí večer",
+      "note": "dny v týdnu"
+    },
+    {
+      "type": "phrase",
+      "en": "this Monday",
+      "cs": "toto pondělí",
+      "note": "dny v týdnu"
+    },
+    {
+      "type": "phrase",
+      "en": "next Monday",
+      "cs": "příští pondělí",
+      "note": "dny v týdnu"
+    },
+    {
+      "type": "phrase",
+      "en": "every Monday",
+      "cs": "každé pondělí",
+      "note": "dny v týdnu"
+    }
+  ]
+}

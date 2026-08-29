@@ -1,0 +1,551 @@
+{
+  "id": "u1-l5",
+  "order": 5,
+  "title": "Učebnice 1 – lekce 5",
+  "description": "Slovníček – 69 slovíček, 19 frází.",
+  "source": "screenshots/lekce/u1-l5.jpg",
+  "items": [
+    {
+      "type": "word",
+      "en": "above",
+      "ipa": "əˈbʌv",
+      "cs": "nad"
+    },
+    {
+      "type": "word",
+      "en": "ant",
+      "ipa": "ænt",
+      "cs": "mravenec"
+    },
+    {
+      "type": "word",
+      "en": "any",
+      "ipa": "ˈenɪ",
+      "cs": "nějaký; žádný; jakýkoliv, kterýkoliv",
+      "note": "v otázkách nějaký; se záporem žádný"
+    },
+    {
+      "type": "word",
+      "en": "architect",
+      "ipa": "ˈɑːkɪtekt",
+      "cs": "architekt"
+    },
+    {
+      "type": "word",
+      "en": "armchair",
+      "ipa": "ˈɑːmtʃeə",
+      "cs": "křeslo"
+    },
+    {
+      "type": "word",
+      "en": "autumn",
+      "ipa": "ˈɔːtəm",
+      "cs": "podzim"
+    },
+    {
+      "type": "word",
+      "en": "bake",
+      "ipa": "beɪk",
+      "cs": "upéci, péci"
+    },
+    {
+      "type": "word",
+      "en": "bath",
+      "ipa": "bɑːθ",
+      "cs": "vana, koupel"
+    },
+    {
+      "type": "word",
+      "en": "bathroom",
+      "ipa": "ˈbɑːθrʊm",
+      "cs": "koupelna"
+    },
+    {
+      "type": "word",
+      "en": "bed",
+      "ipa": "bed",
+      "cs": "postel"
+    },
+    {
+      "type": "word",
+      "en": "bilberry",
+      "ipa": "ˈbɪlbərɪ",
+      "cs": "borůvka"
+    },
+    {
+      "type": "word",
+      "en": "boy",
+      "ipa": "bɔɪ",
+      "cs": "chlapec, kluk"
+    },
+    {
+      "type": "word",
+      "en": "cake",
+      "ipa": "keɪk",
+      "cs": "koláč, dort"
+    },
+    {
+      "type": "word",
+      "en": "chair",
+      "ipa": "tʃeə",
+      "cs": "židle"
+    },
+    {
+      "type": "word",
+      "en": "child",
+      "ipa": "tʃaɪld",
+      "cs": "dítě",
+      "note": "mn. č. children"
+    },
+    {
+      "type": "word",
+      "en": "clean",
+      "ipa": "kliːn",
+      "cs": "čistit, uklízet; čistý",
+      "note": "uklízet čištěním"
+    },
+    {
+      "type": "word",
+      "en": "clothes",
+      "ipa": "kləʊðz",
+      "cs": "oblečení",
+      "note": "mn. č."
+    },
+    {
+      "type": "word",
+      "en": "comfortable",
+      "ipa": "ˈkʌmfətəbl",
+      "cs": "pohodlný"
+    },
+    {
+      "type": "word",
+      "en": "daughter",
+      "ipa": "ˈdɔːtə",
+      "cs": "dcera"
+    },
+    {
+      "type": "word",
+      "en": "desk",
+      "ipa": "desk",
+      "cs": "psací stůl; lavice",
+      "note": "ve škole lavice"
+    },
+    {
+      "type": "word",
+      "en": "dining room",
+      "ipa": "ˈdaɪnɪŋ ˌrʊm",
+      "cs": "jídelna"
+    },
+    {
+      "type": "word",
+      "en": "drink",
+      "ipa": "drɪŋk",
+      "cs": "(vy)pít; nápoj"
+    },
+    {
+      "type": "word",
+      "en": "everywhere",
+      "ipa": "ˈevrɪweə",
+      "cs": "všude"
+    },
+    {
+      "type": "word",
+      "en": "film",
+      "ipa": "fɪlm",
+      "cs": "film"
+    },
+    {
+      "type": "word",
+      "en": "floor",
+      "ipa": "flɔː",
+      "cs": "podlaží, poschodí; podlaha"
+    },
+    {
+      "type": "word",
+      "en": "Grandma",
+      "ipa": "ˈgræn(d)mɑː",
+      "cs": "babička"
+    },
+    {
+      "type": "word",
+      "en": "ground floor",
+      "ipa": "ˌgraʊndˈflɔː",
+      "cs": "přízemí"
+    },
+    {
+      "type": "word",
+      "en": "have a bath",
+      "cs": "(vy)koupat se"
+    },
+    {
+      "type": "word",
+      "en": "help",
+      "ipa": "help",
+      "cs": "pomoct, pomáhat; pomoc"
+    },
+    {
+      "type": "word",
+      "en": "here",
+      "ipa": "hɪə",
+      "cs": "zde, tady; sem"
+    },
+    {
+      "type": "word",
+      "en": "important",
+      "ipa": "ɪmˈpɔːtənt",
+      "cs": "důležitý"
+    },
+    {
+      "type": "word",
+      "en": "just",
+      "ipa": "dʒʌst",
+      "cs": "právě, zrovna"
+    },
+    {
+      "type": "word",
+      "en": "kitchen",
+      "ipa": "ˈkɪtʃɪn",
+      "cs": "kuchyň",
+      "note": "místnost"
+    },
+    {
+      "type": "word",
+      "en": "lastly",
+      "ipa": "ˈlɑːstlɪ",
+      "cs": "na posledním místě"
+    },
+    {
+      "type": "word",
+      "en": "late",
+      "ipa": "leɪt",
+      "cs": "pozdě; pozdní"
+    },
+    {
+      "type": "word",
+      "en": "look for",
+      "ipa": "ˈlʊk fɔː",
+      "cs": "hledat"
+    },
+    {
+      "type": "word",
+      "en": "many",
+      "ipa": "ˈmenɪ",
+      "cs": "hodně, mnoho, mnohý"
+    },
+    {
+      "type": "word",
+      "en": "mess",
+      "ipa": "mes",
+      "cs": "nepořádek"
+    },
+    {
+      "type": "word",
+      "en": "next to",
+      "ipa": "ˈnekst ˌtʊ",
+      "cs": "vedle"
+    },
+    {
+      "type": "word",
+      "en": "now",
+      "ipa": "naʊ",
+      "cs": "teď, nyní"
+    },
+    {
+      "type": "word",
+      "en": "opposite",
+      "ipa": "ˈɒpəzɪt",
+      "cs": "naproti, proti"
+    },
+    {
+      "type": "word",
+      "en": "other",
+      "ipa": "ˈʌðə",
+      "cs": "další; jiný"
+    },
+    {
+      "type": "word",
+      "en": "paper",
+      "ipa": "ˈpeɪpə",
+      "cs": "papír"
+    },
+    {
+      "type": "word",
+      "en": "party",
+      "ipa": "ˈpɑːtɪ",
+      "cs": "večírek; oslava"
+    },
+    {
+      "type": "word",
+      "en": "please",
+      "ipa": "pliːz",
+      "cs": "prosím",
+      "note": "v prosbách, žádostech"
+    },
+    {
+      "type": "word",
+      "en": "prepare",
+      "ipa": "prɪˈpeə",
+      "cs": "připravit, připravovat"
+    },
+    {
+      "type": "word",
+      "en": "ring",
+      "ipa": "rɪŋ",
+      "cs": "zazvonit, zvonit"
+    },
+    {
+      "type": "word",
+      "en": "room",
+      "ipa": "ruːm",
+      "cs": "místnost, pokoj"
+    },
+    {
+      "type": "word",
+      "en": "run",
+      "ipa": "rʌn",
+      "cs": "běžet, běhat, utíkat",
+      "note": "nn"
+    },
+    {
+      "type": "word",
+      "en": "shelf",
+      "ipa": "ʃelf",
+      "cs": "police",
+      "note": "mn. č. shelves"
+    },
+    {
+      "type": "word",
+      "en": "sing",
+      "ipa": "sɪŋ",
+      "cs": "(za)zpívat"
+    },
+    {
+      "type": "word",
+      "en": "sofa",
+      "ipa": "ˈsəʊfə",
+      "cs": "pohovka"
+    },
+    {
+      "type": "word",
+      "en": "some",
+      "ipa": "sʌm, səm",
+      "cs": "nějaký, některý; trochu"
+    },
+    {
+      "type": "word",
+      "en": "soon",
+      "ipa": "suːn",
+      "cs": "brzy, zanedlouho"
+    },
+    {
+      "type": "word",
+      "en": "speak",
+      "ipa": "spiːk",
+      "cs": "mluvit, hovořit"
+    },
+    {
+      "type": "word",
+      "en": "study",
+      "ipa": "ˈstʌdɪ",
+      "cs": "studovna"
+    },
+    {
+      "type": "word",
+      "en": "telephone",
+      "ipa": "ˈtelɪfəʊn",
+      "cs": "telefon"
+    },
+    {
+      "type": "word",
+      "en": "toilet",
+      "ipa": "ˈtɔɪlɪt",
+      "cs": "záchod, WC"
+    },
+    {
+      "type": "word",
+      "en": "tooth",
+      "ipa": "tuːθ",
+      "cs": "zub",
+      "note": "mn. č. teeth"
+    },
+    {
+      "type": "word",
+      "en": "upstairs",
+      "ipa": "ʌpˈsteəz",
+      "cs": "nahoře, nahoru",
+      "note": "nahoře ve vyšším poschodí, nahoru po schodech"
+    },
+    {
+      "type": "word",
+      "en": "view",
+      "ipa": "vjuː",
+      "cs": "pohled, výhled"
+    },
+    {
+      "type": "word",
+      "en": "visitor",
+      "ipa": "ˈvɪzɪtə",
+      "cs": "návštěvník"
+    },
+    {
+      "type": "word",
+      "en": "wardrobe",
+      "ipa": "ˈwɔːdrəʊb",
+      "cs": "šatní skříň"
+    },
+    {
+      "type": "word",
+      "en": "wash up",
+      "ipa": "ˌwɒʃˈʌp",
+      "cs": "umývat nádobí"
+    },
+    {
+      "type": "word",
+      "en": "wood(s)",
+      "ipa": "wʊd(z)",
+      "cs": "les, lesík"
+    },
+    {
+      "type": "word",
+      "en": "bath – baths",
+      "ipa": "bɑːθ – bɑːðz",
+      "cs": "vana, koupel",
+      "note": "nepravidelná množná čísla"
+    },
+    {
+      "type": "word",
+      "en": "child – children",
+      "ipa": "tʃaɪld – ˈtʃɪldrən",
+      "cs": "dítě",
+      "note": "nepravidelná množná čísla"
+    },
+    {
+      "type": "word",
+      "en": "tooth – teeth",
+      "ipa": "tuːθ – tiːθ",
+      "cs": "zub",
+      "note": "nepravidelná množná čísla"
+    },
+    {
+      "type": "word",
+      "en": "shelf – shelves",
+      "ipa": "ʃelf – ʃelvz",
+      "cs": "police",
+      "note": "nepravidelná množná čísla"
+    },
+    {
+      "type": "phrase",
+      "en": "in the wood",
+      "cs": "v lese",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the kitchen",
+      "cs": "v kuchyni",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the dining room",
+      "cs": "v jídelně",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the living room",
+      "cs": "v obývacím pokoji",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the bedroom",
+      "cs": "v ložnici",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the toilet",
+      "cs": "na záchodě",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in bed",
+      "cs": "v posteli",
+      "note": "předložky; někdo je"
+    },
+    {
+      "type": "phrase",
+      "en": "on the bed",
+      "cs": "na posteli",
+      "note": "předložky; něco leží"
+    },
+    {
+      "type": "phrase",
+      "en": "on the television",
+      "cs": "v televizi",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on the floor",
+      "cs": "na podlaze",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on the ground floor",
+      "cs": "v přízemí",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on the first floor",
+      "cs": "v prvním patře",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "above the bedroom",
+      "cs": "nad ložnicí",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "opposite the study",
+      "cs": "naproti studovně",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "next to the bathroom",
+      "cs": "vedle koupelny",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "shelves for books",
+      "cs": "police na knihy",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "for this evening",
+      "cs": "na dnes večer",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "for the weekend",
+      "cs": "na víkend",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "a view of the woods",
+      "cs": "výhled na les",
+      "note": "předložky"
+    }
+  ]
+}

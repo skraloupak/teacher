@@ -1,0 +1,524 @@
+{
+  "id": "u1-l10",
+  "order": 10,
+  "title": "Učebnice 1 – lekce 10",
+  "description": "Slovníček – 56 slovíček, 28 frází.",
+  "source": "screenshots/lekce/u1-l10.jpg",
+  "items": [
+    {
+      "type": "word",
+      "en": "across",
+      "ipa": "əˈkrɒs",
+      "cs": "přes"
+    },
+    {
+      "type": "word",
+      "en": "be sure",
+      "cs": "být si jistý"
+    },
+    {
+      "type": "word",
+      "en": "begin",
+      "ipa": "bɪˈgɪn, bɪˈgæn",
+      "cs": "začít",
+      "note": "min. čas began; (nn)"
+    },
+    {
+      "type": "word",
+      "en": "cleaning",
+      "ipa": "ˈkliːnɪŋ",
+      "cs": "úklid"
+    },
+    {
+      "type": "word",
+      "en": "darling",
+      "ipa": "ˈdɑːlɪŋ",
+      "cs": "miláček, drahoušek"
+    },
+    {
+      "type": "word",
+      "en": "drama",
+      "ipa": "ˈdrɑːmə",
+      "cs": "drama"
+    },
+    {
+      "type": "word",
+      "en": "drive",
+      "ipa": "draɪv, drəʊv",
+      "cs": "řídit",
+      "note": "min. čas drove; auto"
+    },
+    {
+      "type": "word",
+      "en": "extra",
+      "ipa": "ˈekstrə",
+      "cs": "navíc"
+    },
+    {
+      "type": "word",
+      "en": "feel",
+      "ipa": "fiːl, felt",
+      "cs": "cítit (se), mít pocit",
+      "note": "min. čas felt"
+    },
+    {
+      "type": "word",
+      "en": "forgot",
+      "ipa": "fəˈgɒt",
+      "cs": "min. čas od forget"
+    },
+    {
+      "type": "word",
+      "en": "front",
+      "cs": "viz in front of"
+    },
+    {
+      "type": "word",
+      "en": "German",
+      "ipa": "ˈdʒɜːmən",
+      "cs": "německý; němčina; Němec"
+    },
+    {
+      "type": "word",
+      "en": "Germany",
+      "ipa": "ˈdʒɜːmənɪ",
+      "cs": "Německo"
+    },
+    {
+      "type": "word",
+      "en": "get into",
+      "ipa": "ˌgetˈɪntuː",
+      "cs": "nastoupit",
+      "note": "(tt); do auta"
+    },
+    {
+      "type": "word",
+      "en": "guess",
+      "ipa": "ges",
+      "cs": "hádat; uhodnout"
+    },
+    {
+      "type": "word",
+      "en": "huge",
+      "ipa": "hjuːdʒ",
+      "cs": "obrovský"
+    },
+    {
+      "type": "word",
+      "en": "imagine",
+      "ipa": "ɪˈmædʒɪn",
+      "cs": "představit si"
+    },
+    {
+      "type": "word",
+      "en": "in front of",
+      "ipa": "ɪnˈfrʌntəv",
+      "cs": "před",
+      "note": "místně"
+    },
+    {
+      "type": "word",
+      "en": "into",
+      "ipa": "ˈɪntuː, ɪntə",
+      "cs": "do",
+      "note": "dovnitř"
+    },
+    {
+      "type": "word",
+      "en": "ironing",
+      "ipa": "ˈaɪənɪŋ",
+      "cs": "žehlení"
+    },
+    {
+      "type": "word",
+      "en": "left",
+      "ipa": "left",
+      "cs": "min. čas od leave"
+    },
+    {
+      "type": "word",
+      "en": "lose",
+      "ipa": "luːz, lɒst",
+      "cs": "ztratit",
+      "note": "min. čas lost"
+    },
+    {
+      "type": "word",
+      "en": "lost",
+      "ipa": "lɒst",
+      "cs": "min. čas od lose"
+    },
+    {
+      "type": "word",
+      "en": "lucky",
+      "ipa": "ˈlʌkɪ",
+      "cs": "mající štěstí, šťastný; přinášející štěstí"
+    },
+    {
+      "type": "word",
+      "en": "made",
+      "ipa": "meɪd",
+      "cs": "min. čas od make"
+    },
+    {
+      "type": "word",
+      "en": "make",
+      "ipa": "meɪk, meɪd",
+      "cs": "(u)dělat",
+      "note": "min. čas made"
+    },
+    {
+      "type": "word",
+      "en": "met",
+      "ipa": "met",
+      "cs": "min. čas od meet"
+    },
+    {
+      "type": "word",
+      "en": "mouth",
+      "ipa": "maʊθ",
+      "cs": "tlama; ústa"
+    },
+    {
+      "type": "word",
+      "en": "neither",
+      "ipa": "ˈnaɪðə",
+      "cs": "ani; také ne"
+    },
+    {
+      "type": "word",
+      "en": "nervous",
+      "ipa": "ˈnɜːvəs",
+      "cs": "nervózní"
+    },
+    {
+      "type": "word",
+      "en": "nose",
+      "ipa": "nəʊz",
+      "cs": "čumák; nos"
+    },
+    {
+      "type": "word",
+      "en": "notice",
+      "ipa": "ˈnəʊtɪs",
+      "cs": "všimnout si"
+    },
+    {
+      "type": "word",
+      "en": "office",
+      "ipa": "ˈɒfɪs",
+      "cs": "kancelář"
+    },
+    {
+      "type": "word",
+      "en": "open",
+      "ipa": "ˈəʊpən",
+      "cs": "otevřít (se); otevřený"
+    },
+    {
+      "type": "word",
+      "en": "out of",
+      "ipa": "ˈaʊtəv",
+      "cs": "z, ze",
+      "note": "zevnitř"
+    },
+    {
+      "type": "word",
+      "en": "poor",
+      "ipa": "pɔː",
+      "cs": "chudý, ubohý"
+    },
+    {
+      "type": "word",
+      "en": "ran",
+      "ipa": "ræn",
+      "cs": "min. čas od run"
+    },
+    {
+      "type": "word",
+      "en": "smile",
+      "ipa": "smaɪl",
+      "cs": "úsměv; usmívat se"
+    },
+    {
+      "type": "word",
+      "en": "story",
+      "ipa": "ˈstɔːrɪ",
+      "cs": "příběh, historka"
+    },
+    {
+      "type": "word",
+      "en": "success",
+      "ipa": "səkˈses",
+      "cs": "úspěch"
+    },
+    {
+      "type": "word",
+      "en": "sure",
+      "ipa": "ʃɔː",
+      "cs": "jistý"
+    },
+    {
+      "type": "word",
+      "en": "taxi",
+      "ipa": "ˈtæksɪ",
+      "cs": "taxík"
+    },
+    {
+      "type": "word",
+      "en": "terrible",
+      "ipa": "ˈterəbl",
+      "cs": "strašný, hrozný"
+    },
+    {
+      "type": "word",
+      "en": "test",
+      "ipa": "test",
+      "cs": "test, písemka"
+    },
+    {
+      "type": "word",
+      "en": "unhappy",
+      "ipa": "ʌnˈhæpɪ",
+      "cs": "nešťastný, nespokojený"
+    },
+    {
+      "type": "word",
+      "en": "while",
+      "ipa": "waɪl",
+      "cs": "zatímco; chvíle"
+    },
+    {
+      "type": "word",
+      "en": "worry",
+      "ipa": "ˈwʌrɪ",
+      "cs": "bát se o, dělat si starosti o"
+    },
+    {
+      "type": "phrase",
+      "en": "in the break",
+      "cs": "o přestávce",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "go into the living room",
+      "cs": "(ve)jít do obývacího pokoje",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "get into",
+      "cs": "nasednout do taxíku",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "come out of a restaurant",
+      "cs": "vyjít z restaurace",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in front of the car",
+      "cs": "před autem, před auto",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "run across the road",
+      "cs": "přeběhnout přes cestu",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "forget about something",
+      "cs": "zapomenout na něco",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "unhappy/nervous about something",
+      "cs": "nešťastný/nervózní z něčeho",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "be lucky",
+      "cs": "mít štěstí",
+      "note": "be + přídavné jméno"
+    },
+    {
+      "type": "phrase",
+      "en": "be unlucky",
+      "ipa": "ʌnˈlʌki",
+      "cs": "mít smůlu",
+      "note": "be + přídavné jméno"
+    },
+    {
+      "type": "phrase",
+      "en": "be hungry",
+      "cs": "mít hlad",
+      "note": "be + přídavné jméno"
+    },
+    {
+      "type": "phrase",
+      "en": "be thirsty",
+      "ipa": "ˈθɜːsti",
+      "cs": "mít žízeň",
+      "note": "be + přídavné jméno"
+    },
+    {
+      "type": "phrase",
+      "en": "be right",
+      "cs": "mít pravdu",
+      "note": "be + přídavné jméno"
+    },
+    {
+      "type": "phrase",
+      "en": "be wrong",
+      "ipa": "rɒŋ",
+      "cs": "mýlit se",
+      "note": "be + přídavné jméno"
+    },
+    {
+      "type": "phrase",
+      "en": "be interested",
+      "cs": "mít zájem",
+      "note": "be + přídavné jméno"
+    },
+    {
+      "type": "phrase",
+      "en": "be bored",
+      "ipa": "bɔːd",
+      "cs": "nudit se",
+      "note": "be + přídavné jméno"
+    },
+    {
+      "type": "phrase",
+      "en": "be busy",
+      "cs": "mít hodně práce",
+      "note": "be + přídavné jméno"
+    },
+    {
+      "type": "phrase",
+      "en": "be free",
+      "cs": "mít volno",
+      "note": "be + přídavné jméno"
+    },
+    {
+      "type": "word",
+      "en": "and",
+      "cs": "a",
+      "note": "spojky"
+    },
+    {
+      "type": "word",
+      "en": "or",
+      "cs": "nebo",
+      "note": "spojky"
+    },
+    {
+      "type": "word",
+      "en": "but",
+      "cs": "ale",
+      "note": "spojky"
+    },
+    {
+      "type": "word",
+      "en": "because",
+      "cs": "protože",
+      "note": "spojky"
+    },
+    {
+      "type": "word",
+      "en": "if",
+      "cs": "jestli, zda",
+      "note": "spojky"
+    },
+    {
+      "type": "word",
+      "en": "so",
+      "cs": "(a) tak, takže",
+      "note": "spojky"
+    },
+    {
+      "type": "word",
+      "en": "that",
+      "cs": "že",
+      "note": "spojky"
+    },
+    {
+      "type": "word",
+      "en": "when",
+      "cs": "když",
+      "note": "spojky"
+    },
+    {
+      "type": "word",
+      "en": "where",
+      "cs": "kde",
+      "note": "spojky"
+    },
+    {
+      "type": "phrase",
+      "en": "She's happy.",
+      "cs": "Je šťastná/spokojená.",
+      "note": "happy × lucky"
+    },
+    {
+      "type": "phrase",
+      "en": "She's lucky.",
+      "cs": "Má štěstí.",
+      "note": "happy × lucky"
+    },
+    {
+      "type": "phrase",
+      "en": "an unhappy child",
+      "cs": "nespokojené dítě",
+      "note": "happy × lucky"
+    },
+    {
+      "type": "phrase",
+      "en": "unlucky number 13",
+      "cs": "nešťastná třináctka",
+      "note": "happy × lucky"
+    },
+    {
+      "type": "phrase",
+      "en": "make a cup of tea",
+      "cs": "udělat šálek čaje",
+      "note": "make × do"
+    },
+    {
+      "type": "phrase",
+      "en": "make a pizza",
+      "cs": "udělat/upéct pizzu",
+      "note": "make × do"
+    },
+    {
+      "type": "phrase",
+      "en": "make some lunch/dinner",
+      "cs": "udělat/uvařit oběd/večeři",
+      "note": "make × do; atp."
+    },
+    {
+      "type": "phrase",
+      "en": "do some work",
+      "cs": "udělat trochu práce",
+      "note": "make × do"
+    },
+    {
+      "type": "phrase",
+      "en": "do the/my/your homework",
+      "cs": "udělat domácí úkol(y)",
+      "note": "make × do; atp."
+    },
+    {
+      "type": "phrase",
+      "en": "do the cleaning",
+      "cs": "uklidit, udělat úklid",
+      "note": "make × do"
+    }
+  ]
+}

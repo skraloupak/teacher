@@ -1,0 +1,421 @@
+{
+  "id": "u1-l7",
+  "order": 7,
+  "title": "Učebnice 1 – lekce 7",
+  "description": "Slovníček – 57 slovíček, 11 frází.",
+  "source": "screenshots/lekce/u1-l7.jpg",
+  "items": [
+    {
+      "type": "word",
+      "en": "a few",
+      "cs": "několik, pár"
+    },
+    {
+      "type": "word",
+      "en": "about",
+      "ipa": "əˈbaʊt",
+      "cs": "asi, okolo, kolem"
+    },
+    {
+      "type": "word",
+      "en": "anybody",
+      "ipa": "ˈenɪbədɪ",
+      "cs": "kdokoliv; někdo",
+      "note": "v otázce někdo"
+    },
+    {
+      "type": "word",
+      "en": "anything",
+      "ipa": "ˈenɪθɪŋ",
+      "cs": "cokoliv; něco",
+      "note": "v otázce něco"
+    },
+    {
+      "type": "word",
+      "en": "anywhere",
+      "ipa": "ˈenɪweə",
+      "cs": "kdekoliv, kamkoliv; někde, někam",
+      "note": "v otázce někde, někam"
+    },
+    {
+      "type": "word",
+      "en": "arrive",
+      "ipa": "əˈraɪv",
+      "cs": "přijít, přijet, dorazit"
+    },
+    {
+      "type": "word",
+      "en": "back",
+      "ipa": "bæk",
+      "cs": "zpátky, zpět"
+    },
+    {
+      "type": "word",
+      "en": "bag",
+      "ipa": "bæg",
+      "cs": "taška, sáček"
+    },
+    {
+      "type": "word",
+      "en": "beautiful",
+      "ipa": "ˈbjuːtɪfl",
+      "cs": "krásný"
+    },
+    {
+      "type": "word",
+      "en": "can: I can",
+      "ipa": "kæn",
+      "cs": "mohu, umím, dovedu"
+    },
+    {
+      "type": "word",
+      "en": "can't: I can't",
+      "ipa": "kɑːnt",
+      "cs": "nemohu, neumím, nedovedu"
+    },
+    {
+      "type": "word",
+      "en": "city",
+      "ipa": "ˈsɪtɪ",
+      "cs": "(velko)město"
+    },
+    {
+      "type": "word",
+      "en": "cloud",
+      "ipa": "klaʊd",
+      "cs": "mrak, oblak"
+    },
+    {
+      "type": "word",
+      "en": "corner",
+      "ipa": "ˈkɔːnə",
+      "cs": "roh; kout"
+    },
+    {
+      "type": "word",
+      "en": "cousin",
+      "ipa": "ˈkʌzn",
+      "cs": "bratranec; sestřenice"
+    },
+    {
+      "type": "word",
+      "en": "early",
+      "ipa": "ˈɜːlɪ",
+      "cs": "brzy, časně; raný"
+    },
+    {
+      "type": "word",
+      "en": "essay",
+      "ipa": "ˈeseɪ",
+      "cs": "esej; pojednání"
+    },
+    {
+      "type": "word",
+      "en": "few",
+      "ipa": "fjuː",
+      "cs": "málo"
+    },
+    {
+      "type": "word",
+      "en": "find",
+      "ipa": "faɪnd",
+      "cs": "najít, nalézt"
+    },
+    {
+      "type": "word",
+      "en": "food",
+      "ipa": "fuːd",
+      "cs": "jídlo, strava, potraviny"
+    },
+    {
+      "type": "word",
+      "en": "hope",
+      "ipa": "həʊp",
+      "cs": "doufat; naděje"
+    },
+    {
+      "type": "word",
+      "en": "interested: be interested in",
+      "ipa": "ˈɪntrəstɪd",
+      "cs": "zajímat se o"
+    },
+    {
+      "type": "word",
+      "en": "invite",
+      "ipa": "ɪnˈvaɪt",
+      "cs": "pozvat"
+    },
+    {
+      "type": "word",
+      "en": "jacket",
+      "ipa": "ˈdʒækɪt",
+      "cs": "bunda, sako"
+    },
+    {
+      "type": "word",
+      "en": "literature",
+      "ipa": "ˈlɪtrətʃə",
+      "cs": "literatura"
+    },
+    {
+      "type": "word",
+      "en": "long",
+      "ipa": "lɒŋ",
+      "cs": "dlouho; dlouhý"
+    },
+    {
+      "type": "word",
+      "en": "look at",
+      "ipa": "ˈlʊk æt",
+      "cs": "dívat se na"
+    },
+    {
+      "type": "word",
+      "en": "luck",
+      "ipa": "lʌk",
+      "cs": "štěstí"
+    },
+    {
+      "type": "word",
+      "en": "map",
+      "ipa": "mæp",
+      "cs": "mapa, plán"
+    },
+    {
+      "type": "word",
+      "en": "must: I must",
+      "ipa": "mʌst",
+      "cs": "musím"
+    },
+    {
+      "type": "word",
+      "en": "only",
+      "ipa": "ˈəʊnlɪ",
+      "cs": "jenom, pouze; teprve"
+    },
+    {
+      "type": "word",
+      "en": "out",
+      "ipa": "aʊt",
+      "cs": "pryč; venku; ven",
+      "note": "pryč mimo domov"
+    },
+    {
+      "type": "word",
+      "en": "passport",
+      "ipa": "ˈpɑːspɔːt",
+      "cs": "cestovní pas"
+    },
+    {
+      "type": "word",
+      "en": "perfect",
+      "ipa": "ˈpɜːfɪkt",
+      "cs": "dokonalý, perfektní"
+    },
+    {
+      "type": "word",
+      "en": "petrol station",
+      "ipa": "ˈpetrəlˌsteɪʃn",
+      "cs": "benzinová pumpa"
+    },
+    {
+      "type": "word",
+      "en": "phone",
+      "ipa": "fəʊn",
+      "cs": "zavolat; telefon"
+    },
+    {
+      "type": "word",
+      "en": "play",
+      "ipa": "pleɪ",
+      "cs": "divadelní hra"
+    },
+    {
+      "type": "word",
+      "en": "probably",
+      "ipa": "ˈprɒbəblɪ",
+      "cs": "pravděpodobně, nejspíše"
+    },
+    {
+      "type": "word",
+      "en": "rain",
+      "ipa": "reɪn",
+      "cs": "pršet; déšť"
+    },
+    {
+      "type": "word",
+      "en": "remember",
+      "ipa": "rɪˈmembə",
+      "cs": "pamatovat si; vzpomenout si"
+    },
+    {
+      "type": "word",
+      "en": "republic",
+      "ipa": "rɪˈpʌblɪk",
+      "cs": "republika"
+    },
+    {
+      "type": "word",
+      "en": "right: be right",
+      "ipa": "raɪt",
+      "cs": "mít pravdu"
+    },
+    {
+      "type": "word",
+      "en": "road",
+      "ipa": "rəʊd",
+      "cs": "ulice, cesta, silnice"
+    },
+    {
+      "type": "word",
+      "en": "show",
+      "ipa": "ʃəʊ",
+      "cs": "ukázat, ukazovat"
+    },
+    {
+      "type": "word",
+      "en": "sights",
+      "ipa": "saɪts",
+      "cs": "památky"
+    },
+    {
+      "type": "word",
+      "en": "somewhere",
+      "ipa": "ˈsʌmweə",
+      "cs": "někde"
+    },
+    {
+      "type": "word",
+      "en": "station",
+      "ipa": "ˈsteɪʃn",
+      "cs": "nádraží; stanice"
+    },
+    {
+      "type": "word",
+      "en": "stay",
+      "ipa": "steɪ",
+      "cs": "zůstat, zdržet se, pobývat, bydlet; pobyt",
+      "note": "zdržet se kde; bydlet na návštěvě, v hotelu"
+    },
+    {
+      "type": "word",
+      "en": "theatre",
+      "ipa": "ˈθɪətə",
+      "cs": "divadlo"
+    },
+    {
+      "type": "word",
+      "en": "together",
+      "ipa": "təˈgeðə",
+      "cs": "společně; spolu"
+    },
+    {
+      "type": "word",
+      "en": "tomorrow",
+      "ipa": "təˈmɒrəʊ",
+      "cs": "zítra"
+    },
+    {
+      "type": "word",
+      "en": "tourist",
+      "ipa": "ˈtʊərɪst",
+      "cs": "turista"
+    },
+    {
+      "type": "word",
+      "en": "town",
+      "ipa": "taʊn",
+      "cs": "město"
+    },
+    {
+      "type": "word",
+      "en": "training",
+      "ipa": "ˈtreɪnɪŋ",
+      "cs": "trénink"
+    },
+    {
+      "type": "word",
+      "en": "trip",
+      "ipa": "trɪp",
+      "cs": "výlet, exkurze"
+    },
+    {
+      "type": "word",
+      "en": "weather",
+      "ipa": "ˈweðə",
+      "cs": "počasí"
+    },
+    {
+      "type": "word",
+      "en": "week",
+      "ipa": "wiːk",
+      "cs": "týden"
+    },
+    {
+      "type": "phrase",
+      "en": "in the week",
+      "cs": "během týdne, v týdnu",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in a few minutes",
+      "cs": "za několik/pár minut",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "be interested in",
+      "cs": "zajímat se o, mít zájem o",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at the theatre",
+      "cs": "v divadle",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "(at) about seven",
+      "cs": "okolo sedmé",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "look at",
+      "cs": "dívat se na",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "speak to/with",
+      "cs": "mluvit s(e)",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "go on a trip",
+      "cs": "jet na výlet",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "be on a trip",
+      "cs": "být na výletě",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "room for four",
+      "cs": "místo na/pro čtyři (pokoj pro čtyři)",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "stay (somewhere) for",
+      "cs": "být (kde) na + jak dlouho",
+      "note": "předložky"
+    }
+  ]
+}

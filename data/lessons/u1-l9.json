@@ -1,0 +1,586 @@
+{
+  "id": "u1-l9",
+  "order": 9,
+  "title": "Učebnice 1 – lekce 9",
+  "description": "Slovníček – 72 slovíček, 23 frází.",
+  "source": "screenshots/lekce/u1-l9.jpg",
+  "items": [
+    {
+      "type": "word",
+      "en": "ago",
+      "ipa": "əˈgəʊ",
+      "cs": "před"
+    },
+    {
+      "type": "word",
+      "en": "ask",
+      "ipa": "ɑːsk",
+      "cs": "zeptat se, ptát se"
+    },
+    {
+      "type": "word",
+      "en": "bear",
+      "ipa": "beə",
+      "cs": "medvěd"
+    },
+    {
+      "type": "word",
+      "en": "beer",
+      "ipa": "bɪə",
+      "cs": "pivo"
+    },
+    {
+      "type": "word",
+      "en": "bridge",
+      "ipa": "brɪdʒ",
+      "cs": "most"
+    },
+    {
+      "type": "word",
+      "en": "capital",
+      "ipa": "ˈkæpɪtl",
+      "cs": "hlavní město"
+    },
+    {
+      "type": "word",
+      "en": "castle",
+      "ipa": "kɑːsl",
+      "cs": "hrad"
+    },
+    {
+      "type": "word",
+      "en": "cathedral",
+      "ipa": "kəˈθiːdrəl",
+      "cs": "katedrála"
+    },
+    {
+      "type": "word",
+      "en": "church",
+      "ipa": "tʃɜːtʃ",
+      "cs": "kostel"
+    },
+    {
+      "type": "word",
+      "en": "club",
+      "ipa": "klʌb",
+      "cs": "klub"
+    },
+    {
+      "type": "word",
+      "en": "dish",
+      "ipa": "dɪʃ",
+      "cs": "jídlo, pokrm; mísa"
+    },
+    {
+      "type": "word",
+      "en": "drank",
+      "ipa": "dræŋk",
+      "cs": "min. čas od drink"
+    },
+    {
+      "type": "word",
+      "en": "dumpling",
+      "ipa": "ˈdʌmplɪŋ",
+      "cs": "knedlík"
+    },
+    {
+      "type": "word",
+      "en": "easy",
+      "ipa": "ˈiːzɪ",
+      "cs": "snadný, jednoduchý"
+    },
+    {
+      "type": "word",
+      "en": "egg",
+      "ipa": "eg",
+      "cs": "vejce"
+    },
+    {
+      "type": "word",
+      "en": "end",
+      "ipa": "end",
+      "cs": "konec; (u)končit, skončit"
+    },
+    {
+      "type": "word",
+      "en": "enjoy",
+      "ipa": "ɪnˈdʒɔɪ",
+      "cs": "dělat co rád; užít si co"
+    },
+    {
+      "type": "word",
+      "en": "famous",
+      "ipa": "ˈfeɪməs",
+      "cs": "slavný"
+    },
+    {
+      "type": "word",
+      "en": "far",
+      "ipa": "fɑː",
+      "cs": "daleko"
+    },
+    {
+      "type": "word",
+      "en": "fun",
+      "ipa": "fʌn",
+      "cs": "zábava, legrace"
+    },
+    {
+      "type": "word",
+      "en": "group",
+      "ipa": "gruːp",
+      "cs": "skupina"
+    },
+    {
+      "type": "word",
+      "en": "had",
+      "ipa": "hæd, həd",
+      "cs": "min. čas od have (got)"
+    },
+    {
+      "type": "word",
+      "en": "helpful",
+      "ipa": "ˈhelpfl",
+      "cs": "ochotný; užitečný"
+    },
+    {
+      "type": "word",
+      "en": "history",
+      "ipa": "ˈhɪstərɪ",
+      "cs": "dějiny; dějepis"
+    },
+    {
+      "type": "word",
+      "en": "holiday",
+      "ipa": "ˈhɒlədeɪ",
+      "cs": "dovolená, volno"
+    },
+    {
+      "type": "word",
+      "en": "holidays",
+      "ipa": "ˈhɒlədeɪz",
+      "cs": "prázdniny"
+    },
+    {
+      "type": "word",
+      "en": "like",
+      "ipa": "laɪk",
+      "cs": "jako"
+    },
+    {
+      "type": "word",
+      "en": "local",
+      "ipa": "ləʊkl",
+      "cs": "místní, zdejší, tamější"
+    },
+    {
+      "type": "word",
+      "en": "menu",
+      "ipa": "ˈmenjuː",
+      "cs": "jídelní lístek"
+    },
+    {
+      "type": "word",
+      "en": "metro",
+      "ipa": "ˈmetrəʊ",
+      "cs": "metro"
+    },
+    {
+      "type": "word",
+      "en": "mistake",
+      "ipa": "mɪsˈteɪk",
+      "cs": "chyba, omyl"
+    },
+    {
+      "type": "word",
+      "en": "national",
+      "ipa": "ˈnæʃnl",
+      "cs": "národní"
+    },
+    {
+      "type": "word",
+      "en": "news",
+      "ipa": "njuːz",
+      "cs": "zprávy, zpráva; novinky",
+      "note": "j. č."
+    },
+    {
+      "type": "word",
+      "en": "notebook",
+      "ipa": "ˈnəʊtbʊk",
+      "cs": "zápisník, notes"
+    },
+    {
+      "type": "word",
+      "en": "October",
+      "ipa": "ɒkˈtəʊbə",
+      "cs": "říjen"
+    },
+    {
+      "type": "word",
+      "en": "plum",
+      "ipa": "plʌm",
+      "cs": "švestka"
+    },
+    {
+      "type": "word",
+      "en": "polite",
+      "ipa": "pəˈlaɪt",
+      "cs": "slušný, zdvořilý"
+    },
+    {
+      "type": "word",
+      "en": "pork",
+      "ipa": "pɔːk",
+      "cs": "vepřové maso"
+    },
+    {
+      "type": "word",
+      "en": "postcard",
+      "ipa": "ˈpəʊstkɑːd",
+      "cs": "pohlednice"
+    },
+    {
+      "type": "word",
+      "en": "pretty",
+      "ipa": "ˈprɪtɪ",
+      "cs": "hezký, pěkný"
+    },
+    {
+      "type": "word",
+      "en": "quick",
+      "ipa": "kwɪk",
+      "cs": "rychlý"
+    },
+    {
+      "type": "word",
+      "en": "river",
+      "ipa": "ˈrɪvə",
+      "cs": "řeka"
+    },
+    {
+      "type": "word",
+      "en": "romantic",
+      "ipa": "rəʊˈmæntɪk",
+      "cs": "romantický"
+    },
+    {
+      "type": "word",
+      "en": "sat",
+      "ipa": "sæt",
+      "cs": "min. čas od sit"
+    },
+    {
+      "type": "word",
+      "en": "saw",
+      "ipa": "sɔː",
+      "cs": "min. čas od see"
+    },
+    {
+      "type": "word",
+      "en": "second",
+      "ipa": "ˈsekənd",
+      "cs": "druhý"
+    },
+    {
+      "type": "word",
+      "en": "send",
+      "ipa": "send, sent",
+      "cs": "poslat",
+      "note": "min. čas sent"
+    },
+    {
+      "type": "word",
+      "en": "serious",
+      "ipa": "ˈsɪərɪəs",
+      "cs": "vážný"
+    },
+    {
+      "type": "word",
+      "en": "shame",
+      "ipa": "ʃeɪm",
+      "cs": "škoda"
+    },
+    {
+      "type": "word",
+      "en": "sit",
+      "ipa": "sɪt, sæt",
+      "cs": "sedět",
+      "note": "min. čas sat; (tt)"
+    },
+    {
+      "type": "word",
+      "en": "soap",
+      "ipa": "səʊp",
+      "cs": "mýdlo"
+    },
+    {
+      "type": "word",
+      "en": "souvenir",
+      "ipa": "ˌsuːvəˈnɪə",
+      "cs": "suvenýr"
+    },
+    {
+      "type": "word",
+      "en": "spend",
+      "ipa": "spend, spent",
+      "cs": "(s)trávit; utratit, utrácet",
+      "note": "min. čas spent"
+    },
+    {
+      "type": "word",
+      "en": "spent",
+      "ipa": "spent",
+      "cs": "min. čas od spend"
+    },
+    {
+      "type": "word",
+      "en": "spoke",
+      "ipa": "spəʊk",
+      "cs": "min. čas od speak"
+    },
+    {
+      "type": "word",
+      "en": "square",
+      "ipa": "skweə",
+      "cs": "náměstí; čtverec"
+    },
+    {
+      "type": "word",
+      "en": "strange",
+      "ipa": "streɪndʒ",
+      "cs": "(po)divný, zvláštní"
+    },
+    {
+      "type": "word",
+      "en": "strawberry",
+      "ipa": "ˈstrɔːbərɪ",
+      "cs": "jahoda"
+    },
+    {
+      "type": "word",
+      "en": "strudel",
+      "ipa": "ˈstruːdl",
+      "cs": "závin, štrůdl"
+    },
+    {
+      "type": "word",
+      "en": "through",
+      "ipa": "θruː",
+      "cs": "po, skrz, přes",
+      "note": "čím/7. pád"
+    },
+    {
+      "type": "word",
+      "en": "told",
+      "ipa": "təʊld",
+      "cs": "min. čas od tell"
+    },
+    {
+      "type": "word",
+      "en": "took",
+      "ipa": "tʊk",
+      "cs": "min. čas od take"
+    },
+    {
+      "type": "word",
+      "en": "train",
+      "ipa": "treɪn",
+      "cs": "vlak"
+    },
+    {
+      "type": "word",
+      "en": "tram",
+      "ipa": "træm",
+      "cs": "tramvaj"
+    },
+    {
+      "type": "word",
+      "en": "use",
+      "ipa": "juːz",
+      "cs": "(po)užít, (po)užívat"
+    },
+    {
+      "type": "word",
+      "en": "was",
+      "ipa": "wɒz, wəz",
+      "cs": "min. čas od be",
+      "note": "1. a 3. os. j. č."
+    },
+    {
+      "type": "word",
+      "en": "went",
+      "ipa": "went",
+      "cs": "min. čas od go"
+    },
+    {
+      "type": "word",
+      "en": "were",
+      "ipa": "wɜː, wə",
+      "cs": "min. čas od be",
+      "note": "mn. č. a 2. os."
+    },
+    {
+      "type": "word",
+      "en": "when",
+      "ipa": "wen",
+      "cs": "když"
+    },
+    {
+      "type": "word",
+      "en": "whole",
+      "ipa": "həʊl",
+      "cs": "celý"
+    },
+    {
+      "type": "word",
+      "en": "wonderful",
+      "ipa": "ˈwʌndəfl",
+      "cs": "báječný"
+    },
+    {
+      "type": "word",
+      "en": "wrote",
+      "ipa": "rəʊt",
+      "cs": "min. čas od write"
+    },
+    {
+      "type": "phrase",
+      "en": "in the Old Town",
+      "cs": "na Starém Městě",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "write it in a notebook",
+      "cs": "zapsat si to do notýsku",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the holidays",
+      "cs": "o prázdninách",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "be on holiday",
+      "cs": "být na dovolené",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "go on holiday",
+      "cs": "jet na dovolenou",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on the menu",
+      "cs": "na jídelním lístku",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at the jazz club",
+      "cs": "v džezovém klubu",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at the National Theatre",
+      "cs": "v Národním divadle",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "by the river",
+      "cs": "u řeky",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the park by the church",
+      "cs": "v parku u kostela",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "walk through the streets",
+      "cs": "chodit ulicemi, po ulicích",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "travel around Prague",
+      "cs": "cestovat po Praze",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "(not) far from",
+      "cs": "(ne)daleko od",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "from there",
+      "cs": "odtud, odtamtud",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "the most beautiful of them",
+      "cs": "nejkrásnější z nich",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "for a few days",
+      "cs": "na pár dní",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "from 25th to 28th October",
+      "cs": "od 25. do 28. října",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "They were polite to us.",
+      "cs": "Byli k nám zdvořilí.",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "go travelling",
+      "cs": "jet na cesty",
+      "note": "go + -ing"
+    },
+    {
+      "type": "phrase",
+      "en": "go shopping",
+      "cs": "jít nakoupit",
+      "note": "go + -ing"
+    },
+    {
+      "type": "phrase",
+      "en": "go cycling",
+      "cs": "jít si zajezdit na kole",
+      "note": "go + -ing"
+    },
+    {
+      "type": "phrase",
+      "en": "go running",
+      "cs": "jít si zaběhat",
+      "note": "go + -ing"
+    },
+    {
+      "type": "phrase",
+      "en": "go mushrooming",
+      "cs": "jít na houby",
+      "note": "go + -ing"
+    }
+  ]
+}

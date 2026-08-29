@@ -1,0 +1,571 @@
+{
+  "id": "u1-l4",
+  "order": 4,
+  "title": "Učebnice 1 – lekce 4",
+  "description": "Slovníček – 73 slovíček, 18 frází.",
+  "source": "screenshots/lekce/u1-l4.jpg",
+  "items": [
+    {
+      "type": "word",
+      "en": "after",
+      "ipa": "ˈɑːftə",
+      "cs": "po",
+      "note": "v časových určeních"
+    },
+    {
+      "type": "word",
+      "en": "again",
+      "ipa": "əˈgen, əˈgeɪn",
+      "cs": "znovu"
+    },
+    {
+      "type": "word",
+      "en": "alarm clock",
+      "ipa": "əˈlɑːmˌklɒk",
+      "cs": "budík"
+    },
+    {
+      "type": "word",
+      "en": "answer",
+      "ipa": "ˈɑːnsə",
+      "cs": "odpovědět, odpovídat (na); odpověď"
+    },
+    {
+      "type": "word",
+      "en": "because",
+      "ipa": "bɪˈkɒz",
+      "cs": "protože"
+    },
+    {
+      "type": "word",
+      "en": "before",
+      "ipa": "bɪˈfɔː",
+      "cs": "před",
+      "note": "v časových určeních"
+    },
+    {
+      "type": "word",
+      "en": "biology",
+      "ipa": "baɪˈɒlədʒɪ",
+      "cs": "biologie"
+    },
+    {
+      "type": "word",
+      "en": "break",
+      "ipa": "breɪk",
+      "cs": "přestávka"
+    },
+    {
+      "type": "word",
+      "en": "bus",
+      "ipa": "bʌs",
+      "cs": "autobus"
+    },
+    {
+      "type": "word",
+      "en": "by bus",
+      "ipa": "baɪ",
+      "cs": "autobusem"
+    },
+    {
+      "type": "word",
+      "en": "call",
+      "ipa": "kɔːl",
+      "cs": "zavolat, volat; telefonát"
+    },
+    {
+      "type": "word",
+      "en": "chemistry",
+      "ipa": "ˈkemɪstrɪ",
+      "cs": "chemie"
+    },
+    {
+      "type": "word",
+      "en": "classroom",
+      "ipa": "ˈklɑːsrʊm",
+      "cs": "třída",
+      "note": "místnost"
+    },
+    {
+      "type": "word",
+      "en": "downstairs",
+      "ipa": "ˌdaʊnˈsteəz",
+      "cs": "dole, dolů",
+      "note": "v nižším poschodí; po schodech"
+    },
+    {
+      "type": "word",
+      "en": "eat",
+      "ipa": "iːt",
+      "cs": "jíst"
+    },
+    {
+      "type": "word",
+      "en": "especially",
+      "ipa": "iˈspeʃəlɪ",
+      "cs": "obzvláště"
+    },
+    {
+      "type": "word",
+      "en": "explain",
+      "ipa": "ɪkˈspleɪn",
+      "cs": "vysvětlit, vysvětlovat"
+    },
+    {
+      "type": "word",
+      "en": "finish",
+      "ipa": "ˈfɪnɪʃ",
+      "cs": "skončit, končit; dokončit, dokončovat"
+    },
+    {
+      "type": "word",
+      "en": "first",
+      "ipa": "fɜːst",
+      "cs": "napřed, nejdříve"
+    },
+    {
+      "type": "word",
+      "en": "form",
+      "ipa": "fɔːm",
+      "cs": "třída",
+      "note": "skupina žáků"
+    },
+    {
+      "type": "word",
+      "en": "form teacher",
+      "cs": "třídní učitel(ka)"
+    },
+    {
+      "type": "word",
+      "en": "France",
+      "ipa": "frɑːns",
+      "cs": "Francie"
+    },
+    {
+      "type": "word",
+      "en": "French",
+      "ipa": "frentʃ",
+      "cs": "francouzština; francouzský"
+    },
+    {
+      "type": "word",
+      "en": "get dressed",
+      "ipa": "ˌgetˈdrest",
+      "cs": "obléknout se, oblékat se",
+      "note": "(tt)"
+    },
+    {
+      "type": "word",
+      "en": "get up",
+      "ipa": "ˌgetˈʌp",
+      "cs": "vstát, vstávat",
+      "note": "(tt)"
+    },
+    {
+      "type": "word",
+      "en": "grammar",
+      "ipa": "ˈgræmə",
+      "cs": "gramatika"
+    },
+    {
+      "type": "word",
+      "en": "gym",
+      "ipa": "dʒɪm",
+      "cs": "tělocvična"
+    },
+    {
+      "type": "word",
+      "en": "homework",
+      "ipa": "ˈhəʊmwɜːk",
+      "cs": "domácí úkol(y)"
+    },
+    {
+      "type": "word",
+      "en": "interesting",
+      "ipa": "ˈɪntrəstɪŋ",
+      "cs": "zajímavý"
+    },
+    {
+      "type": "word",
+      "en": "lesson",
+      "ipa": "ˈlesn",
+      "cs": "hodina; lekce",
+      "note": "vyučovací"
+    },
+    {
+      "type": "word",
+      "en": "library",
+      "ipa": "ˈlaɪbrərɪ",
+      "cs": "knihovna",
+      "note": "budova, místnost"
+    },
+    {
+      "type": "word",
+      "en": "lunch",
+      "ipa": "lʌntʃ",
+      "cs": "oběd"
+    },
+    {
+      "type": "word",
+      "en": "maths",
+      "ipa": "mæθs",
+      "cs": "matematika"
+    },
+    {
+      "type": "word",
+      "en": "mind",
+      "ipa": "maɪnd",
+      "cs": "mít námitky proti"
+    },
+    {
+      "type": "word",
+      "en": "minute",
+      "ipa": "ˈmɪnɪt",
+      "cs": "minuta"
+    },
+    {
+      "type": "word",
+      "en": "much",
+      "ipa": "mʌtʃ",
+      "cs": "mnoho, moc"
+    },
+    {
+      "type": "word",
+      "en": "need",
+      "ipa": "niːd",
+      "cs": "potřebovat; potřeba"
+    },
+    {
+      "type": "word",
+      "en": "patient",
+      "ipa": "ˈpeɪʃənt",
+      "cs": "trpělivý"
+    },
+    {
+      "type": "word",
+      "en": "physics",
+      "ipa": "ˈfɪzɪks",
+      "cs": "fyzika"
+    },
+    {
+      "type": "word",
+      "en": "play",
+      "ipa": "pleɪ",
+      "cs": "hrát, hrát si"
+    },
+    {
+      "type": "word",
+      "en": "practise",
+      "ipa": "ˈpræktɪs",
+      "cs": "procvičovat, cvičit"
+    },
+    {
+      "type": "word",
+      "en": "prefer",
+      "ipa": "prɪˈfɜː",
+      "cs": "dávat přednost čemu, mít co raději",
+      "note": "(-rr-)"
+    },
+    {
+      "type": "word",
+      "en": "problem",
+      "ipa": "ˈprɒbləm",
+      "cs": "problém"
+    },
+    {
+      "type": "word",
+      "en": "question",
+      "ipa": "ˈkwestʃən",
+      "cs": "otázka"
+    },
+    {
+      "type": "word",
+      "en": "roll",
+      "ipa": "rəʊl",
+      "cs": "houska, rohlík"
+    },
+    {
+      "type": "word",
+      "en": "rush",
+      "ipa": "rʌʃ",
+      "cs": "shon, spěch"
+    },
+    {
+      "type": "word",
+      "en": "sandwich",
+      "ipa": "ˈsænwɪdʒ",
+      "cs": "sendvič"
+    },
+    {
+      "type": "word",
+      "en": "say",
+      "ipa": "seɪ",
+      "cs": "říci, říkat",
+      "note": "něco"
+    },
+    {
+      "type": "word",
+      "en": "shower",
+      "ipa": "ˈʃaʊə",
+      "cs": "sprcha"
+    },
+    {
+      "type": "word",
+      "en": "slowly",
+      "ipa": "ˈsləʊlɪ",
+      "cs": "pomalu"
+    },
+    {
+      "type": "word",
+      "en": "something",
+      "ipa": "ˈsʌmθɪŋ",
+      "cs": "něco"
+    },
+    {
+      "type": "word",
+      "en": "sometimes",
+      "ipa": "ˈsʌmtaɪmz",
+      "cs": "někdy"
+    },
+    {
+      "type": "word",
+      "en": "strict",
+      "ipa": "strɪkt",
+      "cs": "přísný"
+    },
+    {
+      "type": "word",
+      "en": "study",
+      "ipa": "ˈstʌdɪ",
+      "cs": "učit se, studovat"
+    },
+    {
+      "type": "word",
+      "en": "subject",
+      "ipa": "ˈsʌbdʒɪkt",
+      "cs": "předmět",
+      "note": "školní"
+    },
+    {
+      "type": "word",
+      "en": "summer",
+      "ipa": "ˈsʌmə",
+      "cs": "léto"
+    },
+    {
+      "type": "word",
+      "en": "table",
+      "ipa": "ˈteɪbl",
+      "cs": "stůl"
+    },
+    {
+      "type": "word",
+      "en": "table tennis",
+      "ipa": "ˈtenɪs",
+      "cs": "stolní tenis"
+    },
+    {
+      "type": "word",
+      "en": "talk",
+      "ipa": "tɔːk",
+      "cs": "povídat si"
+    },
+    {
+      "type": "word",
+      "en": "teach",
+      "ipa": "tiːtʃ",
+      "cs": "učit"
+    },
+    {
+      "type": "word",
+      "en": "teacher",
+      "ipa": "ˈtiːtʃə",
+      "cs": "učitel(ka)"
+    },
+    {
+      "type": "word",
+      "en": "television",
+      "ipa": "ˈtelɪvɪʒn",
+      "cs": "televize"
+    },
+    {
+      "type": "word",
+      "en": "try",
+      "ipa": "traɪ",
+      "cs": "snažit se, pokoušet se; zkusit; pokus"
+    },
+    {
+      "type": "word",
+      "en": "understand",
+      "ipa": "ˌʌndəˈstænd",
+      "cs": "rozumět, chápat"
+    },
+    {
+      "type": "word",
+      "en": "usually",
+      "ipa": "ˈjuːʒʊəlɪ",
+      "cs": "obvykle"
+    },
+    {
+      "type": "word",
+      "en": "wake (up)",
+      "ipa": "weɪk (ʌp)",
+      "cs": "vzbudit (se), budit (se)"
+    },
+    {
+      "type": "word",
+      "en": "want",
+      "ipa": "wɒnt",
+      "cs": "chtít"
+    },
+    {
+      "type": "word",
+      "en": "watch",
+      "ipa": "wɒtʃ",
+      "cs": "dívat se, sledovat",
+      "note": "na televizi"
+    },
+    {
+      "type": "word",
+      "en": "when",
+      "ipa": "wen",
+      "cs": "když, kdy"
+    },
+    {
+      "type": "word",
+      "en": "winter",
+      "ipa": "ˈwɪntə",
+      "cs": "zima",
+      "note": "roční období"
+    },
+    {
+      "type": "phrase",
+      "en": "in (the) winter/summer",
+      "cs": "v zimě/v létě",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in French",
+      "cs": "francouzsky, ve francouzštině",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at a quarter past seven",
+      "cs": "ve čtvrt na osm",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "good/bad at",
+      "cs": "dobrý/špatný na, v",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on the table",
+      "cs": "na stole",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "a break for lunch",
+      "cs": "přestávka na oběd",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "from home",
+      "cs": "z domova",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "by bus/car",
+      "cs": "autobusem/autem",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "before/after school",
+      "cs": "před vyučováním/po vyučování; po skončení (střední) školy",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "before/after dinner",
+      "cs": "před večeří/po večeři",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "have breakfast",
+      "cs": "dát si snídani, nasnídat se, snídat",
+      "note": "dát si… have…"
+    },
+    {
+      "type": "phrase",
+      "en": "have lunch",
+      "cs": "dát si oběd, naobědvat se, obědvat",
+      "note": "dát si… have…"
+    },
+    {
+      "type": "phrase",
+      "en": "have dinner/supper",
+      "cs": "dát si večeři, navečeřet se, večeřet",
+      "note": "dát si… have…"
+    },
+    {
+      "type": "phrase",
+      "en": "have tea",
+      "cs": "dát si (lehčí) večeři, odpolední svačinu",
+      "note": "dát si… have…"
+    },
+    {
+      "type": "phrase",
+      "en": "have a cup of tea",
+      "cs": "dát si čaj, dát si šálek čaje",
+      "note": "dát si… have…"
+    },
+    {
+      "type": "phrase",
+      "en": "have a roll",
+      "cs": "dát si housku, sníst housku",
+      "note": "dát si… have…"
+    },
+    {
+      "type": "phrase",
+      "en": "have a shower",
+      "cs": "dát si sprchu, (o)sprchovat se",
+      "note": "dát si… have…"
+    },
+    {
+      "type": "phrase",
+      "en": "have a break",
+      "cs": "dát si přestávku",
+      "note": "dát si… have…"
+    },
+    {
+      "type": "word",
+      "en": "hour",
+      "ipa": "aʊə",
+      "cs": "časová jednotka, 60 minut",
+      "note": "hodiny; užíváme, mluvíme-li o trvání, délce"
+    },
+    {
+      "type": "word",
+      "en": "o'clock",
+      "ipa": "əˈklɒk",
+      "cs": "užíváme při určování času v celou hodinu",
+      "note": "hodiny; five o'clock pět hodin, one o'clock jedna hodina"
+    },
+    {
+      "type": "word",
+      "en": "clock",
+      "ipa": "klɒk",
+      "cs": "hodiny (stroj)",
+      "note": "hodiny; alarm clock = budík"
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "id": "u1-l6",
+  "order": 6,
+  "title": "Učebnice 1 – lekce 6",
+  "description": "Slovníček – 66 slovíček, 0 frází.",
+  "source": "screenshots/lekce/u1-l6.jpg",
+  "items": [
+    {
+      "type": "word",
+      "en": "all",
+      "ipa": "ɔːl",
+      "cs": "všechen, všechna, všechno, všichni; veškerý",
+      "note": "atd."
+    },
+    {
+      "type": "word",
+      "en": "already",
+      "ipa": "ɔːlˈredɪ",
+      "cs": "už, již"
+    },
+    {
+      "type": "word",
+      "en": "alright",
+      "ipa": "ɔːlˈraɪt",
+      "cs": "v pořádku, dobře"
+    },
+    {
+      "type": "word",
+      "en": "apple",
+      "ipa": "ˈæpl",
+      "cs": "jablko"
+    },
+    {
+      "type": "word",
+      "en": "around",
+      "ipa": "əˈraʊnd",
+      "cs": "kolem, okolo"
+    },
+    {
+      "type": "word",
+      "en": "be hungry",
+      "cs": "mít hlad"
+    },
+    {
+      "type": "word",
+      "en": "be sorry",
+      "cs": "být líto, litovat",
+      "note": "komu"
+    },
+    {
+      "type": "word",
+      "en": "big",
+      "ipa": "bɪg",
+      "cs": "velký"
+    },
+    {
+      "type": "word",
+      "en": "bike",
+      "ipa": "baɪk",
+      "cs": "jízdní kolo",
+      "note": "= bicycle [ˈbaɪsɪkl]"
+    },
+    {
+      "type": "word",
+      "en": "boring",
+      "ipa": "ˈbɔːrɪŋ",
+      "cs": "nudný, nezajímavý"
+    },
+    {
+      "type": "word",
+      "en": "borrow",
+      "ipa": "ˈbɒrəʊ",
+      "cs": "půjčit si"
+    },
+    {
+      "type": "word",
+      "en": "by",
+      "ipa": "baɪ",
+      "cs": "u čeho",
+      "note": "předložka 7. pádu"
+    },
+    {
+      "type": "word",
+      "en": "cheap",
+      "ipa": "tʃiːp",
+      "cs": "levný, laciný"
+    },
+    {
+      "type": "word",
+      "en": "cheese",
+      "ipa": "tʃiːz",
+      "cs": "sýr"
+    },
+    {
+      "type": "word",
+      "en": "chicken",
+      "ipa": "ˈtʃɪkɪn",
+      "cs": "kuře; kuřecí maso"
+    },
+    {
+      "type": "word",
+      "en": "chips",
+      "ipa": "tʃɪps",
+      "cs": "hranolky"
+    },
+    {
+      "type": "word",
+      "en": "coffee",
+      "ipa": "ˈkɒfɪ",
+      "cs": "káva"
+    },
+    {
+      "type": "word",
+      "en": "cycling",
+      "ipa": "ˈsaɪklɪŋ",
+      "cs": "cyklistika"
+    },
+    {
+      "type": "word",
+      "en": "dream",
+      "ipa": "driːm",
+      "cs": "snít; sen"
+    },
+    {
+      "type": "word",
+      "en": "dress",
+      "ipa": "dres",
+      "cs": "šaty"
+    },
+    {
+      "type": "word",
+      "en": "everything",
+      "ipa": "ˈevrɪθɪŋ",
+      "cs": "všechno"
+    },
+    {
+      "type": "word",
+      "en": "expensive",
+      "ipa": "ɪkˈspensɪv",
+      "cs": "drahý, nákladný"
+    },
+    {
+      "type": "word",
+      "en": "fat",
+      "ipa": "fæt",
+      "cs": "tlustý"
+    },
+    {
+      "type": "word",
+      "en": "forget",
+      "ipa": "fəˈget",
+      "cs": "zapomenout",
+      "note": "(tt)"
+    },
+    {
+      "type": "word",
+      "en": "formal",
+      "ipa": "ˈfɔːml",
+      "cs": "formální, strohý"
+    },
+    {
+      "type": "word",
+      "en": "give",
+      "ipa": "gɪv",
+      "cs": "dát"
+    },
+    {
+      "type": "word",
+      "en": "ham",
+      "ipa": "hæm",
+      "cs": "šunka"
+    },
+    {
+      "type": "word",
+      "en": "have a look",
+      "cs": "podívat se, kouknout se"
+    },
+    {
+      "type": "word",
+      "en": "hippo",
+      "ipa": "ˈhɪpəʊ",
+      "cs": "hroch"
+    },
+    {
+      "type": "word",
+      "en": "hungry",
+      "ipa": "ˈhʌŋgrɪ",
+      "cs": "hladový"
+    },
+    {
+      "type": "word",
+      "en": "idea",
+      "ipa": "aɪˈdɪə",
+      "cs": "nápad; představa"
+    },
+    {
+      "type": "word",
+      "en": "keen",
+      "ipa": "kiːn",
+      "cs": "nadšený"
+    },
+    {
+      "type": "word",
+      "en": "lend",
+      "ipa": "lend",
+      "cs": "půjčit",
+      "note": "komu co"
+    },
+    {
+      "type": "word",
+      "en": "lettuce",
+      "ipa": "ˈletɪs",
+      "cs": "hlávkový salát"
+    },
+    {
+      "type": "word",
+      "en": "look",
+      "ipa": "lʊk",
+      "cs": "dívat se; vypadat"
+    },
+    {
+      "type": "word",
+      "en": "maybe",
+      "ipa": "ˈmeɪbɪ",
+      "cs": "možná, asi"
+    },
+    {
+      "type": "word",
+      "en": "mean",
+      "ipa": "miːn",
+      "cs": "mít na mysli, mínit; znamenat"
+    },
+    {
+      "type": "word",
+      "en": "money",
+      "ipa": "ˈmʌnɪ",
+      "cs": "peníze"
+    },
+    {
+      "type": "word",
+      "en": "new",
+      "ipa": "njuː",
+      "cs": "nový"
+    },
+    {
+      "type": "word",
+      "en": "nothing",
+      "ipa": "ˈnʌθɪŋ",
+      "cs": "nic"
+    },
+    {
+      "type": "word",
+      "en": "number",
+      "ipa": "ˈnʌmbə",
+      "cs": "číslo"
+    },
+    {
+      "type": "word",
+      "en": "palace",
+      "ipa": "ˈpælɪs",
+      "cs": "palác"
+    },
+    {
+      "type": "word",
+      "en": "pancake",
+      "ipa": "ˈpænkeɪk",
+      "cs": "palačinka, lívanec"
+    },
+    {
+      "type": "word",
+      "en": "pasta",
+      "ipa": "ˈpæstə",
+      "cs": "těstoviny"
+    },
+    {
+      "type": "word",
+      "en": "pie",
+      "ipa": "paɪ",
+      "cs": "pokrm z těsta",
+      "note": "viz Culture Note str. 74"
+    },
+    {
+      "type": "word",
+      "en": "place",
+      "ipa": "pleɪs",
+      "cs": "místo"
+    },
+    {
+      "type": "word",
+      "en": "present",
+      "ipa": "ˈprezənt",
+      "cs": "dárek"
+    },
+    {
+      "type": "word",
+      "en": "really",
+      "ipa": "ˈrɪəlɪ",
+      "cs": "velice; skutečně, opravdu"
+    },
+    {
+      "type": "word",
+      "en": "right",
+      "ipa": "raɪt",
+      "cs": "správný; správně; tak"
+    },
+    {
+      "type": "word",
+      "en": "salad",
+      "ipa": "ˈsæləd",
+      "cs": "salát",
+      "note": "jako připravený pokrm"
+    },
+    {
+      "type": "word",
+      "en": "see",
+      "ipa": "siː",
+      "cs": "vidět"
+    },
+    {
+      "type": "word",
+      "en": "shop",
+      "ipa": "ʃɒp",
+      "cs": "obchod"
+    },
+    {
+      "type": "word",
+      "en": "shopping",
+      "ipa": "ˈʃɒpɪŋ",
+      "cs": "nakupování, nákup(y)"
+    },
+    {
+      "type": "word",
+      "en": "sound",
+      "ipa": "saʊnd",
+      "cs": "znít; zvuk"
+    },
+    {
+      "type": "word",
+      "en": "soup",
+      "ipa": "suːp",
+      "cs": "polévka"
+    },
+    {
+      "type": "word",
+      "en": "street",
+      "ipa": "striːt",
+      "cs": "ulice"
+    },
+    {
+      "type": "word",
+      "en": "these",
+      "ipa": "ðiːz",
+      "cs": "tito, tyto",
+      "note": "atd.; mn. č. od this"
+    },
+    {
+      "type": "word",
+      "en": "think",
+      "ipa": "θɪŋk",
+      "cs": "myslet; přemýšlet"
+    },
+    {
+      "type": "word",
+      "en": "tomato",
+      "ipa": "təˈmɑːtəʊ",
+      "cs": "rajské jablko",
+      "note": "mn. č. -es"
+    },
+    {
+      "type": "word",
+      "en": "tonight",
+      "ipa": "təˈnaɪt",
+      "cs": "dnes večer, dnes v noci"
+    },
+    {
+      "type": "word",
+      "en": "too",
+      "ipa": "tuː",
+      "cs": "příliš, moc"
+    },
+    {
+      "type": "word",
+      "en": "trousers",
+      "ipa": "ˈtraʊzəz",
+      "cs": "kalhoty"
+    },
+    {
+      "type": "word",
+      "en": "wait (for)",
+      "ipa": "weɪt",
+      "cs": "čekat (na)"
+    },
+    {
+      "type": "word",
+      "en": "wear",
+      "ipa": "weə",
+      "cs": "nosit, mít na sobě"
+    },
+    {
+      "type": "word",
+      "en": "window",
+      "ipa": "ˈwɪndəʊ",
+      "cs": "okno"
+    },
+    {
+      "type": "word",
+      "en": "world",
+      "ipa": "wɜːld",
+      "cs": "svět"
+    }
+  ]
+}
