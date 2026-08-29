@@ -1,0 +1,576 @@
+{
+  "id": "u1-l2",
+  "order": 2,
+  "title": "Učebnice 1 – lekce 2",
+  "description": "Slovníček – 71 slovíček, 24 frází.",
+  "source": "screenshots/lekce/u1-l2.jpg",
+  "items": [
+    {
+      "type": "word",
+      "en": "also",
+      "ipa": "ˈɔːlsəʊ",
+      "cs": "také"
+    },
+    {
+      "type": "word",
+      "en": "animal",
+      "ipa": "ˈænɪml",
+      "cs": "zvíře"
+    },
+    {
+      "type": "word",
+      "en": "bedroom",
+      "ipa": "ˈbedrʊm",
+      "cs": "pokoj, ložnice"
+    },
+    {
+      "type": "word",
+      "en": "bookshop",
+      "ipa": "ˈbʊkʃɒp",
+      "cs": "knihkupectví"
+    },
+    {
+      "type": "word",
+      "en": "boyfriend",
+      "ipa": "ˈbɔɪfrend",
+      "cs": "přítel",
+      "note": "partner"
+    },
+    {
+      "type": "word",
+      "en": "car",
+      "ipa": "kɑː",
+      "cs": "auto"
+    },
+    {
+      "type": "word",
+      "en": "cat",
+      "ipa": "kæt",
+      "cs": "kočka, kocour"
+    },
+    {
+      "type": "word",
+      "en": "centre",
+      "ipa": "ˈsentə",
+      "cs": "centrum, střed"
+    },
+    {
+      "type": "word",
+      "en": "cheerful",
+      "ipa": "ˈtʃɪəfl",
+      "cs": "veselý"
+    },
+    {
+      "type": "word",
+      "en": "colleague",
+      "ipa": "ˈkɒliːg",
+      "cs": "kolega, kolegyně"
+    },
+    {
+      "type": "word",
+      "en": "computer",
+      "ipa": "kəmˈpjuːtə",
+      "cs": "počítač"
+    },
+    {
+      "type": "word",
+      "en": "cook",
+      "ipa": "kʊk",
+      "cs": "kuchař(ka); vařit"
+    },
+    {
+      "type": "word",
+      "en": "cooking",
+      "ipa": "ˈkʊkɪŋ",
+      "cs": "vaření"
+    },
+    {
+      "type": "word",
+      "en": "Dad",
+      "ipa": "dæd",
+      "cs": "táta, taťka"
+    },
+    {
+      "type": "word",
+      "en": "dark",
+      "ipa": "dɑːk",
+      "cs": "tmavý; tmavě"
+    },
+    {
+      "type": "word",
+      "en": "dentist",
+      "ipa": "ˈdentɪst",
+      "cs": "zubař(ka)"
+    },
+    {
+      "type": "word",
+      "en": "excellent",
+      "ipa": "ˈeksələnt",
+      "cs": "vynikající"
+    },
+    {
+      "type": "word",
+      "en": "eye",
+      "ipa": "aɪ",
+      "cs": "oko"
+    },
+    {
+      "type": "word",
+      "en": "face",
+      "ipa": "feɪs",
+      "cs": "obličej, tvář"
+    },
+    {
+      "type": "word",
+      "en": "fair",
+      "ipa": "feə",
+      "cs": "světlý, plavý"
+    },
+    {
+      "type": "word",
+      "en": "family",
+      "ipa": "ˈfæmlɪ",
+      "cs": "rodina"
+    },
+    {
+      "type": "word",
+      "en": "father",
+      "ipa": "ˈfɑːðə",
+      "cs": "otec"
+    },
+    {
+      "type": "word",
+      "en": "fish",
+      "ipa": "fɪʃ",
+      "cs": "ryba, ryby"
+    },
+    {
+      "type": "word",
+      "en": "flower",
+      "ipa": "flaʊə",
+      "cs": "květina"
+    },
+    {
+      "type": "word",
+      "en": "football",
+      "ipa": "ˈfʊtbɔːl",
+      "cs": "fotbal; fotbalový míč"
+    },
+    {
+      "type": "word",
+      "en": "for",
+      "ipa": "fɔː",
+      "cs": "pro, na"
+    },
+    {
+      "type": "word",
+      "en": "fruit",
+      "ipa": "fruːt",
+      "cs": "ovoce, plod"
+    },
+    {
+      "type": "word",
+      "en": "funny",
+      "ipa": "ˈfʌnɪ",
+      "cs": "zábavný, legrační; vtipný"
+    },
+    {
+      "type": "word",
+      "en": "garage",
+      "ipa": "ˈgærɪdʒ",
+      "cs": "garáž"
+    },
+    {
+      "type": "word",
+      "en": "garden",
+      "ipa": "ˈgɑːdən",
+      "cs": "zahrada"
+    },
+    {
+      "type": "word",
+      "en": "got",
+      "ipa": "gɒt",
+      "cs": "viz have got"
+    },
+    {
+      "type": "word",
+      "en": "hair",
+      "ipa": "heə",
+      "cs": "vlasy"
+    },
+    {
+      "type": "word",
+      "en": "hamster",
+      "ipa": "ˈhæmstə",
+      "cs": "křeček"
+    },
+    {
+      "type": "word",
+      "en": "have got",
+      "ipa": "hæv ˈgɒt",
+      "cs": "mít"
+    },
+    {
+      "type": "word",
+      "en": "hobby",
+      "ipa": "ˈhɒbɪ",
+      "cs": "koníček, hoby"
+    },
+    {
+      "type": "word",
+      "en": "job",
+      "ipa": "dʒɒb",
+      "cs": "práce, zaměstnání"
+    },
+    {
+      "type": "word",
+      "en": "kind",
+      "ipa": "kaɪnd",
+      "cs": "laskavý, hodný, milý"
+    },
+    {
+      "type": "word",
+      "en": "language",
+      "ipa": "ˈlæŋgwɪdʒ",
+      "cs": "řeč, jazyk"
+    },
+    {
+      "type": "word",
+      "en": "large",
+      "ipa": "lɑːdʒ",
+      "cs": "velký, rozlehlý"
+    },
+    {
+      "type": "word",
+      "en": "little",
+      "ipa": "lɪtl",
+      "cs": "malý"
+    },
+    {
+      "type": "word",
+      "en": "long",
+      "ipa": "lɒŋ",
+      "cs": "dlouhý"
+    },
+    {
+      "type": "word",
+      "en": "lots",
+      "ipa": "lɒts",
+      "cs": "mnoho, hodně (of čeho)"
+    },
+    {
+      "type": "word",
+      "en": "main",
+      "ipa": "meɪn",
+      "cs": "hlavní"
+    },
+    {
+      "type": "word",
+      "en": "manager",
+      "ipa": "ˈmænɪdʒə",
+      "cs": "vedoucí, manažer(ka)",
+      "note": "obchodu apod."
+    },
+    {
+      "type": "word",
+      "en": "mother",
+      "ipa": "ˈmʌðə",
+      "cs": "matka"
+    },
+    {
+      "type": "word",
+      "en": "Mum",
+      "ipa": "mʌm",
+      "cs": "máma, mamka"
+    },
+    {
+      "type": "word",
+      "en": "near",
+      "ipa": "nɪə",
+      "cs": "blízko, poblíž"
+    },
+    {
+      "type": "word",
+      "en": "nearly",
+      "ipa": "ˈnɪəlɪ",
+      "cs": "skoro"
+    },
+    {
+      "type": "word",
+      "en": "parents",
+      "ipa": "ˈpeərənts",
+      "cs": "rodiče"
+    },
+    {
+      "type": "word",
+      "en": "park",
+      "ipa": "pɑːk",
+      "cs": "park"
+    },
+    {
+      "type": "word",
+      "en": "pet",
+      "ipa": "pet",
+      "cs": "domácí zvířátko"
+    },
+    {
+      "type": "word",
+      "en": "pizza",
+      "ipa": "ˈpiːtsə",
+      "cs": "pizza"
+    },
+    {
+      "type": "word",
+      "en": "popular",
+      "ipa": "ˈpɒpjələ",
+      "cs": "oblíbený"
+    },
+    {
+      "type": "word",
+      "en": "quite",
+      "ipa": "kwaɪt",
+      "cs": "docela"
+    },
+    {
+      "type": "word",
+      "en": "rabbit",
+      "ipa": "ˈræbɪt",
+      "cs": "králík"
+    },
+    {
+      "type": "word",
+      "en": "restaurant",
+      "ipa": "ˈrestəˌrɒnt",
+      "cs": "restaurace"
+    },
+    {
+      "type": "word",
+      "en": "short",
+      "ipa": "ʃɔːt",
+      "cs": "krátký; malé postavy"
+    },
+    {
+      "type": "word",
+      "en": "sister",
+      "ipa": "ˈsɪstə",
+      "cs": "sestra"
+    },
+    {
+      "type": "word",
+      "en": "slim",
+      "ipa": "slɪm",
+      "cs": "štíhlý"
+    },
+    {
+      "type": "word",
+      "en": "small",
+      "ipa": "smɔːl",
+      "cs": "malý"
+    },
+    {
+      "type": "word",
+      "en": "surgery",
+      "ipa": "ˈsɜːdʒərɪ",
+      "cs": "ordinace"
+    },
+    {
+      "type": "word",
+      "en": "tall",
+      "ipa": "tɔːl",
+      "cs": "vysoký"
+    },
+    {
+      "type": "word",
+      "en": "there",
+      "ipa": "ðeə",
+      "cs": "tam"
+    },
+    {
+      "type": "word",
+      "en": "these",
+      "ipa": "ðiːz",
+      "cs": "tito, tyto (mn. č. od this)",
+      "note": "atp."
+    },
+    {
+      "type": "word",
+      "en": "tree",
+      "ipa": "triː",
+      "cs": "strom"
+    },
+    {
+      "type": "word",
+      "en": "university",
+      "ipa": "ˌjuːnɪˈvɜːsətɪ",
+      "cs": "univerzita, vysoká škola"
+    },
+    {
+      "type": "word",
+      "en": "very",
+      "ipa": "ˈverɪ",
+      "cs": "velmi, velice"
+    },
+    {
+      "type": "word",
+      "en": "vet",
+      "ipa": "vet",
+      "cs": "veterinář(ka)"
+    },
+    {
+      "type": "word",
+      "en": "waitress",
+      "ipa": "ˈweɪtrəs",
+      "cs": "číšnice, servírka"
+    },
+    {
+      "type": "word",
+      "en": "weekend",
+      "ipa": "ˌwiːkˈend",
+      "cs": "víkend"
+    },
+    {
+      "type": "word",
+      "en": "with",
+      "ipa": "wɪð",
+      "cs": "s, se"
+    },
+    {
+      "type": "phrase",
+      "en": "the Dawson family = the Dawsons",
+      "ipa": "ˈdɔːsən",
+      "cs": "rodina Dawsonových, Dawsonovi"
+    },
+    {
+      "type": "phrase",
+      "en": "the manager of a small bookshop",
+      "cs": "vedoucí malého knihkupectví"
+    },
+    {
+      "type": "phrase",
+      "en": "little brother",
+      "cs": "mladší bratr, bráška (mladší)"
+    },
+    {
+      "type": "phrase",
+      "en": "He's nearly thirteen.",
+      "cs": "Je mu skoro třináct."
+    },
+    {
+      "type": "phrase",
+      "en": "He's popular at school.",
+      "cs": "Je oblíbený ve škole."
+    },
+    {
+      "type": "phrase",
+      "en": "thanks to Mum's good cooking",
+      "cs": "díky tomu, že máma tak dobře vaří (dosl. díky mámině dobrému vaření)"
+    },
+    {
+      "type": "phrase",
+      "en": "He's funny.",
+      "cs": "Je zábavný./Je s ním legrace."
+    },
+    {
+      "type": "phrase",
+      "en": "at home",
+      "cs": "doma",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at school",
+      "cs": "ve škole",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at university",
+      "cs": "na vysoké škole",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at the weekend",
+      "cs": "o víkendu",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the garden",
+      "cs": "na zahradě",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the centre",
+      "cs": "v centru",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the bedroom",
+      "cs": "v ložnici",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the park",
+      "cs": "v parku",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "for my father",
+      "cs": "pro tátu/otce",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "for his car",
+      "cs": "na jeho auto",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "near a park",
+      "cs": "blízko parku",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "thanks to Honza",
+      "cs": "díky Honzovi",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "language student",
+      "cs": "student(ka) jazyka(ů)",
+      "note": "spojení"
+    },
+    {
+      "type": "phrase",
+      "en": "weekend job",
+      "cs": "víkendová práce, brigáda",
+      "note": "spojení"
+    },
+    {
+      "type": "phrase",
+      "en": "pizza restaurant",
+      "cs": "pizzerie",
+      "note": "spojení"
+    },
+    {
+      "type": "phrase",
+      "en": "school friends",
+      "cs": "kamarádi ze školy, kamarádky ze školy, spolužáci, spolužačky",
+      "note": "spojení"
+    },
+    {
+      "type": "phrase",
+      "en": "fruit trees",
+      "cs": "ovocné stromy",
+      "note": "spojení"
+    }
+  ]
+}

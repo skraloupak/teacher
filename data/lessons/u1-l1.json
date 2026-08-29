@@ -1,0 +1,432 @@
+{
+  "id": "u1-l1",
+  "order": 1,
+  "title": "Učebnice 1 – lekce 1",
+  "description": "Slovníček – 54 slovíček, 19 frází.",
+  "source": "screenshots/lekce/u1-l1.jpg",
+  "items": [
+    {
+      "type": "word",
+      "en": "and",
+      "ipa": "ænd",
+      "cs": "a"
+    },
+    {
+      "type": "word",
+      "en": "are",
+      "ipa": "ɑː",
+      "cs": "jsi, jsme, jste, jsou"
+    },
+    {
+      "type": "word",
+      "en": "bad",
+      "ipa": "bæd",
+      "cs": "špatný, ošklivý"
+    },
+    {
+      "type": "word",
+      "en": "be",
+      "ipa": "biː",
+      "cs": "být"
+    },
+    {
+      "type": "word",
+      "en": "best",
+      "ipa": "best",
+      "cs": "nejlepší"
+    },
+    {
+      "type": "word",
+      "en": "birthday",
+      "ipa": "ˈbɜːθdeɪ",
+      "cs": "narozeniny"
+    },
+    {
+      "type": "word",
+      "en": "boss",
+      "ipa": "bɒs",
+      "cs": "šéf"
+    },
+    {
+      "type": "word",
+      "en": "brother",
+      "ipa": "ˈbrʌðə",
+      "cs": "bratr"
+    },
+    {
+      "type": "word",
+      "en": "cup",
+      "ipa": "kʌp",
+      "cs": "šálek"
+    },
+    {
+      "type": "word",
+      "en": "Czech",
+      "ipa": "tʃek",
+      "cs": "český; Čech; čeština"
+    },
+    {
+      "type": "word",
+      "en": "dog",
+      "ipa": "dɒg",
+      "cs": "pes"
+    },
+    {
+      "type": "word",
+      "en": "eighteen",
+      "ipa": "eɪˈtiːn",
+      "cs": "osmnáct"
+    },
+    {
+      "type": "word",
+      "en": "English",
+      "ipa": "ˈɪŋglɪʃ",
+      "cs": "anglický; angličtina"
+    },
+    {
+      "type": "word",
+      "en": "fine",
+      "ipa": "faɪn",
+      "cs": "v pořádku, prima, fajn"
+    },
+    {
+      "type": "word",
+      "en": "friend",
+      "ipa": "frend",
+      "cs": "kamarád(ka)"
+    },
+    {
+      "type": "word",
+      "en": "from",
+      "ipa": "frɒm",
+      "cs": "z, od"
+    },
+    {
+      "type": "word",
+      "en": "good",
+      "ipa": "gʊd",
+      "cs": "dobrý; hodný"
+    },
+    {
+      "type": "word",
+      "en": "happy",
+      "ipa": "ˈhæpɪ",
+      "cs": "šťastný, spokojený"
+    },
+    {
+      "type": "word",
+      "en": "he",
+      "ipa": "hiː",
+      "cs": "on"
+    },
+    {
+      "type": "word",
+      "en": "her",
+      "ipa": "hɜː",
+      "cs": "její"
+    },
+    {
+      "type": "word",
+      "en": "his",
+      "ipa": "hɪz",
+      "cs": "jeho"
+    },
+    {
+      "type": "word",
+      "en": "house",
+      "ipa": "haʊs",
+      "cs": "dům"
+    },
+    {
+      "type": "word",
+      "en": "I",
+      "ipa": "aɪ",
+      "cs": "já"
+    },
+    {
+      "type": "word",
+      "en": "in",
+      "ipa": "ɪn",
+      "cs": "v, ve"
+    },
+    {
+      "type": "word",
+      "en": "is",
+      "ipa": "ɪz",
+      "cs": "je"
+    },
+    {
+      "type": "word",
+      "en": "it",
+      "ipa": "ɪt",
+      "cs": "to"
+    },
+    {
+      "type": "word",
+      "en": "lovely",
+      "ipa": "ˈlʌvlɪ",
+      "cs": "krásný, pěkný, prima"
+    },
+    {
+      "type": "word",
+      "en": "morning",
+      "ipa": "ˈmɔːnɪŋ",
+      "cs": "ráno, dopoledne"
+    },
+    {
+      "type": "word",
+      "en": "my",
+      "ipa": "maɪ",
+      "cs": "můj, moje, moji",
+      "note": "atp."
+    },
+    {
+      "type": "word",
+      "en": "name",
+      "ipa": "neɪm",
+      "cs": "jméno"
+    },
+    {
+      "type": "word",
+      "en": "nice",
+      "ipa": "naɪs",
+      "cs": "hezký, pěkný"
+    },
+    {
+      "type": "word",
+      "en": "no",
+      "ipa": "nəʊ",
+      "cs": "ne; žádný",
+      "note": "opak ano"
+    },
+    {
+      "type": "word",
+      "en": "not",
+      "ipa": "nɒt",
+      "cs": "ne, nikoliv"
+    },
+    {
+      "type": "word",
+      "en": "old",
+      "ipa": "əʊld",
+      "cs": "starý"
+    },
+    {
+      "type": "word",
+      "en": "our",
+      "ipa": "aʊə",
+      "cs": "náš, naše, naši",
+      "note": "atp."
+    },
+    {
+      "type": "word",
+      "en": "school",
+      "ipa": "skuːl",
+      "cs": "škola"
+    },
+    {
+      "type": "word",
+      "en": "secretary",
+      "ipa": "ˈsekret(ə)rɪ",
+      "cs": "sekretářka"
+    },
+    {
+      "type": "word",
+      "en": "she",
+      "ipa": "ʃiː",
+      "cs": "ona"
+    },
+    {
+      "type": "word",
+      "en": "so",
+      "ipa": "səʊ",
+      "cs": "tak"
+    },
+    {
+      "type": "word",
+      "en": "student",
+      "ipa": "ˈstjuːdənt",
+      "cs": "student(ka)"
+    },
+    {
+      "type": "word",
+      "en": "surname",
+      "ipa": "ˈsɜːneɪm",
+      "cs": "příjmení"
+    },
+    {
+      "type": "word",
+      "en": "tea",
+      "ipa": "tiː",
+      "cs": "čaj"
+    },
+    {
+      "type": "word",
+      "en": "that",
+      "ipa": "ðæt",
+      "cs": "tamten, tamta, tamto"
+    },
+    {
+      "type": "word",
+      "en": "this",
+      "ipa": "ðɪs",
+      "cs": "tento, tato, toto"
+    },
+    {
+      "type": "word",
+      "en": "today",
+      "ipa": "təˈdeɪ",
+      "cs": "dnes"
+    },
+    {
+      "type": "word",
+      "en": "too",
+      "ipa": "tuː",
+      "cs": "také"
+    },
+    {
+      "type": "word",
+      "en": "well",
+      "ipa": "wel",
+      "cs": "nuže, tedy"
+    },
+    {
+      "type": "word",
+      "en": "what",
+      "ipa": "wɒt",
+      "cs": "co; jaký"
+    },
+    {
+      "type": "word",
+      "en": "where",
+      "ipa": "weə",
+      "cs": "kde; kam"
+    },
+    {
+      "type": "word",
+      "en": "who",
+      "ipa": "huː",
+      "cs": "kdo"
+    },
+    {
+      "type": "word",
+      "en": "writer",
+      "ipa": "ˈraɪtə",
+      "cs": "spisovatel(ka), autor(ka)"
+    },
+    {
+      "type": "word",
+      "en": "yes",
+      "ipa": "jes",
+      "cs": "ano"
+    },
+    {
+      "type": "word",
+      "en": "you",
+      "ipa": "juː",
+      "cs": "ty, vy"
+    },
+    {
+      "type": "word",
+      "en": "your",
+      "ipa": "jɔː",
+      "cs": "tvůj, tvoje, váš, vaše, vaši",
+      "note": "atp."
+    },
+    {
+      "type": "phrase",
+      "en": "My name is Nicki.",
+      "cs": "Jmenuji se Nicki."
+    },
+    {
+      "type": "phrase",
+      "en": "I'm from Manchester.",
+      "cs": "Jsem z Manchesteru."
+    },
+    {
+      "type": "phrase",
+      "en": "What about you?",
+      "cs": "A co ty?"
+    },
+    {
+      "type": "phrase",
+      "en": "What's your name?",
+      "cs": "Jak se jmenuješ/jmenujete?"
+    },
+    {
+      "type": "phrase",
+      "en": "How old are you? I'm eighteen.",
+      "cs": "Kolik je ti/vám let? Je mi osmnáct."
+    },
+    {
+      "type": "phrase",
+      "en": "my best friend",
+      "cs": "můj/má nejlepší kamarád(ka)"
+    },
+    {
+      "type": "phrase",
+      "en": "Nice to see you!",
+      "cs": "Rád tě/vás vidím."
+    },
+    {
+      "type": "phrase",
+      "en": "It's his birthday today.",
+      "cs": "Dnes má narozeniny."
+    },
+    {
+      "type": "phrase",
+      "en": "Nice to meet you!",
+      "cs": "Rád tě/vás poznávám."
+    },
+    {
+      "type": "phrase",
+      "en": "Happy birthday.",
+      "cs": "Všechno nejlepší k narozeninám."
+    },
+    {
+      "type": "phrase",
+      "en": "How are you?",
+      "cs": "Jak se máš/máte?"
+    },
+    {
+      "type": "phrase",
+      "en": "Fine. = I'm fine.",
+      "cs": "Dobře. Mám se dobře."
+    },
+    {
+      "type": "phrase",
+      "en": "a cup of tea",
+      "cs": "šálek čaje"
+    },
+    {
+      "type": "phrase",
+      "en": "Oh, yes, lovely, thank you.",
+      "cs": "No to by bylo prima, děkuji."
+    },
+    {
+      "type": "phrase",
+      "en": "Thanks.",
+      "cs": "Díky."
+    },
+    {
+      "type": "phrase",
+      "en": "Thank you.",
+      "cs": "Děkuji."
+    },
+    {
+      "type": "phrase",
+      "en": "I'm a writer.",
+      "cs": "Jsem spisovatel(ka)."
+    },
+    {
+      "type": "phrase",
+      "en": "That's not a Czech name.",
+      "cs": "To není české jméno."
+    },
+    {
+      "type": "phrase",
+      "en": "Where are you from?",
+      "cs": "Odkud jsi/jste?"
+    }
+  ]
+}
