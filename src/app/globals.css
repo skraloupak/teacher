@@ -71,7 +71,13 @@ html {
 body {
   background: var(--surface);
   color: var(--ink);
-  overscroll-behavior-y: none;
+  overscroll-behavior: none;
+}
+
+/* Kartička si tažení řídí sama – stránka se pod ní nesmí hýbat ani pružit. */
+.no-page-drag {
+  overscroll-behavior: contain;
+  touch-action: pan-y;
 }
 
 /* Na mobilu nechceme, aby dvojité klepnutí na kartu zoomovalo nebo vybíralo text. */

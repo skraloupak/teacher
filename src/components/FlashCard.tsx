@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { SpeakButton } from "@/components/SpeakButton";
 import { answerOf, promptOf, type Card } from "@/lib/session";
 import { TYPE_LABELS } from "@/lib/settings";
@@ -83,9 +83,27 @@ export function FlashCard({
 
   const startRef = useRef<{ x: number; y: number } | null>(null);
   const swipedRef = useRef(false);
+  const rootRef = useRef<HTMLDivElement>(null);
   const [drag, setDrag] = useState({ x: 0, y: 0 });
 
   const swipeEnabled = Boolean(onSwipe) && !locked;
+
+  /**
+   * React navěšuje `touchmove` pasivně, takže z něj nejde zabránit posouvání stránky –
+   * na mobilu by se při tažení karty hýbala celá obrazovka. Vlastní listener
+   * s `passive: false` to umí zastavit.
+   */
+  useEffect(() => {
+    const node = rootRef.current;
+    if (!node || !swipeEnabled) return;
+
+    const onTouchMove = (event: TouchEvent) => {
+      if (startRef.current) event.preventDefault();
+    };
+
+    node.addEventListener("touchmove", onTouchMove, { passive: false });
+    return () => node.removeEventListener("touchmove", onTouchMove);
+  }, [swipeEnabled]);
 
   function handleTouchStart(event: React.TouchEvent) {
     // Příznak nulujeme na začátku každého dotyku – po tažení totiž žádný klik nepřijde,
@@ -138,6 +156,7 @@ export function FlashCard({
 
   return (
     <div
+      ref={rootRef}
       className={`flip-scene no-tap-zoom w-full cursor-pointer ${swipeEnabled ? "touch-none" : ""}`}
       onClick={handleClick}
       onTouchStart={handleTouchStart}

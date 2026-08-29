@@ -1,4 +1,4 @@
-import { difficultyScore, getProgress, isDue, progressKey } from "./srs";
+import { MAX_BOX, difficultyScore, getProgress, isDue, progressKey } from "./srs";
 import { directionsOf } from "./settings";
 import type { Direction, Item, Lesson, ProgressMap, StudySettings } from "./types";
 
@@ -105,6 +105,93 @@ export function buildQueue(
       : shuffle(cards);
 
   return settings.sessionSize ? ordered.slice(0, settings.sessionSize) : ordered;
+}
+
+/** Jaký podíl dalšího kola tvoří kartičky, se kterými jsem měl potíže. */
+const REVIEW_SHARE = 0.25;
+
+export type NextRoundPlan = {
+  queue: Card[];
+  /** Kolik kartiček z vybraných lekcí jsem ještě nikdy neviděl. */
+  freshRemaining: number;
+  /** Kolik jich v tomhle kole je poprvé. */
+  freshInRound: number;
+  /** Kolik je jich zopakovaných, protože mi dřív nešly. */
+  reviewInRound: number;
+};
+
+/** Kolik kartiček z vybraných lekcí jsem ještě nikdy neprocvičoval. */
+export function countUnpracticed(
+  lessons: Lesson[],
+  settings: StudySettings,
+  progress: ProgressMap,
+  now: number,
+  marked?: ReadonlySet<string>,
+): number {
+  return selectCards(lessons, settings, progress, now, marked).filter((card) => !progress[card.key])
+    .length;
+}
+
+/**
+ * Sestaví další kolo ze stejného výběru lekcí: přednost mají kartičky, které jsem
+ * ještě neprocvičoval, a mezi ně se přimíchají ty, se kterými jsem měl potíže.
+ * Kartičky z právě dohraného kola se přeskakují, ať se nezopakuje totéž.
+ *
+ * Když už v lekcích nic nového nezbývá, poskládá se běžné kolo.
+ */
+export function buildNextRound(
+  lessons: Lesson[],
+  settings: StudySettings,
+  progress: ProgressMap,
+  now: number,
+  marked: ReadonlySet<string> | undefined,
+  justPlayed: ReadonlySet<string>,
+): NextRoundPlan {
+  const all = selectCards(lessons, settings, progress, now, marked);
+
+  const isFresh = (card: Card) => !progress[card.key];
+  const needsReview = (card: Card) => {
+    const p = progress[card.key];
+    return Boolean(p) && p.box < MAX_BOX && (p.wrong > 0 || isDue(p, now));
+  };
+
+  const freshRemaining = all.filter(isFresh).length;
+  const available = all.filter((card) => !justPlayed.has(card.key));
+
+  const fresh = shuffle(available.filter(isFresh));
+  const review = shuffle(available.filter((card) => !isFresh(card) && needsReview(card)));
+  const other = shuffle(available.filter((card) => !isFresh(card) && !needsReview(card)));
+
+  const size = settings.sessionSize ?? all.length;
+
+  // Nejdřív novinky, k nim menší porce opakování; když jednoho ubývá, doplní se druhým.
+  const reviewTarget = Math.min(Math.ceil(size * REVIEW_SHARE), review.length);
+  const freshPart = fresh.slice(0, Math.max(0, size - reviewTarget));
+  const reviewPart = review.slice(0, Math.max(0, size - freshPart.length));
+  const picked = [...freshPart, ...reviewPart];
+
+  if (picked.length < size) {
+    picked.push(...review.slice(reviewPart.length, reviewPart.length + size - picked.length));
+  }
+  if (picked.length < size) {
+    picked.push(...other.slice(0, size - picked.length));
+  }
+  // Všechno projeté – kolo se prostě zamíchá znovu.
+  if (picked.length === 0) {
+    return {
+      queue: buildQueue(lessons, settings, progress, now, marked),
+      freshRemaining,
+      freshInRound: 0,
+      reviewInRound: 0,
+    };
+  }
+
+  return {
+    queue: shuffle(picked),
+    freshRemaining,
+    freshInRound: freshPart.length,
+    reviewInRound: picked.length - freshPart.length,
+  };
 }
 
 export type SessionState = {

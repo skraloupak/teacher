@@ -40,6 +40,12 @@ async function fetchJson(input: string, init?: RequestInit): Promise<Response> {
 export class SyncedProgressStore implements ProgressStore {
   private local = new LocalProgressStore();
   private remote: Promise<RemoteState | null> | null = null;
+  /**
+   * Poslední známý stav ze serveru. Udržuje se i při zápisech, protože se čte při
+   * každém přechodu mezi obrazovkami – bez toho by nově uložené nastavení
+   * přebila stará odpověď zapamatovaná ze startu aplikace.
+   */
+  private cached: RemoteState | null = null;
   private available = true;
 
   /** Změny čekající na odeslání. */
@@ -59,8 +65,11 @@ export class SyncedProgressStore implements ProgressStore {
     }
   }
 
-  /** Stáhne stav ze serveru. Volá se nejvýš jednou za život instance. */
-  private loadRemote(): Promise<RemoteState | null> {
+  /** Stáhne stav ze serveru. Síť se použije nejvýš jednou za život instance. */
+  private async loadRemote(): Promise<RemoteState | null> {
+    // Co jsme mezitím uložili, má přednost před tím, co server vrátil při startu.
+    if (this.cached) return this.cached;
+
     if (!this.remote) {
       this.remote = (async () => {
         try {
@@ -73,6 +82,7 @@ export class SyncedProgressStore implements ProgressStore {
           }
           if (!response.ok) return null;
           const data = (await response.json()) as RemoteState;
+          this.cached = data;
           return data;
         } catch {
           // Offline nebo pomalá síť – učení tím netrpí.
@@ -153,6 +163,7 @@ export class SyncedProgressStore implements ProgressStore {
 
     const merged = mergeProgress(local, remote.progress);
     await this.local.saveProgress(merged);
+    if (this.cached) this.cached.progress = merged;
     // Co má prohlížeč navíc, doplníme na server.
     this.pending.progress = { ...this.pending.progress, ...merged };
     this.schedule();
@@ -161,6 +172,7 @@ export class SyncedProgressStore implements ProgressStore {
 
   async saveProgress(progress: ProgressMap): Promise<void> {
     await this.local.saveProgress(progress);
+    if (this.cached) this.cached.progress = mergeProgress(this.cached.progress, progress);
     this.pending.progress = { ...this.pending.progress, ...progress };
     this.schedule();
   }
@@ -173,6 +185,7 @@ export class SyncedProgressStore implements ProgressStore {
 
   async saveSettings(settings: StudySettings): Promise<void> {
     await this.local.saveSettings(settings);
+    if (this.cached) this.cached.settings = settings;
     this.pending.settings = settings;
     this.schedule();
   }
@@ -184,6 +197,7 @@ export class SyncedProgressStore implements ProgressStore {
 
   async saveMarked(itemIds: string[]): Promise<void> {
     await this.local.saveMarked(itemIds);
+    if (this.cached) this.cached.marked = itemIds;
     this.pending.marked = itemIds;
     this.schedule();
   }
@@ -197,6 +211,9 @@ export class SyncedProgressStore implements ProgressStore {
 
   async addSession(record: SessionRecord): Promise<void> {
     await this.local.addSession(record);
+    if (this.cached) {
+      this.cached.sessions = mergeSessions(this.cached.sessions, [record], MAX_SESSIONS);
+    }
     this.pending.sessions.push(record);
     this.schedule();
   }
@@ -205,6 +222,7 @@ export class SyncedProgressStore implements ProgressStore {
     await this.local.resetProgress();
     this.pending = { progress: {}, sessions: [] };
     this.remote = null;
+    this.cached = null;
     if (!this.available) return;
     try {
       await fetchJson("/api/state", { method: "DELETE" });

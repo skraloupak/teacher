@@ -9,7 +9,9 @@ import { Button, ProgressBar } from "@/components/ui";
 import { useAppState } from "@/hooks/useAppState";
 import { primeAudio, speakEnglish, stopSpeaking } from "@/lib/audio";
 import {
+  buildNextRound,
   buildQueue,
+  countUnpracticed,
   createSession,
   sessionProgress,
   sessionReducer,
@@ -177,6 +179,15 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
     return () => window.removeEventListener("keydown", onKey);
   }, [state.finished, state.awaitingNext, answer, markAndAnswer, flip, next]);
 
+  /** Další kolo ze stejných lekcí – hlavně to, co jsem ještě neviděl. */
+  function nextRound() {
+    const now = Date.now();
+    const justPlayed = new Set(state.queue.map((item) => item.key));
+    const plan = buildNextRound(lessons, settings, progress, now, marked, justPlayed);
+    savedRef.current = false;
+    dispatch(createSession(plan.queue, now));
+  }
+
   function restart(onlyMissed: boolean) {
     const now = Date.now();
     let queue: Card[];
@@ -206,6 +217,14 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
       <SessionSummary
         state={state}
         total={total}
+        unpracticed={countUnpracticed(
+          lessons,
+          settings,
+          progress,
+          state.finishedAt ?? state.startedAt,
+          marked,
+        )}
+        onNextRound={nextRound}
         onRepeatMissed={() => restart(true)}
         onRepeatAll={() => restart(false)}
         onHome={() => router.push("/")}

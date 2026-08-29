@@ -13,12 +13,17 @@ function formatDuration(ms: number): string {
 export function SessionSummary({
   state,
   total,
+  unpracticed,
+  onNextRound,
   onRepeatMissed,
   onRepeatAll,
   onHome,
 }: {
   state: SessionState;
   total: number;
+  /** Kolik kartiček z vybraných lekcí jsem ještě neprocvičoval. */
+  unpracticed: number;
+  onNextRound: () => void;
   onRepeatMissed: () => void;
   onRepeatAll: () => void;
   onHome: () => void;
@@ -76,16 +81,25 @@ export function SessionSummary({
       )}
 
       <div className="flex flex-col gap-2">
+        <Button onClick={onNextRound} className="w-full py-4">
+          Pokračovat dalším kolem
+        </Button>
+        <p className="-mt-1 text-center text-sm text-ink-muted">
+          {unpracticed > 0
+            ? `Ve vybraných lekcích čeká ${unpracticed} neprocvičených – přijdou na řadu první.`
+            : "Všechno z vybraných lekcí už máš za sebou, kolo se poskládá z opakování."}
+        </p>
+
         {missedCount > 0 && (
-          <Button onClick={onRepeatMissed} className="w-full py-4">
-            Zopakovat chyby ({missedCount})
+          <Button variant="secondary" onClick={onRepeatMissed} className="w-full">
+            Zopakovat jen chyby ({missedCount})
           </Button>
         )}
         <Button variant="secondary" onClick={onRepeatAll} className="w-full">
-          Ještě jednou celé kolo
+          Ještě jednou stejné kolo
         </Button>
         <Button variant="ghost" onClick={onHome} className="w-full">
-          Zpět na nastavení
+          Změnit nastavení
         </Button>
       </div>
     </div>

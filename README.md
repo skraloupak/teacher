@@ -60,6 +60,11 @@ Na kartičce odpovídáš rovnou z přední strany:
 | tažení dolů | `↓` | **umím, vyřadit** – odškrtne ve slovníčku a počítá se jako správně |
 | klepnutí na kartu | mezerník | otočí kartu, když si nejsi jistý – odpovědět můžeš pak |
 
+Po dokončení kola nabídne souhrn **Pokračovat dalším kolem** – poskládá se ze stejných
+lekcí, přednost mají kartičky, které jsi ještě neprocvičoval, a mezi ně se přimíchá menší
+porce těch, se kterými jsi měl potíže. Kartičky z právě dohraného kola se přeskočí. Až
+projdeš celou lekci, kolo se poskládá z opakování.
+
 Kartičky se vybírají podle zvoleného **režimu**:
 
 | Režim | Co dělá |
@@ -205,6 +210,9 @@ MongoDB, stav se navíc zrcadlí do ní, takže pokrok drží i mezi zařízení
 U kartiček vyhrává **novější odpověď** (podle `lastSeen`) – na obou stranách, takže si dvě
 zařízení ani dvě otevřené záložky nepřepíšou pokrok navzájem. Nastavení a zaškrtnutá
 slovíčka nemají historii, tam platí poslední změna.
+
+Výběr lekcí, směr, režim i délka kola se ukládají a příště se předvyplní – zaklikávat se to
+musí jen jednou.
 
 Když proměnné v `.env` chybí nebo databáze neodpovídá, API vrátí `501` a aplikace jede dál
 jen z prohlížeče – jen se nesynchronizuje.
