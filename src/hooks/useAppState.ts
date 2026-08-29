@@ -81,7 +81,7 @@ export function useAppState(lessons: Lesson[]) {
 
   const recordSession = useCallback(
     (record: SessionRecord) => {
-      setSessions((prev) => [...prev, record].slice(-200));
+      setSessions((prev) => [...prev, record].slice(-1000));
       void store.addSession(record);
     },
     [store],

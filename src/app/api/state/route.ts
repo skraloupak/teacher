@@ -6,7 +6,7 @@ import type { CardProgress, ProgressMap, SessionRecord, StudySettings } from "@/
 export const dynamic = "force-dynamic";
 
 /** Kolik posledních kol se drží v historii. */
-const MAX_SESSIONS = 200;
+const MAX_SESSIONS = 1000;
 
 type StatePayload = {
   progress?: ProgressMap;
@@ -94,6 +94,8 @@ export async function GET() {
         correct: doc.correct,
         wrong: doc.wrong,
         durationMs: doc.durationMs,
+        activeMs: doc.activeMs,
+        date: doc.date,
       })),
     });
   } catch (error) {

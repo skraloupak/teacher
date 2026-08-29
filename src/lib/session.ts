@@ -12,6 +12,12 @@ export type Card = {
 /** O kolik pozic dál se vrátí kartička, kterou jsem nevěděl. */
 const REINSERT_GAP = 4;
 
+/**
+ * Nejdelší mezera mezi dvěma úkony, která se ještě počítá do času učení.
+ * Delší pauza znamená, že uživatel odešel – do statistik se pak započítá jen strop.
+ */
+const IDLE_CAP_MS = 60_000;
+
 export function shuffle<T>(list: T[]): T[] {
   const out = [...list];
   for (let i = out.length - 1; i > 0; i--) {
@@ -213,6 +219,10 @@ export type SessionState = {
   wrong: number;
   startedAt: number;
   finishedAt: number | null;
+  /** Nasčítaný čas skutečného učení, bez dlouhých pauz. */
+  activeMs: number;
+  /** Kdy naposledy uživatel něco udělal – od toho se měří další úsek. */
+  lastActionAt: number;
   finished: boolean;
 };
 
@@ -229,16 +239,28 @@ export function createSession(queue: Card[], now: number): SessionState {
     wrong: 0,
     startedAt: now,
     finishedAt: queue.length === 0 ? now : null,
+    activeMs: 0,
+    lastActionAt: now,
     finished: queue.length === 0,
   };
 }
 
 export type SessionAction =
-  | { type: "reveal" }
-  | { type: "hide" }
+  | { type: "reveal"; now: number }
+  | { type: "hide"; now: number }
   | { type: "answer"; knew: boolean; now: number }
   | { type: "next"; now: number }
   | { type: "finish"; now: number };
+
+/** Přičte čas od poslední akce. Dlouhá pauza se ořízne, ať se čas učení nenafukuje. */
+function tick(state: SessionState, now: number): SessionState {
+  const elapsed = Math.max(0, now - state.lastActionAt);
+  return {
+    ...state,
+    activeMs: state.activeMs + Math.min(elapsed, IDLE_CAP_MS),
+    lastActionAt: now,
+  };
+}
 
 /** Posun na další kartičku ve frontě. */
 function advance(state: SessionState, queue: Card[], now: number): SessionState {
@@ -263,11 +285,13 @@ export function sessionReducer(
 
   switch (action.type) {
     case "reveal":
-      return state.revealed ? state : { ...state, revealed: true };
+      return state.revealed ? state : { ...tick(state, action.now), revealed: true };
 
     case "hide":
       // Zpátky na otázku smí jen ten, kdo ještě neodpověděl.
-      return state.revealed && !state.awaitingNext ? { ...state, revealed: false } : state;
+      return state.revealed && !state.awaitingNext
+        ? { ...tick(state, action.now), revealed: false }
+        : state;
 
     case "answer": {
       const card = state.queue[state.position];
@@ -290,7 +314,7 @@ export function sessionReducer(
       }
 
       const counted: SessionState = {
-        ...state,
+        ...tick(state, action.now),
         queue,
         learned,
         missed,
@@ -309,7 +333,7 @@ export function sessionReducer(
 
     case "next":
       if (!state.awaitingNext || state.finished) return state;
-      return advance(state, state.queue, action.now);
+      return advance(tick(state, action.now), state.queue, action.now);
 
     case "finish":
       return { ...state, finished: true, finishedAt: state.finishedAt ?? action.now };

@@ -98,6 +98,8 @@ export type StudySettings = {
   sessionSize: number | null;
   mode: StudyMode;
   autoPlayAudio: boolean;
+  /** Kolik minut denně si chci dát. Po dosažení přijde oslava. */
+  dailyGoalMinutes: number;
 };
 
 /** Záznam o dokončeném kole – pro statistiky. */
@@ -110,5 +112,25 @@ export type SessionRecord = {
   total: number;
   correct: number;
   wrong: number;
+  /** Od začátku do konce kola, včetně případných pauz. */
   durationMs: number;
+  /**
+   * Čas, kdy jsem se opravdu učil. Delší pauza mezi odpověďmi se počítá jen
+   * do stropu, takže odskok od telefonu statistiku nenafoukne.
+   */
+  activeMs?: number;
+  /** Den v lokálním čase ve tvaru RRRR-MM-DD – podle něj se sčítají denní statistiky. */
+  date?: string;
+};
+
+/** Souhrn jednoho dne učení. */
+export type DayStat = {
+  date: string;
+  activeMs: number;
+  answers: number;
+  correct: number;
+  wrong: number;
+  sessions: number;
+  /** Kolik času padlo na kterou lekci. */
+  byLesson: Record<string, number>;
 };

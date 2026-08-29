@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useSyncExternalStore } from "react";
 import type { ReactNode } from "react";
-import { AuthGate, useAuth } from "@/components/AuthGate";
+import { AuthGate } from "@/components/AuthGate";
 import { getServerTheme, getTheme, setTheme, subscribeTheme } from "@/lib/theme";
 
 function ThemeToggle() {
@@ -49,38 +49,8 @@ const NAV = [
   { href: "/", label: "Učení" },
   { href: "/slovnicek", label: "Slovníček" },
   { href: "/stats", label: "Statistiky" },
+  { href: "/profil", label: "Profil" },
 ] as const;
-
-function SignOutButton() {
-  const { user, signOut } = useAuth();
-  if (!user) return null;
-
-  return (
-    <button
-      type="button"
-      onClick={() => void signOut()}
-      title={`Odhlásit ${user.email}`}
-      aria-label={`Odhlásit ${user.email}`}
-      className="no-tap-zoom rounded-full border border-line bg-surface-raised p-2 text-ink-muted transition-colors hover:text-ink"
-    >
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden>
-        <path
-          d="M15 4h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-3"
-          stroke="currentColor"
-          strokeWidth="1.8"
-          strokeLinecap="round"
-        />
-        <path
-          d="M10 8 6 12l4 4M6 12h9"
-          stroke="currentColor"
-          strokeWidth="1.8"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </button>
-  );
-}
 
 export function AppShell({ children }: { children: ReactNode }) {
   return (
@@ -104,7 +74,7 @@ function Chrome({ children }: { children: ReactNode }) {
             <Link
               key={item.href}
               href={item.href}
-              className={`rounded-full px-2.5 py-1.5 text-sm font-medium transition-colors sm:px-3 ${
+              className={`rounded-full px-2 py-1.5 text-[13px] font-medium transition-colors sm:px-3 sm:text-sm ${
                 pathname === item.href
                   ? "bg-brand-soft text-brand"
                   : "text-ink-muted hover:text-ink"
@@ -114,7 +84,6 @@ function Chrome({ children }: { children: ReactNode }) {
             </Link>
           ))}
           <ThemeToggle />
-          <SignOutButton />
         </nav>
       </header>
       <main className="flex flex-1 flex-col">{children}</main>

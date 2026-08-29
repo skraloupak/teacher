@@ -8,8 +8,8 @@ const KEYS = {
   marked: "teacher-app:marked:v1",
 } as const;
 
-/** Kolik posledních kol si pamatujeme (statistiky). */
-const MAX_SESSIONS = 200;
+/** Kolik posledních kol si pamatujeme – stačí zhruba na rok denního učení. */
+const MAX_SESSIONS = 1000;
 
 function read<T>(key: string, fallback: T): T {
   if (typeof window === "undefined") return fallback;

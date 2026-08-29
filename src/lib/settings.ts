@@ -13,6 +13,7 @@ export const DEFAULT_SETTINGS: StudySettings = {
   sessionSize: 20,
   mode: "random",
   autoPlayAudio: false,
+  dailyGoalMinutes: 10,
 };
 
 export const SESSION_SIZES: Array<{ value: number | null; label: string }> = [
@@ -49,6 +50,9 @@ export const MODE_HINTS: Record<StudyMode, string> = {
 };
 
 export const MODES: StudyMode[] = ["random", "due", "hardest", "marked"];
+
+/** Nabídka denních cílů v minutách. */
+export const DAILY_GOALS = [5, 10, 15, 20, 30, 45, 60];
 
 export function directionsOf(setting: DirectionSetting): Direction[] {
   return setting === "mixed" ? ["en2cs", "cs2en"] : [setting];
@@ -106,5 +110,9 @@ export function normalizeSettings(
     sessionSize,
     mode: readMode(base),
     autoPlayAudio: Boolean(base.autoPlayAudio),
+    dailyGoalMinutes:
+      typeof base.dailyGoalMinutes === "number" && base.dailyGoalMinutes > 0
+        ? Math.min(600, Math.round(base.dailyGoalMinutes))
+        : DEFAULT_SETTINGS.dailyGoalMinutes,
   };
 }

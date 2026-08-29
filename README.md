@@ -48,6 +48,7 @@ v lokálním režimu jen z prohlížeče.
 | `/study` | samotné kartičky |
 | `/slovnicek` | všechna slovíčka ve dvou sloupcích: filtr podle učebnice, lekce a typu, hledání, výslovnost, stav učení, zaškrtávání |
 | `/stats` | úspěšnost, rozložení podle boxů, co ti nejde, poslední kola |
+| `/profil` | denní cíl, čas strávený učením, graf posledních dvou týdnů, tabulka po dnech, účet |
 
 ## Jak se učení chová
 
@@ -190,17 +191,31 @@ src/lib/                doménová logika – žádný React
   types.ts              datový model
   lessons.server.ts     načtení lekcí ze souborů (běží při buildu)
   srs.ts                Leitnerovy boxy a plán opakování
-  session.ts            sestavení fronty kola a jeho průběh
+  session.ts            sestavení fronty kola, jeho průběh a měření času
+  daily.ts              denní součty, série, formátování času
   mongo.ts              připojení k databázi (jen server)
   auth/                 hesla (scrypt), podepsané tokeny, účty
   storage/              úložiště pokroku: local, synced, slučování
 src/components/         obrazovky a UI
-src/app/                routy: / výběr, /study učení, /slovnicek, /stats
+src/app/                routy: / výběr, /study učení, /slovnicek, /stats, /profil
   api/lessons           lekce jako JSON
   api/state             čtení a zápis pokroku do databáze
   api/auth/*            přihlášení, odhlášení, kdo jsem
 middleware.ts           hlídá /api/state proti nepřihlášeným
 ```
+
+## Denní cíl a čas učení
+
+V profilu se nastavuje, kolik minut denně si chceš dát. Jakmile cíl padne, přiletí konfety
+a banner – jednou za den, ne po každém kole.
+
+Měří se **čas, kdy se opravdu odpovídá**, ne doba od otevření kola. Mezi dvěma úkony
+(otočení karty, odpověď, „Další") se přičte uplynulý čas, ale nejvýš minuta – odskok od
+telefonu tak statistiku nenafoukne. Čas se ukládá ke každému dohranému kolu spolu s datem
+v lokálním čase, denní součty se z kol počítají.
+
+Série (`kolik dní v řadě`) se počítá zpětně od dneška. Dnešek, který ještě není splněný,
+ji nepřerušuje – den přece ještě neskončil.
 
 ## Ukládání pokroku
 

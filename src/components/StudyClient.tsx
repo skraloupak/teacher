@@ -4,9 +4,13 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useReducer, useRef } from "react";
 import { FlashCard, type SwipeIntent } from "@/components/FlashCard";
+import { GoalBanner } from "@/components/GoalBanner";
 import { SessionSummary } from "@/components/SessionSummary";
 import { Button, ProgressBar } from "@/components/ui";
+import { useAuth } from "@/components/AuthGate";
 import { useAppState } from "@/hooks/useAppState";
+import { useDailyGoal } from "@/hooks/useDailyGoal";
+import { localDate } from "@/lib/daily";
 import { primeAudio, speakEnglish, stopSpeaking } from "@/lib/audio";
 import {
   buildNextRound,
@@ -18,7 +22,7 @@ import {
   shuffle,
   type Card,
 } from "@/lib/session";
-import type { Lesson } from "@/lib/types";
+import type { Lesson, SessionRecord } from "@/lib/types";
 
 const EMPTY_SESSION = createSession([], 0);
 
@@ -27,8 +31,19 @@ const INTERACTIVE = "button, a, input, select, textarea, [contenteditable]";
 
 export function StudyClient({ lessons }: { lessons: Lesson[] }) {
   const router = useRouter();
-  const { ready, progress, settings, marked, setMark, recordAnswer, recordSession } =
-    useAppState(lessons);
+  const { user } = useAuth();
+  const {
+    ready,
+    progress,
+    settings,
+    sessions,
+    marked,
+    setMark,
+    recordAnswer,
+    recordSession,
+  } = useAppState(lessons);
+
+  const goal = useDailyGoal(sessions, settings.dailyGoalMinutes, user?.email ?? null);
 
   const [state, dispatch] = useReducer(sessionReducer, EMPTY_SESSION);
   const startedRef = useRef(false);
@@ -46,6 +61,37 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
   }, [ready, lessons, settings, progress, marked]);
 
   useEffect(() => stopSpeaking, []);
+
+  // Aktuální stav pro úklidový efekt níž – ten běží až při odchodu a viděl by jinak stav z mountu.
+  const liveRef = useRef({ state, settings, total: 0, recordSession });
+  useEffect(() => {
+    liveRef.current = { state, settings, total: sessionProgress(state).total, recordSession };
+  });
+
+  // Odchod z rozdělaného kola: zapíšeme, co se stihlo, ať naměřený čas nepropadne.
+  useEffect(
+    () => () => {
+      const { state: last, settings: lastSettings, total: lastTotal, recordSession: save } =
+        liveRef.current;
+      if (last.finished || savedRef.current || last.answers === 0) return;
+      savedRef.current = true;
+      const finishedAt = Date.now();
+      save({
+        id: `${last.startedAt}`,
+        finishedAt,
+        lessonIds: [...new Set(last.queue.map((card) => card.item.lessonId))],
+        direction: lastSettings.direction,
+        types: lastSettings.types,
+        total: lastTotal,
+        correct: last.correct,
+        wrong: last.wrong,
+        durationMs: finishedAt - last.startedAt,
+        activeMs: last.activeMs,
+        date: localDate(finishedAt),
+      });
+    },
+    [],
+  );
 
   const card: Card | undefined = state.queue[state.position];
   const { done, total } = sessionProgress(state);
@@ -105,7 +151,7 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
 
   const flip = useCallback(() => {
     prime();
-    dispatch({ type: state.revealed ? "hide" : "reveal" });
+    dispatch({ type: state.revealed ? "hide" : "reveal", now: Date.now() });
   }, [state.revealed, prime]);
 
   // Uložení kola do statistik – právě jednou, po dokončení.
@@ -113,17 +159,23 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
     if (!state.finished || savedRef.current || state.answers === 0) return;
     savedRef.current = true;
     const finishedAt = state.finishedAt ?? state.startedAt;
-    recordSession({
+    const record: SessionRecord = {
       id: `${state.startedAt}`,
       finishedAt,
-      lessonIds: settings.lessonIds,
+      // Lekce bereme z odehrané fronty, ne z výběru – v režimu „Vybrané" se zkouší
+      // napříč všemi lekcemi bez ohledu na to, co je zaškrtnuté na úvodní obrazovce.
+      lessonIds: [...new Set(state.queue.map((card) => card.item.lessonId))],
       direction: settings.direction,
       types: settings.types,
       total,
       correct: state.correct,
       wrong: state.wrong,
       durationMs: finishedAt - state.startedAt,
-    });
+      activeMs: state.activeMs,
+      date: localDate(finishedAt),
+    };
+    recordSession(record);
+    goal.checkCelebration(record);
   }, [
     state.finished,
     state.finishedAt,
@@ -131,9 +183,12 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
     state.correct,
     state.wrong,
     state.startedAt,
+    state.activeMs,
+    state.queue,
     total,
     settings,
     recordSession,
+    goal,
   ]);
 
   // Klávesnice pro pohodlné učení na počítači.
@@ -207,6 +262,15 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
     dispatch(createSession(queue, now));
   }
 
+  const celebration = goal.celebrating ? (
+    <GoalBanner
+      activeMs={goal.activeMs}
+      goalMs={goal.goalMs}
+      streak={goal.streak}
+      onClose={goal.dismiss}
+    />
+  ) : null;
+
   if (!ready || !started) {
     return <p className="py-16 text-center text-ink-muted">Připravuji kartičky…</p>;
   }
@@ -214,7 +278,9 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
   // Dohrané kolo má přednost před prázdnou frontou, ať se souhrn neztratí.
   if (state.finished && state.answers > 0) {
     return (
-      <SessionSummary
+      <>
+        {celebration}
+        <SessionSummary
         state={state}
         total={total}
         unpracticed={countUnpracticed(
@@ -226,9 +292,10 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
         )}
         onNextRound={nextRound}
         onRepeatMissed={() => restart(true)}
-        onRepeatAll={() => restart(false)}
-        onHome={() => router.push("/")}
-      />
+          onRepeatAll={() => restart(false)}
+          onHome={() => router.push("/")}
+        />
+      </>
     );
   }
 

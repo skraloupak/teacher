@@ -5,7 +5,7 @@ import { LocalProgressStore } from "./local";
 import { mergeProgress, mergeSessions } from "./merge";
 import type { ProgressStore } from "./types";
 
-const MAX_SESSIONS = 200;
+const MAX_SESSIONS = 1000;
 /** Jak dlouho se sbírají změny, než odletí jeden zápis na server. */
 const FLUSH_DELAY = 1200;
 /** Server nesmí blokovat učení – když se neozve, jede se z prohlížeče. */
