@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useMemo } from "react";
 import { Button, Chip, Panel, ProgressBar, Switch } from "@/components/ui";
 import { useAppState } from "@/hooks/useAppState";
+import { primeAudio } from "@/lib/audio";
 import { previewSize } from "@/lib/session";
 import {
   DIRECTION_LABELS,
@@ -262,7 +263,15 @@ export function HomeClient({ lessons, books }: { lessons: Lesson[]; books: Book[
               "Pro toto nastavení nic nezbylo"
             )}
           </div>
-          <Button onClick={() => router.push("/study")} disabled={!ready || !canStart}>
+          <Button
+            onClick={() => {
+              // Odemknutí zvuku musí proběhnout z kliknutí, jinak by první kartička
+              // nezazněla – automatické přehrání spouští efekt, ne dotyk uživatele.
+              primeAudio();
+              router.push("/study");
+            }}
+            disabled={!ready || !canStart}
+          >
             Spustit
           </Button>
         </div>

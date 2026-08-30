@@ -96,7 +96,10 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
   const card: Card | undefined = state.queue[state.position];
   const { done, total } = sessionProgress(state);
 
-  /** Prohlížeče pouštějí zvuk až po dotyku uživatele – odemkneme ho při první interakci. */
+  /**
+   * Prohlížeče pouštějí zvuk až po dotyku uživatele. Odemykáme ho při první interakci;
+   * u kola spuštěného tlačítkem „Spustit" je odemčeno už z úvodní obrazovky.
+   */
   const prime = useCallback(() => {
     if (primedRef.current) return;
     primedRef.current = true;
