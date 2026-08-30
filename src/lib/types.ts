@@ -26,8 +26,8 @@ export type RawLesson = {
   book?: number;
   /** Název učebnice do hlavičky. Když chybí, použije se „Učebnice N". */
   bookTitle?: string;
-  /** Odkud lekce pochází – cesta k naskenované stránce učebnice. */
-  source?: string;
+  /** Odkud lekce pochází – cesta k naskenované stránce učebnice, nebo víc stránek. */
+  source?: string | string[];
   items: RawItem[];
 };
 
@@ -49,7 +49,7 @@ export type Lesson = {
   description?: string;
   book: number;
   bookTitle: string;
-  source?: string;
+  source?: string[];
   items: Item[];
   wordCount: number;
   phraseCount: number;

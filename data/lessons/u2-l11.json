@@ -1,0 +1,391 @@
+{
+  "id": "u2-l11",
+  "order": 11,
+  "title": "Učebnice 2 – lekce 11",
+  "description": "Slovníček – 44 slovíček, 18 frází.",
+  "source": [
+    "screenshots/lekce/u2-l11.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "admire",
+      "ipa": "ədˈmaɪə",
+      "cs": "obdivovat"
+    },
+    {
+      "type": "word",
+      "en": "arm",
+      "ipa": "ɑːm",
+      "cs": "ruka, paže",
+      "note": "jedna"
+    },
+    {
+      "type": "word",
+      "en": "awake: be awake",
+      "ipa": "əˈweɪk",
+      "cs": "být vzhůru",
+      "note": "bdělý, nespat"
+    },
+    {
+      "type": "word",
+      "en": "belong to",
+      "ipa": "bɪˈlɒŋ tuː",
+      "cs": "patřit"
+    },
+    {
+      "type": "word",
+      "en": "bird",
+      "ipa": "bɜːd",
+      "cs": "pták"
+    },
+    {
+      "type": "word",
+      "en": "blood",
+      "ipa": "blʌd",
+      "cs": "krev"
+    },
+    {
+      "type": "word",
+      "en": "coat",
+      "ipa": "kəʊt",
+      "cs": "kabát; srst"
+    },
+    {
+      "type": "word",
+      "en": "cover",
+      "ipa": "ˈkʌvə",
+      "cs": "pokrýt, přikrýt; pokrývka; obal",
+      "note": "např. knihy"
+    },
+    {
+      "type": "word",
+      "en": "dead",
+      "ipa": "ded",
+      "cs": "mrtvý"
+    },
+    {
+      "type": "word",
+      "en": "ever: for ever",
+      "ipa": "ˈevə, fərˈevə",
+      "cs": "navždy"
+    },
+    {
+      "type": "word",
+      "en": "feet",
+      "ipa": "fiːt",
+      "cs": "mn. č. od foot"
+    },
+    {
+      "type": "word",
+      "en": "foot",
+      "ipa": "fʊt",
+      "cs": "noha",
+      "note": "od kotníku dolů"
+    },
+    {
+      "type": "word",
+      "en": "frost",
+      "ipa": "frɒst",
+      "cs": "mráz"
+    },
+    {
+      "type": "word",
+      "en": "giant",
+      "ipa": "ˈdʒaɪənt",
+      "cs": "obr"
+    },
+    {
+      "type": "word",
+      "en": "grass",
+      "ipa": "grɑːs",
+      "cs": "tráva"
+    },
+    {
+      "type": "word",
+      "en": "hail",
+      "ipa": "heɪl",
+      "cs": "kroupy; krupobití",
+      "note": "ledové"
+    },
+    {
+      "type": "word",
+      "en": "hand",
+      "ipa": "hænd",
+      "cs": "ruka"
+    },
+    {
+      "type": "word",
+      "en": "high",
+      "ipa": "haɪ",
+      "cs": "vysoký; vysoko"
+    },
+    {
+      "type": "word",
+      "en": "hole",
+      "ipa": "həʊl",
+      "cs": "díra"
+    },
+    {
+      "type": "word",
+      "en": "hurt",
+      "ipa": "hɜːt",
+      "cs": "(z)ranit; bolet",
+      "note": "hurt, hurt"
+    },
+    {
+      "type": "word",
+      "en": "kill",
+      "ipa": "kɪl",
+      "cs": "zabít"
+    },
+    {
+      "type": "word",
+      "en": "loud",
+      "ipa": "laʊd",
+      "cs": "hlasitý"
+    },
+    {
+      "type": "word",
+      "en": "neck",
+      "ipa": "nek",
+      "cs": "krk"
+    },
+    {
+      "type": "word",
+      "en": "outside",
+      "ipa": "aʊtˈsaɪd",
+      "cs": "ven; venku; vně; před"
+    },
+    {
+      "type": "word",
+      "en": "pass",
+      "ipa": "pɑːs",
+      "cs": "uběhnout; minout",
+      "note": "o čase"
+    },
+    {
+      "type": "word",
+      "en": "peach",
+      "ipa": "piːtʃ",
+      "cs": "broskev"
+    },
+    {
+      "type": "word",
+      "en": "playground",
+      "ipa": "ˈpleɪgraʊnd",
+      "cs": "hřiště",
+      "note": "dětské"
+    },
+    {
+      "type": "word",
+      "en": "please",
+      "ipa": "pliːz",
+      "cs": "potěšit"
+    },
+    {
+      "type": "word",
+      "en": "pull down",
+      "ipa": "pʊl ˈdaʊn",
+      "cs": "zbořit; strhnout"
+    },
+    {
+      "type": "word",
+      "en": "rare",
+      "ipa": "reə",
+      "cs": "vzácný, málokdy se vyskytující"
+    },
+    {
+      "type": "word",
+      "en": "roof",
+      "ipa": "ruːf",
+      "cs": "střecha"
+    },
+    {
+      "type": "word",
+      "en": "seem",
+      "ipa": "siːm",
+      "cs": "zdát se, připadat"
+    },
+    {
+      "type": "word",
+      "en": "selfish",
+      "ipa": "ˈselfɪʃ",
+      "cs": "sobecký"
+    },
+    {
+      "type": "word",
+      "en": "sight",
+      "ipa": "saɪt",
+      "cs": "pohled; podívaná; zrak"
+    },
+    {
+      "type": "word",
+      "en": "sign",
+      "ipa": "saɪn",
+      "cs": "nápis; značka; podepsat"
+    },
+    {
+      "type": "word",
+      "en": "silver",
+      "ipa": "ˈsɪlvə",
+      "cs": "stříbro; stříbrný"
+    },
+    {
+      "type": "word",
+      "en": "sky",
+      "ipa": "skaɪ",
+      "cs": "obloha"
+    },
+    {
+      "type": "word",
+      "en": "stone",
+      "ipa": "stəʊn",
+      "cs": "kámen"
+    },
+    {
+      "type": "word",
+      "en": "tear",
+      "ipa": "tɪə",
+      "cs": "slza"
+    },
+    {
+      "type": "word",
+      "en": "tiny",
+      "ipa": "ˈtaɪnɪ",
+      "cs": "maličký, mrňavý"
+    },
+    {
+      "type": "word",
+      "en": "wall",
+      "ipa": "wɔːl",
+      "cs": "zeď; stěna"
+    },
+    {
+      "type": "word",
+      "en": "weak",
+      "ipa": "wiːk",
+      "cs": "slabý"
+    },
+    {
+      "type": "word",
+      "en": "wind",
+      "ipa": "wɪnd",
+      "cs": "vítr"
+    },
+    {
+      "type": "phrase",
+      "en": "in the garden",
+      "cs": "na zahradě",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the trees",
+      "cs": "na stromech, ve stromech",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "say in a loud voice",
+      "cs": "říci hlasitě",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "belong to sb",
+      "cs": "patřit komu",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "through the window",
+      "cs": "oknem",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "covered with snow",
+      "cs": "pokrytý sněhem",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on their way to the market",
+      "cs": "cestou na trh",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "run out into the garden",
+      "cs": "vyběhnout do zahrady",
+      "note": "předložky"
+    },
+    {
+      "type": "word",
+      "en": "leg",
+      "cs": "noha celá",
+      "note": "noha, ruka"
+    },
+    {
+      "type": "phrase",
+      "en": "It belongs in the wardrobe.",
+      "cs": "Patří to do šatníku.",
+      "note": "belong; 1. patřit kam"
+    },
+    {
+      "type": "phrase",
+      "en": "The garden belonged to the giant.",
+      "cs": "Zahrada patřila obrovi.",
+      "note": "belong; 2. patřit komu"
+    },
+    {
+      "type": "phrase",
+      "en": "I'll put the bike outside.",
+      "cs": "Dám to kolo ven.",
+      "note": "outside; 1. ven"
+    },
+    {
+      "type": "phrase",
+      "en": "He's waiting outside.",
+      "cs": "Čeká venku.",
+      "note": "outside; 2. venku"
+    },
+    {
+      "type": "phrase",
+      "en": "I'll wait for you outside the cinema.",
+      "cs": "Počkám na tebe před kinem.",
+      "note": "outside; 3. před čím, vně čeho"
+    },
+    {
+      "type": "phrase",
+      "en": "A bird was singing outside the window.",
+      "cs": "Za oknem zpíval pták.",
+      "note": "outside; 3. před čím, vně čeho"
+    },
+    {
+      "type": "phrase",
+      "en": "be awake",
+      "cs": "být vzhůru, ale v posteli",
+      "note": "vzhůru"
+    },
+    {
+      "type": "phrase",
+      "en": "be up",
+      "cs": "být vzhůru, ale už ne v posteli",
+      "note": "vzhůru"
+    },
+    {
+      "type": "phrase",
+      "en": "John! Are you awake? ~ Yes, I'm just getting up.",
+      "cs": "Johne, už jsi vzhůru? ~ Ano, právě vstávám.",
+      "note": "vzhůru"
+    },
+    {
+      "type": "phrase",
+      "en": "When I walked into the kitchen John was already up and making himself some breakfast.",
+      "cs": "Když jsem přišel do kuchyně, John byl již vzhůru a dělal si snídani.",
+      "note": "vzhůru"
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "id": "u2-l6",
+  "order": 6,
+  "title": "Učebnice 2 – lekce 6",
+  "description": "Slovníček – 46 slovíček, 25 frází.",
+  "source": [
+    "screenshots/lekce/u2-l6.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "add",
+      "ipa": "æd",
+      "cs": "dodat; přidat"
+    },
+    {
+      "type": "word",
+      "en": "adventure",
+      "ipa": "ədˈventʃə",
+      "cs": "dobrodružství"
+    },
+    {
+      "type": "word",
+      "en": "as",
+      "ipa": "æz",
+      "cs": "zatímco"
+    },
+    {
+      "type": "word",
+      "en": "beginning",
+      "ipa": "bɪˈgɪnɪŋ",
+      "cs": "začátek"
+    },
+    {
+      "type": "word",
+      "en": "between",
+      "ipa": "bɪˈtwiːn",
+      "cs": "mezi"
+    },
+    {
+      "type": "word",
+      "en": "brave",
+      "ipa": "breɪv",
+      "cs": "statečný"
+    },
+    {
+      "type": "word",
+      "en": "breathe",
+      "ipa": "briːð",
+      "cs": "dýchat"
+    },
+    {
+      "type": "word",
+      "en": "comment",
+      "ipa": "ˈkɒment",
+      "cs": "poznámka; (o)komentovat, mít poznámku"
+    },
+    {
+      "type": "word",
+      "en": "continue",
+      "ipa": "kənˈtɪnjuː",
+      "cs": "pokračovat"
+    },
+    {
+      "type": "word",
+      "en": "cross",
+      "ipa": "krɒs",
+      "cs": "naštvaný, rozzlobený"
+    },
+    {
+      "type": "word",
+      "en": "curious",
+      "ipa": "ˈkjʊərɪəs",
+      "cs": "zvláštní, podivný"
+    },
+    {
+      "type": "word",
+      "en": "door",
+      "ipa": "dɔː",
+      "cs": "dveře"
+    },
+    {
+      "type": "word",
+      "en": "friendly",
+      "ipa": "ˈfrendlɪ",
+      "cs": "přátelský"
+    },
+    {
+      "type": "word",
+      "en": "great",
+      "ipa": "greɪt",
+      "cs": "velký, ohromný"
+    },
+    {
+      "type": "word",
+      "en": "hall",
+      "ipa": "hɔːl",
+      "cs": "hala; sál; síň, předsíň"
+    },
+    {
+      "type": "word",
+      "en": "hare",
+      "ipa": "heə",
+      "cs": "zajíc"
+    },
+    {
+      "type": "word",
+      "en": "immediately",
+      "ipa": "ɪˈmiːdɪətlɪ",
+      "cs": "okamžitě"
+    },
+    {
+      "type": "word",
+      "en": "invitation",
+      "ipa": "ˌɪnvɪˈteɪʃn",
+      "cs": "pozvání"
+    },
+    {
+      "type": "word",
+      "en": "keep",
+      "ipa": "kiːp",
+      "cs": "stále/dále",
+      "note": "něco dělat"
+    },
+    {
+      "type": "word",
+      "en": "key",
+      "ipa": "kiː",
+      "cs": "klíč"
+    },
+    {
+      "type": "word",
+      "en": "lady",
+      "ipa": "ˈleɪdɪ",
+      "cs": "paní, dáma"
+    },
+    {
+      "type": "word",
+      "en": "mad",
+      "ipa": "mæd",
+      "cs": "bláznivý, šílený",
+      "note": "(dd)"
+    },
+    {
+      "type": "word",
+      "en": "move",
+      "ipa": "muːv",
+      "cs": "posunout (se); stěhovat (se); přesednout si; hýbat (se); pohnout"
+    },
+    {
+      "type": "word",
+      "en": "offer",
+      "ipa": "ˈɒfə",
+      "cs": "nabídnout; nabídka"
+    },
+    {
+      "type": "word",
+      "en": "personal",
+      "ipa": "ˈpɜːsnəl",
+      "cs": "osobní"
+    },
+    {
+      "type": "word",
+      "en": "pick up",
+      "ipa": "ˌpɪk ˈʌp",
+      "cs": "vzít do ruky; sebrat; zvednout; uchopit; vyzvednout"
+    },
+    {
+      "type": "word",
+      "en": "pocket",
+      "ipa": "ˈpɒkɪt",
+      "cs": "kapsa"
+    },
+    {
+      "type": "word",
+      "en": "pocket watch",
+      "cs": "kapesní hodinky"
+    },
+    {
+      "type": "word",
+      "en": "quiet",
+      "ipa": "ˈkwaɪət",
+      "cs": "tichý"
+    },
+    {
+      "type": "word",
+      "en": "raven",
+      "ipa": "ˈreɪvn",
+      "cs": "havran"
+    },
+    {
+      "type": "word",
+      "en": "riddle",
+      "ipa": "ˈrɪdl",
+      "cs": "hádanka"
+    },
+    {
+      "type": "word",
+      "en": "room",
+      "ipa": "ruːm",
+      "cs": "prostor, místo",
+      "note": "prostor"
+    },
+    {
+      "type": "word",
+      "en": "round",
+      "ipa": "raʊnd",
+      "cs": "okolo, kolem; kulatý"
+    },
+    {
+      "type": "word",
+      "en": "rude",
+      "ipa": "ruːd",
+      "cs": "neslušný, nezdvořilý; sprostý"
+    },
+    {
+      "type": "word",
+      "en": "same",
+      "ipa": "seɪm",
+      "cs": "stejný, shodný, tentýž"
+    },
+    {
+      "type": "word",
+      "en": "saucer",
+      "ipa": "ˈsɔːsə",
+      "cs": "podšálek"
+    },
+    {
+      "type": "word",
+      "en": "simple",
+      "ipa": "ˈsɪmpl",
+      "cs": "jednoduchý, prostý"
+    },
+    {
+      "type": "word",
+      "en": "sleep",
+      "ipa": "sliːp",
+      "cs": "spát",
+      "note": "slept, slept"
+    },
+    {
+      "type": "word",
+      "en": "stupid",
+      "ipa": "ˈstjuːpɪd",
+      "cs": "pitomý, hloupý"
+    },
+    {
+      "type": "word",
+      "en": "surprise",
+      "ipa": "səˈpraɪz",
+      "cs": "překvapit; překvapení"
+    },
+    {
+      "type": "word",
+      "en": "teapot",
+      "ipa": "ˈtiːpɒt",
+      "cs": "čajová konvice"
+    },
+    {
+      "type": "word",
+      "en": "teatime",
+      "ipa": "ˈtiːtaɪm",
+      "cs": "čas svačiny/večeře"
+    },
+    {
+      "type": "word",
+      "en": "voice",
+      "ipa": "vɔɪs",
+      "cs": "hlas"
+    },
+    {
+      "type": "word",
+      "en": "without",
+      "ipa": "wɪˈðaʊt",
+      "cs": "bez; aniž"
+    },
+    {
+      "type": "word",
+      "en": "word",
+      "ipa": "wɜːd",
+      "cs": "slovo"
+    },
+    {
+      "type": "word",
+      "en": "yawn",
+      "ipa": "jɔːn",
+      "cs": "zívat"
+    },
+    {
+      "type": "phrase",
+      "en": "That's nice of you.",
+      "cs": "To je od vás hezké.",
+      "note": "všimněte si"
+    },
+    {
+      "type": "phrase",
+      "en": "It's kind of him.",
+      "cs": "Je to od něj laskavé.",
+      "note": "všimněte si"
+    },
+    {
+      "type": "phrase",
+      "en": "It was rude of him.",
+      "cs": "Bylo to od něj neslušné.",
+      "note": "všimněte si"
+    },
+    {
+      "type": "phrase",
+      "en": "It's nice of you to help us.",
+      "cs": "Je od tebe hezké, že nám pomáháš.",
+      "note": "všimněte si"
+    },
+    {
+      "type": "phrase",
+      "en": "It was nice of them to come.",
+      "cs": "Bylo od nich hezké, že přišli.",
+      "note": "všimněte si"
+    },
+    {
+      "type": "phrase",
+      "en": "sit down in an armchair",
+      "cs": "sednout si do křesla",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "sit down on a chair",
+      "cs": "sednout si na židli",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at the end of the table",
+      "cs": "na konci stolu",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in a friendly voice",
+      "cs": "přátelským hlasem",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "without an invitation",
+      "cs": "bez pozvání",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "go in",
+      "cs": "vstoupit",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "look around",
+      "cs": "rozhlédnout se kolem (sebe)",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "for a while",
+      "cs": "chvíli, na chvíli",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "walk through the wood",
+      "cs": "jít lesem",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "two days late",
+      "cs": "s dvoudenním zpožděním",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "He's got the same problem.",
+      "cs": "Má tentýž problém.",
+      "note": "the same"
+    },
+    {
+      "type": "phrase",
+      "en": "The same thing happened last week.",
+      "cs": "Totéž se stalo minulý týden.",
+      "note": "the same"
+    },
+    {
+      "type": "phrase",
+      "en": "Your watch is the same as mine.",
+      "cs": "Tvé hodinky jsou stejné jako moje.",
+      "note": "the same"
+    },
+    {
+      "type": "phrase",
+      "en": "He's the same as his brother.",
+      "cs": "Je stejný jako (jeho) bratr.",
+      "note": "the same"
+    },
+    {
+      "type": "phrase",
+      "en": "at the same time",
+      "cs": "současně; zároveň (i přen.)",
+      "note": "the same"
+    },
+    {
+      "type": "phrase",
+      "en": "in the same way",
+      "cs": "stejně, stejným způsobem",
+      "note": "the same"
+    },
+    {
+      "type": "phrase",
+      "en": "That's the same thing.",
+      "cs": "To je totéž.",
+      "note": "the same"
+    },
+    {
+      "type": "phrase",
+      "en": "It's the same old story.",
+      "cs": "To je kolem dokola. (přen.)",
+      "note": "the same"
+    },
+    {
+      "type": "phrase",
+      "en": "It's all the same to me.",
+      "cs": "Je mi to jedno.",
+      "note": "the same"
+    },
+    {
+      "type": "phrase",
+      "en": "They're all the same.",
+      "cs": "Jsou všichni stejní.",
+      "note": "the same"
+    }
+  ]
+}

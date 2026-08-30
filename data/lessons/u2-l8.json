@@ -1,0 +1,694 @@
+{
+  "id": "u2-l8",
+  "order": 8,
+  "title": "Učebnice 2 – lekce 8",
+  "description": "Slovníček – 77 slovíček, 35 frází.",
+  "source": [
+    "screenshots/lekce/u2-l8.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "adviser",
+      "ipa": "ədˈvaɪzə",
+      "cs": "poradce"
+    },
+    {
+      "type": "word",
+      "en": "fellow",
+      "ipa": "ˈfeləʊ",
+      "cs": "chlapík"
+    },
+    {
+      "type": "word",
+      "en": "post",
+      "ipa": "pəʊst",
+      "cs": "pošta; poslat",
+      "note": "dopisy; poštou"
+    },
+    {
+      "type": "word",
+      "en": "application",
+      "ipa": "ˌæplɪˈkeɪʃn",
+      "cs": "žádost"
+    },
+    {
+      "type": "word",
+      "en": "fill in",
+      "ipa": "ˌfɪl ˈɪn",
+      "cs": "vyplnit; doplnit"
+    },
+    {
+      "type": "word",
+      "en": "post office",
+      "ipa": "ˈpəʊst ˌɒfɪs",
+      "cs": "pošta",
+      "note": "úřad"
+    },
+    {
+      "type": "word",
+      "en": "application form",
+      "cs": "žádost",
+      "note": "formulář"
+    },
+    {
+      "type": "word",
+      "en": "fireman",
+      "ipa": "ˈfaɪəmən",
+      "cs": "hasič"
+    },
+    {
+      "type": "word",
+      "en": "postman",
+      "ipa": "ˈpəʊstmən",
+      "cs": "listonoš",
+      "note": "názvy profesí"
+    },
+    {
+      "type": "word",
+      "en": "ashamed",
+      "ipa": "əˈʃeɪmd",
+      "cs": "zahanbený"
+    },
+    {
+      "type": "word",
+      "en": "form",
+      "ipa": "fɔːm",
+      "cs": "formulář"
+    },
+    {
+      "type": "word",
+      "en": "profession",
+      "ipa": "prəˈfeʃn",
+      "cs": "profese, povolání"
+    },
+    {
+      "type": "word",
+      "en": "be ashamed",
+      "cs": "stydět se"
+    },
+    {
+      "type": "word",
+      "en": "full-time",
+      "ipa": "ˌfʊlˈtaɪm",
+      "cs": "na plný úvazek"
+    },
+    {
+      "type": "word",
+      "en": "professional",
+      "ipa": "prəˈfeʃnl",
+      "cs": "profesionál(ní)"
+    },
+    {
+      "type": "word",
+      "en": "baker",
+      "ipa": "ˈbeɪkə",
+      "cs": "pekař"
+    },
+    {
+      "type": "word",
+      "en": "furniture",
+      "ipa": "ˈfɜːnɪtʃə",
+      "cs": "nábytek"
+    },
+    {
+      "type": "word",
+      "en": "pull",
+      "ipa": "pʊl",
+      "cs": "táhnout, tahat"
+    },
+    {
+      "type": "word",
+      "en": "bank",
+      "ipa": "bæŋk",
+      "cs": "banka; břeh",
+      "note": "říční"
+    },
+    {
+      "type": "word",
+      "en": "gardener",
+      "ipa": "ˈgɑːdnə",
+      "cs": "zahradník"
+    },
+    {
+      "type": "word",
+      "en": "pull out",
+      "ipa": "ˌpʊl ˈaʊt",
+      "cs": "vytáhnout, vytrhnout"
+    },
+    {
+      "type": "word",
+      "en": "beside",
+      "ipa": "bɪˈsaɪd",
+      "cs": "vedle"
+    },
+    {
+      "type": "word",
+      "en": "honest",
+      "ipa": "ˈɒnɪst",
+      "cs": "čestný, poctivý; upřímný"
+    },
+    {
+      "type": "word",
+      "en": "radio",
+      "ipa": "ˈreɪdɪəʊ",
+      "cs": "rádio; rozhlas"
+    },
+    {
+      "type": "word",
+      "en": "believe",
+      "ipa": "bɪˈliːv",
+      "cs": "(u)věřit"
+    },
+    {
+      "type": "word",
+      "en": "hospital",
+      "ipa": "ˈhɒspɪtl",
+      "cs": "nemocnice"
+    },
+    {
+      "type": "word",
+      "en": "regular",
+      "ipa": "ˈregjʊlə",
+      "cs": "pravidelný"
+    },
+    {
+      "type": "word",
+      "en": "bowl",
+      "ipa": "bəʊl",
+      "cs": "mísa, miska"
+    },
+    {
+      "type": "word",
+      "en": "hotel",
+      "ipa": "həʊˈtel",
+      "cs": "hotel"
+    },
+    {
+      "type": "word",
+      "en": "shift",
+      "ipa": "ʃɪft",
+      "cs": "směna"
+    },
+    {
+      "type": "word",
+      "en": "sugar bowl",
+      "cs": "cukřenka"
+    },
+    {
+      "type": "word",
+      "en": "international",
+      "ipa": "ˌɪnteˈnæʃnəl",
+      "cs": "mezinárodní"
+    },
+    {
+      "type": "word",
+      "en": "silence",
+      "ipa": "ˈsaɪləns",
+      "cs": "ticho"
+    },
+    {
+      "type": "word",
+      "en": "butcher",
+      "ipa": "ˈbʊtʃə",
+      "cs": "řezník"
+    },
+    {
+      "type": "word",
+      "en": "jobcentre",
+      "ipa": "ˈdʒɒbˌsentə",
+      "cs": "viz Culture Note"
+    },
+    {
+      "type": "word",
+      "en": "song",
+      "ipa": "sɒŋ",
+      "cs": "píseň"
+    },
+    {
+      "type": "word",
+      "en": "career",
+      "ipa": "kəˈrɪə",
+      "cs": "kariéra"
+    },
+    {
+      "type": "word",
+      "en": "kind",
+      "ipa": "kaɪnd",
+      "cs": "typ, druh"
+    },
+    {
+      "type": "word",
+      "en": "star",
+      "ipa": "stɑː",
+      "cs": "hvězda"
+    },
+    {
+      "type": "word",
+      "en": "clerk",
+      "ipa": "klɑːk",
+      "cs": "úředník"
+    },
+    {
+      "type": "word",
+      "en": "lawyer",
+      "ipa": "ˈlɔːjə",
+      "cs": "právník"
+    },
+    {
+      "type": "word",
+      "en": "pop star",
+      "ipa": "ˈpɒp ˌstɑː",
+      "cs": "popová hvězda"
+    },
+    {
+      "type": "word",
+      "en": "company",
+      "ipa": "ˈkʌmpənɪ",
+      "cs": "firma, společnost"
+    },
+    {
+      "type": "word",
+      "en": "listener",
+      "ipa": "ˈlɪsnə",
+      "cs": "posluchač"
+    },
+    {
+      "type": "word",
+      "en": "stop",
+      "ipa": "stɒp",
+      "cs": "přestat; zastavit (se); zastávka",
+      "note": "(pp)"
+    },
+    {
+      "type": "word",
+      "en": "customer",
+      "ipa": "ˈkʌstəmə",
+      "cs": "zákazník"
+    },
+    {
+      "type": "word",
+      "en": "manual",
+      "ipa": "ˈmænjʊəl",
+      "cs": "manuální; příručka"
+    },
+    {
+      "type": "word",
+      "en": "such",
+      "ipa": "sʌtʃ",
+      "cs": "takový"
+    },
+    {
+      "type": "word",
+      "en": "CV",
+      "ipa": "ˌsiːˈviː",
+      "cs": "strukturovaný životopis"
+    },
+    {
+      "type": "word",
+      "en": "mechanic",
+      "ipa": "mɪˈkænɪk",
+      "cs": "mechanik"
+    },
+    {
+      "type": "word",
+      "en": "suit",
+      "ipa": "suːt",
+      "cs": "oblek, kostým; hodit se; slušet"
+    },
+    {
+      "type": "word",
+      "en": "director",
+      "ipa": "daɪˈrektə",
+      "cs": "ředitel(ka); režisér"
+    },
+    {
+      "type": "word",
+      "en": "microphone",
+      "ipa": "ˈmaɪkrəfəʊn",
+      "cs": "mikrofon"
+    },
+    {
+      "type": "word",
+      "en": "unemployed",
+      "ipa": "ˌʌnɪmˈplɔɪd",
+      "cs": "nezaměstnaný"
+    },
+    {
+      "type": "word",
+      "en": "disaster",
+      "ipa": "dɪˈzɑːstə",
+      "cs": "katastrofa, pohroma"
+    },
+    {
+      "type": "word",
+      "en": "once: at once",
+      "ipa": "ət ˈwʌns",
+      "cs": "najednou; zároveň; hned"
+    },
+    {
+      "type": "word",
+      "en": "whenever",
+      "ipa": "wenˈevə",
+      "cs": "kdykoliv",
+      "note": "všimněte si"
+    },
+    {
+      "type": "word",
+      "en": "DJ",
+      "ipa": "ˈdiːˌdʒeɪ",
+      "cs": "diskžokej",
+      "note": "= disc jockey [ˈdɪsk ˌdʒɒkɪ]"
+    },
+    {
+      "type": "word",
+      "en": "part-time",
+      "ipa": "ˌpɑːtˈtaɪm",
+      "cs": "na částečný úvazek"
+    },
+    {
+      "type": "word",
+      "en": "wonder",
+      "ipa": "ˈwʌndə",
+      "cs": "přemýšlet; myslet si; ptát se",
+      "note": "sám sebe"
+    },
+    {
+      "type": "word",
+      "en": "driver",
+      "ipa": "ˈdraɪvə",
+      "cs": "řidič"
+    },
+    {
+      "type": "word",
+      "en": "patient",
+      "ipa": "ˈpeɪʃnt",
+      "cs": "pacient"
+    },
+    {
+      "type": "word",
+      "en": "workplace",
+      "ipa": "ˈwɜːkpleɪs",
+      "cs": "pracoviště"
+    },
+    {
+      "type": "word",
+      "en": "fact",
+      "ipa": "fækt",
+      "cs": "skutečnost; údaj"
+    },
+    {
+      "type": "word",
+      "en": "police",
+      "ipa": "pəˈliːs",
+      "cs": "policie"
+    },
+    {
+      "type": "word",
+      "en": "wrong",
+      "ipa": "rɒŋ",
+      "cs": "nesprávný; nesprávně"
+    },
+    {
+      "type": "word",
+      "en": "in fact",
+      "ipa": "ɪn ˈfækt",
+      "cs": "ve skutečnosti; vlastně"
+    },
+    {
+      "type": "word",
+      "en": "policeman",
+      "ipa": "pəˈliːsmən",
+      "cs": "policista"
+    },
+    {
+      "type": "phrase",
+      "en": "at an interview",
+      "cs": "na pohovoru",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "pull sth out",
+      "cs": "vytáhnout, vytrhnout",
+      "note": "předložky; co"
+    },
+    {
+      "type": "phrase",
+      "en": "fill sth with sth",
+      "cs": "naplnit",
+      "note": "předložky; co čím"
+    },
+    {
+      "type": "phrase",
+      "en": "at once",
+      "cs": "najednou; zároveň; ihned",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at the surgery",
+      "cs": "v ordinaci",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on the first day",
+      "cs": "první den",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on the way to",
+      "cs": "na cestě do, cestou do",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "fill in a form",
+      "cs": "vyplnit formulář",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "since Monday",
+      "cs": "od pondělí",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at the end of",
+      "cs": "na konci",
+      "note": "předložky; čeho"
+    },
+    {
+      "type": "phrase",
+      "en": "at the post office",
+      "cs": "na poště",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "like his mother",
+      "cs": "jako matka",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "arrive at work",
+      "cs": "přijít do práce",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "I tried to wake him up but he kept sleeping.",
+      "cs": "Pokoušel jsem se ho vzbudit, ale on spal dál.",
+      "note": "keep; dále něco dělat, pokračovat v něčem"
+    },
+    {
+      "type": "phrase",
+      "en": "He keeps calling me Tim but I'm Tom.",
+      "cs": "Pořád mi říká Time, ale já jsem Tom.",
+      "note": "keep; stále (opakovaně) něco dělat"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm trying to keep fit.",
+      "cs": "Snažím se udržet v kondici.",
+      "note": "keep; udržovat se/něco jak, v jakém stavu"
+    },
+    {
+      "type": "phrase",
+      "en": "Keep your room tidy!",
+      "cs": "Udržuj si v pokoji pořádek.",
+      "note": "keep; udržovat se/něco jak, v jakém stavu"
+    },
+    {
+      "type": "phrase",
+      "en": "Keep it. I don't need it.",
+      "cs": "Nech si to. Já to nepotřebuji.",
+      "note": "keep; nechat si"
+    },
+    {
+      "type": "word",
+      "en": "wherever",
+      "ipa": "weərˈevə",
+      "cs": "kdekoliv; kamkoliv",
+      "note": "všimněte si"
+    },
+    {
+      "type": "word",
+      "en": "whatever",
+      "ipa": "wɒtˈevə",
+      "cs": "cokoliv, jakýkoliv",
+      "note": "všimněte si"
+    },
+    {
+      "type": "word",
+      "en": "whichever",
+      "ipa": "wɪtʃˈevə",
+      "cs": "kterýkoliv",
+      "note": "všimněte si"
+    },
+    {
+      "type": "word",
+      "en": "whoever",
+      "ipa": "huːˈevə",
+      "cs": "kdokoliv",
+      "note": "všimněte si"
+    },
+    {
+      "type": "word",
+      "en": "however",
+      "ipa": "haʊˈevə",
+      "cs": "jakkoliv",
+      "note": "všimněte si"
+    },
+    {
+      "type": "word",
+      "en": "teacher",
+      "cs": "učitel i učitelka",
+      "note": "názvy profesí; většinou název označuje jak muže, tak ženu; dále např.: lawyer, driver, clerk, dentist, baker, doctor"
+    },
+    {
+      "type": "word",
+      "en": "waiter",
+      "cs": "číšník",
+      "note": "názvy profesí"
+    },
+    {
+      "type": "word",
+      "en": "waitress",
+      "cs": "číšnice, servírka",
+      "note": "názvy profesí; u několika profesí se ženský ekvivalent tvoří příponou -ess; dále např.: actor – actress"
+    },
+    {
+      "type": "word",
+      "en": "postwoman",
+      "cs": "listonoška",
+      "note": "názvy profesí; zakončení -man se mění ve -woman; dále např. policeman – policewoman, fireman – firewoman"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm a postman.",
+      "cs": "Jsem listonoš.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I work as a postman.",
+      "cs": "Pracuji jako listonoš.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I became a postman.",
+      "cs": "Stal jsem se listonošem.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I took a job as a postman.",
+      "cs": "Přijal jsem místo listonoše.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm looking for a job.",
+      "cs": "Hledám práci.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm starting a new job.",
+      "cs": "Nastupuji na nové pracovní místo.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm leaving my job.",
+      "cs": "Odcházím ze zaměstnání.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm unemployed.",
+      "cs": "Jsem nezaměstnaný.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I've got an office job.",
+      "cs": "Mám místo v kanceláři.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I've got a manual job.",
+      "cs": "Pracuji manuálně.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I've got a full-time job.",
+      "cs": "Mám zaměstnání na plný úvazek.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I've got a part-time job.",
+      "cs": "Mám zaměstnání na částečný úvazek.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I work full-time.",
+      "cs": "Pracuji na plný úvazek.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I work part-time.",
+      "cs": "Pracuji na částečný úvazek.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I do day/night shifts.",
+      "cs": "Mám denní/noční směny.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I work days/nights.",
+      "cs": "Pracuji ve dne/v noci.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "This is the job for me!",
+      "cs": "To je ta pravá práce pro mě!",
+      "note": "remember!"
+    }
+  ]
+}

@@ -1,0 +1,640 @@
+{
+  "id": "u2-l7",
+  "order": 7,
+  "title": "Učebnice 2 – lekce 7",
+  "description": "Slovníček – 67 slovíček, 36 frází.",
+  "source": [
+    "screenshots/lekce/u2-l7.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "air",
+      "ipa": "eə",
+      "cs": "vzduch"
+    },
+    {
+      "type": "word",
+      "en": "alcohol",
+      "ipa": "ˈælkəhɒl",
+      "cs": "alkohol"
+    },
+    {
+      "type": "word",
+      "en": "avoid",
+      "ipa": "əˈvɔɪd",
+      "cs": "vyhnout se",
+      "note": "čemu"
+    },
+    {
+      "type": "word",
+      "en": "bacon",
+      "ipa": "ˈbeɪkn",
+      "cs": "slanina"
+    },
+    {
+      "type": "word",
+      "en": "bad habit",
+      "cs": "zlozvyk"
+    },
+    {
+      "type": "word",
+      "en": "balanced",
+      "ipa": "ˈbælənst",
+      "cs": "vyvážený"
+    },
+    {
+      "type": "word",
+      "en": "bean",
+      "ipa": "biːn",
+      "cs": "fazole",
+      "note": "jedna"
+    },
+    {
+      "type": "word",
+      "en": "biscuit",
+      "ipa": "ˈbɪskɪt",
+      "cs": "sušenka"
+    },
+    {
+      "type": "word",
+      "en": "carrot",
+      "ipa": "ˈkærət",
+      "cs": "mrkev"
+    },
+    {
+      "type": "word",
+      "en": "chalk",
+      "ipa": "tʃɔːk",
+      "cs": "křída"
+    },
+    {
+      "type": "word",
+      "en": "cigarette",
+      "ipa": "ˌsɪgəˈret",
+      "cs": "cigareta"
+    },
+    {
+      "type": "word",
+      "en": "Coke",
+      "ipa": "kəʊk",
+      "cs": "= Coca-Cola"
+    },
+    {
+      "type": "word",
+      "en": "contain",
+      "ipa": "kənˈteɪn",
+      "cs": "obsahovat"
+    },
+    {
+      "type": "word",
+      "en": "crisps",
+      "ipa": "krɪsps",
+      "cs": "brambůrky"
+    },
+    {
+      "type": "word",
+      "en": "diet",
+      "ipa": "ˈdaɪət",
+      "cs": "dieta; strava"
+    },
+    {
+      "type": "word",
+      "en": "doctor",
+      "ipa": "ˈdɒktə",
+      "cs": "doktor; lékař"
+    },
+    {
+      "type": "word",
+      "en": "during",
+      "ipa": "ˈdjʊərɪŋ",
+      "cs": "během"
+    },
+    {
+      "type": "word",
+      "en": "each other",
+      "ipa": "ˌiːtʃ ˈʌðə",
+      "cs": "reciproční zájmeno"
+    },
+    {
+      "type": "word",
+      "en": "enough",
+      "ipa": "ɪˈnʌf",
+      "cs": "dost"
+    },
+    {
+      "type": "word",
+      "en": "exercise",
+      "ipa": "ˈeksəsaɪz",
+      "cs": "cvičení; cvičit"
+    },
+    {
+      "type": "word",
+      "en": "fat",
+      "ipa": "fæt",
+      "cs": "tuk; tlustý",
+      "note": "(tt); o vzhledu"
+    },
+    {
+      "type": "word",
+      "en": "fatty",
+      "ipa": "ˈfætɪ",
+      "cs": "tučný; tlustý",
+      "note": "o mase"
+    },
+    {
+      "type": "word",
+      "en": "finally",
+      "ipa": "ˈfaɪnəlɪ",
+      "cs": "konečně"
+    },
+    {
+      "type": "word",
+      "en": "firm",
+      "ipa": "fɜːm",
+      "cs": "pevný"
+    },
+    {
+      "type": "word",
+      "en": "firstly",
+      "ipa": "ˈfɜːstlɪ",
+      "cs": "za prvé"
+    },
+    {
+      "type": "word",
+      "en": "fit",
+      "ipa": "fɪt",
+      "cs": "fit, v kondici",
+      "note": "(tt)"
+    },
+    {
+      "type": "word",
+      "en": "fizzy",
+      "ipa": "ˈfɪzɪ",
+      "cs": "šumivý, s bublinkami"
+    },
+    {
+      "type": "word",
+      "en": "fry",
+      "ipa": "fraɪ",
+      "cs": "smažit"
+    },
+    {
+      "type": "word",
+      "en": "give up",
+      "ipa": "ˌgɪv ˈʌp",
+      "cs": "přestat; vzdát se",
+      "note": "čeho"
+    },
+    {
+      "type": "word",
+      "en": "habit",
+      "ipa": "ˈhæbɪt",
+      "cs": "zvyk"
+    },
+    {
+      "type": "word",
+      "en": "health",
+      "ipa": "helθ",
+      "cs": "zdraví"
+    },
+    {
+      "type": "word",
+      "en": "healthy",
+      "ipa": "ˈhelθɪ",
+      "cs": "zdravý"
+    },
+    {
+      "type": "word",
+      "en": "heart",
+      "ipa": "hɑːt",
+      "cs": "srdce"
+    },
+    {
+      "type": "word",
+      "en": "heavy",
+      "ipa": "ˈhevɪ",
+      "cs": "těžký",
+      "note": "o váze"
+    },
+    {
+      "type": "word",
+      "en": "honey",
+      "ipa": "ˈhʌnɪ",
+      "cs": "med"
+    },
+    {
+      "type": "word",
+      "en": "importance",
+      "ipa": "ɪmˈpɔːtəns",
+      "cs": "důležitost"
+    },
+    {
+      "type": "word",
+      "en": "include",
+      "ipa": "ɪnˈkluːd",
+      "cs": "zahrnout, zahrnovat"
+    },
+    {
+      "type": "word",
+      "en": "including",
+      "ipa": "ɪnˈkluːdɪŋ",
+      "cs": "zahrnující; včetně"
+    },
+    {
+      "type": "word",
+      "en": "instead of",
+      "ipa": "ɪnˈsted əv",
+      "cs": "místo",
+      "note": "čeho, koho"
+    },
+    {
+      "type": "word",
+      "en": "jog",
+      "ipa": "dʒɒg",
+      "cs": "běhat",
+      "note": "(gg); rekreačně"
+    },
+    {
+      "type": "word",
+      "en": "lean",
+      "ipa": "liːn",
+      "cs": "libový"
+    },
+    {
+      "type": "word",
+      "en": "lemonade",
+      "ipa": "ˈleməneɪd",
+      "cs": "limonáda"
+    },
+    {
+      "type": "word",
+      "en": "lentils",
+      "ipa": "ˈlentlz",
+      "cs": "čočka",
+      "note": "mn. č."
+    },
+    {
+      "type": "word",
+      "en": "lifestyle",
+      "ipa": "ˈlaɪfstaɪl",
+      "cs": "životní styl, životospráva"
+    },
+    {
+      "type": "word",
+      "en": "lift",
+      "ipa": "lɪft",
+      "cs": "výtah; zdvihnout"
+    },
+    {
+      "type": "word",
+      "en": "margarine",
+      "ipa": "ˌmaːdʒəˈriːn",
+      "cs": "margarín"
+    },
+    {
+      "type": "word",
+      "en": "necessary",
+      "ipa": "ˈnesəserɪ",
+      "cs": "nutný, nezbytný"
+    },
+    {
+      "type": "word",
+      "en": "neighbour",
+      "ipa": "ˈneɪbə",
+      "cs": "soused(ka)"
+    },
+    {
+      "type": "word",
+      "en": "opinion",
+      "ipa": "əˈpɪnjən",
+      "cs": "názor"
+    },
+    {
+      "type": "word",
+      "en": "overweight",
+      "ipa": "ˌəʊvəˈweɪt",
+      "cs": "mající nadváhu"
+    },
+    {
+      "type": "word",
+      "en": "packet",
+      "ipa": "ˈpækɪt",
+      "cs": "krabička, pytlík, balíček, balení"
+    },
+    {
+      "type": "word",
+      "en": "portion",
+      "ipa": "ˈpɔːʃn",
+      "cs": "porce"
+    },
+    {
+      "type": "word",
+      "en": "possible",
+      "ipa": "ˈpɒsəbl",
+      "cs": "možný"
+    },
+    {
+      "type": "word",
+      "en": "relax",
+      "ipa": "rɪˈlæks",
+      "cs": "odpočinout si, relaxovat"
+    },
+    {
+      "type": "word",
+      "en": "secret",
+      "ipa": "ˈsiːkrət",
+      "cs": "tajemství, záhada; tajný"
+    },
+    {
+      "type": "word",
+      "en": "serial",
+      "ipa": "ˈsɪərɪəl",
+      "cs": "seriál"
+    },
+    {
+      "type": "word",
+      "en": "should",
+      "ipa": "ʃʊd",
+      "cs": "měl bych",
+      "note": "I should"
+    },
+    {
+      "type": "word",
+      "en": "slice",
+      "ipa": "slaɪs",
+      "cs": "krajíc, plátek; nakrájet na plátky"
+    },
+    {
+      "type": "word",
+      "en": "smoke",
+      "ipa": "sməʊk",
+      "cs": "kouřit; kouř"
+    },
+    {
+      "type": "word",
+      "en": "snack",
+      "ipa": "snæk",
+      "cs": "přesnídávka, něco na zub"
+    },
+    {
+      "type": "word",
+      "en": "stairs",
+      "ipa": "steəz",
+      "cs": "schody"
+    },
+    {
+      "type": "word",
+      "en": "strong",
+      "ipa": "strɒŋ",
+      "cs": "silný"
+    },
+    {
+      "type": "word",
+      "en": "successful",
+      "ipa": "səˈksesfl",
+      "cs": "úspěšný"
+    },
+    {
+      "type": "word",
+      "en": "vegetarian",
+      "ipa": "ˌvedʒəˈteərɪən",
+      "cs": "vegetarián(ský)"
+    },
+    {
+      "type": "word",
+      "en": "weight",
+      "ipa": "weɪt",
+      "cs": "váha",
+      "note": "hmotnost"
+    },
+    {
+      "type": "word",
+      "en": "wholemeal",
+      "ipa": "ˈhəʊlmiːl",
+      "cs": "celozrnný"
+    },
+    {
+      "type": "phrase",
+      "en": "That's enough!",
+      "cs": "A dost!",
+      "note": "enough!"
+    },
+    {
+      "type": "phrase",
+      "en": "I've had enough!",
+      "cs": "Už toho mám dost!",
+      "note": "enough!"
+    },
+    {
+      "type": "phrase",
+      "en": "I've had enough of her.",
+      "cs": "Už jí mám dost.",
+      "note": "enough!"
+    },
+    {
+      "type": "phrase",
+      "en": "No, thanks, I've had enough.",
+      "cs": "Díky, ne, už mám dost.",
+      "note": "enough!; tj. snědeno"
+    },
+    {
+      "type": "phrase",
+      "en": "opinion of/on",
+      "cs": "názor na",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in my opinion",
+      "cs": "podle mého názoru",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "for the last 16 years",
+      "cs": "posledních 16 let",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "during the day",
+      "cs": "během dne",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "instead of coffee",
+      "cs": "místo kávy",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "for a long time",
+      "cs": "dlouho, dlouhou dobu",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "(in) this way",
+      "cs": "takto, tímto způsobem",
+      "note": "předložky"
+    },
+    {
+      "type": "word",
+      "en": "chips",
+      "cs": "hranolky",
+      "note": "crisps and chips"
+    },
+    {
+      "type": "phrase",
+      "en": "avoid sugar",
+      "cs": "vyhýbat se cukru",
+      "note": "avoid, give up"
+    },
+    {
+      "type": "phrase",
+      "en": "avoid using sugar",
+      "cs": "nepoužívat cukr",
+      "note": "avoid, give up"
+    },
+    {
+      "type": "phrase",
+      "en": "give up sweet things",
+      "cs": "vzdát se sladkostí",
+      "note": "avoid, give up"
+    },
+    {
+      "type": "phrase",
+      "en": "give up eating sweet things",
+      "cs": "přestat jíst sladkosti",
+      "note": "avoid, give up"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm very fit.",
+      "cs": "Jsem velmi fit.",
+      "note": "remember!; I'm so healthy…"
+    },
+    {
+      "type": "phrase",
+      "en": "I exercise a lot.",
+      "cs": "Hodně cvičím.",
+      "note": "remember!; I'm so healthy…"
+    },
+    {
+      "type": "phrase",
+      "en": "I've got healthy eating habits.",
+      "cs": "Zdravě jím.",
+      "note": "remember!; I'm so healthy…"
+    },
+    {
+      "type": "phrase",
+      "en": "I eat a balanced diet.",
+      "cs": "Jím vyváženou stravu.",
+      "note": "remember!; I'm so healthy…"
+    },
+    {
+      "type": "phrase",
+      "en": "I avoid red meat.",
+      "cs": "Vyhýbám se červenému masu.",
+      "note": "remember!; I'm so healthy…"
+    },
+    {
+      "type": "phrase",
+      "en": "I haven't got a sweet tooth.",
+      "cs": "Nejsem na sladké.",
+      "note": "remember!; I'm so healthy…"
+    },
+    {
+      "type": "phrase",
+      "en": "I get plenty of fresh air.",
+      "cs": "Jsem hodně na čerstvém vzduchu.",
+      "note": "remember!; I'm so healthy…"
+    },
+    {
+      "type": "phrase",
+      "en": "I never have to go to the doctor's.",
+      "cs": "Nikdy nemusím chodit k doktorovi.",
+      "note": "remember!; I'm so healthy…"
+    },
+    {
+      "type": "phrase",
+      "en": "I can't stand exercise.",
+      "cs": "Nesnáším cvičení.",
+      "note": "remember!; I'm so unhealthy…"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm a little overweight.",
+      "cs": "Mám trošku nadváhu.",
+      "note": "remember!; I'm so unhealthy…"
+    },
+    {
+      "type": "phrase",
+      "en": "I need to change my lifestyle.",
+      "cs": "Musím změnit životní styl.",
+      "note": "remember!; I'm so unhealthy…"
+    },
+    {
+      "type": "phrase",
+      "en": "I've got a few bad habits.",
+      "cs": "Mám několik zlozvyků.",
+      "note": "remember!; I'm so unhealthy…"
+    },
+    {
+      "type": "phrase",
+      "en": "I don't watch what I eat.",
+      "cs": "Nehlídám, co jím.",
+      "note": "remember!; I'm so unhealthy…"
+    },
+    {
+      "type": "phrase",
+      "en": "I eat too many snacks.",
+      "cs": "Příliš často mlsám.",
+      "note": "remember!; I'm so unhealthy…"
+    },
+    {
+      "type": "phrase",
+      "en": "I use too much sugar/salt.",
+      "cs": "Moc sladím/solím.",
+      "note": "remember!; I'm so unhealthy…"
+    },
+    {
+      "type": "phrase",
+      "en": "I smoke 20 cigarettes a day.",
+      "cs": "Kouřím 20 cigaret denně.",
+      "note": "remember!; I'm so unhealthy…"
+    },
+    {
+      "type": "phrase",
+      "en": "I need to give up smoking.",
+      "cs": "Musím přestat kouřit.",
+      "note": "remember!; I'm so unhealthy…"
+    },
+    {
+      "type": "phrase",
+      "en": "I am on a diet.",
+      "cs": "Držím (redukční) dietu.",
+      "note": "remember!; diets and me"
+    },
+    {
+      "type": "phrase",
+      "en": "I need to go on a diet.",
+      "cs": "Musím začít držet dietu.",
+      "note": "remember!; diets and me"
+    },
+    {
+      "type": "phrase",
+      "en": "I need to lose weight.",
+      "cs": "Musím zhubnout.",
+      "note": "remember!; diets and me"
+    },
+    {
+      "type": "phrase",
+      "en": "I need to put on weight.",
+      "cs": "Potřebuji přibrat na váze.",
+      "note": "remember!; diets and me"
+    }
+  ]
+}

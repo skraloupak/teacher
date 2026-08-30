@@ -1,0 +1,518 @@
+{
+  "id": "u2-l2",
+  "order": 2,
+  "title": "Učebnice 2 – lekce 2",
+  "description": "Slovníček – 48 slovíček, 35 frází.",
+  "source": [
+    "screenshots/lekce/u2-l2.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "admit",
+      "ipa": "ədˈmɪt",
+      "cs": "připustit, přiznat, uznat",
+      "note": "(tt)"
+    },
+    {
+      "type": "word",
+      "en": "bell",
+      "ipa": "bel",
+      "cs": "zvon, zvonek"
+    },
+    {
+      "type": "word",
+      "en": "Britain",
+      "ipa": "ˈbrɪtn",
+      "cs": "Británie"
+    },
+    {
+      "type": "word",
+      "en": "card",
+      "ipa": "kɑːd",
+      "cs": "blahopřání; karta; průkaz"
+    },
+    {
+      "type": "word",
+      "en": "care",
+      "ipa": "keə",
+      "cs": "péče, starost"
+    },
+    {
+      "type": "word",
+      "en": "carol",
+      "ipa": "ˈkærəl",
+      "cs": "koleda; zpívat koledy"
+    },
+    {
+      "type": "word",
+      "en": "carp",
+      "ipa": "kɑːp",
+      "cs": "kapr"
+    },
+    {
+      "type": "word",
+      "en": "Christmas",
+      "ipa": "ˈkrɪsməs",
+      "cs": "Vánoce; vánoční svátky"
+    },
+    {
+      "type": "word",
+      "en": "December",
+      "ipa": "dɪˈsembə",
+      "cs": "prosinec"
+    },
+    {
+      "type": "word",
+      "en": "decorate",
+      "ipa": "ˈdekəreɪt",
+      "cs": "(o)zdobit"
+    },
+    {
+      "type": "word",
+      "en": "decorations",
+      "ipa": "ˌdekəˈreɪʃnz",
+      "cs": "ozdoby"
+    },
+    {
+      "type": "word",
+      "en": "everybody",
+      "ipa": "ˈevrɪˌbɒdɪ",
+      "cs": "každý; všichni"
+    },
+    {
+      "type": "word",
+      "en": "experience",
+      "ipa": "ɪkˈspɪərɪəns",
+      "cs": "zážitek; zkušenost(i)"
+    },
+    {
+      "type": "word",
+      "en": "fill",
+      "ipa": "fɪl",
+      "cs": "(na)plnit"
+    },
+    {
+      "type": "word",
+      "en": "fireplace",
+      "ipa": "ˈfaɪəpleɪs",
+      "cs": "krb"
+    },
+    {
+      "type": "word",
+      "en": "flat",
+      "ipa": "flæt",
+      "cs": "byt"
+    },
+    {
+      "type": "word",
+      "en": "game",
+      "ipa": "geɪm",
+      "cs": "hra"
+    },
+    {
+      "type": "word",
+      "en": "gift",
+      "ipa": "gɪft",
+      "cs": "dar, dárek"
+    },
+    {
+      "type": "word",
+      "en": "golden",
+      "ipa": "ˈgəʊldən",
+      "cs": "zlatý"
+    },
+    {
+      "type": "word",
+      "en": "Great Britain",
+      "cs": "Velká Británie"
+    },
+    {
+      "type": "word",
+      "en": "hang",
+      "ipa": "hæŋ",
+      "cs": "viset",
+      "note": "hung [hʌŋ]"
+    },
+    {
+      "type": "word",
+      "en": "hang up",
+      "ipa": "hæŋ ˈʌp",
+      "cs": "pověsit"
+    },
+    {
+      "type": "word",
+      "en": "hurry",
+      "ipa": "ˈhʌrɪ",
+      "cs": "pospíchat; spěch"
+    },
+    {
+      "type": "word",
+      "en": "last: at last",
+      "ipa": "ət ˈlɑːst",
+      "cs": "konečně"
+    },
+    {
+      "type": "word",
+      "en": "letter",
+      "ipa": "ˈletə",
+      "cs": "dopis; písmeno"
+    },
+    {
+      "type": "word",
+      "en": "lunchtime",
+      "ipa": "ˈlʌntʃtaɪm",
+      "cs": "čas oběda"
+    },
+    {
+      "type": "word",
+      "en": "meal",
+      "ipa": "miːl",
+      "cs": "jídlo",
+      "note": "připravené"
+    },
+    {
+      "type": "word",
+      "en": "picture",
+      "ipa": "ˈpɪktʃə",
+      "cs": "obraz, obrázek"
+    },
+    {
+      "type": "word",
+      "en": "pig",
+      "ipa": "pɪg",
+      "cs": "prase"
+    },
+    {
+      "type": "word",
+      "en": "pudding",
+      "ipa": "ˈpʊdɪŋ",
+      "cs": "moučník; nákyp"
+    },
+    {
+      "type": "word",
+      "en": "snow",
+      "ipa": "snəʊ",
+      "cs": "sněžit; sníh"
+    },
+    {
+      "type": "word",
+      "en": "still",
+      "ipa": "stɪl",
+      "cs": "stále, ještě (pořád)"
+    },
+    {
+      "type": "word",
+      "en": "stocking",
+      "ipa": "ˈstɒkɪŋ",
+      "cs": "punčocha"
+    },
+    {
+      "type": "word",
+      "en": "supper",
+      "ipa": "ˈsʌpə",
+      "cs": "večeře"
+    },
+    {
+      "type": "word",
+      "en": "suppertime",
+      "ipa": "ˈsʌpətaɪm",
+      "cs": "čas večeře"
+    },
+    {
+      "type": "word",
+      "en": "sweets",
+      "ipa": "swiːts",
+      "cs": "bonbony"
+    },
+    {
+      "type": "word",
+      "en": "take care of",
+      "cs": "starat se (o)"
+    },
+    {
+      "type": "word",
+      "en": "though",
+      "ipa": "ðəʊ",
+      "cs": "přesto; ačkoliv"
+    },
+    {
+      "type": "word",
+      "en": "tradition",
+      "ipa": "trəˈdɪʃn",
+      "cs": "tradice"
+    },
+    {
+      "type": "word",
+      "en": "traditional",
+      "ipa": "trəˈdɪʃnl",
+      "cs": "tradiční"
+    },
+    {
+      "type": "word",
+      "en": "turkey",
+      "ipa": "ˈtɜːkɪ",
+      "cs": "krocan, krůta"
+    },
+    {
+      "type": "word",
+      "en": "unwrap",
+      "ipa": "ʌnˈræp",
+      "cs": "rozbalit",
+      "note": "(pp)"
+    },
+    {
+      "type": "word",
+      "en": "when",
+      "ipa": "wen",
+      "cs": "až"
+    },
+    {
+      "type": "word",
+      "en": "wrap",
+      "ipa": "ræp",
+      "cs": "(za)balit",
+      "note": "(pp)"
+    },
+    {
+      "type": "word",
+      "en": "yet: not yet",
+      "ipa": "jet",
+      "cs": "ještě ne"
+    },
+    {
+      "type": "word",
+      "en": "Advent",
+      "ipa": "ˈædvent",
+      "cs": "advent",
+      "note": "vánoce"
+    },
+    {
+      "type": "phrase",
+      "en": "Christmas Eve",
+      "ipa": "ˌkrɪsməs ˈiːv",
+      "cs": "24. prosince",
+      "note": "vánoce"
+    },
+    {
+      "type": "phrase",
+      "en": "Christmas Day",
+      "ipa": "ˌkrɪsməs ˈdeɪ",
+      "cs": "25. prosince",
+      "note": "vánoce"
+    },
+    {
+      "type": "phrase",
+      "en": "Boxing Day",
+      "ipa": "ˈbɒksɪŋ ˌdeɪ",
+      "cs": "26. prosince",
+      "note": "vánoce"
+    },
+    {
+      "type": "phrase",
+      "en": "New Year's Eve",
+      "ipa": "ˌnjuː ˌjɪəz ˈiːv",
+      "cs": "31. prosince",
+      "note": "vánoce"
+    },
+    {
+      "type": "phrase",
+      "en": "New Year's Day",
+      "ipa": "ˌnjuː ˌjɪəz ˈdeɪ",
+      "cs": "1. ledna",
+      "note": "vánoce"
+    },
+    {
+      "type": "phrase",
+      "en": "at Christmas",
+      "cs": "o Vánocích; o vánočních svátcích",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at Advent",
+      "cs": "o adventu",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on Christmas Eve",
+      "cs": "na Štědrý večer",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on New Year's Eve",
+      "cs": "na Silvestra",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on Christmas Day",
+      "cs": "na Hod boží",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on Boxing Day",
+      "cs": "na Štěpána",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on New Year's Day",
+      "cs": "na Nový rok",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the New Year",
+      "cs": "v novém roce",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "Christmas tree",
+      "cs": "vánoční stromek",
+      "note": "zapamatujte si"
+    },
+    {
+      "type": "phrase",
+      "en": "Christmas dinner",
+      "cs": "vánoční oběd/večeře",
+      "note": "zapamatujte si"
+    },
+    {
+      "type": "phrase",
+      "en": "Christmas stocking",
+      "cs": "vánoční punčocha",
+      "note": "zapamatujte si"
+    },
+    {
+      "type": "phrase",
+      "en": "Christmas cards",
+      "cs": "vánoční přání/pohlednice",
+      "note": "zapamatujte si"
+    },
+    {
+      "type": "phrase",
+      "en": "Christmas carols",
+      "cs": "vánoční koledy",
+      "note": "zapamatujte si"
+    },
+    {
+      "type": "word",
+      "en": "early",
+      "cs": "brzy ve smyslu časně",
+      "note": "brzy; early in the morning"
+    },
+    {
+      "type": "word",
+      "en": "soon",
+      "cs": "brzy ve smyslu zanedlouho",
+      "note": "brzy; Write soon!"
+    },
+    {
+      "type": "phrase",
+      "en": "I hope so.",
+      "cs": "Doufám, že ano.",
+      "note": "všimněte si"
+    },
+    {
+      "type": "phrase",
+      "en": "I hope not.",
+      "cs": "Doufám, že ne.",
+      "note": "všimněte si"
+    },
+    {
+      "type": "phrase",
+      "en": "I think so.",
+      "cs": "Myslím, že ano.",
+      "note": "všimněte si"
+    },
+    {
+      "type": "phrase",
+      "en": "I don't think so.",
+      "cs": "Myslím, že ne.",
+      "note": "všimněte si"
+    },
+    {
+      "type": "phrase",
+      "en": "Hello! It's me, ...",
+      "cs": "Haló, to jsem já, ...",
+      "note": "remember; on the telephone"
+    },
+    {
+      "type": "phrase",
+      "en": "Say hello to...",
+      "cs": "Pozdravuj...",
+      "note": "remember; on the telephone"
+    },
+    {
+      "type": "phrase",
+      "en": "Take care.",
+      "cs": "Opatruj se.",
+      "note": "remember; on the telephone"
+    },
+    {
+      "type": "phrase",
+      "en": "I'll phone again tomorrow.",
+      "cs": "Zavolám ještě zítra.",
+      "note": "remember; on the telephone"
+    },
+    {
+      "type": "phrase",
+      "en": "Bye for now!",
+      "cs": "Zatím ahoj.",
+      "note": "remember; on the telephone"
+    },
+    {
+      "type": "phrase",
+      "en": "Thanks for phoning.",
+      "cs": "Díky, že jsi zavolal.",
+      "note": "remember; on the telephone"
+    },
+    {
+      "type": "phrase",
+      "en": "Happy Christmas!",
+      "cs": "Šťastné Vánoce/vánoční svátky!",
+      "note": "remember; christmas cards and letters"
+    },
+    {
+      "type": "phrase",
+      "en": "Merry Christmas!",
+      "cs": "Veselé Vánoce!",
+      "note": "remember; christmas cards and letters"
+    },
+    {
+      "type": "phrase",
+      "en": "Happy New Year!",
+      "cs": "Šťastný nový rok!",
+      "note": "remember; christmas cards and letters"
+    },
+    {
+      "type": "phrase",
+      "en": "Have a great Christmas!",
+      "cs": "Pěkné Vánoce!",
+      "note": "remember; christmas cards and letters"
+    },
+    {
+      "type": "phrase",
+      "en": "Wishing you a happy Christmas.",
+      "cs": "S přáním šťastných Vánoc.",
+      "note": "remember; christmas cards and letters"
+    },
+    {
+      "type": "phrase",
+      "en": "We wish you a merry Christmas and a happy New Year.",
+      "cs": "Přejeme vám veselé Vánoce a všechno nejlepší v novém roce.",
+      "note": "remember; christmas cards and letters"
+    },
+    {
+      "type": "phrase",
+      "en": "All the best in the New Year.",
+      "cs": "Vše nejlepší v novém roce.",
+      "note": "remember; christmas cards and letters"
+    }
+  ]
+}

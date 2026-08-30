@@ -94,7 +94,8 @@ function buildLesson(
     description: raw.description,
     book,
     bookTitle: raw.bookTitle ?? `Učebnice ${book}`,
-    source: raw.source,
+    // Lekce může být na víc stránkách; jedna cesta se normalizuje na pole.
+    source: raw.source ? (Array.isArray(raw.source) ? raw.source : [raw.source]) : undefined,
     items,
     wordCount: items.filter((i) => i.type === "word").length,
     phraseCount: items.filter((i) => i.type === "phrase").length,

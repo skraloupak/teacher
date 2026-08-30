@@ -3,7 +3,7 @@
 Webová aplikace na učení anglických slovíček a frází pomocí kartiček. Otočíš kartu, řekneš
 si, jestli jsi to věděl, a co ti nešlo, se vrací častěji.
 
-- 10 lekcí první učebnice, 839 slovíček a frází včetně výslovnosti
+- 22 lekcí ze dvou učebnic, 1 933 slovíček a frází včetně výslovnosti
 - **Next.js 16 + React 19 + Tailwind v4**, TypeScript
 - Mobil na prvním místě, funguje i offline (kromě prvního načtení)
 - Pokrok a nastavení v prohlížeči, volitelně zrcadlené do MongoDB
@@ -129,6 +129,7 @@ Lekce:
 | Pole | Povinné | Význam |
 | --- | --- | --- |
 | `id` | ano | ve tvaru `u<učebnice>-l<lekce>`, např. `u2-l5` – z něj se odvodí učebnice i pořadí |
+| `source` | ne | cesta ke zdrojové stránce, nebo pole cest, když je lekce na víc stranách |
 | `title` | ano | název v seznamu |
 | `book`, `bookTitle`, `order` | ne | přebijí to, co plyne z `id` |
 | `description`, `source` | ne | popisek a odkaz na naskenovanou stránku |

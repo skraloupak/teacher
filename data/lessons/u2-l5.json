@@ -1,0 +1,580 @@
+{
+  "id": "u2-l5",
+  "order": 5,
+  "title": "Učebnice 2 – lekce 5",
+  "description": "Slovníček – 66 slovíček, 28 frází.",
+  "source": [
+    "screenshots/lekce/u2-l5.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "absolutely",
+      "ipa": "ˌæbsəˈluːtlɪ",
+      "cs": "naprosto, zcela"
+    },
+    {
+      "type": "word",
+      "en": "admission",
+      "ipa": "ədˈmɪʃn",
+      "cs": "vstup; vstupné"
+    },
+    {
+      "type": "word",
+      "en": "angry",
+      "ipa": "ˈæŋgrɪ",
+      "cs": "rozzlobený, rozhořčený"
+    },
+    {
+      "type": "word",
+      "en": "artist",
+      "ipa": "ˈɑːtɪst",
+      "cs": "umělec"
+    },
+    {
+      "type": "word",
+      "en": "atmosphere",
+      "ipa": "ˈætməsfɪə",
+      "cs": "atmosféra; ovzduší"
+    },
+    {
+      "type": "word",
+      "en": "audience",
+      "ipa": "ˈɔːdɪəns",
+      "cs": "publikum, obecenstvo"
+    },
+    {
+      "type": "word",
+      "en": "balcony",
+      "ipa": "ˈbælkənɪ",
+      "cs": "balkon"
+    },
+    {
+      "type": "word",
+      "en": "band",
+      "ipa": "bænd",
+      "cs": "kapela, skupina"
+    },
+    {
+      "type": "word",
+      "en": "bar",
+      "ipa": "bɑː",
+      "cs": "bar"
+    },
+    {
+      "type": "word",
+      "en": "be angry",
+      "cs": "zlobit se"
+    },
+    {
+      "type": "word",
+      "en": "box office",
+      "ipa": "ˈbɒks ˌɒfɪs",
+      "cs": "(před)prodej lístků",
+      "note": "na kulturní akce"
+    },
+    {
+      "type": "word",
+      "en": "camera",
+      "ipa": "ˈkæmərə",
+      "cs": "fotoaparát"
+    },
+    {
+      "type": "word",
+      "en": "completely",
+      "ipa": "kəmˈpliːtlɪ",
+      "cs": "úplně, zcela"
+    },
+    {
+      "type": "word",
+      "en": "conductor",
+      "ipa": "kənˈdʌktə",
+      "cs": "dirigent"
+    },
+    {
+      "type": "word",
+      "en": "culture",
+      "ipa": "ˈkʌltʃə",
+      "cs": "kultura"
+    },
+    {
+      "type": "word",
+      "en": "culture guide",
+      "cs": "kulturní přehled"
+    },
+    {
+      "type": "word",
+      "en": "dance",
+      "ipa": "dɑːns",
+      "cs": "tančit; tanec"
+    },
+    {
+      "type": "word",
+      "en": "diary",
+      "ipa": "ˈdaɪərɪ",
+      "cs": "deník; diář",
+      "note": "osobní"
+    },
+    {
+      "type": "word",
+      "en": "disco",
+      "ipa": "ˈdɪskəʊ",
+      "cs": "disko"
+    },
+    {
+      "type": "word",
+      "en": "discount",
+      "ipa": "ˈdɪskaʊnt",
+      "cs": "sleva"
+    },
+    {
+      "type": "word",
+      "en": "fall",
+      "ipa": "fɔːl",
+      "cs": "(u)padnout, spadnout; padat; pád",
+      "note": "fell, fallen"
+    },
+    {
+      "type": "word",
+      "en": "fall asleep",
+      "ipa": "ˌfɔːl əˈsliːp",
+      "cs": "usnout"
+    },
+    {
+      "type": "word",
+      "en": "fantastic",
+      "ipa": "fænˈtæstɪk",
+      "cs": "fantastický"
+    },
+    {
+      "type": "word",
+      "en": "free",
+      "ipa": "friː",
+      "cs": "volný, svobodný; zadarmo"
+    },
+    {
+      "type": "word",
+      "en": "gallery",
+      "ipa": "ˈgælərɪ",
+      "cs": "galerie"
+    },
+    {
+      "type": "word",
+      "en": "go out with",
+      "ipa": "ˌgəʊ ˈaʊt wɪð",
+      "cs": "chodit s",
+      "note": "kým"
+    },
+    {
+      "type": "word",
+      "en": "gorgeous",
+      "ipa": "ˈgɔːdʒəs",
+      "cs": "nádherný"
+    },
+    {
+      "type": "word",
+      "en": "guide",
+      "ipa": "gaɪd",
+      "cs": "průvodce",
+      "note": "člověk i kniha"
+    },
+    {
+      "type": "word",
+      "en": "hear",
+      "ipa": "hɪə",
+      "cs": "slyšet",
+      "note": "heard, heard"
+    },
+    {
+      "type": "word",
+      "en": "hooray",
+      "ipa": "həˈreɪ",
+      "cs": "hurá"
+    },
+    {
+      "type": "word",
+      "en": "I can't stand",
+      "cs": "nemohu vystát"
+    },
+    {
+      "type": "word",
+      "en": "I was embarrassed",
+      "ipa": "ɪmˈbærəst",
+      "cs": "bylo mi to trapné"
+    },
+    {
+      "type": "word",
+      "en": "improve",
+      "ipa": "ɪmˈpruːv",
+      "cs": "zlepšit (se)"
+    },
+    {
+      "type": "word",
+      "en": "in advance",
+      "ipa": "ədˈvɑːns",
+      "cs": "předem"
+    },
+    {
+      "type": "word",
+      "en": "incredible",
+      "ipa": "ɪnˈkredəbl",
+      "cs": "neuvěřitelný"
+    },
+    {
+      "type": "word",
+      "en": "interval",
+      "ipa": "ˈɪntəvl",
+      "cs": "přestávka",
+      "note": "v představení"
+    },
+    {
+      "type": "word",
+      "en": "left",
+      "ipa": "left",
+      "cs": "zbylý, zbývající"
+    },
+    {
+      "type": "word",
+      "en": "live",
+      "ipa": "laɪv",
+      "cs": "živý, živě"
+    },
+    {
+      "type": "word",
+      "en": "matinée",
+      "ipa": "ˈmætɪneɪ",
+      "cs": "odpolední představení"
+    },
+    {
+      "type": "word",
+      "en": "matter",
+      "ipa": "ˈmætə",
+      "cs": "vadit"
+    },
+    {
+      "type": "word",
+      "en": "middle",
+      "ipa": "ˈmɪdl",
+      "cs": "střed, prostředek; prostřední"
+    },
+    {
+      "type": "word",
+      "en": "modern",
+      "ipa": "ˈmɒdən",
+      "cs": "moderní"
+    },
+    {
+      "type": "word",
+      "en": "moment",
+      "ipa": "ˈməʊmənt",
+      "cs": "okamžik, moment"
+    },
+    {
+      "type": "word",
+      "en": "museum",
+      "ipa": "mjuːˈziːəm",
+      "cs": "muzeum"
+    },
+    {
+      "type": "word",
+      "en": "musician",
+      "ipa": "mjuːˈzɪʃn",
+      "cs": "hudebník, muzikant"
+    },
+    {
+      "type": "word",
+      "en": "orchestra",
+      "ipa": "ˈɔːkɪstrə",
+      "cs": "orchestr"
+    },
+    {
+      "type": "word",
+      "en": "painter",
+      "ipa": "ˈpeɪntə",
+      "cs": "malíř"
+    },
+    {
+      "type": "word",
+      "en": "painting",
+      "ipa": "ˈpeɪntɪŋ",
+      "cs": "obraz, malba"
+    },
+    {
+      "type": "word",
+      "en": "performance",
+      "ipa": "pəˈfɔːməns",
+      "cs": "představení"
+    },
+    {
+      "type": "word",
+      "en": "programme",
+      "ipa": "ˈprəʊgræm",
+      "cs": "program; pořad"
+    },
+    {
+      "type": "word",
+      "en": "rather",
+      "ipa": "ˈrɑːðə",
+      "cs": "spíše; poněkud"
+    },
+    {
+      "type": "word",
+      "en": "review",
+      "ipa": "rɪˈvjuː",
+      "cs": "recenze, kritika"
+    },
+    {
+      "type": "word",
+      "en": "row",
+      "ipa": "rəʊ",
+      "cs": "řada"
+    },
+    {
+      "type": "word",
+      "en": "seat",
+      "ipa": "siːt",
+      "cs": "sedadlo, místo; sídlo"
+    },
+    {
+      "type": "word",
+      "en": "sold out",
+      "ipa": "ˌsəʊld ˈaʊt",
+      "cs": "vyprodaný"
+    },
+    {
+      "type": "word",
+      "en": "Spain",
+      "ipa": "speɪn",
+      "cs": "Španělsko"
+    },
+    {
+      "type": "word",
+      "en": "special",
+      "ipa": "ˈspeʃl",
+      "cs": "zvláštní, speciální",
+      "note": "mimořádný"
+    },
+    {
+      "type": "word",
+      "en": "speech",
+      "ipa": "spiːtʃ",
+      "cs": "řeč, proslov; projev"
+    },
+    {
+      "type": "word",
+      "en": "suggest",
+      "ipa": "səˈdʒest",
+      "cs": "navrhnout"
+    },
+    {
+      "type": "word",
+      "en": "telly",
+      "ipa": "ˈtelɪ",
+      "cs": "telka",
+      "note": "hovorově"
+    },
+    {
+      "type": "word",
+      "en": "ticket",
+      "ipa": "ˈtɪkɪt",
+      "cs": "lístek, vstupenka; cedulka"
+    },
+    {
+      "type": "word",
+      "en": "turn",
+      "ipa": "tɜːn",
+      "cs": "otočit (se), točit (se)"
+    },
+    {
+      "type": "word",
+      "en": "turn round",
+      "cs": "otočit se, ohlédnout se"
+    },
+    {
+      "type": "word",
+      "en": "unpleasant",
+      "ipa": "ʌnˈpleznt",
+      "cs": "nepříjemný"
+    },
+    {
+      "type": "word",
+      "en": "until",
+      "ipa": "ənˈtɪl",
+      "cs": "(až) do; dokud (ne)"
+    },
+    {
+      "type": "word",
+      "en": "up",
+      "ipa": "ʌp",
+      "cs": "nahoru, vzhůru"
+    },
+    {
+      "type": "phrase",
+      "en": "on (the) TV",
+      "cs": "v televizi",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at the bar",
+      "cs": "u baru",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the middle of",
+      "cs": "uprostřed",
+      "note": "předložky; čeho"
+    },
+    {
+      "type": "phrase",
+      "en": "tickets for",
+      "cs": "lístky na",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at the exhibition",
+      "cs": "na výstavě",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at the gallery",
+      "cs": "v galerii",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "until midnight",
+      "cs": "(až) do půlnoci",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "ask for",
+      "cs": "poprosit o",
+      "note": "předložky; co"
+    },
+    {
+      "type": "phrase",
+      "en": "a visit to the museum",
+      "cs": "návštěva muzea",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "Let's go to the cinema/theatre.",
+      "cs": "Pojďme do kina/divadla.",
+      "note": "remember!; what shall we do this evening?"
+    },
+    {
+      "type": "phrase",
+      "en": "Shall we go and see a film?",
+      "cs": "Nepůjdeme na nějaký film?",
+      "note": "remember!; what shall we do this evening?"
+    },
+    {
+      "type": "phrase",
+      "en": "What's on at the Odeon/the National Theatre?",
+      "cs": "Co dávají v kině Odeon/v Národním divadle?",
+      "note": "remember!; what shall we do this evening?"
+    },
+    {
+      "type": "phrase",
+      "en": "How about a concert?",
+      "cs": "A co takhle koncert?",
+      "note": "remember!; what shall we do this evening?"
+    },
+    {
+      "type": "phrase",
+      "en": "Have a good time!/Enjoy it!",
+      "cs": "Ať se ti to líbí.",
+      "note": "remember!; what shall we do this evening?"
+    },
+    {
+      "type": "phrase",
+      "en": "I'd like two tickets for…, please.",
+      "cs": "Dva lístky na…, prosím.",
+      "note": "remember!; at the box office"
+    },
+    {
+      "type": "phrase",
+      "en": "Are there any tickets left for…?",
+      "cs": "Jsou ještě lístky na…?",
+      "note": "remember!; at the box office"
+    },
+    {
+      "type": "phrase",
+      "en": "Two tickets for the matinée/evening performance, please.",
+      "cs": "Dva lístky na odpolední/večerní představení.",
+      "note": "remember!; at the box office"
+    },
+    {
+      "type": "phrase",
+      "en": "Is there anything in the balcony, please?",
+      "cs": "Máte lístky na balkon?",
+      "note": "remember!; at the box office"
+    },
+    {
+      "type": "phrase",
+      "en": "Is there anything in row five?",
+      "cs": "Máte lístky do páté řady?",
+      "note": "remember!; at the box office"
+    },
+    {
+      "type": "phrase",
+      "en": "I'll take those, please.",
+      "cs": "Děkuji, ty si vezmu.",
+      "note": "remember!; at the box office"
+    },
+    {
+      "type": "phrase",
+      "en": "What time does the performance start/finish?",
+      "cs": "V kolik hodin začíná/končí představení?",
+      "note": "remember!; at the box office"
+    },
+    {
+      "type": "phrase",
+      "en": "Is there an interval?",
+      "cs": "Je během představení přestávka?",
+      "note": "remember!; at the box office"
+    },
+    {
+      "type": "phrase",
+      "en": "I'd like two programmes, please.",
+      "cs": "Chtěl bych dva programy.",
+      "note": "remember!; at the box office"
+    },
+    {
+      "type": "phrase",
+      "en": "How much is admission, please?",
+      "cs": "Jaké je, prosím, vstupné?",
+      "note": "remember!; at the museum/gallery"
+    },
+    {
+      "type": "phrase",
+      "en": "Do you give/do student discounts?",
+      "cs": "Máte slevy pro studenty?",
+      "note": "remember!; at the museum/gallery"
+    },
+    {
+      "type": "phrase",
+      "en": "What's on the television tonight?",
+      "cs": "Co je dnes večer v televizi?",
+      "note": "remember!; at home"
+    },
+    {
+      "type": "phrase",
+      "en": "The news is on at six o'clock.",
+      "cs": "V šest hodin jsou zprávy.",
+      "note": "remember!; at home"
+    },
+    {
+      "type": "phrase",
+      "en": "There's a good film on at eight.",
+      "cs": "V osm dávají dobrý film.",
+      "note": "remember!; at home"
+    }
+  ]
+}

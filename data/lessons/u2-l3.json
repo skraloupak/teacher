@@ -1,0 +1,539 @@
+{
+  "id": "u2-l3",
+  "order": 3,
+  "title": "Učebnice 2 – lekce 3",
+  "description": "Slovníček – 67 slovíček, 19 frází.",
+  "source": [
+    "screenshots/lekce/u2-l3.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "actor",
+      "ipa": "ˈæktə",
+      "cs": "herec"
+    },
+    {
+      "type": "word",
+      "en": "age",
+      "ipa": "eɪdʒ",
+      "cs": "věk"
+    },
+    {
+      "type": "word",
+      "en": "agree",
+      "ipa": "əˈgriː",
+      "cs": "souhlasit"
+    },
+    {
+      "type": "word",
+      "en": "and so on",
+      "ipa": "ənd ˈsəʊ ɒn",
+      "cs": "a tak dále",
+      "note": "so"
+    },
+    {
+      "type": "word",
+      "en": "assistant",
+      "ipa": "əˈsɪstənt",
+      "cs": "asistent, pomocník"
+    },
+    {
+      "type": "word",
+      "en": "author",
+      "ipa": "ˈɔːθə",
+      "cs": "autor"
+    },
+    {
+      "type": "word",
+      "en": "be born",
+      "ipa": "bɔːn",
+      "cs": "narodit se",
+      "note": "born"
+    },
+    {
+      "type": "word",
+      "en": "became",
+      "cs": "min. č. od become"
+    },
+    {
+      "type": "word",
+      "en": "become",
+      "ipa": "bɪˈkʌm",
+      "cs": "stát se",
+      "note": "became, become; kým/čím, jakým"
+    },
+    {
+      "type": "word",
+      "en": "before",
+      "ipa": "bɪˈfɔː",
+      "cs": "předtím (než), dříve (než)"
+    },
+    {
+      "type": "word",
+      "en": "biography",
+      "ipa": "baɪˈɒgrəfɪ",
+      "cs": "životopis"
+    },
+    {
+      "type": "word",
+      "en": "bookworm",
+      "ipa": "ˈbʊkwɜːm",
+      "cs": "knihomol"
+    },
+    {
+      "type": "word",
+      "en": "by",
+      "ipa": "baɪ",
+      "cs": "od",
+      "note": "autora"
+    },
+    {
+      "type": "word",
+      "en": "call",
+      "ipa": "kɔːl",
+      "cs": "jmenovat, nazývat"
+    },
+    {
+      "type": "word",
+      "en": "chance",
+      "ipa": "tʃɑːns",
+      "cs": "šance; příležitost"
+    },
+    {
+      "type": "word",
+      "en": "chapter",
+      "ipa": "ˈtʃæptə",
+      "cs": "kapitola"
+    },
+    {
+      "type": "word",
+      "en": "character",
+      "ipa": "ˈkærəktə",
+      "cs": "postava",
+      "note": "v knize, filmu"
+    },
+    {
+      "type": "word",
+      "en": "choose",
+      "ipa": "tʃuːz",
+      "cs": "vybrat (si), zvolit",
+      "note": "chose, chosen"
+    },
+    {
+      "type": "word",
+      "en": "classic",
+      "ipa": "ˈklæsɪk",
+      "cs": "klasický; klasika",
+      "note": "dílo"
+    },
+    {
+      "type": "word",
+      "en": "collection",
+      "ipa": "kəˈlekʃn",
+      "cs": "sbírka"
+    },
+    {
+      "type": "word",
+      "en": "crime",
+      "ipa": "kraɪm",
+      "cs": "zločin; kriminalita; krimi"
+    },
+    {
+      "type": "word",
+      "en": "describe",
+      "ipa": "dɪˈskraɪb",
+      "cs": "popsat, popisovat"
+    },
+    {
+      "type": "word",
+      "en": "detective",
+      "ipa": "dɪˈtektɪv",
+      "cs": "detektiv"
+    },
+    {
+      "type": "word",
+      "en": "detective novel",
+      "cs": "detektivka"
+    },
+    {
+      "type": "word",
+      "en": "dictionary",
+      "ipa": "ˈdɪkʃənrɪ",
+      "cs": "slovník",
+      "note": "médium"
+    },
+    {
+      "type": "word",
+      "en": "die",
+      "ipa": "daɪ",
+      "cs": "zemřít",
+      "note": "dying"
+    },
+    {
+      "type": "word",
+      "en": "drama",
+      "ipa": "ˈdrɑːmə",
+      "cs": "dramatické umění, drama"
+    },
+    {
+      "type": "word",
+      "en": "encyclopedia",
+      "ipa": "ɪnˌsaɪkləˈpiːdɪə",
+      "cs": "encyklopedie"
+    },
+    {
+      "type": "word",
+      "en": "exhibition",
+      "ipa": "ˌeksɪˈbɪʃn",
+      "cs": "výstava"
+    },
+    {
+      "type": "word",
+      "en": "fascinating",
+      "ipa": "ˈfæsɪneɪtɪŋ",
+      "cs": "fascinující, strhující, úžasný"
+    },
+    {
+      "type": "word",
+      "en": "favourite",
+      "ipa": "ˈfeɪvrɪt",
+      "cs": "nejoblíbenější"
+    },
+    {
+      "type": "word",
+      "en": "fiction",
+      "ipa": "ˈfɪkʃn",
+      "cs": "beletrie"
+    },
+    {
+      "type": "word",
+      "en": "for pleasure",
+      "cs": "pro radost"
+    },
+    {
+      "type": "word",
+      "en": "foreign",
+      "ipa": "ˈfɒrən",
+      "cs": "zahraniční, cizí"
+    },
+    {
+      "type": "word",
+      "en": "habit",
+      "ipa": "ˈhæbɪt",
+      "cs": "zvyk, zvyklost"
+    },
+    {
+      "type": "word",
+      "en": "hide",
+      "ipa": "haɪd",
+      "cs": "schovat (se), ukrýt (se)",
+      "note": "hid, hidden"
+    },
+    {
+      "type": "word",
+      "en": "information",
+      "ipa": "ˌɪnfəˈmeɪʃn",
+      "cs": "informace",
+      "note": "pouze v jednotném čísle"
+    },
+    {
+      "type": "word",
+      "en": "internet",
+      "ipa": "ˈɪntənet",
+      "cs": "internet"
+    },
+    {
+      "type": "word",
+      "en": "librarian",
+      "ipa": "laɪˈbreərɪən",
+      "cs": "knihovník"
+    },
+    {
+      "type": "word",
+      "en": "magazine",
+      "ipa": "ˌmægəˈziːn",
+      "cs": "časopis"
+    },
+    {
+      "type": "word",
+      "en": "marry",
+      "ipa": "ˈmærɪ",
+      "cs": "oženit se (s), vdát se (za); vzít se"
+    },
+    {
+      "type": "word",
+      "en": "nature",
+      "ipa": "ˈneɪtʃə",
+      "cs": "příroda"
+    },
+    {
+      "type": "word",
+      "en": "non-fiction",
+      "ipa": "ˌnɒnˈfɪkʃn",
+      "cs": "literatura faktu"
+    },
+    {
+      "type": "word",
+      "en": "novelist",
+      "ipa": "ˈnɒvəlɪst",
+      "cs": "romanopisec"
+    },
+    {
+      "type": "word",
+      "en": "part",
+      "ipa": "pɑːt",
+      "cs": "část"
+    },
+    {
+      "type": "word",
+      "en": "pensioner",
+      "ipa": "ˈpenʃənə",
+      "cs": "důchodce"
+    },
+    {
+      "type": "word",
+      "en": "pleasure",
+      "ipa": "ˈpleʒə",
+      "cs": "potěšení, radost"
+    },
+    {
+      "type": "word",
+      "en": "poetry",
+      "ipa": "ˈpəʊətrɪ",
+      "cs": "poezie"
+    },
+    {
+      "type": "word",
+      "en": "project",
+      "ipa": "ˈprɒdʒekt",
+      "cs": "projektová úloha",
+      "note": "ve škole"
+    },
+    {
+      "type": "word",
+      "en": "public",
+      "ipa": "ˈpʌblɪk",
+      "cs": "veřejnost; veřejný"
+    },
+    {
+      "type": "word",
+      "en": "pupil",
+      "ipa": "ˈpjuːpl",
+      "cs": "žák"
+    },
+    {
+      "type": "word",
+      "en": "reader",
+      "ipa": "ˈriːdə",
+      "cs": "čtenář"
+    },
+    {
+      "type": "word",
+      "en": "renew",
+      "ipa": "rɪˈnjuː",
+      "cs": "prodloužit; obnovit",
+      "note": "výpůjčku"
+    },
+    {
+      "type": "word",
+      "en": "return",
+      "ipa": "rɪˈtɜːn",
+      "cs": "vrátit (se); návrat"
+    },
+    {
+      "type": "word",
+      "en": "romance",
+      "ipa": "rəʊˈmæns",
+      "cs": "milostné romány"
+    },
+    {
+      "type": "word",
+      "en": "sci-fi",
+      "ipa": "ˈsaɪˌfaɪ",
+      "cs": "sci-fi",
+      "note": "science fiction [ˌsaɪəns ˈfɪkʃn]"
+    },
+    {
+      "type": "word",
+      "en": "section",
+      "ipa": "ˈsekʃn",
+      "cs": "oddělení, oddíl, část"
+    },
+    {
+      "type": "word",
+      "en": "several",
+      "ipa": "ˈsevrəl",
+      "cs": "několik"
+    },
+    {
+      "type": "word",
+      "en": "short story",
+      "ipa": "ˌʃɔːt ˈstɔːrɪ",
+      "cs": "povídka"
+    },
+    {
+      "type": "word",
+      "en": "sort",
+      "ipa": "sɔːt",
+      "cs": "druh, typ"
+    },
+    {
+      "type": "word",
+      "en": "textbook",
+      "ipa": "ˈtextbʊk",
+      "cs": "učebnice"
+    },
+    {
+      "type": "word",
+      "en": "true",
+      "ipa": "truː",
+      "cs": "pravdivý, opravdový, skutečný"
+    },
+    {
+      "type": "word",
+      "en": "unfortunately",
+      "ipa": "ʌnˈfɔːtʃənətlɪ",
+      "cs": "bohužel"
+    },
+    {
+      "type": "word",
+      "en": "various",
+      "ipa": "ˈveərɪəs",
+      "cs": "různý, rozličný"
+    },
+    {
+      "type": "word",
+      "en": "video",
+      "ipa": "ˈvɪdɪəʊ",
+      "cs": "video"
+    },
+    {
+      "type": "word",
+      "en": "welcome",
+      "ipa": "ˈwelkəm",
+      "cs": "(při)vítat; vítaný"
+    },
+    {
+      "type": "word",
+      "en": "work",
+      "ipa": "wɜːk",
+      "cs": "dílo",
+      "note": "jeden kus"
+    },
+    {
+      "type": "phrase",
+      "en": "welcome to",
+      "cs": "vítejte v/na",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "many of them",
+      "cs": "mnozí z nich",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "these days",
+      "cs": "v dnešní době",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at the library",
+      "cs": "v knihovně",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "information on/about",
+      "cs": "informace o",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "novel/picture by",
+      "cs": "román/obraz od",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at the computer",
+      "cs": "u počítače",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "Excuse me, please...",
+      "cs": "Promiňte...",
+      "note": "remember – at the library"
+    },
+    {
+      "type": "phrase",
+      "en": "Can I help you?",
+      "cs": "Čím vám posloužím? Co si přejete?",
+      "note": "remember – at the library"
+    },
+    {
+      "type": "phrase",
+      "en": "When is the library open?",
+      "cs": "Kdy je v knihovně otevřeno?",
+      "note": "remember – at the library"
+    },
+    {
+      "type": "phrase",
+      "en": "When does the library open?",
+      "cs": "Od kdy je v knihovně otevřeno?",
+      "note": "remember – at the library"
+    },
+    {
+      "type": "phrase",
+      "en": "Where is the history section, please?",
+      "cs": "Kde je, prosím, oddělení dějin?",
+      "note": "remember – at the library"
+    },
+    {
+      "type": "phrase",
+      "en": "Where can I find a book on Czech history?",
+      "cs": "Kde bych našel knihu o českých dějinách?",
+      "note": "remember – at the library"
+    },
+    {
+      "type": "phrase",
+      "en": "Where can I find information on...?",
+      "cs": "Kde bych našel informace o...?",
+      "note": "remember – at the library"
+    },
+    {
+      "type": "phrase",
+      "en": "Where is the information desk, please?",
+      "cs": "Kde jsou informace?",
+      "note": "remember – at the library"
+    },
+    {
+      "type": "phrase",
+      "en": "Do you need (to see) my library card?",
+      "cs": "Potřebujete mou průkazku?",
+      "note": "remember – at the library"
+    },
+    {
+      "type": "phrase",
+      "en": "How many books can I borrow?",
+      "cs": "Kolik si mohu vypůjčit knih?",
+      "note": "remember – at the library"
+    },
+    {
+      "type": "phrase",
+      "en": "When do I have to return them?",
+      "cs": "Kdy je musím vrátit?",
+      "note": "remember – at the library"
+    },
+    {
+      "type": "phrase",
+      "en": "I'd like to return/renew this, please.",
+      "cs": "Toto bych chtěl vrátit/prodloužit.",
+      "note": "remember – at the library"
+    }
+  ]
+}

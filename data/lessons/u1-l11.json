@@ -1,0 +1,629 @@
+{
+  "id": "u1-l11",
+  "order": 11,
+  "title": "Učebnice 1 – lekce 11",
+  "description": "Slovníček – 69 slovíček, 32 frází.",
+  "source": [
+    "screenshots/lekce/u1-l11a.jpg",
+    "screenshots/lekce/u1-l11b.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "accent",
+      "ipa": "ˈæksnt, ˈæksent",
+      "cs": "přízvuk"
+    },
+    {
+      "type": "word",
+      "en": "afraid",
+      "ipa": "əˈfreɪd",
+      "cs": "mít strach (z), bát se",
+      "note": "be afraid (of); koho, čeho"
+    },
+    {
+      "type": "word",
+      "en": "along",
+      "ipa": "əˈlɒŋ",
+      "cs": "podél, po"
+    },
+    {
+      "type": "word",
+      "en": "America",
+      "ipa": "əˈmerɪkə",
+      "cs": "Amerika"
+    },
+    {
+      "type": "word",
+      "en": "asleep",
+      "ipa": "əˈsliːp",
+      "cs": "spát",
+      "note": "be asleep"
+    },
+    {
+      "type": "word",
+      "en": "basket",
+      "ipa": "ˈbɑːskɪt",
+      "cs": "koš, košík"
+    },
+    {
+      "type": "word",
+      "en": "beard",
+      "ipa": "bɪəd",
+      "cs": "vousy"
+    },
+    {
+      "type": "word",
+      "en": "behind",
+      "ipa": "bɪˈhaɪnd",
+      "cs": "za",
+      "note": "čím, co"
+    },
+    {
+      "type": "word",
+      "en": "bought",
+      "ipa": "bɔːt",
+      "cs": "min. čas od buy"
+    },
+    {
+      "type": "word",
+      "en": "bring",
+      "ipa": "brɪŋ",
+      "cs": "přivést, přinést",
+      "note": "min. čas brought"
+    },
+    {
+      "type": "word",
+      "en": "brought",
+      "ipa": "brɔːt",
+      "cs": "min. čas od bring"
+    },
+    {
+      "type": "word",
+      "en": "carry",
+      "ipa": "ˈkærɪ",
+      "cs": "nést, nosit"
+    },
+    {
+      "type": "word",
+      "en": "century",
+      "ipa": "ˈsentʃərɪ",
+      "cs": "století"
+    },
+    {
+      "type": "word",
+      "en": "change",
+      "ipa": "tʃeɪndʒ",
+      "cs": "přestoupit"
+    },
+    {
+      "type": "word",
+      "en": "cinema",
+      "ipa": "ˈsɪnəmə",
+      "cs": "kino"
+    },
+    {
+      "type": "word",
+      "en": "close",
+      "ipa": "kləʊz",
+      "cs": "zavřít (se)"
+    },
+    {
+      "type": "word",
+      "en": "cold",
+      "ipa": "kəʊld",
+      "cs": "studený"
+    },
+    {
+      "type": "word",
+      "en": "cool",
+      "ipa": "kuːl",
+      "cs": "chladný"
+    },
+    {
+      "type": "word",
+      "en": "cottage",
+      "ipa": "ˈkɒtɪdʒ",
+      "cs": "chalupa, chata"
+    },
+    {
+      "type": "word",
+      "en": "cry",
+      "ipa": "kraɪ",
+      "cs": "plakat; (z)volat"
+    },
+    {
+      "type": "word",
+      "en": "decide",
+      "ipa": "dɪˈsaɪd",
+      "cs": "rozhodnout se"
+    },
+    {
+      "type": "word",
+      "en": "dirty",
+      "ipa": "ˈdɜːtɪ",
+      "cs": "špinavý"
+    },
+    {
+      "type": "word",
+      "en": "disappear",
+      "ipa": "dɪsəˈpɪə",
+      "cs": "zmizet, mizet"
+    },
+    {
+      "type": "word",
+      "en": "disappointed",
+      "ipa": "dɪsəˈpɔɪntɪd",
+      "cs": "zklamaný"
+    },
+    {
+      "type": "word",
+      "en": "down",
+      "ipa": "daʊn",
+      "cs": "viz lie down and sit down"
+    },
+    {
+      "type": "word",
+      "en": "excuse",
+      "ipa": "ɪksˈkjuːz",
+      "cs": "prominout, odpustit; omluvit"
+    },
+    {
+      "type": "word",
+      "en": "found",
+      "ipa": "faʊnd",
+      "cs": "min. čas od find"
+    },
+    {
+      "type": "word",
+      "en": "get lost",
+      "ipa": "get ˈlɒst",
+      "cs": "ztratit se"
+    },
+    {
+      "type": "word",
+      "en": "get (to)",
+      "ipa": "ˈget tuː, ˈget tə",
+      "cs": "dostat se (kam)"
+    },
+    {
+      "type": "word",
+      "en": "gingerbread",
+      "ipa": "ˈdʒɪndʒəbred",
+      "cs": "perník"
+    },
+    {
+      "type": "word",
+      "en": "girl",
+      "ipa": "gɜːl",
+      "cs": "dívka, holka"
+    },
+    {
+      "type": "word",
+      "en": "grandmother",
+      "ipa": "ˈgrænˌmʌðə",
+      "cs": "babička"
+    },
+    {
+      "type": "word",
+      "en": "hill",
+      "ipa": "hɪl",
+      "cs": "kopec"
+    },
+    {
+      "type": "word",
+      "en": "hot",
+      "ipa": "hɒt",
+      "cs": "horký"
+    },
+    {
+      "type": "word",
+      "en": "inside",
+      "ipa": "ɪnˈsaɪd",
+      "cs": "dovnitř; uvnitř"
+    },
+    {
+      "type": "word",
+      "en": "Italian",
+      "ipa": "ɪˈtælɪən",
+      "cs": "italský; italština; Ital"
+    },
+    {
+      "type": "word",
+      "en": "journey",
+      "ipa": "ˈdʒɜːnɪ",
+      "cs": "cesta"
+    },
+    {
+      "type": "word",
+      "en": "king",
+      "ipa": "kɪŋ",
+      "cs": "král"
+    },
+    {
+      "type": "word",
+      "en": "last",
+      "ipa": "lɑːst",
+      "cs": "poslední; minulý; konečný"
+    },
+    {
+      "type": "word",
+      "en": "lay",
+      "ipa": "leɪ",
+      "cs": "min. čas od lie"
+    },
+    {
+      "type": "word",
+      "en": "least",
+      "ipa": "liːst",
+      "cs": "alespoň, přinejmenším",
+      "note": "at least"
+    },
+    {
+      "type": "word",
+      "en": "left",
+      "ipa": "left",
+      "cs": "levý; levá strana"
+    },
+    {
+      "type": "word",
+      "en": "on the left",
+      "cs": "vlevo"
+    },
+    {
+      "type": "word",
+      "en": "lie",
+      "ipa": "laɪ",
+      "cs": "ležet (lying)",
+      "note": "min. čas lay"
+    },
+    {
+      "type": "word",
+      "en": "lie down",
+      "ipa": "laɪ ˈdaʊn",
+      "cs": "lehnout si",
+      "note": "min. čas lay down"
+    },
+    {
+      "type": "word",
+      "en": "line",
+      "ipa": "laɪn",
+      "cs": "trasa; čára",
+      "note": "dopravního systému"
+    },
+    {
+      "type": "word",
+      "en": "man",
+      "ipa": "mæn",
+      "cs": "muž (mn. č. men [men])"
+    },
+    {
+      "type": "word",
+      "en": "newspaper",
+      "ipa": "ˈnjuːzˌpeɪpə",
+      "cs": "noviny"
+    },
+    {
+      "type": "word",
+      "en": "oak",
+      "ipa": "əʊk",
+      "cs": "dub"
+    },
+    {
+      "type": "word",
+      "en": "own",
+      "ipa": "əʊn",
+      "cs": "vlastní"
+    },
+    {
+      "type": "word",
+      "en": "past",
+      "ipa": "pɑːst",
+      "cs": "kolem, okolo"
+    },
+    {
+      "type": "word",
+      "en": "path",
+      "ipa": "pɑːθ",
+      "cs": "stezka, cestička"
+    },
+    {
+      "type": "word",
+      "en": "sad",
+      "ipa": "sæd",
+      "cs": "smutný"
+    },
+    {
+      "type": "word",
+      "en": "sea",
+      "ipa": "siː",
+      "cs": "moře"
+    },
+    {
+      "type": "word",
+      "en": "sit down",
+      "ipa": "sɪt ˈdaʊn",
+      "cs": "posadit se",
+      "note": "min. čas sat down"
+    },
+    {
+      "type": "word",
+      "en": "smell",
+      "ipa": "smel",
+      "cs": "vůně, zápach; vonět, zapáchat; cítit",
+      "note": "čichem"
+    },
+    {
+      "type": "word",
+      "en": "stand",
+      "ipa": "stænd",
+      "cs": "stát"
+    },
+    {
+      "type": "word",
+      "en": "suddenly",
+      "ipa": "ˈsʌdənlɪ",
+      "cs": "náhle, najednou"
+    },
+    {
+      "type": "word",
+      "en": "take out",
+      "ipa": "teɪk ˈaʊt",
+      "cs": "vyndat, vyjmout"
+    },
+    {
+      "type": "word",
+      "en": "tired",
+      "ipa": "taɪəd",
+      "cs": "unavený"
+    },
+    {
+      "type": "word",
+      "en": "towards",
+      "ipa": "təˈwɔːdz",
+      "cs": "k, ke",
+      "note": "směrem"
+    },
+    {
+      "type": "word",
+      "en": "under",
+      "ipa": "ˈʌndə",
+      "cs": "pod",
+      "note": "čím, co"
+    },
+    {
+      "type": "word",
+      "en": "Underground",
+      "ipa": "ˈʌndəgraʊnd",
+      "cs": "londýnská podzemní dráha"
+    },
+    {
+      "type": "word",
+      "en": "warm",
+      "ipa": "wɔːm",
+      "cs": "teplý"
+    },
+    {
+      "type": "word",
+      "en": "way",
+      "ipa": "weɪ",
+      "cs": "cesta, trasa; směr; způsob"
+    },
+    {
+      "type": "word",
+      "en": "wish",
+      "ipa": "wɪʃ",
+      "cs": "popřát, přát; přát si; přání"
+    },
+    {
+      "type": "word",
+      "en": "woodcutter",
+      "ipa": "ˈwʊdˌkʌtə",
+      "cs": "dřevorubec"
+    },
+    {
+      "type": "phrase",
+      "en": "arrive in/at",
+      "cs": "přijít/přijet kam",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "get to",
+      "cs": "dostat se kam/do/na",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "come to a hill",
+      "cs": "přijít ke kopci",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "journey to",
+      "cs": "cesta kam/do/na",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "under a tree",
+      "cs": "pod stromem",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "for a while",
+      "cs": "na chvíli",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "(have a) look at the map",
+      "cs": "podívat se do mapy",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in this century",
+      "cs": "v tomto století",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "across the sea",
+      "cs": "přes moře, za mořem",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "towards me/the trees",
+      "cs": "(směrem) ke mně/ke stromům",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "walk past a cottage",
+      "cs": "jít kolem/okolo chalupy",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "have time for somebody",
+      "cs": "mít na někoho čas",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "into the woods/ground",
+      "cs": "do lesa/země",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "walk along a path",
+      "cs": "jít po cestě, podél cesty, cestou",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "be inside the house",
+      "cs": "být uvnitř domu",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "go inside the house",
+      "cs": "jít dovnitř domu, vstoupit do domu",
+      "note": "předložky"
+    },
+    {
+      "type": "word",
+      "en": "get...",
+      "cs": "dostat se...",
+      "note": "sloveso get"
+    },
+    {
+      "type": "phrase",
+      "en": "get here",
+      "cs": "dostat se sem",
+      "note": "sloveso get"
+    },
+    {
+      "type": "phrase",
+      "en": "get there",
+      "cs": "dostat se tam",
+      "note": "sloveso get"
+    },
+    {
+      "type": "phrase",
+      "en": "get home",
+      "cs": "dostat se domů",
+      "note": "sloveso get"
+    },
+    {
+      "type": "phrase",
+      "en": "get back",
+      "cs": "dostat se zpátky",
+      "note": "sloveso get"
+    },
+    {
+      "type": "phrase",
+      "en": "get in(side)",
+      "cs": "dostat se dovnitř",
+      "note": "sloveso get"
+    },
+    {
+      "type": "phrase",
+      "en": "get out",
+      "cs": "dostat se ven",
+      "note": "sloveso get"
+    },
+    {
+      "type": "phrase",
+      "en": "get on(to)/in(to)",
+      "cs": "nastoupit",
+      "note": "sloveso get; do dopravního prostředku"
+    },
+    {
+      "type": "phrase",
+      "en": "get off/out of",
+      "cs": "vystoupit",
+      "note": "sloveso get; z dopravního prostředku"
+    },
+    {
+      "type": "phrase",
+      "en": "get up",
+      "cs": "vstát",
+      "note": "sloveso get"
+    },
+    {
+      "type": "phrase",
+      "en": "get dressed",
+      "cs": "obléknout se",
+      "note": "sloveso get"
+    },
+    {
+      "type": "word",
+      "en": "get",
+      "cs": "koupit; obdržet, získat",
+      "note": "sloveso get; hovorově"
+    },
+    {
+      "type": "phrase",
+      "en": "The tea is hot.",
+      "cs": "Ten čaj je horký.",
+      "note": "hot and cold"
+    },
+    {
+      "type": "phrase",
+      "en": "It's hot.",
+      "cs": "Je horko.",
+      "note": "hot and cold"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm hot.",
+      "cs": "Je mi horko.",
+      "note": "hot and cold"
+    },
+    {
+      "type": "phrase",
+      "en": "The tea is cold.",
+      "cs": "Ten čaj je studený.",
+      "note": "hot and cold"
+    },
+    {
+      "type": "phrase",
+      "en": "It's cold.",
+      "cs": "Je zima.",
+      "note": "hot and cold"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm cold.",
+      "cs": "Je mi zima.",
+      "note": "hot and cold"
+    }
+  ]
+}

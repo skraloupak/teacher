@@ -1,0 +1,620 @@
+{
+  "id": "u2-l9",
+  "order": 9,
+  "title": "Učebnice 2 – lekce 9",
+  "description": "Slovníček – 74 slovíček, 26 frází.",
+  "source": [
+    "screenshots/lekce/u2-l9.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "accept",
+      "ipa": "əkˈsept",
+      "cs": "přijmout"
+    },
+    {
+      "type": "word",
+      "en": "accommodation",
+      "ipa": "əˌkɒməˈdeɪʃn",
+      "cs": "ubytování"
+    },
+    {
+      "type": "word",
+      "en": "address",
+      "ipa": "əˈdres",
+      "cs": "adresa; adresovat, oslovit"
+    },
+    {
+      "type": "word",
+      "en": "address book",
+      "cs": "adresář",
+      "note": "osobní"
+    },
+    {
+      "type": "word",
+      "en": "agent",
+      "ipa": "ˈeɪdʒənt",
+      "cs": "pracovník agentury; agent"
+    },
+    {
+      "type": "word",
+      "en": "Amazon",
+      "ipa": "ˈæməzn",
+      "cs": "Amazonka, Amazonie"
+    },
+    {
+      "type": "word",
+      "en": "Andes",
+      "ipa": "ˈændiːz",
+      "cs": "Andy"
+    },
+    {
+      "type": "word",
+      "en": "apology",
+      "ipa": "əˈpɒlədʒɪ",
+      "cs": "omluva"
+    },
+    {
+      "type": "word",
+      "en": "applicant",
+      "ipa": "ˈæplɪkənt",
+      "cs": "uchazeč, žadatel"
+    },
+    {
+      "type": "word",
+      "en": "Athens",
+      "ipa": "ˈæθənz",
+      "cs": "Atény"
+    },
+    {
+      "type": "word",
+      "en": "beach",
+      "ipa": "biːtʃ",
+      "cs": "pláž"
+    },
+    {
+      "type": "word",
+      "en": "boat",
+      "ipa": "bəʊt",
+      "cs": "loď, člun"
+    },
+    {
+      "type": "word",
+      "en": "book",
+      "ipa": "bʊk",
+      "cs": "rezervovat, zamluvit (si)"
+    },
+    {
+      "type": "word",
+      "en": "camel",
+      "ipa": "ˈkæml",
+      "cs": "velbloud"
+    },
+    {
+      "type": "word",
+      "en": "campsite",
+      "ipa": "ˈkæmpsaɪt",
+      "cs": "tábořiště, kemp"
+    },
+    {
+      "type": "word",
+      "en": "catch",
+      "ipa": "kætʃ",
+      "cs": "chytit, chytat",
+      "note": "caught, caught"
+    },
+    {
+      "type": "word",
+      "en": "coach",
+      "ipa": "kəʊtʃ",
+      "cs": "autobus",
+      "note": "meziměstský"
+    },
+    {
+      "type": "word",
+      "en": "congratulations",
+      "ipa": "kənˌgrætʃʊˈleɪʃnz",
+      "cs": "gratulace"
+    },
+    {
+      "type": "word",
+      "en": "country",
+      "ipa": "ˈkʌntrɪ",
+      "cs": "země; vlast; krajina"
+    },
+    {
+      "type": "word",
+      "en": "deep",
+      "ipa": "diːp",
+      "cs": "hluboký; hluboko"
+    },
+    {
+      "type": "word",
+      "en": "definitely",
+      "ipa": "ˈdefənətlɪ",
+      "cs": "rozhodně, určitě"
+    },
+    {
+      "type": "word",
+      "en": "do some sightseeing",
+      "cs": "prohlédnout si památky"
+    },
+    {
+      "type": "word",
+      "en": "e-mail",
+      "ipa": "ˈiːmeɪl",
+      "cs": "e-mail; kontaktovat e-mailem"
+    },
+    {
+      "type": "word",
+      "en": "east",
+      "ipa": "iːst",
+      "cs": "východ; východní"
+    },
+    {
+      "type": "word",
+      "en": "Egypt",
+      "ipa": "ˈiːdʒɪpt",
+      "cs": "Egypt"
+    },
+    {
+      "type": "word",
+      "en": "excursion",
+      "ipa": "ɪksˈkɜːʃn",
+      "cs": "výlet, exkurze"
+    },
+    {
+      "type": "word",
+      "en": "explore",
+      "ipa": "ɪksˈplɔː",
+      "cs": "prozkoumat"
+    },
+    {
+      "type": "word",
+      "en": "fly",
+      "ipa": "flaɪ",
+      "cs": "letět, létat",
+      "note": "flew, flown"
+    },
+    {
+      "type": "word",
+      "en": "forest",
+      "ipa": "ˈfɒrɪst",
+      "cs": "les",
+      "note": "větší rozlohy"
+    },
+    {
+      "type": "word",
+      "en": "fortnight",
+      "ipa": "ˈfɔːtnaɪt",
+      "cs": "čtrnáct dní"
+    },
+    {
+      "type": "word",
+      "en": "Greece",
+      "ipa": "griːs",
+      "cs": "Řecko"
+    },
+    {
+      "type": "word",
+      "en": "hire",
+      "ipa": "ˈhaɪə",
+      "cs": "pronajmout (si)"
+    },
+    {
+      "type": "word",
+      "en": "hostel",
+      "ipa": "ˈhɒstl",
+      "cs": "ubytovna, noclehárna"
+    },
+    {
+      "type": "word",
+      "en": "island",
+      "ipa": "ˈaɪlənd",
+      "cs": "ostrov"
+    },
+    {
+      "type": "word",
+      "en": "kiss",
+      "ipa": "kɪs",
+      "cs": "polibek; líbat"
+    },
+    {
+      "type": "word",
+      "en": "lake",
+      "ipa": "leɪk",
+      "cs": "jezero"
+    },
+    {
+      "type": "word",
+      "en": "look after",
+      "ipa": "ˌlʊk‿ˈɑːftə",
+      "cs": "starat se o"
+    },
+    {
+      "type": "word",
+      "en": "luxury",
+      "ipa": "ˈlʌkʃərɪ",
+      "cs": "luxus, přepych"
+    },
+    {
+      "type": "word",
+      "en": "metre",
+      "ipa": "ˈmiːtə",
+      "cs": "metr",
+      "note": "jednotka míry"
+    },
+    {
+      "type": "word",
+      "en": "mountain",
+      "ipa": "ˈmaʊntɪn",
+      "cs": "hora"
+    },
+    {
+      "type": "word",
+      "en": "north",
+      "ipa": "nɔːθ",
+      "cs": "sever; severní"
+    },
+    {
+      "type": "word",
+      "en": "ocean",
+      "ipa": "ˈəʊʃn",
+      "cs": "oceán"
+    },
+    {
+      "type": "word",
+      "en": "over",
+      "ipa": "ˈəʊvə",
+      "cs": "nad"
+    },
+    {
+      "type": "word",
+      "en": "Pacific",
+      "ipa": "pəˈsɪfɪk",
+      "cs": "Pacifik",
+      "note": "oblast i oceán"
+    },
+    {
+      "type": "word",
+      "en": "Pacific Ocean",
+      "cs": "Tichý oceán"
+    },
+    {
+      "type": "word",
+      "en": "Peru",
+      "ipa": "pəˈruː",
+      "cs": "Peru"
+    },
+    {
+      "type": "word",
+      "en": "picturesque",
+      "ipa": "ˌpɪktʃəˈresk",
+      "cs": "malebný"
+    },
+    {
+      "type": "word",
+      "en": "plane",
+      "ipa": "pleɪn",
+      "cs": "letadlo"
+    },
+    {
+      "type": "word",
+      "en": "pool",
+      "ipa": "puːl",
+      "cs": "bazén"
+    },
+    {
+      "type": "word",
+      "en": "position",
+      "ipa": "pəˈzɪʃn",
+      "cs": "místo, pozice",
+      "note": "i pracovní"
+    },
+    {
+      "type": "word",
+      "en": "pyramid",
+      "ipa": "ˈpɪrəmɪd",
+      "cs": "pyramida"
+    },
+    {
+      "type": "word",
+      "en": "receive",
+      "ipa": "rɪˈsiːv",
+      "cs": "dostat, obdržet"
+    },
+    {
+      "type": "word",
+      "en": "recommend",
+      "ipa": "ˌrekəˈmend",
+      "cs": "doporučit"
+    },
+    {
+      "type": "word",
+      "en": "ride",
+      "ipa": "raɪd",
+      "cs": "jet; jízda",
+      "note": "rode, ridden; jet na; jedna jízda"
+    },
+    {
+      "type": "word",
+      "en": "rucksack",
+      "ipa": "ˈrʌksæk",
+      "cs": "batoh"
+    },
+    {
+      "type": "word",
+      "en": "sail",
+      "ipa": "seɪl",
+      "cs": "plavit se; plachta"
+    },
+    {
+      "type": "word",
+      "en": "scenery",
+      "ipa": "ˈsiːnərɪ",
+      "cs": "krajina, scenerie"
+    },
+    {
+      "type": "word",
+      "en": "seasick",
+      "ipa": "ˈsiːsɪk",
+      "cs": "mít mořskou nemoc",
+      "note": "be seasick"
+    },
+    {
+      "type": "word",
+      "en": "shine",
+      "ipa": "ʃaɪn",
+      "cs": "svítit, zářit",
+      "note": "shone, shone"
+    },
+    {
+      "type": "word",
+      "en": "sightseeing",
+      "ipa": "ˈsaɪtˌsiːɪŋ",
+      "cs": "prohlídka památek"
+    },
+    {
+      "type": "word",
+      "en": "sincere",
+      "ipa": "sɪnˈsɪə",
+      "cs": "upřímný"
+    },
+    {
+      "type": "word",
+      "en": "south",
+      "ipa": "saʊθ",
+      "cs": "jih; jižní"
+    },
+    {
+      "type": "word",
+      "en": "sun",
+      "ipa": "sʌn",
+      "cs": "slunce"
+    },
+    {
+      "type": "word",
+      "en": "sunbathe",
+      "ipa": "ˈsʌnbeɪð",
+      "cs": "opalovat se"
+    },
+    {
+      "type": "word",
+      "en": "sunny",
+      "ipa": "ˈsʌnɪ",
+      "cs": "slunný, slunečný"
+    },
+    {
+      "type": "word",
+      "en": "swimming pool",
+      "ipa": "ˈswɪmɪŋ ˌpuːl",
+      "cs": "bazén"
+    },
+    {
+      "type": "word",
+      "en": "tent",
+      "ipa": "tent",
+      "cs": "stan"
+    },
+    {
+      "type": "word",
+      "en": "travel agent",
+      "cs": "pracovník cestovní kanceláře"
+    },
+    {
+      "type": "word",
+      "en": "trek",
+      "ipa": "trek",
+      "cs": "horská túra; chodit",
+      "note": "po horách"
+    },
+    {
+      "type": "word",
+      "en": "uncle",
+      "ipa": "ˈʌŋkl",
+      "cs": "strýc"
+    },
+    {
+      "type": "word",
+      "en": "via",
+      "ipa": "ˈvaɪə",
+      "cs": "přes",
+      "note": "cestou, kudy"
+    },
+    {
+      "type": "word",
+      "en": "village",
+      "ipa": "ˈvɪlɪdʒ",
+      "cs": "vesnice"
+    },
+    {
+      "type": "word",
+      "en": "forget",
+      "cs": "zapomenout na co",
+      "note": "zapomenout"
+    },
+    {
+      "type": "word",
+      "en": "leave",
+      "cs": "zapomenout co kde",
+      "note": "zapomenout"
+    },
+    {
+      "type": "phrase",
+      "en": "I forgot his birthday.",
+      "cs": "Zapomněl jsem, že má narozeniny.",
+      "note": "zapomenout"
+    },
+    {
+      "type": "phrase",
+      "en": "I forgot to book it.",
+      "cs": "Zapomněl jsem to zamluvit.",
+      "note": "zapomenout"
+    },
+    {
+      "type": "phrase",
+      "en": "I left it at home.",
+      "cs": "Zapomněl jsem to doma.",
+      "note": "zapomenout"
+    },
+    {
+      "type": "phrase",
+      "en": "north, south, east, west",
+      "cs": "sever, jih, východ, západ",
+      "note": "where is it?"
+    },
+    {
+      "type": "phrase",
+      "en": "north-west, south-east",
+      "cs": "severozápad, jihovýchod",
+      "note": "where is it?"
+    },
+    {
+      "type": "phrase",
+      "en": "in the north, in the east",
+      "cs": "na severu, na východě",
+      "note": "where is it?"
+    },
+    {
+      "type": "phrase",
+      "en": "in the south of England",
+      "cs": "na jihu Anglie",
+      "note": "where is it?"
+    },
+    {
+      "type": "phrase",
+      "en": "in south England",
+      "cs": "v jižní Anglii",
+      "note": "where is it?"
+    },
+    {
+      "type": "phrase",
+      "en": "go south, go west",
+      "cs": "jet/jít na jih, na západ",
+      "note": "where is it?"
+    },
+    {
+      "type": "phrase",
+      "en": "north of London",
+      "cs": "severně od Londýna",
+      "note": "where is it?"
+    },
+    {
+      "type": "phrase",
+      "en": "congratulations on",
+      "cs": "gratuluji k",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "sleep in a tent",
+      "cs": "spát pod stanem",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the south",
+      "cs": "na jihu",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the mountains",
+      "cs": "na horách",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at 5,000 metres",
+      "cs": "v 5000 metrech",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "fly over",
+      "cs": "letět nad, přeletět",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "go north",
+      "cs": "jet na sever",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "go via Spain",
+      "cs": "jet přes Španělsko",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on holiday",
+      "cs": "na dovolené/dovolenou",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on an excursion",
+      "cs": "na výletě/výlet",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "go to the sea",
+      "cs": "jet k moři",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "go into the sea",
+      "cs": "jít do moře",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "ride a bike",
+      "cs": "jet na kole",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "an apology for",
+      "cs": "omluva za",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "Congratulations on your success.",
+      "cs": "Gratuluji k úspěchu.",
+      "note": "congratulations!"
+    },
+    {
+      "type": "phrase",
+      "en": "Congratulations on becoming a father.",
+      "cs": "Gratuluji ti k tomu, že ses stal otcem.",
+      "note": "congratulations!"
+    }
+  ]
+}

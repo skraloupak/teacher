@@ -1,0 +1,525 @@
+{
+  "id": "u2-l4",
+  "order": 4,
+  "title": "Učebnice 2 – lekce 4",
+  "description": "Slovníček – 61 slovíček, 23 frází.",
+  "source": [
+    "screenshots/lekce/u2-l4.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "beef",
+      "ipa": "biːf",
+      "cs": "hovězí"
+    },
+    {
+      "type": "word",
+      "en": "bottle",
+      "ipa": "ˈbɒtl",
+      "cs": "láhev"
+    },
+    {
+      "type": "word",
+      "en": "bread",
+      "ipa": "bred",
+      "cs": "chléb; pečivo"
+    },
+    {
+      "type": "word",
+      "en": "butter",
+      "ipa": "ˈbʌtə",
+      "cs": "máslo"
+    },
+    {
+      "type": "word",
+      "en": "cheesecake",
+      "ipa": "ˈtʃiːzkeɪk",
+      "cs": "tvarohový koláč"
+    },
+    {
+      "type": "word",
+      "en": "chocolate",
+      "ipa": "ˈtʃɒklət",
+      "cs": "čokoláda"
+    },
+    {
+      "type": "word",
+      "en": "chop",
+      "ipa": "tʃɒp",
+      "cs": "kotleta, žebírko"
+    },
+    {
+      "type": "word",
+      "en": "cocktail",
+      "ipa": "ˈkɒkteɪl",
+      "cs": "koktejl; míchaný nápoj"
+    },
+    {
+      "type": "word",
+      "en": "course",
+      "ipa": "kɔːs",
+      "cs": "chod",
+      "note": "jídlo"
+    },
+    {
+      "type": "word",
+      "en": "cream",
+      "ipa": "kriːm",
+      "cs": "smetana; krém"
+    },
+    {
+      "type": "word",
+      "en": "cuisine",
+      "ipa": "kwɪˈziːn",
+      "cs": "kuchyně",
+      "note": "národní"
+    },
+    {
+      "type": "word",
+      "en": "curry",
+      "ipa": "ˈkʌrɪ",
+      "cs": "jídlo připravené s kari"
+    },
+    {
+      "type": "word",
+      "en": "custard",
+      "ipa": "ˈkʌstəd",
+      "cs": "pudink"
+    },
+    {
+      "type": "word",
+      "en": "dessert",
+      "ipa": "dɪˈzɜːt",
+      "cs": "moučník, zákusek"
+    },
+    {
+      "type": "word",
+      "en": "full",
+      "ipa": "fʊl",
+      "cs": "nasycený, najedený; plný"
+    },
+    {
+      "type": "word",
+      "en": "garlic",
+      "ipa": "ˈgɑːlɪk",
+      "cs": "česnek"
+    },
+    {
+      "type": "word",
+      "en": "glass",
+      "ipa": "glɑːs",
+      "cs": "sklenice; sklo; skleněný"
+    },
+    {
+      "type": "word",
+      "en": "goulash",
+      "ipa": "ˈguːlæʃ",
+      "cs": "guláš"
+    },
+    {
+      "type": "word",
+      "en": "Greek",
+      "ipa": "griːk",
+      "cs": "řecký; Řek; řečtina"
+    },
+    {
+      "type": "word",
+      "en": "Hungary",
+      "ipa": "ˈhʌŋgərɪ",
+      "cs": "Maďarsko"
+    },
+    {
+      "type": "word",
+      "en": "ice cream",
+      "ipa": "ˌaɪs ˈkriːm",
+      "cs": "zmrzlina"
+    },
+    {
+      "type": "word",
+      "en": "Indian",
+      "ipa": "ˈɪndɪən",
+      "cs": "indický; Ind(ka)"
+    },
+    {
+      "type": "word",
+      "en": "juice",
+      "ipa": "dʒuːs",
+      "cs": "šťáva; džus"
+    },
+    {
+      "type": "word",
+      "en": "kidney",
+      "ipa": "ˈkɪdnɪ",
+      "cs": "ledvina"
+    },
+    {
+      "type": "word",
+      "en": "lager",
+      "ipa": "ˈlɑːgə",
+      "cs": "ležák",
+      "note": "pivo"
+    },
+    {
+      "type": "word",
+      "en": "lamb",
+      "ipa": "læm",
+      "cs": "jehněčí; jehně"
+    },
+    {
+      "type": "word",
+      "en": "layer",
+      "ipa": "leɪə",
+      "cs": "vrstva"
+    },
+    {
+      "type": "word",
+      "en": "lemon",
+      "ipa": "ˈlemən",
+      "cs": "citron"
+    },
+    {
+      "type": "word",
+      "en": "mash",
+      "ipa": "mæʃ",
+      "cs": "mačkat, drtit"
+    },
+    {
+      "type": "word",
+      "en": "mashed potatoes",
+      "ipa": "ˌmæʃt pəˈteɪtəʊz",
+      "cs": "bramborová kaše"
+    },
+    {
+      "type": "word",
+      "en": "meat",
+      "ipa": "miːt",
+      "cs": "maso"
+    },
+    {
+      "type": "word",
+      "en": "mineral",
+      "ipa": "ˈmɪnrəl",
+      "cs": "minerální"
+    },
+    {
+      "type": "word",
+      "en": "mousse",
+      "ipa": "muːs",
+      "cs": "šlehaná pěna"
+    },
+    {
+      "type": "word",
+      "en": "onion",
+      "ipa": "ˈʌnjən",
+      "cs": "cibule"
+    },
+    {
+      "type": "word",
+      "en": "order",
+      "ipa": "ˈɔːdə",
+      "cs": "objednat (si); poručit, přikázat; objednávka; rozkaz"
+    },
+    {
+      "type": "word",
+      "en": "pastry",
+      "ipa": "ˈpeɪstrɪ",
+      "cs": "těsto; pečivo",
+      "note": "v množném čísle"
+    },
+    {
+      "type": "word",
+      "en": "pea",
+      "ipa": "piː",
+      "cs": "hrášek"
+    },
+    {
+      "type": "word",
+      "en": "plenty",
+      "ipa": "ˈplentɪ",
+      "cs": "hodně",
+      "note": "dost"
+    },
+    {
+      "type": "word",
+      "en": "pot",
+      "ipa": "pɒt",
+      "cs": "hrnec"
+    },
+    {
+      "type": "word",
+      "en": "prawn",
+      "ipa": "prɔːn",
+      "cs": "kreveta, garnát"
+    },
+    {
+      "type": "word",
+      "en": "ready",
+      "ipa": "ˈredɪ",
+      "cs": "hotový, připravený"
+    },
+    {
+      "type": "word",
+      "en": "real",
+      "ipa": "rɪəl",
+      "cs": "opravdový, skutečný"
+    },
+    {
+      "type": "word",
+      "en": "rice",
+      "ipa": "raɪs",
+      "cs": "rýže"
+    },
+    {
+      "type": "word",
+      "en": "roast",
+      "ipa": "rəʊst",
+      "cs": "péci; pečené",
+      "note": "zpravidla maso"
+    },
+    {
+      "type": "word",
+      "en": "salmon",
+      "ipa": "ˈsæmən",
+      "cs": "losos"
+    },
+    {
+      "type": "word",
+      "en": "sauce",
+      "ipa": "sɔːs",
+      "cs": "omáčka"
+    },
+    {
+      "type": "word",
+      "en": "Scottish",
+      "ipa": "ˈskɒtɪʃ",
+      "cs": "skotský"
+    },
+    {
+      "type": "word",
+      "en": "seafood",
+      "ipa": "ˈsiːfuːd",
+      "cs": "plody moře"
+    },
+    {
+      "type": "word",
+      "en": "serve",
+      "ipa": "sɜːv",
+      "cs": "podávat",
+      "note": "jídlo"
+    },
+    {
+      "type": "word",
+      "en": "shepherd",
+      "ipa": "ˈʃepəd",
+      "cs": "ovčák"
+    },
+    {
+      "type": "word",
+      "en": "sir",
+      "ipa": "sɜː",
+      "cs": "pane",
+      "note": "oslovení"
+    },
+    {
+      "type": "word",
+      "en": "spicy",
+      "ipa": "ˈspaɪsɪ",
+      "cs": "kořeněný, pikantní"
+    },
+    {
+      "type": "word",
+      "en": "spring",
+      "ipa": "sprɪŋ",
+      "cs": "jaro"
+    },
+    {
+      "type": "word",
+      "en": "starter",
+      "ipa": "ˈstɑːtə",
+      "cs": "předkrm"
+    },
+    {
+      "type": "word",
+      "en": "steak",
+      "ipa": "steɪk",
+      "cs": "stejk, biftek"
+    },
+    {
+      "type": "word",
+      "en": "stew",
+      "ipa": "stjuː",
+      "cs": "dusit; pokrm z masa připraveného dušením"
+    },
+    {
+      "type": "word",
+      "en": "tart",
+      "ipa": "tɑːt",
+      "cs": "koláč(ek), košíček",
+      "note": "například ovocný"
+    },
+    {
+      "type": "word",
+      "en": "tasty",
+      "ipa": "ˈteɪstɪ",
+      "cs": "chutný"
+    },
+    {
+      "type": "word",
+      "en": "waiter",
+      "ipa": "ˈweɪtə",
+      "cs": "číšník"
+    },
+    {
+      "type": "word",
+      "en": "water",
+      "ipa": "ˈwɔːtə",
+      "cs": "voda"
+    },
+    {
+      "type": "word",
+      "en": "wine",
+      "ipa": "waɪn",
+      "cs": "víno",
+      "note": "nápoj"
+    },
+    {
+      "type": "phrase",
+      "en": "plenty of",
+      "cs": "dost čeho",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "have for dessert",
+      "cs": "dát si jako zákusek",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "have for lunch",
+      "cs": "dát si k obědu",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "mushrooms in garlic",
+      "cs": "žampiony na česneku",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "made with cream",
+      "cs": "připraveno se smetanou",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "my kind of dish",
+      "cs": "jídlo podle mého gusta",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "a few minutes later",
+      "cs": "o pár minut později",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "Could we have the menu, please?",
+      "cs": "Jídelní lístek, prosím.",
+      "note": "remember!, at the restaurant"
+    },
+    {
+      "type": "phrase",
+      "en": "What will you have to drink/eat?",
+      "cs": "Co si dáš k pití/jídlu?",
+      "note": "remember!, at the restaurant"
+    },
+    {
+      "type": "phrase",
+      "en": "I'll have…",
+      "cs": "Dám si…",
+      "note": "remember!, at the restaurant"
+    },
+    {
+      "type": "phrase",
+      "en": "I think I'll have…",
+      "cs": "Já si asi dám…",
+      "note": "remember!, at the restaurant"
+    },
+    {
+      "type": "phrase",
+      "en": "Would you like a starter/dessert?",
+      "cs": "Chtěl bys předkrm/zákusek?",
+      "note": "remember!, at the restaurant"
+    },
+    {
+      "type": "phrase",
+      "en": "We'll start with…",
+      "cs": "Nejprve si dáme…",
+      "note": "remember!, at the restaurant"
+    },
+    {
+      "type": "phrase",
+      "en": "And what about the main course?",
+      "cs": "A co hlavní chod?",
+      "note": "remember!, at the restaurant"
+    },
+    {
+      "type": "phrase",
+      "en": "What is it served with?",
+      "cs": "S čím se to podává?",
+      "note": "remember!, at the restaurant"
+    },
+    {
+      "type": "phrase",
+      "en": "Shall we have some wine?",
+      "cs": "Nedáme si víno?",
+      "note": "remember!, at the restaurant"
+    },
+    {
+      "type": "phrase",
+      "en": "We'd like a glass/bottle of…, please.",
+      "cs": "Dali bychom si skleničku/láhev…, prosím.",
+      "note": "remember!, at the restaurant"
+    },
+    {
+      "type": "phrase",
+      "en": "Could we have the bill, please?",
+      "cs": "Účet, prosím.",
+      "note": "remember!, at the restaurant"
+    },
+    {
+      "type": "phrase",
+      "en": "Can I bring you…?",
+      "cs": "Mohu vám přinést…?",
+      "note": "remember!, the waiter"
+    },
+    {
+      "type": "phrase",
+      "en": "Are you ready to order?",
+      "cs": "Už jste si vybrali?",
+      "note": "remember!, the waiter"
+    },
+    {
+      "type": "phrase",
+      "en": "May I take your order?",
+      "cs": "Máte vybráno?",
+      "note": "remember!, the waiter"
+    },
+    {
+      "type": "phrase",
+      "en": "Of course, sir.",
+      "cs": "Ovšem, pane.",
+      "note": "remember!, the waiter"
+    },
+    {
+      "type": "phrase",
+      "en": "Here you are, sir.",
+      "cs": "Prosím, pane. Tady máte.",
+      "note": "remember!, the waiter; při podávání"
+    }
+  ]
+}

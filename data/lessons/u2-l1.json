@@ -1,0 +1,577 @@
+{
+  "id": "u2-l1",
+  "order": 1,
+  "title": "Učebnice 2 – lekce 1",
+  "description": "Slovníček – 56 slovíček, 38 frází.",
+  "source": [
+    "screenshots/lekce/u2-l1.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "advice",
+      "ipa": "ədˈvaɪs",
+      "cs": "rady, rada"
+    },
+    {
+      "type": "word",
+      "en": "all: not at all",
+      "ipa": "nɒt‿ət‿ˈɔːl",
+      "cs": "vůbec ne"
+    },
+    {
+      "type": "word",
+      "en": "almost",
+      "ipa": "ˈɔːlməʊst",
+      "cs": "téměř, skoro"
+    },
+    {
+      "type": "word",
+      "en": "although",
+      "ipa": "ɔːlˈðəʊ",
+      "cs": "ačkoliv, přestože, i když"
+    },
+    {
+      "type": "word",
+      "en": "argue",
+      "ipa": "ˈɑːgjuː",
+      "cs": "hádat se, dohadovat se"
+    },
+    {
+      "type": "word",
+      "en": "charity",
+      "ipa": "ˈtʃærɪtɪ",
+      "cs": "nadace, charita, charitativní organizace"
+    },
+    {
+      "type": "word",
+      "en": "clever",
+      "ipa": "ˈklevə",
+      "cs": "chytrý"
+    },
+    {
+      "type": "word",
+      "en": "critical",
+      "ipa": "ˈkrɪtɪkl",
+      "cs": "kritický"
+    },
+    {
+      "type": "word",
+      "en": "crowd",
+      "ipa": "kraʊd",
+      "cs": "dav"
+    },
+    {
+      "type": "word",
+      "en": "even",
+      "ipa": "ˈiːvn",
+      "cs": "dokonce, i"
+    },
+    {
+      "type": "word",
+      "en": "example",
+      "ipa": "ɪgˈzɑːmpl",
+      "cs": "příklad"
+    },
+    {
+      "type": "word",
+      "en": "fluent",
+      "ipa": "ˈfluːənt",
+      "cs": "plynulý"
+    },
+    {
+      "type": "word",
+      "en": "fluently",
+      "ipa": "ˈfluːəntlɪ",
+      "cs": "plynule, plynně"
+    },
+    {
+      "type": "word",
+      "en": "for example",
+      "ipa": "fər‿ɪgˈzɑːmpl",
+      "cs": "například"
+    },
+    {
+      "type": "word",
+      "en": "future",
+      "ipa": "ˈfjuːtʃə",
+      "cs": "budoucnost; budoucí"
+    },
+    {
+      "type": "word",
+      "en": "give advice",
+      "cs": "(po)radit"
+    },
+    {
+      "type": "word",
+      "en": "go swimming",
+      "cs": "jít si zaplavat, chodit plavat"
+    },
+    {
+      "type": "word",
+      "en": "good-looking",
+      "ipa": "ˌgʊdˈlʊkɪŋ",
+      "cs": "atraktivní, hezký, pohledný"
+    },
+    {
+      "type": "word",
+      "en": "hard",
+      "ipa": "hɑːd",
+      "cs": "pilně; tvrdý; tvrdě"
+    },
+    {
+      "type": "word",
+      "en": "hard-working",
+      "ipa": "ˌhɑːdˈwɜːkɪŋ",
+      "cs": "pilný"
+    },
+    {
+      "type": "word",
+      "en": "have a (good) laugh",
+      "cs": "(pořádně) se zasmát"
+    },
+    {
+      "type": "word",
+      "en": "homeless",
+      "ipa": "ˈhəʊmləs",
+      "cs": "bez domova, žijící na ulici"
+    },
+    {
+      "type": "word",
+      "en": "humour",
+      "ipa": "ˈhjuːmə",
+      "cs": "humor"
+    },
+    {
+      "type": "word",
+      "en": "India",
+      "ipa": "ˈɪndɪə",
+      "cs": "Indie"
+    },
+    {
+      "type": "word",
+      "en": "intelligent",
+      "ipa": "ɪnˈtelɪdʒənt",
+      "cs": "inteligentní"
+    },
+    {
+      "type": "word",
+      "en": "interest",
+      "ipa": "ˈɪntrəst",
+      "cs": "zájem; zajímat",
+      "note": "koho"
+    },
+    {
+      "type": "word",
+      "en": "joke",
+      "ipa": "dʒəʊk",
+      "cs": "vtip"
+    },
+    {
+      "type": "word",
+      "en": "kind",
+      "ipa": "kaɪnd",
+      "cs": "laskavý, milý"
+    },
+    {
+      "type": "word",
+      "en": "kind-hearted",
+      "ipa": "ˌkaɪndˈhɑːtɪd",
+      "cs": "dobrosrdečný"
+    },
+    {
+      "type": "word",
+      "en": "laugh (at)",
+      "ipa": "lɑːf",
+      "cs": "smát se (čemu)"
+    },
+    {
+      "type": "word",
+      "en": "lazy",
+      "ipa": "ˈleɪzɪ",
+      "cs": "líný"
+    },
+    {
+      "type": "word",
+      "en": "learn",
+      "ipa": "lɜːn",
+      "cs": "(na)učit se",
+      "note": "learnt"
+    },
+    {
+      "type": "word",
+      "en": "look forward to",
+      "ipa": "lʊk ˈfɔːwəd tʊ",
+      "cs": "těšit se na"
+    },
+    {
+      "type": "word",
+      "en": "mine",
+      "ipa": "maɪn",
+      "cs": "můj",
+      "note": "stojící samostatně"
+    },
+    {
+      "type": "word",
+      "en": "modest",
+      "ipa": "ˈmɒdɪst",
+      "cs": "skromný"
+    },
+    {
+      "type": "word",
+      "en": "perhaps",
+      "ipa": "pəˈhæps",
+      "cs": "možná, asi"
+    },
+    {
+      "type": "word",
+      "en": "photographer",
+      "ipa": "fəˈtɒgrəfə",
+      "cs": "fotograf"
+    },
+    {
+      "type": "word",
+      "en": "piano",
+      "ipa": "pɪˈænəʊ",
+      "cs": "klavír"
+    },
+    {
+      "type": "word",
+      "en": "pony-tail",
+      "ipa": "ˈpəʊnɪteɪl",
+      "cs": "culík"
+    },
+    {
+      "type": "word",
+      "en": "reliable",
+      "ipa": "rɪˈlaɪəbl",
+      "cs": "spolehlivý"
+    },
+    {
+      "type": "word",
+      "en": "respect",
+      "ipa": "rɪˈspekt",
+      "cs": "respektovat, mít úctu; respekt, úcta"
+    },
+    {
+      "type": "word",
+      "en": "result",
+      "ipa": "rɪˈzʌlt",
+      "cs": "výsledek, následek"
+    },
+    {
+      "type": "word",
+      "en": "sense",
+      "ipa": "sens",
+      "cs": "smysl"
+    },
+    {
+      "type": "word",
+      "en": "sense of humour",
+      "ipa": "ˌsens‿əv ˈhjuːmə",
+      "cs": "smysl pro humor"
+    },
+    {
+      "type": "word",
+      "en": "shy",
+      "ipa": "ʃaɪ",
+      "cs": "stydlivý, plachý"
+    },
+    {
+      "type": "word",
+      "en": "silly",
+      "ipa": "ˈsɪlɪ",
+      "cs": "hloupý, pitomý"
+    },
+    {
+      "type": "word",
+      "en": "skinny",
+      "ipa": "ˈskɪnɪ",
+      "cs": "hubený"
+    },
+    {
+      "type": "word",
+      "en": "sociology",
+      "ipa": "ˌsəʊʃɪˈɒlədʒɪ",
+      "cs": "sociologie"
+    },
+    {
+      "type": "word",
+      "en": "swim",
+      "ipa": "swɪm",
+      "cs": "plavat",
+      "note": "swam; (mm)"
+    },
+    {
+      "type": "word",
+      "en": "tennis",
+      "ipa": "ˈtenɪs",
+      "cs": "tenis"
+    },
+    {
+      "type": "word",
+      "en": "whole: on the whole",
+      "ipa": "ɒn ðə ˈhəʊl",
+      "cs": "celkově, celkem vzato"
+    },
+    {
+      "type": "word",
+      "en": "why: that's why",
+      "ipa": "ðæts ˈwaɪ",
+      "cs": "proto"
+    },
+    {
+      "type": "word",
+      "en": "year",
+      "ipa": "jɪə",
+      "cs": "ročník; rok"
+    },
+    {
+      "type": "word",
+      "en": "yours",
+      "ipa": "jɔːz",
+      "cs": "tvůj, váš",
+      "note": "stojící samostatně"
+    },
+    {
+      "type": "phrase",
+      "en": "in the photograph",
+      "cs": "na fotografii",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "shy with girls",
+      "cs": "stydlivý před dívkami",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on the whole",
+      "cs": "vcelku, celkem vzato",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "plans for the future",
+      "cs": "plány do budoucnosti",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "arrive late for meetings",
+      "cs": "chodit pozdě na schůzky",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "forget their birthdays",
+      "cs": "zapomínat na jejich narozeniny",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "argue about something",
+      "cs": "hádat se kvůli něčemu",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "laugh at a joke",
+      "cs": "smát se vtipu",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "travel around India",
+      "cs": "cestovat po Indii",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "work for a charity",
+      "cs": "pracovat v charitě",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "play the piano",
+      "cs": "hrát na klavír",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "look at",
+      "cs": "dívat se na",
+      "note": "look"
+    },
+    {
+      "type": "phrase",
+      "en": "look for",
+      "cs": "hledat",
+      "note": "look"
+    },
+    {
+      "type": "phrase",
+      "en": "look like",
+      "cs": "vypadat jako",
+      "note": "look"
+    },
+    {
+      "type": "phrase",
+      "en": "look interesting/strict...",
+      "cs": "vypadat zajímavě/přísně",
+      "note": "look"
+    },
+    {
+      "type": "phrase",
+      "en": "What does he look like?",
+      "cs": "Jak vypadá?",
+      "note": "look; Očekáváme popis vzhledu."
+    },
+    {
+      "type": "phrase",
+      "en": "How do I look?",
+      "cs": "Jak vypadám?",
+      "note": "look; tj. Sluší mi to?"
+    },
+    {
+      "type": "word",
+      "en": "Why...?",
+      "cs": "Proč...?",
+      "note": "why? because..."
+    },
+    {
+      "type": "word",
+      "en": "Because...",
+      "cs": "Protože...",
+      "note": "why? because..."
+    },
+    {
+      "type": "phrase",
+      "en": "And that's why...",
+      "cs": "A proto... A to je důvod, proč...",
+      "note": "why? because..."
+    },
+    {
+      "type": "phrase",
+      "en": "And that's because...",
+      "cs": "A to je proto, že...",
+      "note": "why? because..."
+    },
+    {
+      "type": "phrase",
+      "en": "Tim's learning to drive.",
+      "cs": "Tim se učí řídit auto.",
+      "note": "learn, nebo study?"
+    },
+    {
+      "type": "phrase",
+      "en": "I'd like to learn this song.",
+      "cs": "Chtěl bych se tuto písničku naučit.",
+      "note": "learn, nebo study?"
+    },
+    {
+      "type": "phrase",
+      "en": "What's Jo doing? ~ She's studying.",
+      "cs": "Co dělá Jo? ~ Učí se.",
+      "note": "learn, nebo study?"
+    },
+    {
+      "type": "phrase",
+      "en": "How is he? → He's fine, thanks.",
+      "cs": "Jak se má?",
+      "note": "ptáme se na stav/povahu/vzhled"
+    },
+    {
+      "type": "phrase",
+      "en": "What is he like? → He's kind, shy...",
+      "cs": "Jaký je?",
+      "note": "ptáme se na stav/povahu/vzhled"
+    },
+    {
+      "type": "phrase",
+      "en": "What does he look like? → He's tall, skinny...",
+      "cs": "Jak vypadá?",
+      "note": "ptáme se na stav/povahu/vzhled"
+    },
+    {
+      "type": "phrase",
+      "en": "My name is...",
+      "cs": "Jmenuji se...",
+      "note": "remember; who am I?"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm fifteen (years old).",
+      "cs": "Je mi patnáct (let).",
+      "note": "remember; who am I?"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm tall/short.",
+      "cs": "Jsem vysoký/malý.",
+      "note": "remember; what do I look like?"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm quite tall/short.",
+      "cs": "Jsem vyšší/menší postavy.",
+      "note": "remember; what do I look like?"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm slim/skinny.",
+      "cs": "Jsem štíhlý/hubený.",
+      "note": "remember; what do I look like?"
+    },
+    {
+      "type": "phrase",
+      "en": "I've got brown/dark/fair hair.",
+      "cs": "Mám hnědé/tmavé/světlé vlasy.",
+      "note": "remember; what do I look like?"
+    },
+    {
+      "type": "phrase",
+      "en": "I've got green eyes./My eyes are green.",
+      "cs": "Mám zelené oči.",
+      "note": "remember; what do I look like?"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm reliable/shy/lazy.",
+      "cs": "Jsem spolehlivý/stydlivý/líný.",
+      "note": "remember; what am I like?"
+    },
+    {
+      "type": "phrase",
+      "en": "I've got a sense of humour.",
+      "cs": "Mám smysl pro humor.",
+      "note": "remember; what am I like?"
+    },
+    {
+      "type": "phrase",
+      "en": "I play tennis/play the piano.",
+      "cs": "Hraji tenis/na klavír.",
+      "note": "remember; what do/can I do?"
+    },
+    {
+      "type": "phrase",
+      "en": "I can cook.",
+      "cs": "Umím vařit.",
+      "note": "remember; what do/can I do?"
+    },
+    {
+      "type": "phrase",
+      "en": "I speak English.",
+      "cs": "Umím anglicky.",
+      "note": "remember; what do/can I do?"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm good at languages.",
+      "cs": "Jdou mi jazyky.",
+      "note": "remember; what do/can I do?"
+    }
+  ]
+}

@@ -1,0 +1,645 @@
+{
+  "id": "u2-l10",
+  "order": 10,
+  "title": "Učebnice 2 – lekce 10",
+  "description": "Slovníček – 69 slovíček, 35 frází.",
+  "source": [
+    "screenshots/lekce/u2-l10.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "activity",
+      "ipa": "ækˈtɪvətɪ",
+      "cs": "činnost, aktivita"
+    },
+    {
+      "type": "word",
+      "en": "aeroplane",
+      "ipa": "ˈeərəpleɪn",
+      "cs": "letadlo"
+    },
+    {
+      "type": "word",
+      "en": "attic",
+      "ipa": "ˈætɪk",
+      "cs": "podkroví, půda"
+    },
+    {
+      "type": "word",
+      "en": "be bored",
+      "cs": "nudit se"
+    },
+    {
+      "type": "word",
+      "en": "be in love",
+      "ipa": "bɪ ɪn ˈlʌv",
+      "cs": "být zamilovaný",
+      "note": "heslo love"
+    },
+    {
+      "type": "word",
+      "en": "below",
+      "ipa": "bɪˈləʊ",
+      "cs": "pod"
+    },
+    {
+      "type": "word",
+      "en": "bore",
+      "ipa": "bɔː",
+      "cs": "nudit"
+    },
+    {
+      "type": "word",
+      "en": "build",
+      "ipa": "bɪld",
+      "cs": "stavět; postavit",
+      "note": "built, built"
+    },
+    {
+      "type": "word",
+      "en": "chat",
+      "ipa": "tʃæt",
+      "cs": "povídat si; pokec",
+      "note": "(tt)"
+    },
+    {
+      "type": "word",
+      "en": "chess",
+      "ipa": "tʃes",
+      "cs": "šachy"
+    },
+    {
+      "type": "word",
+      "en": "china",
+      "ipa": "ˈtʃaɪnə",
+      "cs": "porcelán"
+    },
+    {
+      "type": "word",
+      "en": "climb",
+      "ipa": "klaɪm",
+      "cs": "šplhat na; vylézt na; výstup"
+    },
+    {
+      "type": "word",
+      "en": "coin",
+      "ipa": "kɔɪn",
+      "cs": "mince"
+    },
+    {
+      "type": "word",
+      "en": "collect",
+      "ipa": "kəˈlekt",
+      "cs": "sbírat"
+    },
+    {
+      "type": "word",
+      "en": "collecting",
+      "ipa": "kəˈlektɪŋ",
+      "cs": "sběratelství"
+    },
+    {
+      "type": "word",
+      "en": "collector",
+      "ipa": "kəˈlektə",
+      "cs": "sběratel"
+    },
+    {
+      "type": "word",
+      "en": "cricket",
+      "ipa": "ˈkrɪkɪt",
+      "cs": "kriket",
+      "note": "viz Culture Note"
+    },
+    {
+      "type": "word",
+      "en": "crossword",
+      "ipa": "ˈkrɒswɜːd",
+      "cs": "křížovka"
+    },
+    {
+      "type": "word",
+      "en": "DIY",
+      "ipa": "ˌdiː aɪ ˈwaɪ",
+      "cs": "= do-it-yourself",
+      "note": "viz Culture Note"
+    },
+    {
+      "type": "word",
+      "en": "each",
+      "ipa": "iːtʃ",
+      "cs": "každý"
+    },
+    {
+      "type": "word",
+      "en": "exam",
+      "ipa": "ɪgˈzæm",
+      "cs": "zkouška; vyšetření",
+      "note": "examination [ɪgˌzæmɪˈneɪʃn]"
+    },
+    {
+      "type": "word",
+      "en": "fan",
+      "ipa": "fæn",
+      "cs": "fanda, fanoušek, nadšenec"
+    },
+    {
+      "type": "word",
+      "en": "find out",
+      "ipa": "ˌfaɪnd ˈaʊt",
+      "cs": "zjistit, dozvědět se",
+      "note": "found out, found out"
+    },
+    {
+      "type": "word",
+      "en": "fishing",
+      "ipa": "ˈfɪʃɪŋ",
+      "cs": "rybolov, rybářství"
+    },
+    {
+      "type": "word",
+      "en": "gardening",
+      "ipa": "ˈgɑːdnɪŋ",
+      "cs": "zahradničení"
+    },
+    {
+      "type": "word",
+      "en": "go fishing",
+      "ipa": "ˌgəʊ ˈfɪʃɪŋ",
+      "cs": "jít na ryby, rybařit"
+    },
+    {
+      "type": "word",
+      "en": "go skateboarding",
+      "cs": "jít si zajezdit na skateboardu"
+    },
+    {
+      "type": "word",
+      "en": "Gran",
+      "ipa": "græn",
+      "cs": "babička"
+    },
+    {
+      "type": "word",
+      "en": "grandfather",
+      "ipa": "ˈgrændˌfɑːðə",
+      "cs": "dědeček"
+    },
+    {
+      "type": "word",
+      "en": "grandfather clock",
+      "ipa": "ˈgrændˌfɑːðə ˌklɒk",
+      "cs": "stojací hodiny"
+    },
+    {
+      "type": "word",
+      "en": "grow",
+      "ipa": "grəʊ",
+      "cs": "růst; pěstovat",
+      "note": "grew, grown; pěstovat rostlinu"
+    },
+    {
+      "type": "word",
+      "en": "guinea-pig",
+      "ipa": "ˈgɪnɪˌpɪg",
+      "cs": "morče"
+    },
+    {
+      "type": "word",
+      "en": "guitar",
+      "ipa": "gɪˈtɑː",
+      "cs": "kytara"
+    },
+    {
+      "type": "word",
+      "en": "hat",
+      "ipa": "hæt",
+      "cs": "klobouk, čepice"
+    },
+    {
+      "type": "word",
+      "en": "heavy metal",
+      "ipa": "ˌhevɪ ˈmetl",
+      "cs": "heavy metal"
+    },
+    {
+      "type": "word",
+      "en": "hi-fi",
+      "ipa": "ˈhaɪfaɪ",
+      "cs": "hi-fi; hudební věž"
+    },
+    {
+      "type": "word",
+      "en": "horrible",
+      "ipa": "ˈhɒrəbl",
+      "cs": "hrozný"
+    },
+    {
+      "type": "word",
+      "en": "horse",
+      "ipa": "hɔːs",
+      "cs": "kůň"
+    },
+    {
+      "type": "word",
+      "en": "horse-riding",
+      "ipa": "ˈhɔːsˌraɪdɪŋ",
+      "cs": "jezdectví"
+    },
+    {
+      "type": "word",
+      "en": "ice-skating",
+      "ipa": "ˈaɪsˌskeɪtɪŋ",
+      "cs": "bruslení",
+      "note": "na ledě"
+    },
+    {
+      "type": "word",
+      "en": "judo",
+      "ipa": "ˈdʒuːdəʊ",
+      "cs": "judo"
+    },
+    {
+      "type": "word",
+      "en": "knit",
+      "ipa": "nɪt",
+      "cs": "plést",
+      "note": "(tt)"
+    },
+    {
+      "type": "word",
+      "en": "leg",
+      "ipa": "leg",
+      "cs": "noha"
+    },
+    {
+      "type": "word",
+      "en": "metal",
+      "ipa": "ˈmetl",
+      "cs": "kov"
+    },
+    {
+      "type": "word",
+      "en": "model",
+      "ipa": "ˈmɒdl",
+      "cs": "model"
+    },
+    {
+      "type": "word",
+      "en": "motorbike",
+      "ipa": "ˈməʊtəbaɪk",
+      "cs": "motorka"
+    },
+    {
+      "type": "word",
+      "en": "noise",
+      "ipa": "nɔɪz",
+      "cs": "hluk"
+    },
+    {
+      "type": "word",
+      "en": "normal",
+      "ipa": "ˈnɔːml",
+      "cs": "normální"
+    },
+    {
+      "type": "word",
+      "en": "opera",
+      "ipa": "ˈɒpərə",
+      "cs": "opera"
+    },
+    {
+      "type": "word",
+      "en": "pottery",
+      "ipa": "ˈpɒtərɪ",
+      "cs": "hrnčířství; keramika"
+    },
+    {
+      "type": "word",
+      "en": "repair",
+      "ipa": "rɪˈpeə",
+      "cs": "opravit"
+    },
+    {
+      "type": "word",
+      "en": "rest",
+      "ipa": "rest",
+      "cs": "zbytek; odpočívat"
+    },
+    {
+      "type": "word",
+      "en": "rich",
+      "ipa": "rɪtʃ",
+      "cs": "bohatý"
+    },
+    {
+      "type": "word",
+      "en": "rugby",
+      "ipa": "ˈrʌgbɪ",
+      "cs": "ragby"
+    },
+    {
+      "type": "word",
+      "en": "set",
+      "ipa": "set",
+      "cs": "sada, sestava, souprava"
+    },
+    {
+      "type": "word",
+      "en": "sew",
+      "ipa": "səʊ",
+      "cs": "(u)šít",
+      "note": "sewed, sewn"
+    },
+    {
+      "type": "word",
+      "en": "skateboard",
+      "ipa": "ˈskeɪtbɔːd",
+      "cs": "skateboard; jezdit na skateboardu"
+    },
+    {
+      "type": "word",
+      "en": "snake",
+      "ipa": "sneɪk",
+      "cs": "had"
+    },
+    {
+      "type": "word",
+      "en": "so far",
+      "ipa": "ˈsəʊ fɑː",
+      "cs": "zatím, doposud"
+    },
+    {
+      "type": "word",
+      "en": "soap opera",
+      "ipa": "ˈsəʊp ˌɒpərə",
+      "cs": "typ televizního seriálu",
+      "note": "viz Culture Note"
+    },
+    {
+      "type": "word",
+      "en": "spare",
+      "ipa": "speə",
+      "cs": "náhradní, volný"
+    },
+    {
+      "type": "word",
+      "en": "spare time",
+      "cs": "volný čas"
+    },
+    {
+      "type": "word",
+      "en": "spider",
+      "ipa": "ˈspaɪdə",
+      "cs": "pavouk"
+    },
+    {
+      "type": "word",
+      "en": "stamp",
+      "ipa": "stæmp",
+      "cs": "poštovní známka; razítko"
+    },
+    {
+      "type": "word",
+      "en": "train set",
+      "ipa": "ˈtreɪn ˌset",
+      "cs": "vláčky",
+      "note": "model železnice"
+    },
+    {
+      "type": "word",
+      "en": "uninteresting",
+      "ipa": "ʌnˈɪntrəstɪŋ",
+      "cs": "nezajímavý"
+    },
+    {
+      "type": "word",
+      "en": "unusual",
+      "ipa": "ʌnˈjuːʒʊəl",
+      "cs": "neobvyklý"
+    },
+    {
+      "type": "word",
+      "en": "up",
+      "ipa": "ʌp",
+      "cs": "nahoru (po); nahoře"
+    },
+    {
+      "type": "word",
+      "en": "Walkman",
+      "ipa": "ˈwɔːkmən",
+      "cs": "walkman"
+    },
+    {
+      "type": "phrase",
+      "en": "be in love with",
+      "cs": "být zamilovaný do",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "bore sb with sth",
+      "cs": "nudit koho čím",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "Let's start with Dad.",
+      "cs": "Začněme u taťky.",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "for the fourth time",
+      "cs": "po čtvrté",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "the room below mine",
+      "cs": "místnost pod mým pokojem",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "play the guitar",
+      "cs": "hrát na kytaru",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "climb trees",
+      "cs": "šplhat na stromy",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in my spare time",
+      "cs": "ve volném čase",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "to get away from",
+      "cs": "utéct od, uniknout z",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "watch soap operas",
+      "cs": "dívat se na televizní seriály",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the attic",
+      "cs": "na půdě",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "What are your hobbies?",
+      "cs": "Jaké máš koníčky?",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "My hobbies are reading and swimming.",
+      "cs": "Mými zálibami jsou čtení a plavání.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I like sports.",
+      "cs": "Mám rád sport.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I do a lot of sports.",
+      "cs": "Hodně sportuji.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm keen on football.",
+      "cs": "Baví mě fotbal.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I play tennis/football.",
+      "cs": "Hraji tenis/fotbal.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I go ice-skating/skateboarding.",
+      "cs": "Bruslím/Jezdím na skateboardu.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I go to judo.",
+      "cs": "Chodím na judo.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I play chess/computer games.",
+      "cs": "Hraji šachy/počítačové hry.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I do crosswords.",
+      "cs": "Luštím křížovky.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I paint/knit/sew.",
+      "cs": "Maluji/Pletu/Šiji.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm good at drawing.",
+      "cs": "Jde mi kreslení.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I build model planes.",
+      "cs": "Stavím modely letadel.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I go to pottery/art classes.",
+      "cs": "Chodím do kroužku keramiky/do výtvarného kroužku.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I go to piano lessons.",
+      "cs": "Chodím na klavír.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I play the guitar.",
+      "cs": "Hraji na kytaru.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I enjoy singing.",
+      "cs": "Rád zpívám.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm a Beatles fan.",
+      "cs": "Jsem fanoušek (skupiny) Beatles.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm a music lover/an animal lover.",
+      "cs": "Jsem milovník hudby/zvířat.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I like looking after my pets.",
+      "cs": "Rád se starám o svá zvířátka.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I enjoy DIY/gardening.",
+      "cs": "Rád kutím/zahradničím.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I watch (the) TV.",
+      "cs": "Dívám se na televizi.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I listen to music/CDs/the radio.",
+      "cs": "Poslouchám hudbu/cédéčka/rádio.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I collect stamps/postcards.",
+      "cs": "Sbírám známky/pohlednice.",
+      "note": "remember!"
+    }
+  ]
+}
