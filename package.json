@@ -10,7 +10,8 @@
     "audio": "node scripts/generate-audio.mjs",
     "proxy": "ngrok http --hostname=teacher.eu.ngrok.io 4000",
     "audio:clean": "node scripts/generate-audio.mjs --prune",
-    "user": "node scripts/create-user.mjs"
+    "user": "node scripts/create-user.mjs",
+    "ipa:check": "node scripts/check-ipa.mjs"
   },
   "dependencies": {
     "mongodb": "^7.6.0",

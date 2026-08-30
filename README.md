@@ -3,7 +3,7 @@
 Webová aplikace na učení anglických slovíček a frází pomocí kartiček. Otočíš kartu, řekneš
 si, jestli jsi to věděl, a co ti nešlo, se vrací častěji.
 
-- 22 lekcí ze dvou učebnic, 1 933 slovíček a frází včetně výslovnosti
+- 23 lekcí, 2 292 slovíček a frází včetně výslovnosti – dvě učebnice a tematické okruhy
 - **Next.js 16 + React 19 + Tailwind v4**, TypeScript
 - Mobil na prvním místě, funguje i offline (kromě prvního načtení)
 - Pokrok a nastavení v prohlížeči, volitelně zrcadlené do MongoDB
@@ -140,7 +140,11 @@ poznámky se vynechávají; jednotlivá slova z boxů se ukládají jako sloví�
 spojení jako fráze.
 
 Soubor stačí přidat a stránku obnovit – aplikace si všechny lekce načte sama, nikde se
-neregistrují. Lekce se v aplikaci samy seskupí po učebnicích, takže jde vybrat celá učebnice
+neregistrují. **Tematické lekce** (mimo učebnici) mají `id` bez tvaru `uN-lN` a vlastní `book` s `bookTitle`,
+například `{"id": "tema-it", "book": 3, "bookTitle": "Témata", "order": 1}`. V aplikaci se
+zobrazí jako samostatná skupina vedle učebnic.
+
+Lekce se v aplikaci samy seskupí po učebnicích, takže jde vybrat celá učebnice
 jedním kliknutím. Originální fotky stránek z učebnice patří do `screenshots/lekce/` a pojmenovávají se
 stejně jako lekce (`u1-l1.jpg`).
 
@@ -152,6 +156,17 @@ u existující položky přepíšeš `en`, bere se jako nová a přijde o dosava
 překladu, IPA nebo poznámky pokrok neovlivní.
 
 ## Výslovnost
+
+Fonetický přepis u lekcí, které nepocházejí z tištěné učebnice, se dá křížově ověřit:
+
+```bash
+npm run ipa:check tema-it     # jedna lekce
+npm run ipa:check             # všechny
+```
+
+Porovnává hlásky proti `espeak-ng` (`brew install espeak-ng`); přízvuky ignoruje, protože
+je espeak klade jinak než česká učebnice. Neshoda není důkaz chyby, jen tip ke kontrole –
+na ověřených datech z učebnice hlásí kolem 2 % položek.
 
 ```bash
 npm run audio                 # dogeneruje, co chybí

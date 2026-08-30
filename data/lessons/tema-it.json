@@ -1,0 +1,2411 @@
+{
+  "id": "tema-it",
+  "order": 1,
+  "book": 3,
+  "bookTitle": "Témata",
+  "title": "IT a práce ve vývoji",
+  "description": "Slovní zásoba pro práci v IT – 278 slovíček, 81 frází.",
+  "items": [
+    {
+      "type": "word",
+      "en": "acceptance criteria",
+      "ipa": "əkˈseptəns kraɪˌtɪərɪə",
+      "cs": "akceptační kritéria; kdy je úkol považován za hotový"
+    },
+    {
+      "type": "word",
+      "en": "access",
+      "ipa": "ˈækses",
+      "cs": "přístup; mít přístup k",
+      "note": "grant / revoke access – udělit / odebrat přístup"
+    },
+    {
+      "type": "word",
+      "en": "achievement",
+      "ipa": "əˈtʃiːvmənt",
+      "cs": "úspěch, dosažený výsledek",
+      "note": "u pohovoru: „my biggest achievement“"
+    },
+    {
+      "type": "word",
+      "en": "aggregate",
+      "ipa": "ˈægrɪgeɪt",
+      "cs": "agregovat, sečíst dohromady",
+      "note": "jako podstatné jméno ˈægrɪgət"
+    },
+    {
+      "type": "word",
+      "en": "alert",
+      "ipa": "əˈlɜːt",
+      "cs": "upozornění, výstraha (že něco nefunguje)",
+      "note": "an alert fired = spustilo se upozornění"
+    },
+    {
+      "type": "word",
+      "en": "annual leave",
+      "ipa": "ˌænjuəl ˈliːv",
+      "cs": "dovolená (roční nárok)",
+      "note": "britsky; americky vacation"
+    },
+    {
+      "type": "word",
+      "en": "apply",
+      "ipa": "əˈplaɪ",
+      "cs": "ucházet se o místo, podat přihlášku",
+      "note": "apply for a job; application = přihláška"
+    },
+    {
+      "type": "word",
+      "en": "appraisal",
+      "ipa": "əˈpreɪzl",
+      "cs": "hodnocení zaměstnance, hodnoticí pohovor",
+      "note": "performance review je synonymum"
+    },
+    {
+      "type": "word",
+      "en": "approve",
+      "ipa": "əˈpruːv",
+      "cs": "schválit (pull request)",
+      "note": "podstatné jméno approval (əˈpruːvl)"
+    },
+    {
+      "type": "word",
+      "en": "assign",
+      "ipa": "əˈsaɪn",
+      "cs": "přidělit, přiřadit (úkol někomu)",
+      "note": "assignee [ˌæsaɪˈniː] = řešitel úkolu"
+    },
+    {
+      "type": "word",
+      "en": "assume",
+      "ipa": "əˈsjuːm",
+      "cs": "předpokládat, domnívat se",
+      "note": "„I assumed the field was optional.“ – časté v code review"
+    },
+    {
+      "type": "word",
+      "en": "audit",
+      "ipa": "ˈɔːdɪt",
+      "cs": "audit, prověrka",
+      "note": "security audit, audit log"
+    },
+    {
+      "type": "word",
+      "en": "authentication",
+      "ipa": "ɔːˌθentɪˈkeɪʃn",
+      "cs": "ověření totožnosti, autentizace",
+      "note": "kdo jsi; hovorově zkracované na auth /ɔːθ/"
+    },
+    {
+      "type": "word",
+      "en": "authorization",
+      "ipa": "ˌɔːθəraɪˈzeɪʃn",
+      "cs": "udělení oprávnění, autorizace",
+      "note": "co smíš – protiklad k authentication; britsky se píše authorisation"
+    },
+    {
+      "type": "word",
+      "en": "availability",
+      "ipa": "əˌveɪləˈbɪlətɪ",
+      "cs": "dostupnost (služby)",
+      "note": "high availability = vysoká dostupnost"
+    },
+    {
+      "type": "word",
+      "en": "backlog",
+      "ipa": "ˈbæklɒg",
+      "cs": "backlog; zásobník úkolů, nevyřízená práce"
+    },
+    {
+      "type": "word",
+      "en": "backup",
+      "ipa": "ˈbækʌp",
+      "cs": "záloha",
+      "note": "sloveso se píše zvlášť: back up [ˌbæk ˈʌp] = zálohovat"
+    },
+    {
+      "type": "word",
+      "en": "backward compatibility",
+      "ipa": "ˌbækwəd kəmˌpætəˈbɪlətɪ",
+      "cs": "zpětná kompatibilita"
+    },
+    {
+      "type": "word",
+      "en": "bandwidth",
+      "ipa": "ˈbændwɪdθ",
+      "cs": "šířka pásma, přenosová kapacita",
+      "note": "přeneseně i „časová kapacita“ člověka"
+    },
+    {
+      "type": "word",
+      "en": "benefit",
+      "ipa": "ˈbenɪfɪt",
+      "cs": "zaměstnanecká výhoda, benefit",
+      "note": "benefits package = balíček výhod"
+    },
+    {
+      "type": "word",
+      "en": "blocker",
+      "ipa": "ˈblɒkə",
+      "cs": "blocker; překážka, kvůli které nelze pokračovat"
+    },
+    {
+      "type": "word",
+      "en": "boilerplate",
+      "ipa": "ˈbɔɪləpleɪt",
+      "cs": "šablonový kód, který se pořád dokola opisuje"
+    },
+    {
+      "type": "word",
+      "en": "bottleneck",
+      "ipa": "ˈbɒtlnek",
+      "cs": "úzké hrdlo, nejpomalejší místo systému"
+    },
+    {
+      "type": "word",
+      "en": "branch",
+      "ipa": "brɑːntʃ",
+      "cs": "větev (v Gitu); větvit se"
+    },
+    {
+      "type": "word",
+      "en": "breach",
+      "ipa": "briːtʃ",
+      "cs": "narušení bezpečnosti, průnik",
+      "note": "data breach – únik dat po útoku"
+    },
+    {
+      "type": "word",
+      "en": "breaking change",
+      "ipa": "ˈbreɪkɪŋ ˌtʃeɪndʒ",
+      "cs": "změna, která rozbije zpětnou kompatibilitu"
+    },
+    {
+      "type": "word",
+      "en": "bug",
+      "ipa": "bʌg",
+      "cs": "chyba (v programu)",
+      "note": "nejběžnější slovo pro chybu v kódu"
+    },
+    {
+      "type": "word",
+      "en": "burnout",
+      "ipa": "ˈbɜːnaʊt",
+      "cs": "vyhoření",
+      "note": "burn out = vyhořet (sloveso)"
+    },
+    {
+      "type": "word",
+      "en": "cache",
+      "ipa": "kæʃ",
+      "cs": "cache, mezipaměť",
+      "note": "vyslovuje se jako „cash“, ne „kejš“"
+    },
+    {
+      "type": "word",
+      "en": "candidate",
+      "ipa": "ˈkændɪdət",
+      "cs": "uchazeč, kandidát",
+      "note": "o pozici"
+    },
+    {
+      "type": "word",
+      "en": "capacity",
+      "ipa": "kəˈpæsətɪ",
+      "cs": "kapacita; kolik práce tým zvládne"
+    },
+    {
+      "type": "word",
+      "en": "catch-up",
+      "ipa": "ˈkætʃ ˌʌp",
+      "cs": "krátká schůzka na sladění; dohnání skluzu",
+      "note": "„Let's have a quick catch-up.“"
+    },
+    {
+      "type": "word",
+      "en": "certificate",
+      "ipa": "səˈtɪfɪkət",
+      "cs": "certifikát (pro HTTPS)",
+      "note": "the certificate expired = certifikátu vypršela platnost"
+    },
+    {
+      "type": "word",
+      "en": "changelog",
+      "ipa": "ˈtʃeɪndʒlɒg",
+      "cs": "přehled změn mezi verzemi"
+    },
+    {
+      "type": "word",
+      "en": "checkout",
+      "ipa": "ˈtʃekaʊt",
+      "cs": "přepnutí na jinou větev; přepnout se",
+      "note": "sloveso se píše zvlášť: check out a branch"
+    },
+    {
+      "type": "word",
+      "en": "cherry-pick",
+      "ipa": "ˈtʃerɪ ˌpɪk",
+      "cs": "přenést jeden konkrétní commit do jiné větve"
+    },
+    {
+      "type": "word",
+      "en": "clarify",
+      "ipa": "ˈklærɪfaɪ",
+      "cs": "upřesnit, vyjasnit"
+    },
+    {
+      "type": "word",
+      "en": "clone",
+      "ipa": "kləʊn",
+      "cs": "naklonovat repozitář, stáhnout si ho k sobě"
+    },
+    {
+      "type": "word",
+      "en": "cluster",
+      "ipa": "ˈklʌstə",
+      "cs": "cluster, skupina propojených serverů"
+    },
+    {
+      "type": "word",
+      "en": "code",
+      "ipa": "kəʊd",
+      "cs": "kód, zdrojový kód; programovat",
+      "note": "i sloveso: I code in JavaScript."
+    },
+    {
+      "type": "word",
+      "en": "code review",
+      "ipa": "ˈkəʊd rɪˌvjuː",
+      "cs": "revize kódu, kontrola kódu kolegou"
+    },
+    {
+      "type": "word",
+      "en": "code smell",
+      "ipa": "ˈkəʊd smel",
+      "cs": "podezřelé místo v kódu, náznak špatného návrhu"
+    },
+    {
+      "type": "word",
+      "en": "codebase",
+      "ipa": "ˈkəʊdbeɪs",
+      "cs": "kódová základna, veškerý kód projektu"
+    },
+    {
+      "type": "word",
+      "en": "column",
+      "ipa": "ˈkɒləm",
+      "cs": "sloupec",
+      "note": "pozor: n se nevyslovuje"
+    },
+    {
+      "type": "word",
+      "en": "commit",
+      "ipa": "kəˈmɪt",
+      "cs": "commit; zapsat změnu do repozitáře",
+      "note": "sloveso kəˈmɪt, podstatné jméno v žargonu často ˈkɒmɪt"
+    },
+    {
+      "type": "word",
+      "en": "commit message",
+      "ipa": "kəˈmɪt ˌmesɪdʒ",
+      "cs": "popis commitu"
+    },
+    {
+      "type": "word",
+      "en": "commute",
+      "ipa": "kəˈmjuːt",
+      "cs": "dojíždět do práce; dojíždění",
+      "note": "sloveso i podstatné jméno"
+    },
+    {
+      "type": "word",
+      "en": "compliance",
+      "ipa": "kəmˈplaɪəns",
+      "cs": "soulad s předpisy, dodržování pravidel",
+      "note": "typicky GDPR compliance"
+    },
+    {
+      "type": "word",
+      "en": "concern",
+      "ipa": "kənˈsɜːn",
+      "cs": "obava, výhrada",
+      "note": "„I have a concern about the deadline.“"
+    },
+    {
+      "type": "word",
+      "en": "config",
+      "ipa": "ˈkɒnfɪg",
+      "cs": "konfigurace, nastavení",
+      "note": "plný tvar configuration [kənˌfɪgəˈreɪʃn]"
+    },
+    {
+      "type": "word",
+      "en": "confirm",
+      "ipa": "kənˈfɜːm",
+      "cs": "potvrdit"
+    },
+    {
+      "type": "word",
+      "en": "conflict",
+      "ipa": "ˈkɒnflɪkt",
+      "cs": "konflikt při slučování větví",
+      "note": "podstatné jméno má přízvuk vpředu, sloveso kənˈflɪkt"
+    },
+    {
+      "type": "word",
+      "en": "connection",
+      "ipa": "kəˈnekʃn",
+      "cs": "připojení (k databázi); spojení",
+      "note": "connection string, connection pool"
+    },
+    {
+      "type": "word",
+      "en": "constraint",
+      "ipa": "kənˈstreɪnt",
+      "cs": "omezení, pravidlo (v databázi)"
+    },
+    {
+      "type": "word",
+      "en": "container",
+      "ipa": "kənˈteɪnə",
+      "cs": "kontejner (izolovaně zabalená aplikace)"
+    },
+    {
+      "type": "word",
+      "en": "contract",
+      "ipa": "ˈkɒntrækt",
+      "cs": "smlouva",
+      "note": "podstatné jméno; sloveso má přízvuk kənˈtrækt"
+    },
+    {
+      "type": "word",
+      "en": "cover letter",
+      "ipa": "ˈkʌvə ˌletə",
+      "cs": "motivační dopis",
+      "note": "posílá se s životopisem"
+    },
+    {
+      "type": "word",
+      "en": "coverage",
+      "ipa": "ˈkʌvərɪdʒ",
+      "cs": "pokrytí kódu testy",
+      "note": "test coverage is 80 %"
+    },
+    {
+      "type": "word",
+      "en": "crash",
+      "ipa": "kræʃ",
+      "cs": "spadnout, zhroutit se; pád aplikace",
+      "note": "the server crashed = server spadl"
+    },
+    {
+      "type": "word",
+      "en": "credentials",
+      "ipa": "krɪˈdenʃlz",
+      "cs": "přihlašovací údaje",
+      "note": "používá se v množném čísle"
+    },
+    {
+      "type": "word",
+      "en": "daily standup",
+      "ipa": "ˌdeɪlɪ ˈstændʌp",
+      "cs": "denní krátká porada týmu (vestoje)",
+      "note": "říká se i jen „standup“ nebo „the daily“"
+    },
+    {
+      "type": "word",
+      "en": "dashboard",
+      "ipa": "ˈdæʃbɔːd",
+      "cs": "přehledová obrazovka s grafy a čísly"
+    },
+    {
+      "type": "word",
+      "en": "data",
+      "ipa": "ˈdeɪtə",
+      "cs": "data; údaje",
+      "note": "v angličtině obvykle jednotné číslo: the data is ready"
+    },
+    {
+      "type": "word",
+      "en": "data type",
+      "ipa": "ˈdeɪtə ˌtaɪp",
+      "cs": "datový typ"
+    },
+    {
+      "type": "word",
+      "en": "database",
+      "ipa": "ˈdeɪtəbeɪs",
+      "cs": "databáze"
+    },
+    {
+      "type": "word",
+      "en": "dataset",
+      "ipa": "ˈdeɪtəset",
+      "cs": "datová sada"
+    },
+    {
+      "type": "word",
+      "en": "deadline",
+      "ipa": "ˈdedlaɪn",
+      "cs": "termín, uzávěrka; datum, do kdy má být hotovo",
+      "note": "meet a deadline = stihnout termín, miss a deadline = nestihnout"
+    },
+    {
+      "type": "word",
+      "en": "debug",
+      "ipa": "diːˈbʌg",
+      "cs": "ladit, hledat chybu v kódu",
+      "note": "debugger /diːˈbʌgə/ – ladicí nástroj"
+    },
+    {
+      "type": "word",
+      "en": "default value",
+      "ipa": "dɪˈfɔːlt ˌvæljuː",
+      "cs": "výchozí hodnota"
+    },
+    {
+      "type": "word",
+      "en": "delay",
+      "ipa": "dɪˈleɪ",
+      "cs": "zpoždění; zdržet, opozdit",
+      "note": "the release is delayed = vydání se zdrželo"
+    },
+    {
+      "type": "word",
+      "en": "delete",
+      "ipa": "dɪˈliːt",
+      "cs": "smazat"
+    },
+    {
+      "type": "word",
+      "en": "deliver",
+      "ipa": "dɪˈlɪvə",
+      "cs": "dodat, odevzdat (hotovou práci)"
+    },
+    {
+      "type": "word",
+      "en": "deliverable",
+      "ipa": "dɪˈlɪvərəbl",
+      "cs": "výstup, dodávka (co se má odevzdat)",
+      "note": "často v množném čísle: deliverables"
+    },
+    {
+      "type": "word",
+      "en": "demo",
+      "ipa": "ˈdeməʊ",
+      "cs": "ukázka hotové práce (na konci sprintu)",
+      "note": "i sprint review; „demo the new feature“"
+    },
+    {
+      "type": "word",
+      "en": "dependency",
+      "ipa": "dɪˈpendənsɪ",
+      "cs": "závislost (na jiném úkolu nebo týmu)",
+      "note": "pozor: v kódu jsou dependencies knihovny, tady vazby mezi úkoly"
+    },
+    {
+      "type": "word",
+      "en": "deploy",
+      "ipa": "dɪˈplɔɪ",
+      "cs": "nasadit (na server), uvést do provozu",
+      "note": "podstatné jméno deployment (dɪˈplɔɪmənt)"
+    },
+    {
+      "type": "word",
+      "en": "deprecated",
+      "ipa": "ˈdeprəkeɪtɪd",
+      "cs": "zastaralý, nedoporučený k použití",
+      "note": "v dokumentaci knihoven"
+    },
+    {
+      "type": "word",
+      "en": "diff",
+      "ipa": "dɪf",
+      "cs": "rozdíl mezi verzemi, přehled změn"
+    },
+    {
+      "type": "word",
+      "en": "domain",
+      "ipa": "dəˈmeɪn",
+      "cs": "doména",
+      "note": "přízvuk na druhé slabice"
+    },
+    {
+      "type": "word",
+      "en": "downtime",
+      "ipa": "ˈdaʊntaɪm",
+      "cs": "výpadek, odstávka",
+      "note": "opak: uptime – doba dostupnosti"
+    },
+    {
+      "type": "word",
+      "en": "draft",
+      "ipa": "drɑːft",
+      "cs": "rozpracovaná verze, koncept",
+      "note": "draft pull request = ještě není ke schválení"
+    },
+    {
+      "type": "word",
+      "en": "due date",
+      "ipa": "ˈdjuː ˌdeɪt",
+      "cs": "datum splnění, termín odevzdání",
+      "note": "„It's due on Friday.“ = Má to být do pátku."
+    },
+    {
+      "type": "word",
+      "en": "duplicate",
+      "ipa": "ˈdjuːplɪkət",
+      "cs": "duplicitní; duplikát, duplicita",
+      "note": "jako sloveso „zduplikovat\" ˈdjuːplɪkeɪt"
+    },
+    {
+      "type": "word",
+      "en": "edge case",
+      "ipa": "ˈedʒ keɪs",
+      "cs": "okrajový případ, hraniční situace",
+      "note": "časté v code review a u pohovoru"
+    },
+    {
+      "type": "word",
+      "en": "employee",
+      "ipa": "ˌemplɔɪˈiː",
+      "cs": "zaměstnanec",
+      "note": "přízvuk na konci slova"
+    },
+    {
+      "type": "word",
+      "en": "encode",
+      "ipa": "ɪnˈkəʊd",
+      "cs": "zakódovat, převést do formátu",
+      "note": "opak je decode diːˈkəʊd"
+    },
+    {
+      "type": "word",
+      "en": "encryption",
+      "ipa": "ɪnˈkrɪpʃn",
+      "cs": "šifrování",
+      "note": "sloveso encrypt /ɪnˈkrɪpt/"
+    },
+    {
+      "type": "word",
+      "en": "endpoint",
+      "ipa": "ˈendpɔɪnt",
+      "cs": "endpoint; koncová adresa služby"
+    },
+    {
+      "type": "word",
+      "en": "environment",
+      "ipa": "ɪnˈvaɪrənmənt",
+      "cs": "prostředí (vývojové, testovací, provozní)",
+      "note": "hovorově env"
+    },
+    {
+      "type": "word",
+      "en": "escalate",
+      "ipa": "ˈeskəleɪt",
+      "cs": "posunout výš, eskalovat na nadřízené",
+      "note": "když se problém nedaří vyřešit v týmu"
+    },
+    {
+      "type": "word",
+      "en": "estimate",
+      "ipa": "ˈestɪmeɪt",
+      "cs": "odhad (času, pracnosti); odhadnout",
+      "note": "sloveso ˈestɪmeɪt, podstatné jméno ˈestɪmət"
+    },
+    {
+      "type": "word",
+      "en": "expire",
+      "ipa": "ɪkˈspaɪə",
+      "cs": "vypršet, ztratit platnost",
+      "note": "the token has expired – tokenu vypršela platnost"
+    },
+    {
+      "type": "word",
+      "en": "export",
+      "ipa": "ɪkˈspɔːt",
+      "cs": "exportovat, vyvést data; export",
+      "note": "jako podstatné jméno ˈekspɔːt"
+    },
+    {
+      "type": "word",
+      "en": "failover",
+      "ipa": "ˈfeɪləʊvə",
+      "cs": "automatické přepnutí na záložní systém"
+    },
+    {
+      "type": "word",
+      "en": "failure",
+      "ipa": "ˈfeɪljə",
+      "cs": "selhání, výpadek",
+      "note": "test failure, hardware failure"
+    },
+    {
+      "type": "word",
+      "en": "feature",
+      "ipa": "ˈfiːtʃə",
+      "cs": "funkce, funkcionalita (novinka v aplikaci)",
+      "note": "protiklad: bug = chyba"
+    },
+    {
+      "type": "word",
+      "en": "feedback",
+      "ipa": "ˈfiːdbæk",
+      "cs": "zpětná vazba, připomínky",
+      "note": "nepočitatelné: some feedback, ne „feedbacks“"
+    },
+    {
+      "type": "word",
+      "en": "field",
+      "ipa": "fiːld",
+      "cs": "pole; položka",
+      "note": "sloupec v tabulce nebo políčko ve formuláři"
+    },
+    {
+      "type": "word",
+      "en": "filter",
+      "ipa": "ˈfɪltə",
+      "cs": "filtrovat; filtr"
+    },
+    {
+      "type": "word",
+      "en": "firewall",
+      "ipa": "ˈfaɪəwɔːl",
+      "cs": "firewall; ochrana sítě"
+    },
+    {
+      "type": "word",
+      "en": "fix",
+      "ipa": "fɪks",
+      "cs": "oprava; opravit",
+      "note": "sloveso i podstatné jméno: a quick fix"
+    },
+    {
+      "type": "word",
+      "en": "flaky test",
+      "ipa": "ˌfleɪkɪ ˈtest",
+      "cs": "nestabilní test (jednou projde, jednou ne)",
+      "note": "hovorové, ale běžné v týmu"
+    },
+    {
+      "type": "word",
+      "en": "flexitime",
+      "ipa": "ˈfleksɪtaɪm",
+      "cs": "pružná pracovní doba",
+      "note": "britsky; americky flextime"
+    },
+    {
+      "type": "word",
+      "en": "follow up",
+      "ipa": "ˌfɒləʊ ˈʌp",
+      "cs": "navázat, připomenout se, doptat se",
+      "note": "„I'll follow up with the client.“; podstatné jméno je [ˈfɒləʊ ʌp]"
+    },
+    {
+      "type": "word",
+      "en": "foreign key",
+      "ipa": "ˌfɒrɪn ˈkiː",
+      "cs": "cizí klíč",
+      "note": "pozor: foreign se čte ˈfɒrɪn, bez g"
+    },
+    {
+      "type": "word",
+      "en": "fork",
+      "ipa": "fɔːk",
+      "cs": "vlastní kopie cizího repozitáře; odštěpit"
+    },
+    {
+      "type": "word",
+      "en": "framework",
+      "ipa": "ˈfreɪmwɜːk",
+      "cs": "framework; ucelená kostra aplikace"
+    },
+    {
+      "type": "word",
+      "en": "freelance",
+      "ipa": "ˈfriːlɑːns",
+      "cs": "na volné noze, jako živnostník",
+      "note": "go freelance = jít na volnou nohu"
+    },
+    {
+      "type": "word",
+      "en": "go live",
+      "ipa": "ˌgəʊ ˈlaɪv",
+      "cs": "spustit do ostrého provozu",
+      "note": "live se tu čte laɪv, ne lɪv"
+    },
+    {
+      "type": "word",
+      "en": "handover",
+      "ipa": "ˈhændəʊvə",
+      "cs": "předání práce, předávka",
+      "note": "před dovolenou nebo při odchodu z projektu"
+    },
+    {
+      "type": "word",
+      "en": "heads-up",
+      "ipa": "ˈhedz ʌp",
+      "cs": "upozornění předem, varování",
+      "note": "„just a quick heads-up“"
+    },
+    {
+      "type": "word",
+      "en": "health check",
+      "ipa": "ˈhelθ tʃek",
+      "cs": "kontrola, jestli služba běží a odpovídá"
+    },
+    {
+      "type": "word",
+      "en": "hotfix",
+      "ipa": "ˈhɒtfɪks",
+      "cs": "rychlá oprava nasazená mimo plán",
+      "note": "naléhavější než běžný fix"
+    },
+    {
+      "type": "word",
+      "en": "hybrid",
+      "ipa": "ˈhaɪbrɪd",
+      "cs": "hybridní režim (část týdne v kanceláři, část z domova)",
+      "note": "hybrid working"
+    },
+    {
+      "type": "word",
+      "en": "import",
+      "ipa": "ɪmˈpɔːt",
+      "cs": "importovat, načíst data; import",
+      "note": "jako podstatné jméno ˈɪmpɔːt"
+    },
+    {
+      "type": "word",
+      "en": "incident",
+      "ipa": "ˈɪnsɪdənt",
+      "cs": "incident, mimořádná událost",
+      "note": "incident report – zpráva o incidentu"
+    },
+    {
+      "type": "word",
+      "en": "indentation",
+      "ipa": "ˌɪndenˈteɪʃn",
+      "cs": "odsazení kódu"
+    },
+    {
+      "type": "word",
+      "en": "index",
+      "ipa": "ˈɪndeks",
+      "cs": "index (pro rychlejší vyhledávání)",
+      "note": "množné číslo indexes i indices"
+    },
+    {
+      "type": "word",
+      "en": "infrastructure",
+      "ipa": "ˈɪnfrəstrʌktʃə",
+      "cs": "infrastruktura (servery, sítě, služby)",
+      "note": "hovorově infra"
+    },
+    {
+      "type": "word",
+      "en": "insert",
+      "ipa": "ɪnˈsɜːt",
+      "cs": "vložit (nový záznam)",
+      "note": "podstatné jméno ˈɪnsɜːt"
+    },
+    {
+      "type": "word",
+      "en": "instance",
+      "ipa": "ˈɪnstəns",
+      "cs": "instance, jeden běžící stroj nebo kopie služby"
+    },
+    {
+      "type": "word",
+      "en": "integration test",
+      "ipa": "ˌɪntɪˈgreɪʃn ˌtest",
+      "cs": "integrační test",
+      "note": "testuje součinnost více částí"
+    },
+    {
+      "type": "word",
+      "en": "integrity",
+      "ipa": "ɪnˈtegrətɪ",
+      "cs": "integrita, celistvost dat",
+      "note": "data integrity = data si neodporují"
+    },
+    {
+      "type": "word",
+      "en": "issue",
+      "ipa": "ˈɪʃuː",
+      "cs": "problém, závada; úkol v systému (položka k řešení)",
+      "note": "v Jiře/GitHubu neutrálně = zadaná položka, ne nutně chyba"
+    },
+    {
+      "type": "word",
+      "en": "iteration",
+      "ipa": "ˌɪtəˈreɪʃn",
+      "cs": "iterace, opakovaný cyklus vývoje"
+    },
+    {
+      "type": "word",
+      "en": "job description",
+      "ipa": "ˈdʒɒb dɪˌskrɪpʃn",
+      "cs": "popis pracovní pozice"
+    },
+    {
+      "type": "word",
+      "en": "job offer",
+      "ipa": "ˈdʒɒb ˌɒfə",
+      "cs": "nabídka práce",
+      "note": "accept / turn down an offer"
+    },
+    {
+      "type": "word",
+      "en": "join",
+      "ipa": "dʒɔɪn",
+      "cs": "spojit tabulky; spojení"
+    },
+    {
+      "type": "word",
+      "en": "kick-off",
+      "ipa": "ˈkɪk ɒf",
+      "cs": "zahájení projektu, úvodní schůzka",
+      "note": "kick-off meeting; sloveso kick off = odstartovat"
+    },
+    {
+      "type": "word",
+      "en": "latency",
+      "ipa": "ˈleɪtənsɪ",
+      "cs": "latence, zpoždění odezvy"
+    },
+    {
+      "type": "word",
+      "en": "leak",
+      "ipa": "liːk",
+      "cs": "únik (dat, paměti)",
+      "note": "memory leak – únik paměti"
+    },
+    {
+      "type": "word",
+      "en": "legacy code",
+      "ipa": "ˈlegəsɪ ˌkəʊd",
+      "cs": "starý zděděný kód",
+      "note": "často mírně hanlivé"
+    },
+    {
+      "type": "word",
+      "en": "line manager",
+      "ipa": "ˌlaɪn ˈmænɪdʒə",
+      "cs": "přímý nadřízený",
+      "note": "britský výraz"
+    },
+    {
+      "type": "word",
+      "en": "linter",
+      "ipa": "ˈlɪntə",
+      "cs": "linter; nástroj hlídající chyby a styl kódu",
+      "note": "sloveso lint /lɪnt/"
+    },
+    {
+      "type": "word",
+      "en": "load",
+      "ipa": "ləʊd",
+      "cs": "zátěž, zatížení serveru",
+      "note": "under heavy load = při vysoké zátěži"
+    },
+    {
+      "type": "word",
+      "en": "load balancer",
+      "ipa": "ˌləʊd ˈbælənsə",
+      "cs": "load balancer; rozděluje provoz mezi servery"
+    },
+    {
+      "type": "word",
+      "en": "log",
+      "ipa": "lɒg",
+      "cs": "log, záznam běhu aplikace",
+      "note": "většinou v množném čísle: logs"
+    },
+    {
+      "type": "word",
+      "en": "logging",
+      "ipa": "ˈlɒgɪŋ",
+      "cs": "logování, zaznamenávání událostí"
+    },
+    {
+      "type": "word",
+      "en": "login",
+      "ipa": "ˈlɒgɪn",
+      "cs": "přihlášení; přihlašovací obrazovka",
+      "note": "sloveso se píše zvlášť: log in"
+    },
+    {
+      "type": "word",
+      "en": "maintain",
+      "ipa": "meɪnˈteɪn",
+      "cs": "udržovat, spravovat (kód, projekt)",
+      "note": "maintainable = udržovatelný"
+    },
+    {
+      "type": "word",
+      "en": "maintenance",
+      "ipa": "ˈmeɪntənəns",
+      "cs": "údržba",
+      "note": "pozor na výslovnost, není „mejntenens“"
+    },
+    {
+      "type": "word",
+      "en": "merge",
+      "ipa": "mɜːdʒ",
+      "cs": "sloučit větve; sloučení"
+    },
+    {
+      "type": "word",
+      "en": "metrics",
+      "ipa": "ˈmetrɪks",
+      "cs": "metriky, naměřené hodnoty o provozu",
+      "note": "jednotné číslo metric [ˈmetrɪk]"
+    },
+    {
+      "type": "word",
+      "en": "migration",
+      "ipa": "maɪˈgreɪʃn",
+      "cs": "migrace; převod struktury nebo dat"
+    },
+    {
+      "type": "word",
+      "en": "milestone",
+      "ipa": "ˈmaɪlstəʊn",
+      "cs": "milník, důležitý mezník projektu"
+    },
+    {
+      "type": "word",
+      "en": "misunderstanding",
+      "ipa": "ˌmɪsʌndəˈstændɪŋ",
+      "cs": "nedorozumění"
+    },
+    {
+      "type": "word",
+      "en": "monitoring",
+      "ipa": "ˈmɒnɪtərɪŋ",
+      "cs": "monitorování, sledování provozu"
+    },
+    {
+      "type": "word",
+      "en": "naming",
+      "ipa": "ˈneɪmɪŋ",
+      "cs": "pojmenovávání proměnných a funkcí",
+      "note": "naming convention = zvyklost v pojmenování"
+    },
+    {
+      "type": "word",
+      "en": "nitpick",
+      "ipa": "ˈnɪtpɪk",
+      "cs": "drobná výtka, hnidopišská poznámka",
+      "note": "v review se píše „nit:“ = tohle není blokující"
+    },
+    {
+      "type": "word",
+      "en": "node",
+      "ipa": "nəʊd",
+      "cs": "uzel, jeden stroj v clusteru",
+      "note": "nepleť si s Node.js"
+    },
+    {
+      "type": "word",
+      "en": "notice period",
+      "ipa": "ˈnəʊtɪs ˌpɪərɪəd",
+      "cs": "výpovědní lhůta",
+      "note": "hand in your notice = dát výpověď"
+    },
+    {
+      "type": "word",
+      "en": "null",
+      "ipa": "nʌl",
+      "cs": "prázdná hodnota, null",
+      "note": "the field is null, nullable = může být prázdné"
+    },
+    {
+      "type": "word",
+      "en": "on call",
+      "ipa": "ˌɒn ˈkɔːl",
+      "cs": "v pohotovosti, na telefonu (mimo pracovní dobu)",
+      "note": "I'm on call this week."
+    },
+    {
+      "type": "word",
+      "en": "on-call",
+      "ipa": "ˌɒn ˈkɔːl",
+      "cs": "pohotovost, držení služby",
+      "note": "I'm on call this week – tenhle týden držím službu"
+    },
+    {
+      "type": "word",
+      "en": "on-site",
+      "ipa": "ˌɒnˈsaɪt",
+      "cs": "na místě, přímo v kanceláři",
+      "note": "opak remote"
+    },
+    {
+      "type": "word",
+      "en": "onboarding",
+      "ipa": "ˈɒnbɔːdɪŋ",
+      "cs": "nástup a zaškolení nového kolegy",
+      "note": "firemní žargon, běžný v IT"
+    },
+    {
+      "type": "word",
+      "en": "one-to-one",
+      "ipa": "ˌwʌn tə ˈwʌn",
+      "cs": "individuální schůzka s nadřízeným",
+      "note": "britsky; americky one-on-one"
+    },
+    {
+      "type": "word",
+      "en": "outage",
+      "ipa": "ˈaʊtɪdʒ",
+      "cs": "výpadek služby",
+      "note": "konkrétní událost, kdežto downtime je doba"
+    },
+    {
+      "type": "word",
+      "en": "overtime",
+      "ipa": "ˈəʊvətaɪm",
+      "cs": "přesčas, práce přesčas",
+      "note": "work overtime = dělat přesčasy"
+    },
+    {
+      "type": "word",
+      "en": "pair programming",
+      "ipa": "ˌpeə ˈprəʊgræmɪŋ",
+      "cs": "programování ve dvojici"
+    },
+    {
+      "type": "word",
+      "en": "parse",
+      "ipa": "pɑːz",
+      "cs": "zpracovat, rozebrat (text, formát); naparsovat",
+      "note": "parse JSON, parse a date"
+    },
+    {
+      "type": "word",
+      "en": "password",
+      "ipa": "ˈpɑːswɜːd",
+      "cs": "heslo"
+    },
+    {
+      "type": "word",
+      "en": "patch",
+      "ipa": "pætʃ",
+      "cs": "záplata, oprava; opravit",
+      "note": "security patch – bezpečnostní záplata"
+    },
+    {
+      "type": "word",
+      "en": "pay rise",
+      "ipa": "ˌpeɪ ˈraɪz",
+      "cs": "zvýšení platu",
+      "note": "britsky; americky pay raise"
+    },
+    {
+      "type": "word",
+      "en": "payslip",
+      "ipa": "ˈpeɪslɪp",
+      "cs": "výplatní páska",
+      "note": "britsky; americky pay stub"
+    },
+    {
+      "type": "word",
+      "en": "permission",
+      "ipa": "pəˈmɪʃn",
+      "cs": "oprávnění, povolení",
+      "note": "často množné: file permissions"
+    },
+    {
+      "type": "word",
+      "en": "phishing",
+      "ipa": "ˈfɪʃɪŋ",
+      "cs": "phishing; podvodné e-maily lákající údaje",
+      "note": "časté ve firemních školeních"
+    },
+    {
+      "type": "word",
+      "en": "pipeline",
+      "ipa": "ˈpaɪplaɪn",
+      "cs": "pipeline; automatizovaná posloupnost kroků při sestavení a nasazení"
+    },
+    {
+      "type": "word",
+      "en": "post-mortem",
+      "ipa": "ˌpəʊst ˈmɔːtəm",
+      "cs": "rozbor po incidentu (co se stalo a proč)",
+      "note": "i „postmortem“; americky často „retro“"
+    },
+    {
+      "type": "word",
+      "en": "postpone",
+      "ipa": "pəʊstˈpəʊn",
+      "cs": "odložit, přesunout na později",
+      "note": "neformálně push back"
+    },
+    {
+      "type": "word",
+      "en": "primary key",
+      "ipa": "ˌpraɪmərɪ ˈkiː",
+      "cs": "primární klíč"
+    },
+    {
+      "type": "word",
+      "en": "prioritize",
+      "ipa": "praɪˈɒrətaɪz",
+      "cs": "stanovit pořadí důležitosti, dát přednost",
+      "note": "„let's prioritize the login bug“"
+    },
+    {
+      "type": "word",
+      "en": "priority",
+      "ipa": "praɪˈɒrətɪ",
+      "cs": "priorita, přednost",
+      "note": "high/low priority; top priority = nejvyšší priorita"
+    },
+    {
+      "type": "word",
+      "en": "privacy",
+      "ipa": "ˈprɪvəsɪ",
+      "cs": "soukromí, ochrana osobních údajů",
+      "note": "britsky ˈprɪ-, americky ˈpraɪ-"
+    },
+    {
+      "type": "word",
+      "en": "probation period",
+      "ipa": "prəˈbeɪʃn ˌpɪərɪəd",
+      "cs": "zkušební doba"
+    },
+    {
+      "type": "word",
+      "en": "production",
+      "ipa": "prəˈdʌkʃn",
+      "cs": "ostrý provoz, produkční prostředí",
+      "note": "hovorově zkráceně prod [prɒd]"
+    },
+    {
+      "type": "word",
+      "en": "progress",
+      "ipa": "ˈprəʊgres",
+      "cs": "pokrok, postup prací",
+      "note": "in progress = rozpracováno; jako sloveso prəˈgres"
+    },
+    {
+      "type": "word",
+      "en": "promotion",
+      "ipa": "prəˈməʊʃn",
+      "cs": "povýšení",
+      "note": "get a promotion = být povýšen"
+    },
+    {
+      "type": "word",
+      "en": "pull request",
+      "ipa": "ˈpʊl rɪˌkwest",
+      "cs": "pull request; žádost o začlenění změn",
+      "note": "zkratka PR; na GitLabu merge request"
+    },
+    {
+      "type": "word",
+      "en": "push",
+      "ipa": "pʊʃ",
+      "cs": "odeslat změny do vzdáleného repozitáře"
+    },
+    {
+      "type": "word",
+      "en": "query",
+      "ipa": "ˈkwɪərɪ",
+      "cs": "dotaz; zadat dotaz",
+      "note": "run a query = spustit dotaz"
+    },
+    {
+      "type": "word",
+      "en": "queue",
+      "ipa": "kjuː",
+      "cs": "fronta (zpráv, úloh)",
+      "note": "vyslovuje se jako písmeno Q"
+    },
+    {
+      "type": "word",
+      "en": "rate limit",
+      "ipa": "ˈreɪt ˌlɪmɪt",
+      "cs": "omezení počtu požadavků za čas",
+      "note": "rate limited = omezený, odmítnutý kvůli limitu"
+    },
+    {
+      "type": "word",
+      "en": "reach out",
+      "ipa": "ˌriːtʃ ˈaʊt",
+      "cs": "oslovit, obrátit se na někoho",
+      "note": "„I'll reach out to their team.“"
+    },
+    {
+      "type": "word",
+      "en": "read-only",
+      "ipa": "ˌriːd ˈəʊnlɪ",
+      "cs": "jen pro čtení",
+      "note": "read-only access, read-only replica"
+    },
+    {
+      "type": "word",
+      "en": "readability",
+      "ipa": "ˌriːdəˈbɪlətɪ",
+      "cs": "čitelnost kódu"
+    },
+    {
+      "type": "word",
+      "en": "rebase",
+      "ipa": "ˌriːˈbeɪs",
+      "cs": "přesadit větev na aktuální základ",
+      "note": "protiklad k merge"
+    },
+    {
+      "type": "word",
+      "en": "record",
+      "ipa": "ˈrekɔːd",
+      "cs": "záznam",
+      "note": "podstatné jméno; sloveso „nahrát\" je rɪˈkɔːd"
+    },
+    {
+      "type": "word",
+      "en": "recruiter",
+      "ipa": "rɪˈkruːtə",
+      "cs": "náborář, personalista",
+      "note": "ozve se vám na LinkedIn"
+    },
+    {
+      "type": "word",
+      "en": "redundancy",
+      "ipa": "rɪˈdʌndənsɪ",
+      "cs": "propouštění pro nadbytečnost",
+      "note": "be made redundant = být propuštěn"
+    },
+    {
+      "type": "word",
+      "en": "refactor",
+      "ipa": "ˌriːˈfæktə",
+      "cs": "refaktorovat, přepsat kód beze změny chování",
+      "note": "podstatné jméno refactoring (ˌriːˈfæktərɪŋ)"
+    },
+    {
+      "type": "word",
+      "en": "reference",
+      "ipa": "ˈrefrəns",
+      "cs": "reference, doporučení od bývalého zaměstnavatele",
+      "note": "často se vyslovuje dvouslabičně"
+    },
+    {
+      "type": "word",
+      "en": "refinement",
+      "ipa": "rɪˈfaɪnmənt",
+      "cs": "zpřesňování backlogu, upřesňování úkolů",
+      "note": "dříve grooming"
+    },
+    {
+      "type": "word",
+      "en": "regression",
+      "ipa": "rɪˈgreʃn",
+      "cs": "regrese; návrat dřívější chyby",
+      "note": "regression test – test proti návratu chyby"
+    },
+    {
+      "type": "word",
+      "en": "relationship",
+      "ipa": "rɪˈleɪʃnʃɪp",
+      "cs": "vztah (mezi tabulkami)",
+      "note": "kratší varianta relation rɪˈleɪʃn"
+    },
+    {
+      "type": "word",
+      "en": "release",
+      "ipa": "rɪˈliːs",
+      "cs": "vydání verze; vydat, uvolnit",
+      "note": "podstatné jméno i sloveso"
+    },
+    {
+      "type": "word",
+      "en": "reliability",
+      "ipa": "rɪˌlaɪəˈbɪlətɪ",
+      "cs": "spolehlivost",
+      "note": "přídavné jméno reliable /rɪˈlaɪəbl/"
+    },
+    {
+      "type": "word",
+      "en": "remote",
+      "ipa": "rɪˈməʊt",
+      "cs": "vzdálený; na dálku, z domova",
+      "note": "work remotely = pracovat na dálku"
+    },
+    {
+      "type": "word",
+      "en": "report",
+      "ipa": "rɪˈpɔːt",
+      "cs": "sestava, výkaz; hlásit, nahlásit"
+    },
+    {
+      "type": "word",
+      "en": "repository",
+      "ipa": "rɪˈpɒzɪtərɪ",
+      "cs": "repozitář, úložiště kódu",
+      "note": "hovorově zkráceně repo (ˈriːpəʊ)"
+    },
+    {
+      "type": "word",
+      "en": "reproduce",
+      "ipa": "ˌriːprəˈdjuːs",
+      "cs": "zopakovat, vyvolat znovu (chybu)",
+      "note": "steps to reproduce – postup, jak chybu vyvolat"
+    },
+    {
+      "type": "word",
+      "en": "requirement",
+      "ipa": "rɪˈkwaɪəmənt",
+      "cs": "požadavek, zadání"
+    },
+    {
+      "type": "word",
+      "en": "resign",
+      "ipa": "rɪˈzaɪn",
+      "cs": "dát výpověď, odstoupit z funkce",
+      "note": "g se nevyslovuje"
+    },
+    {
+      "type": "word",
+      "en": "restart",
+      "ipa": "ˌriːˈstɑːt",
+      "cs": "restartovat, znovu spustit (službu, server)",
+      "note": "podst. jméno má přízvuk vpředu: ˈriːstɑːt"
+    },
+    {
+      "type": "word",
+      "en": "restore",
+      "ipa": "rɪˈstɔː",
+      "cs": "obnovit (data ze zálohy)",
+      "note": "opak zálohování"
+    },
+    {
+      "type": "word",
+      "en": "retrieve",
+      "ipa": "rɪˈtriːv",
+      "cs": "získat, načíst (data)",
+      "note": "formálnější než get"
+    },
+    {
+      "type": "word",
+      "en": "retrospective",
+      "ipa": "ˌretrəˈspektɪv",
+      "cs": "retrospektiva; ohlédnutí za sprintem",
+      "note": "hovorově retro"
+    },
+    {
+      "type": "word",
+      "en": "retry",
+      "ipa": "rɪˈtraɪ",
+      "cs": "opakovaný pokus; zkusit znovu",
+      "note": "jako podst. jméno spíš ˈriːtraɪ"
+    },
+    {
+      "type": "word",
+      "en": "revert",
+      "ipa": "rɪˈvɜːt",
+      "cs": "vrátit změnu zpět",
+      "note": "v Gitu: zrušit commit novým commitem"
+    },
+    {
+      "type": "word",
+      "en": "revoke",
+      "ipa": "rɪˈvəʊk",
+      "cs": "odebrat (přístup), zneplatnit",
+      "note": "revoke a token, revoke access"
+    },
+    {
+      "type": "word",
+      "en": "roadmap",
+      "ipa": "ˈrəʊdmæp",
+      "cs": "plán rozvoje, výhled na další období",
+      "note": "product roadmap = plán vývoje produktu"
+    },
+    {
+      "type": "word",
+      "en": "rollback",
+      "ipa": "ˈrəʊlbæk",
+      "cs": "návrat k předchozí verzi",
+      "note": "sloveso zvlášť: roll back [ˌrəʊl ˈbæk]"
+    },
+    {
+      "type": "word",
+      "en": "rollout",
+      "ipa": "ˈrəʊlaʊt",
+      "cs": "zavedení, postupné vypuštění nové verze",
+      "note": "sloveso zvlášť: roll out [ˌrəʊl ˈaʊt]"
+    },
+    {
+      "type": "word",
+      "en": "root cause",
+      "ipa": "ˌruːt ˈkɔːz",
+      "cs": "skutečná příčina problému",
+      "note": "„let's find the root cause“"
+    },
+    {
+      "type": "word",
+      "en": "salary",
+      "ipa": "ˈsælərɪ",
+      "cs": "plat, mzda",
+      "note": "měsíční/roční, na rozdíl od hodinové wage"
+    },
+    {
+      "type": "word",
+      "en": "scale",
+      "ipa": "skeɪl",
+      "cs": "škálovat, navýšit kapacitu",
+      "note": "scale up = posílit stroj, scale out = přidat stroje"
+    },
+    {
+      "type": "word",
+      "en": "schema",
+      "ipa": "ˈskiːmə",
+      "cs": "schéma; struktura databáze",
+      "note": "množné číslo schemas i schemata"
+    },
+    {
+      "type": "word",
+      "en": "scope",
+      "ipa": "skəʊp",
+      "cs": "rozsah (práce, zadání)",
+      "note": "in scope / out of scope = spadá / nespadá do zadání"
+    },
+    {
+      "type": "word",
+      "en": "scope creep",
+      "ipa": "ˌskəʊp ˈkriːp",
+      "cs": "nekontrolované rozrůstání zadání",
+      "note": "když klient přidává „drobnosti“ nad rámec"
+    },
+    {
+      "type": "word",
+      "en": "screening call",
+      "ipa": "ˈskriːnɪŋ ˌkɔːl",
+      "cs": "úvodní telefonát s personalistou",
+      "note": "první kolo výběrového řízení"
+    },
+    {
+      "type": "word",
+      "en": "secure",
+      "ipa": "sɪˈkjʊə",
+      "cs": "zabezpečený; zabezpečit",
+      "note": "a secure connection – zabezpečené spojení"
+    },
+    {
+      "type": "word",
+      "en": "security",
+      "ipa": "sɪˈkjʊərətɪ",
+      "cs": "bezpečnost",
+      "note": "security review, security team"
+    },
+    {
+      "type": "word",
+      "en": "seed",
+      "ipa": "siːd",
+      "cs": "naplnit databázi výchozími nebo testovacími daty; osivo",
+      "note": "seed the database, seed data"
+    },
+    {
+      "type": "word",
+      "en": "sensitive data",
+      "ipa": "ˌsensətɪv ˈdeɪtə",
+      "cs": "citlivá data",
+      "note": "typicky v souvislosti s GDPR"
+    },
+    {
+      "type": "word",
+      "en": "server",
+      "ipa": "ˈsɜːvə",
+      "cs": "server",
+      "note": "koncové -r se v britské angličtině nevyslovuje"
+    },
+    {
+      "type": "word",
+      "en": "serverless",
+      "ipa": "ˈsɜːvələs",
+      "cs": "serverless; běh bez správy vlastních serverů"
+    },
+    {
+      "type": "word",
+      "en": "severity",
+      "ipa": "sɪˈverətɪ",
+      "cs": "závažnost (chyby)",
+      "note": "v ticketech: severity vs. priority"
+    },
+    {
+      "type": "word",
+      "en": "sick leave",
+      "ipa": "ˈsɪk ˌliːv",
+      "cs": "nemocenská",
+      "note": "be on sick leave = být na nemocenské"
+    },
+    {
+      "type": "word",
+      "en": "skill",
+      "ipa": "skɪl",
+      "cs": "dovednost, schopnost",
+      "note": "soft skills, technical skills"
+    },
+    {
+      "type": "word",
+      "en": "snapshot",
+      "ipa": "ˈsnæpʃɒt",
+      "cs": "snímek dat, momentka (stavu databáze)"
+    },
+    {
+      "type": "word",
+      "en": "snippet",
+      "ipa": "ˈsnɪpɪt",
+      "cs": "úryvek kódu"
+    },
+    {
+      "type": "word",
+      "en": "source code",
+      "ipa": "ˈsɔːs kəʊd",
+      "cs": "zdrojový kód"
+    },
+    {
+      "type": "word",
+      "en": "specification",
+      "ipa": "ˌspesɪfɪˈkeɪʃn",
+      "cs": "specifikace, zadání",
+      "note": "zkráceně spec [spek]"
+    },
+    {
+      "type": "word",
+      "en": "spreadsheet",
+      "ipa": "ˈspredʃiːt",
+      "cs": "tabulkový soubor, tabulka (např. v Excelu)"
+    },
+    {
+      "type": "word",
+      "en": "sprint",
+      "ipa": "sprɪnt",
+      "cs": "sprint; krátký pracovní cyklus (obvykle dva týdny)",
+      "note": "agilní vývoj"
+    },
+    {
+      "type": "word",
+      "en": "sprint planning",
+      "ipa": "ˈsprɪnt ˌplænɪŋ",
+      "cs": "plánování sprintu"
+    },
+    {
+      "type": "word",
+      "en": "squash",
+      "ipa": "skwɒʃ",
+      "cs": "sloučit víc commitů do jednoho"
+    },
+    {
+      "type": "word",
+      "en": "staff",
+      "ipa": "stɑːf",
+      "cs": "zaměstnanci, personál",
+      "note": "množné číslo se netvoří: the staff are…"
+    },
+    {
+      "type": "word",
+      "en": "staging",
+      "ipa": "ˈsteɪdʒɪŋ",
+      "cs": "testovací prostředí před ostrým provozem",
+      "note": "protiklad k production"
+    },
+    {
+      "type": "word",
+      "en": "stakeholder",
+      "ipa": "ˈsteɪkhəʊldə",
+      "cs": "zainteresovaná strana; klíčový člověk projektu",
+      "note": "na schůzkách o projektu"
+    },
+    {
+      "type": "word",
+      "en": "stale data",
+      "ipa": "ˌsteɪl ˈdeɪtə",
+      "cs": "zastaralá data (už neplatná)",
+      "note": "typicky o cache"
+    },
+    {
+      "type": "word",
+      "en": "stand-up",
+      "ipa": "ˈstændʌp",
+      "cs": "denní krátká porada týmu",
+      "note": "agilní vývoj; daily stand-up"
+    },
+    {
+      "type": "word",
+      "en": "standup",
+      "ipa": "ˈstændʌp",
+      "cs": "krátká denní porada týmu",
+      "note": "celé daily standup [ˌdeɪlɪ ˈstændʌp]"
+    },
+    {
+      "type": "word",
+      "en": "stash",
+      "ipa": "stæʃ",
+      "cs": "odložit rozdělanou práci stranou"
+    },
+    {
+      "type": "word",
+      "en": "status update",
+      "ipa": "ˈsteɪtəs ˌʌpdeɪt",
+      "cs": "informace o stavu, hlášení postupu",
+      "note": "„a quick status update on the migration“"
+    },
+    {
+      "type": "word",
+      "en": "storage",
+      "ipa": "ˈstɔːrɪdʒ",
+      "cs": "úložiště",
+      "note": "file storage, cloud storage"
+    },
+    {
+      "type": "word",
+      "en": "store",
+      "ipa": "stɔː",
+      "cs": "ukládat, uchovávat",
+      "note": "we store it in the database"
+    },
+    {
+      "type": "word",
+      "en": "story point",
+      "ipa": "ˈstɔːrɪ ˌpɔɪnt",
+      "cs": "story point; bodový odhad náročnosti úkolu"
+    },
+    {
+      "type": "word",
+      "en": "tag",
+      "ipa": "tæg",
+      "cs": "značka verze v repozitáři; označit"
+    },
+    {
+      "type": "word",
+      "en": "team lead",
+      "ipa": "ˈtiːm ˌliːd",
+      "cs": "vedoucí týmu",
+      "note": "i team leader; v IT běžné"
+    },
+    {
+      "type": "word",
+      "en": "technical debt",
+      "ipa": "ˌteknɪkl ˈdet",
+      "cs": "technický dluh",
+      "note": "„b“ v debt se nevyslovuje; hovorově tech debt"
+    },
+    {
+      "type": "word",
+      "en": "test case",
+      "ipa": "ˈtest ˌkeɪs",
+      "cs": "testovací případ, scénář testu"
+    },
+    {
+      "type": "word",
+      "en": "threat",
+      "ipa": "θret",
+      "cs": "hrozba",
+      "note": "threat model – model hrozeb"
+    },
+    {
+      "type": "word",
+      "en": "throughput",
+      "ipa": "ˈθruːpʊt",
+      "cs": "propustnost, kolik toho systém zvládne za čas"
+    },
+    {
+      "type": "word",
+      "en": "timeout",
+      "ipa": "ˈtaɪmaʊt",
+      "cs": "vypršení časového limitu",
+      "note": "the request timed out = požadavku vypršel limit"
+    },
+    {
+      "type": "word",
+      "en": "timestamp",
+      "ipa": "ˈtaɪmstæmp",
+      "cs": "časové razítko, čas záznamu"
+    },
+    {
+      "type": "word",
+      "en": "token",
+      "ipa": "ˈtəʊkən",
+      "cs": "token; přístupový klíč"
+    },
+    {
+      "type": "word",
+      "en": "touch base",
+      "ipa": "ˌtʌtʃ ˈbeɪs",
+      "cs": "spojit se, krátce probrat stav",
+      "note": "„let's touch base on Friday“"
+    },
+    {
+      "type": "word",
+      "en": "trade-off",
+      "ipa": "ˈtreɪd ɒf",
+      "cs": "kompromis, něco za něco",
+      "note": "„there's a trade-off between speed and memory“"
+    },
+    {
+      "type": "word",
+      "en": "traffic",
+      "ipa": "ˈtræfɪk",
+      "cs": "provoz, počet požadavků; návštěvnost",
+      "note": "nepočitatelné, bez množného čísla"
+    },
+    {
+      "type": "word",
+      "en": "transaction",
+      "ipa": "trænˈzækʃn",
+      "cs": "transakce"
+    },
+    {
+      "type": "word",
+      "en": "two-factor authentication",
+      "ipa": "ˌtuː ˈfæktə ɔːˌθentɪˈkeɪʃn",
+      "cs": "dvoufaktorové ověření",
+      "note": "zkratka 2FA se čte „tuː ef eɪ“"
+    },
+    {
+      "type": "word",
+      "en": "typo",
+      "ipa": "ˈtaɪpəʊ",
+      "cs": "překlep",
+      "note": "časté v revizi kódu"
+    },
+    {
+      "type": "word",
+      "en": "unique",
+      "ipa": "juːˈniːk",
+      "cs": "jedinečný, unikátní (hodnota, klíč)",
+      "note": "unique constraint = pravidlo na jedinečnost"
+    },
+    {
+      "type": "word",
+      "en": "unit test",
+      "ipa": "ˈjuːnɪt ˌtest",
+      "cs": "jednotkový test",
+      "note": "testuje jednu malou část kódu"
+    },
+    {
+      "type": "word",
+      "en": "update",
+      "ipa": "ˈʌpdeɪt",
+      "cs": "aktualizace; novinky o stavu, informace, jak to jde",
+      "note": "podstatné jméno ˈʌpdeɪt, sloveso ʌpˈdeɪt; „Any update on this?“"
+    },
+    {
+      "type": "word",
+      "en": "uptime",
+      "ipa": "ˈʌptaɪm",
+      "cs": "dostupnost, doba běhu bez výpadku"
+    },
+    {
+      "type": "word",
+      "en": "user story",
+      "ipa": "ˈjuːzə ˌstɔːrɪ",
+      "cs": "uživatelský příběh; požadavek očima uživatele"
+    },
+    {
+      "type": "word",
+      "en": "validation",
+      "ipa": "ˌvælɪˈdeɪʃn",
+      "cs": "ověření vstupů, kontrola dat",
+      "note": "sloveso validate /ˈvælɪdeɪt/"
+    },
+    {
+      "type": "word",
+      "en": "value",
+      "ipa": "ˈvæljuː",
+      "cs": "hodnota"
+    },
+    {
+      "type": "word",
+      "en": "velocity",
+      "ipa": "vəˈlɒsətɪ",
+      "cs": "rychlost týmu; kolik práce tým zvládne za sprint"
+    },
+    {
+      "type": "word",
+      "en": "version control",
+      "ipa": "ˈvɜːʃn kənˌtrəʊl",
+      "cs": "verzování, správa verzí"
+    },
+    {
+      "type": "word",
+      "en": "virtual machine",
+      "ipa": "ˌvɜːtʃuəl məˈʃiːn",
+      "cs": "virtuální stroj",
+      "note": "zkratka VM se hláskuje"
+    },
+    {
+      "type": "word",
+      "en": "vulnerability",
+      "ipa": "ˌvʌlnərəˈbɪlətɪ",
+      "cs": "zranitelnost, slabé místo",
+      "note": "hovorově zkracované na vuln"
+    },
+    {
+      "type": "word",
+      "en": "work-life balance",
+      "ipa": "ˌwɜːk laɪf ˈbæləns",
+      "cs": "rovnováha mezi prací a soukromím"
+    },
+    {
+      "type": "word",
+      "en": "workaround",
+      "ipa": "ˈwɜːkəraʊnd",
+      "cs": "provizorní řešení, obejití problému",
+      "note": "dočasná náhrada za skutečnou opravu"
+    },
+    {
+      "type": "word",
+      "en": "workflow",
+      "ipa": "ˈwɜːkfləʊ",
+      "cs": "pracovní postup, sled kroků"
+    },
+    {
+      "type": "word",
+      "en": "workload",
+      "ipa": "ˈwɜːkləʊd",
+      "cs": "pracovní vytížení, objem práce"
+    },
+    {
+      "type": "phrase",
+      "en": "could you review my pull request?",
+      "ipa": "kʊd juː rɪˈvjuː maɪ ˈpʊl rɪˌkwest",
+      "cs": "mohl bys mi projít pull request?",
+      "note": "zdvořilá žádost; hovorově „can you take a look at my PR?“"
+    },
+    {
+      "type": "phrase",
+      "en": "I've pushed my changes to the branch.",
+      "ipa": "aɪv pʊʃt maɪ ˈtʃeɪndʒɪz tə ðə brɑːntʃ",
+      "cs": "Odeslal jsem změny do větve."
+    },
+    {
+      "type": "phrase",
+      "en": "I ran into a merge conflict.",
+      "ipa": "aɪ ræn ˈɪntə ə ˈmɜːdʒ ˌkɒnflɪkt",
+      "cs": "Narazil jsem na konflikt při slučování."
+    },
+    {
+      "type": "phrase",
+      "en": "I'll rebase on top of the main branch.",
+      "ipa": "aɪl ˌriːˈbeɪs ɒn tɒp əv ðə ˈmeɪn brɑːntʃ",
+      "cs": "Přesadím to na hlavní větev."
+    },
+    {
+      "type": "phrase",
+      "en": "I've addressed all your comments.",
+      "ipa": "aɪv əˈdrest ɔːl jɔː ˈkɒments",
+      "cs": "Zapracoval jsem všechny tvoje připomínky.",
+      "note": "odpověď v revizi kódu"
+    },
+    {
+      "type": "phrase",
+      "en": "It's still a work in progress, please don't merge it yet.",
+      "ipa": "ɪts stɪl ə ˈwɜːk ɪn ˈprəʊgres pliːz dəʊnt ˈmɜːdʒ ɪt jet",
+      "cs": "Ještě to není hotové, zatím to neslučuj."
+    },
+    {
+      "type": "phrase",
+      "en": "Let's merge it once the tests pass.",
+      "ipa": "lets ˈmɜːdʒ ɪt wʌns ðə tests pɑːs",
+      "cs": "Sloučíme to, až projdou testy."
+    },
+    {
+      "type": "phrase",
+      "en": "It works on my machine.",
+      "ipa": "ɪt wɜːks ɒn maɪ məˈʃiːn",
+      "cs": "U mě to funguje.",
+      "note": "vžitý vtip mezi vývojáři"
+    },
+    {
+      "type": "phrase",
+      "en": "Can you walk me through your code?",
+      "ipa": "kən juː wɔːk miː θruː jɔː kəʊd",
+      "cs": "Můžeš mě provést svým kódem?",
+      "note": "typická otázka u pohovoru"
+    },
+    {
+      "type": "phrase",
+      "en": "The site is down.",
+      "ipa": "ðə ˈsaɪt ɪz ˈdaʊn",
+      "cs": "Web nefunguje, je nedostupný.",
+      "note": "opak: the site is back up"
+    },
+    {
+      "type": "phrase",
+      "en": "We had an outage last night.",
+      "ipa": "wiː hæd ən ˈaʊtɪdʒ ˌlɑːst ˈnaɪt",
+      "cs": "Včera v noci jsme měli výpadek."
+    },
+    {
+      "type": "phrase",
+      "en": "Could you check the logs?",
+      "ipa": "kʊd juː ˈtʃek ðə ˈlɒgz",
+      "cs": "Mohl by ses podívat do logů?"
+    },
+    {
+      "type": "phrase",
+      "en": "Can you deploy this to staging?",
+      "ipa": "kæn juː dɪˈplɔɪ ðɪs tə ˈsteɪdʒɪŋ",
+      "cs": "Můžeš to nasadit na testovací prostředí?"
+    },
+    {
+      "type": "phrase",
+      "en": "The deployment failed.",
+      "ipa": "ðə dɪˈplɔɪmənt ˈfeɪld",
+      "cs": "Nasazení selhalo."
+    },
+    {
+      "type": "phrase",
+      "en": "We're rolling back to the previous version.",
+      "ipa": "wɪə ˈrəʊlɪŋ ˈbæk tə ðə ˈpriːvɪəs ˈvɜːʃn",
+      "cs": "Vracíme se na předchozí verzi."
+    },
+    {
+      "type": "phrase",
+      "en": "We're seeing a lot of errors in production.",
+      "ipa": "wɪə ˈsiːɪŋ ə ˈlɒt əv ˈerəz ɪn prəˈdʌkʃn",
+      "cs": "Vidíme v ostrém provozu spoustu chyb."
+    },
+    {
+      "type": "phrase",
+      "en": "It works in staging, but not in production.",
+      "ipa": "ɪt ˈwɜːks ɪn ˈsteɪdʒɪŋ bət ˈnɒt ɪn prəˈdʌkʃn",
+      "cs": "Na testovacím prostředí to funguje, ale na ostrém ne."
+    },
+    {
+      "type": "phrase",
+      "en": "There's a workaround for now.",
+      "ipa": "ðeəz ə ˈwɜːkəraʊnd fə ˈnaʊ",
+      "cs": "Zatím na to máme provizorní řešení."
+    },
+    {
+      "type": "phrase",
+      "en": "The query is too slow.",
+      "ipa": "ðə ˈkwɪərɪ ɪz tuː ˈsləʊ",
+      "cs": "Ten dotaz je moc pomalý."
+    },
+    {
+      "type": "phrase",
+      "en": "We need to run a migration first.",
+      "ipa": "wiː ˈniːd tə rʌn ə maɪˈgreɪʃn ˈfɜːst",
+      "cs": "Nejdřív musíme spustit migraci."
+    },
+    {
+      "type": "phrase",
+      "en": "Did you back up the database?",
+      "ipa": "dɪd juː ˈbæk ʌp ðə ˈdeɪtəbeɪs",
+      "cs": "Zazálohoval jsi databázi?"
+    },
+    {
+      "type": "phrase",
+      "en": "Can you export the data to a spreadsheet?",
+      "ipa": "kən juː ɪkˈspɔːt ðə ˈdeɪtə tʊ ə ˈspredʃiːt",
+      "cs": "Můžeš ta data vyexportovat do tabulky (Excelu)?"
+    },
+    {
+      "type": "phrase",
+      "en": "Where is this data coming from?",
+      "ipa": "weər ɪz ðɪs ˈdeɪtə ˈkʌmɪŋ frɒm",
+      "cs": "Odkud ta data pocházejí?",
+      "note": "časté na schůzce i u pohovoru"
+    },
+    {
+      "type": "phrase",
+      "en": "We need an index on that column.",
+      "ipa": "wiː ˈniːd ən ˈɪndeks ɒn ðæt ˈkɒləm",
+      "cs": "Na tom sloupci potřebujeme index.",
+      "note": "typická věta při řešení pomalých dotazů"
+    },
+    {
+      "type": "phrase",
+      "en": "The query returns no results.",
+      "ipa": "ðə ˈkwɪərɪ rɪˈtɜːnz nəʊ rɪˈzʌlts",
+      "cs": "Ten dotaz nevrací žádné výsledky."
+    },
+    {
+      "type": "phrase",
+      "en": "The data is out of sync.",
+      "ipa": "ðə ˈdeɪtə ɪz ˌaʊt əv ˈsɪŋk",
+      "cs": "Ta data nejsou synchronizovaná."
+    },
+    {
+      "type": "phrase",
+      "en": "We're behind schedule.",
+      "ipa": "wɪə bɪˈhaɪnd ˈʃedjuːl",
+      "cs": "Jsme ve skluzu.",
+      "note": "opak: We're ahead of schedule."
+    },
+    {
+      "type": "phrase",
+      "en": "Everything is on track.",
+      "ipa": "ˈevrɪθɪŋ ɪz ɒn ˈtræk",
+      "cs": "Všechno běží podle plánu."
+    },
+    {
+      "type": "phrase",
+      "en": "Can we push the deadline by a week?",
+      "ipa": "kən wiː ˈpʊʃ ðə ˈdedlaɪn baɪ ə ˈwiːk",
+      "cs": "Můžeme posunout termín o týden?"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm blocked by this issue.",
+      "ipa": "aɪm ˈblɒkt baɪ ðɪs ˈɪʃuː",
+      "cs": "Nemůžu pokračovat kvůli tomuhle problému.",
+      "note": "typická věta na standupu"
+    },
+    {
+      "type": "phrase",
+      "en": "Let's move it to the next sprint.",
+      "ipa": "lets ˈmuːv ɪt tə ðə ˈnekst ˈsprɪnt",
+      "cs": "Přesuňme to do dalšího sprintu."
+    },
+    {
+      "type": "phrase",
+      "en": "Could you give me a rough estimate?",
+      "ipa": "kʊd juː ˈgɪv miː ə ˈrʌf ˈestɪmət",
+      "cs": "Můžeš mi dát hrubý odhad?"
+    },
+    {
+      "type": "phrase",
+      "en": "What's the priority on this?",
+      "ipa": "ˈwɒts ðə praɪˈɒrətɪ ɒn ðɪs",
+      "cs": "Jakou to má prioritu?"
+    },
+    {
+      "type": "phrase",
+      "en": "That's out of scope for this sprint.",
+      "ipa": "ðæts ˌaʊt əv ˈskəʊp fə ðɪs ˈsprɪnt",
+      "cs": "To už je nad rámec tohohle sprintu."
+    },
+    {
+      "type": "phrase",
+      "en": "Let's park this for now.",
+      "ipa": "lets ˈpɑːk ðɪs fə ˈnaʊ",
+      "cs": "Zatím to odložme stranou.",
+      "note": "zdvořilé odsunutí tématu na schůzce"
+    },
+    {
+      "type": "phrase",
+      "en": "I'll keep you posted.",
+      "ipa": "aɪl ˈkiːp juː ˈpəʊstɪd",
+      "cs": "Budu tě průběžně informovat."
+    },
+    {
+      "type": "phrase",
+      "en": "the tests are failing",
+      "ipa": "ðə ˈtests ə ˈfeɪlɪŋ",
+      "cs": "testy neprocházejí",
+      "note": "na stand-upu úplně běžné"
+    },
+    {
+      "type": "phrase",
+      "en": "could you review my code?",
+      "ipa": "kʊd juː rɪˈvjuː maɪ ˈkəʊd",
+      "cs": "mohl bys mi zkontrolovat kód?",
+      "note": "zdvořilá žádost o code review"
+    },
+    {
+      "type": "phrase",
+      "en": "can you reproduce it?",
+      "ipa": "kæn juː ˌriːprəˈdjuːs ɪt",
+      "cs": "dokážeš to zopakovat?",
+      "note": "první otázka při hlášení chyby"
+    },
+    {
+      "type": "phrase",
+      "en": "let me check the logs",
+      "ipa": "let mɪ ˈtʃek ðə ˈlɒgz",
+      "cs": "podívám se do logů",
+      "note": "běžná reakce na hlášený problém"
+    },
+    {
+      "type": "phrase",
+      "en": "it works on my machine",
+      "ipa": "ɪt ˌwɜːks ɒn maɪ məˈʃiːn",
+      "cs": "mně to funguje",
+      "note": "klasický vývojářský vtip; myšleno napůl v žertu"
+    },
+    {
+      "type": "phrase",
+      "en": "this is a known issue",
+      "ipa": "ðɪs ɪz ə ˈnəʊn ˈɪʃuː",
+      "cs": "tohle je známý problém",
+      "note": "hodí se i směrem k zákazníkovi"
+    },
+    {
+      "type": "phrase",
+      "en": "that makes sense",
+      "ipa": "ðæt ˈmeɪks sens",
+      "cs": "to dává smysl; chápu, aha",
+      "note": "nejběžnější potvrzení, že rozumíš"
+    },
+    {
+      "type": "phrase",
+      "en": "does that make sense?",
+      "ipa": "dəz ðæt ˈmeɪk sens",
+      "cs": "dává to smysl? je to srozumitelné?",
+      "note": "kontrola, jestli tě druhý pochopil"
+    },
+    {
+      "type": "phrase",
+      "en": "i'll take a look at it",
+      "ipa": "aɪl ˌteɪk ə ˈlʊk ət ɪt",
+      "cs": "podívám se na to",
+      "note": "reakce na žádost o pomoc nebo o review"
+    },
+    {
+      "type": "phrase",
+      "en": "i'll look into it",
+      "ipa": "aɪl ˈlʊk ˌɪntʊ ɪt",
+      "cs": "prověřím to, zjistím to",
+      "note": "důkladnější než take a look"
+    },
+    {
+      "type": "phrase",
+      "en": "sounds good to me",
+      "ipa": "ˌsaʊndz ˈgʊd tə miː",
+      "cs": "zní to dobře, souhlasím",
+      "note": "měkký souhlas na schůzce"
+    },
+    {
+      "type": "phrase",
+      "en": "good catch",
+      "ipa": "ˌgʊd ˈkætʃ",
+      "cs": "dobrý postřeh; dobře, žes to našel",
+      "note": "pochvala v code review"
+    },
+    {
+      "type": "phrase",
+      "en": "could you clarify that?",
+      "ipa": "kʊd juː ˈklærɪfaɪ ðæt",
+      "cs": "mohl bys to upřesnit?",
+      "note": "slušnější než „I don't understand“"
+    },
+    {
+      "type": "phrase",
+      "en": "i'm not sure i follow",
+      "ipa": "aɪm nɒt ˌʃɔː aɪ ˈfɒləʊ",
+      "cs": "asi ti nerozumím, ztrácím se v tom",
+      "note": "zdvořilé přiznání, že jsi to nepochopil"
+    },
+    {
+      "type": "phrase",
+      "en": "sorry, i didn't catch that",
+      "ipa": "ˈsɒrɪ aɪ ˌdɪdnt ˈkætʃ ðæt",
+      "cs": "promiň, tohle jsem nezachytil",
+      "note": "zdvořilá prosba o zopakování na hovoru"
+    },
+    {
+      "type": "phrase",
+      "en": "can you walk me through it?",
+      "ipa": "kən juː ˈwɔːk mɪ θruː ɪt",
+      "cs": "můžeš mě tím provést krok za krokem?",
+      "note": "žádost o vysvětlení kódu nebo procesu"
+    },
+    {
+      "type": "phrase",
+      "en": "let me get back to you on that",
+      "ipa": "ˌlet mɪ get ˈbæk tə juː ɒn ðæt",
+      "cs": "ozvu se ti k tomu později",
+      "note": "když teď neznáš odpověď; užitečné i u pohovoru"
+    },
+    {
+      "type": "phrase",
+      "en": "i'll keep you posted",
+      "ipa": "aɪl ˈkiːp juː ˌpəʊstɪd",
+      "cs": "budu tě průběžně informovat",
+      "note": "typické v mailu klientovi"
+    },
+    {
+      "type": "phrase",
+      "en": "just to confirm, ...",
+      "ipa": "ˌdʒʌst tə kənˈfɜːm",
+      "cs": "jen pro potvrzení, ...",
+      "note": "uvození shrnutí domluvy"
+    },
+    {
+      "type": "phrase",
+      "en": "as discussed, ...",
+      "ipa": "əz dɪsˈkʌst",
+      "cs": "jak jsme se domluvili, ...",
+      "note": "odkaz na dřívější domluvu v mailu"
+    },
+    {
+      "type": "phrase",
+      "en": "correct me if i'm wrong",
+      "ipa": "kəˌrekt mɪ ɪf aɪm ˈrɒŋ",
+      "cs": "oprav mě, jestli se pletu",
+      "note": "zjemňuje nesouhlas"
+    },
+    {
+      "type": "phrase",
+      "en": "as far as i know, ...",
+      "ipa": "əz ˌfɑːr əz aɪ ˈnəʊ",
+      "cs": "pokud vím, ...",
+      "note": "opatrné tvrzení, když si nejsi jistý"
+    },
+    {
+      "type": "phrase",
+      "en": "off the top of my head, ...",
+      "ipa": "ˌɒf ðə ˈtɒp əv maɪ hed",
+      "cs": "z hlavy, spatra ...",
+      "note": "odhad bez ověření"
+    },
+    {
+      "type": "phrase",
+      "en": "let me double-check",
+      "ipa": "ˌlet mɪ ˌdʌbl ˈtʃek",
+      "cs": "radši si to ověřím"
+    },
+    {
+      "type": "phrase",
+      "en": "i'm blocked on this",
+      "ipa": "aɪm ˈblɒkt ɒn ðɪs",
+      "cs": "jsem na tom zaseknutý, nemůžu pokračovat",
+      "note": "na standupu; dál „I'm blocked by the missing endpoint.“"
+    },
+    {
+      "type": "phrase",
+      "en": "that's out of scope",
+      "ipa": "ðæts ˌaʊt əv ˈskəʊp",
+      "cs": "to je mimo zadání, to už do toho nepatří",
+      "note": "klíčové při jednání s klientem"
+    },
+    {
+      "type": "phrase",
+      "en": "we're on the same page",
+      "ipa": "wɪə ɒn ðə ˌseɪm ˈpeɪdʒ",
+      "cs": "jsme zajedno, rozumíme si stejně"
+    },
+    {
+      "type": "phrase",
+      "en": "let's sync on this tomorrow",
+      "ipa": "lets ˈsɪŋk ɒn ðɪs təˌmɒrəʊ",
+      "cs": "pojďme si to zítra sladit",
+      "note": "sync = krátká sladicí schůzka"
+    },
+    {
+      "type": "phrase",
+      "en": "thanks for the heads-up",
+      "ipa": "ˌθæŋks fə ðə ˈhedz ʌp",
+      "cs": "díky, že jsi mi dal vědět dopředu"
+    },
+    {
+      "type": "phrase",
+      "en": "i'll ping you when it's ready",
+      "ipa": "aɪl ˈpɪŋ juː wen ɪts ˌredɪ",
+      "cs": "dám ti vědět, až to bude hotové",
+      "note": "ping = neformálně napsat zprávu"
+    },
+    {
+      "type": "phrase",
+      "en": "can we take this offline?",
+      "ipa": "kən wiː ˌteɪk ðɪs ɒfˈlaɪn",
+      "cs": "můžeme to probrat mimo tuhle schůzku?",
+      "note": "když téma zdržuje ostatní"
+    },
+    {
+      "type": "phrase",
+      "en": "let's park it for now",
+      "ipa": "lets ˈpɑːk ɪt fə naʊ",
+      "cs": "nechme to zatím stranou",
+      "note": "odložení tématu na později"
+    },
+    {
+      "type": "phrase",
+      "en": "i don't have the bandwidth for that",
+      "ipa": "aɪ ˌdəʊnt hæv ðə ˈbændwɪdθ fə ðæt",
+      "cs": "na tohle teď nemám kapacitu",
+      "note": "slušné odmítnutí práce navíc"
+    },
+    {
+      "type": "phrase",
+      "en": "i'm on it",
+      "ipa": "aɪm ˈɒn ɪt",
+      "cs": "už na tom dělám",
+      "note": "krátká reakce na zadaný úkol"
+    },
+    {
+      "type": "phrase",
+      "en": "apologies for the delay",
+      "ipa": "əˈpɒlədʒɪz fə ðə dɪˈleɪ",
+      "cs": "omlouvám se za zpoždění",
+      "note": "formální, do mailu klientovi"
+    },
+    {
+      "type": "phrase",
+      "en": "no worries",
+      "ipa": "ˌnəʊ ˈwʌrɪz",
+      "cs": "to nic, v pohodě",
+      "note": "neformální reakce na omluvu nebo poděkování"
+    },
+    {
+      "type": "phrase",
+      "en": "let me know if you have any questions",
+      "ipa": "ˌlet mɪ ˈnəʊ ɪf juː hæv ˌenɪ ˈkwestʃənz",
+      "cs": "dej vědět, kdyby bylo cokoli nejasné",
+      "note": "standardní závěr mailu"
+    },
+    {
+      "type": "phrase",
+      "en": "looking forward to hearing from you",
+      "ipa": "ˌlʊkɪŋ ˈfɔːwəd tə ˈhɪərɪŋ frəm juː",
+      "cs": "těším se na tvou odpověď",
+      "note": "formální zakončení mailu klientovi"
+    },
+    {
+      "type": "phrase",
+      "en": "Could you tell me about yourself?",
+      "ipa": "kʊd juː ˈtel miː əˈbaʊt jɔːˈself",
+      "cs": "Můžete mi o sobě něco říct?",
+      "note": "první otázka na pohovoru"
+    },
+    {
+      "type": "phrase",
+      "en": "Why are you leaving your current job?",
+      "ipa": "ˈwaɪ ə juː ˈliːvɪŋ jɔː ˈkʌrənt dʒɒb",
+      "cs": "Proč odcházíte ze současné práce?",
+      "note": "častá otázka; odpovídejte pozitivně"
+    },
+    {
+      "type": "phrase",
+      "en": "What are your salary expectations?",
+      "ipa": "ˈwɒt ə jɔː ˈsælərɪ ˌekspekˈteɪʃnz",
+      "cs": "Jakou máte platovou představu?"
+    },
+    {
+      "type": "phrase",
+      "en": "When could you start?",
+      "ipa": "ˈwen kʊd juː ˈstɑːt",
+      "cs": "Kdy byste mohl nastoupit?"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm on a two-month notice period.",
+      "ipa": "aɪm ˈɒn ə ˌtuː mʌnθ ˈnəʊtɪs ˌpɪərɪəd",
+      "cs": "Mám dvouměsíční výpovědní lhůtu.",
+      "note": "two-month bez -s před podstatným jménem"
+    },
+    {
+      "type": "phrase",
+      "en": "Do you have any questions for us?",
+      "ipa": "ˈduː juː həv ˌenɪ ˈkwestʃənz fə ʌs",
+      "cs": "Máte na nás nějaké otázky?",
+      "note": "závěr pohovoru; vždy se něco zeptejte"
+    },
+    {
+      "type": "phrase",
+      "en": "What does a typical day look like?",
+      "ipa": "ˈwɒt dəz ə ˌtɪpɪkl ˈdeɪ lʊk laɪk",
+      "cs": "Jak vypadá běžný pracovní den?",
+      "note": "dobrá otázka na tým a proces"
+    }
+  ]
+}
