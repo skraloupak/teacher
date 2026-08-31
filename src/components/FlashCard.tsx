@@ -182,7 +182,7 @@ export function FlashCard({
           <div className="flex items-center justify-between gap-2 text-xs font-medium tracking-wide text-ink-muted uppercase">
             <span className="flex items-center gap-1.5">
               {TYPE_LABELS[card.item.type]}
-              {marked && <MarkedDot />}
+              {marked && <MarkedTag />}
             </span>
             <span className="truncate">{card.item.lessonTitle}</span>
           </div>
@@ -206,7 +206,7 @@ export function FlashCard({
           <div className="flex items-center justify-between text-xs font-medium tracking-wide uppercase">
             <span className="flex items-center gap-1.5 text-brand">
               Odpověď
-              {marked && <MarkedDot />}
+              {marked && <MarkedTag />}
             </span>
             {hint && (
               <span className={tone === "good" ? "text-good" : "text-bad"}>{hint}</span>
@@ -229,13 +229,17 @@ export function FlashCard({
   );
 }
 
-/** Tečka, která říká, že položka je na seznamu vybraných. */
-function MarkedDot() {
+/** Štítek, že položka je na seznamu vybraných – ať ji uživatel nezařazuje podruhé. */
+function MarkedTag() {
   return (
     <span
-      className="inline-block h-2 w-2 rounded-full bg-brand"
-      title="Je mezi vybranými"
-      aria-label="Je mezi vybranými"
-    />
+      className="inline-flex items-center gap-1 rounded-full bg-brand-soft px-2 py-0.5 text-brand normal-case"
+      title="Slovíčko je mezi vybranými"
+    >
+      <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+        <path d="M12 2.5 15 9l7 .8-5.2 4.7 1.5 6.9L12 17.9 5.7 21.4l1.5-6.9L2 9.8 9 9z" />
+      </svg>
+      vybráno
+    </span>
   );
 }

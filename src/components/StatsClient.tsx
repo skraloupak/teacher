@@ -54,6 +54,16 @@ export function StatsClient({ lessons }: { lessons: Lesson[] }) {
     };
   }, [liveCards, now]);
 
+  /** Naučené kartičky zvlášť po směrech – jinak nesedí součet s úvodní obrazovkou. */
+  const byDirection = useMemo(() => {
+    if (liveCards.length === 0) return null;
+    const counts = { en2cs: 0, cs2en: 0 };
+    for (const card of liveCards) {
+      if (card.box >= MAX_BOX) counts[card.direction]++;
+    }
+    return counts;
+  }, [liveCards]);
+
   const hardest = useMemo(
     () =>
       liveCards
@@ -86,6 +96,23 @@ export function StatsClient({ lessons }: { lessons: Lesson[] }) {
           <Metric value={overview.due} label="čeká na řadě" tone="brand" />
           <Metric value={`${overview.successRate} %`} label="úspěšnost" />
         </div>
+        <p className="mt-3 text-sm text-ink-muted">
+          Počítá se všechno, co jsi kdy zkoušel – napříč lekcemi a v obou směrech.
+          Každé slovíčko je proto započítané dvakrát: zvlášť anglicky → česky a zvlášť
+          opačně. Na úvodní obrazovce vidíš jen to, co máš právě vybrané.
+        </p>
+        {byDirection && (
+          <dl className="mt-3 grid grid-cols-2 gap-2 text-sm">
+            <div className="rounded-2xl bg-surface-sunken px-3 py-2">
+              <dt className="text-xs text-ink-muted">naučeno anglicky → česky</dt>
+              <dd className="text-lg font-bold tabular-nums text-ink">{byDirection.en2cs}</dd>
+            </div>
+            <div className="rounded-2xl bg-surface-sunken px-3 py-2">
+              <dt className="text-xs text-ink-muted">naučeno česky → anglicky</dt>
+              <dd className="text-lg font-bold tabular-nums text-ink">{byDirection.cs2en}</dd>
+            </div>
+          </dl>
+        )}
       </Panel>
 
       <Panel title="Rozložení podle boxů">

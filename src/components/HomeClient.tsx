@@ -260,7 +260,7 @@ export function HomeClient({ lessons, books }: { lessons: Lesson[]; books: Book[
       </Panel>
 
       {stats && stats.total > 0 && (
-        <Panel title="Jak na tom jsem">
+        <Panel title="Jak na tom jsem ve výběru">
           <div className="mb-3 grid grid-cols-3 gap-2 text-center">
             <Stat value={stats.due} label="na řadě" />
             <Stat value={stats.newCards} label="nových" tone="brand" />
@@ -268,7 +268,13 @@ export function HomeClient({ lessons, books }: { lessons: Lesson[]; books: Book[
           </div>
           <ProgressBar value={stats.mastered} max={stats.total} />
           <p className="mt-2 text-sm text-ink-muted">
-            {stats.mastered} z {stats.total} kartiček je v posledním boxu.
+            Naučeno {stats.mastered} z {stats.total} kartiček – jen z vybraných lekcí a ve
+            směru {DIRECTION_LABELS[settings.direction].toLowerCase()}. Celkové číslo za
+            všechno najdeš ve{" "}
+            <Link href="/stats" className="font-medium text-brand">
+              statistikách
+            </Link>
+            .
           </p>
         </Panel>
       )}

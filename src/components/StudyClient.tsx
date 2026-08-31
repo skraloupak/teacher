@@ -35,12 +35,15 @@ function IconAction({
   onClick,
   disabled,
   tone = "muted",
+  active,
   children,
 }: {
   label: string;
   onClick: () => void;
   disabled?: boolean;
   tone?: "muted" | "brand" | "good";
+  /** Stav už platí – tlačítko je zvýrazněné, ať ho uživatel nemačká podruhé. */
+  active?: boolean;
   children: React.ReactNode;
 }) {
   const hover =
@@ -50,6 +53,10 @@ function IconAction({
         ? "hover:border-good/60 hover:text-good"
         : "hover:border-ink-muted/60 hover:text-ink";
 
+  const look = active
+    ? "border-brand bg-brand text-on-brand"
+    : `border-line bg-surface-raised text-ink-muted ${hover}`;
+
   return (
     <button
       type="button"
@@ -57,7 +64,8 @@ function IconAction({
       disabled={disabled}
       title={label}
       aria-label={label}
-      className={`no-tap-zoom flex h-12 w-12 items-center justify-center rounded-2xl border border-line bg-surface-raised text-ink-muted transition-colors focus-visible:ring-2 focus-visible:ring-brand focus-visible:outline-none disabled:opacity-40 ${hover}`}
+      aria-pressed={active}
+      className={`no-tap-zoom flex h-12 w-12 items-center justify-center rounded-2xl border transition-colors focus-visible:ring-2 focus-visible:ring-brand focus-visible:outline-none disabled:opacity-40 ${look}`}
     >
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden>
         {children}
@@ -132,6 +140,7 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
   );
 
   const card: Card | undefined = state.queue[state.position];
+  const isMarked = card ? marked.has(card.item.id) : false;
   const { done, total } = sessionProgress(state);
 
   /**
@@ -414,10 +423,15 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
           {/* Tři doplňkové akce jen jako ikony – hlavní odpověď obstarají tlačítka nad nimi. */}
           <div className="flex items-center justify-center gap-2">
             <IconAction
-              label="Zařadit mezi vybraná – budu to chtít opakovat častěji"
+              label={
+                isMarked
+                  ? "Slovíčko už je mezi vybranými"
+                  : "Zařadit mezi vybraná – budu to chtít opakovat častěji"
+              }
               onClick={() => markAndAnswer(true)}
               disabled={state.awaitingNext}
               tone="brand"
+              active={isMarked}
             >
               <path
                 d="M12 4v13m0-13 5 5m-5-5-5 5"
@@ -430,7 +444,11 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
             </IconAction>
 
             <IconAction
-              label="Tohle umím – vyřadit z vybraných"
+              label={
+                isMarked
+                  ? "Odebrat z vybraných – tohle umím"
+                  : "Tohle umím – nechat mimo vybraná"
+              }
               onClick={() => markAndAnswer(false)}
               disabled={state.awaitingNext}
             >
