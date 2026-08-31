@@ -29,6 +29,43 @@ const EMPTY_SESSION = createSession([], 0);
 /** Prvky, které si Enter a mezerník mají odbavit samy. */
 const INTERACTIVE = "button, a, input, select, textarea, [contenteditable]";
 
+/** Čtvercové tlačítko s ikonou. Význam nese popisek pro odečítač i bublinovou nápovědu. */
+function IconAction({
+  label,
+  onClick,
+  disabled,
+  tone = "muted",
+  children,
+}: {
+  label: string;
+  onClick: () => void;
+  disabled?: boolean;
+  tone?: "muted" | "brand" | "good";
+  children: React.ReactNode;
+}) {
+  const hover =
+    tone === "brand"
+      ? "hover:border-brand/60 hover:text-brand"
+      : tone === "good"
+        ? "hover:border-good/60 hover:text-good"
+        : "hover:border-ink-muted/60 hover:text-ink";
+
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      disabled={disabled}
+      title={label}
+      aria-label={label}
+      className={`no-tap-zoom flex h-12 w-12 items-center justify-center rounded-2xl border border-line bg-surface-raised text-ink-muted transition-colors focus-visible:ring-2 focus-visible:ring-brand focus-visible:outline-none disabled:opacity-40 ${hover}`}
+    >
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden>
+        {children}
+      </svg>
+    </button>
+  );
+}
+
 export function StudyClient({ lessons }: { lessons: Lesson[] }) {
   const router = useRouter();
   const { user } = useAuth();
@@ -374,48 +411,54 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
         )}
 
         <div className="flex flex-col gap-2">
-          <div className="flex gap-3">
-            <Button
-              variant="secondary"
+          {/* Tři doplňkové akce jen jako ikony – hlavní odpověď obstarají tlačítka nad nimi. */}
+          <div className="flex items-center justify-center gap-2">
+            <IconAction
+              label="Zařadit mezi vybraná – budu to chtít opakovat častěji"
               onClick={() => markAndAnswer(true)}
               disabled={state.awaitingNext}
-              className="flex-1 py-2.5 text-sm"
+              tone="brand"
             >
-              ↑ Zařadit mezi vybraná
-            </Button>
-            <Button
-              variant="secondary"
+              <path
+                d="M12 4v13m0-13 5 5m-5-5-5 5"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+              <path d="M5 20h14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+            </IconAction>
+
+            <IconAction
+              label="Tohle umím – vyřadit z vybraných"
               onClick={() => markAndAnswer(false)}
               disabled={state.awaitingNext}
-              className="flex-1 py-2.5 text-sm"
             >
-              ↓ Umím, vyřadit
-            </Button>
-            <button
-              type="button"
+              <path
+                d="M12 20V7m0 13 5-5m-5 5-5-5"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+              <path d="M5 4h14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+            </IconAction>
+
+            <IconAction
+              label="Tohle už umím – neopakovat (klávesa K)"
               onClick={master}
               disabled={state.awaitingNext}
-              title="Tohle už umím – neopakovat (klávesa K)"
-              aria-label="Tohle už umím, přeskočit napořád"
-              className="no-tap-zoom flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-line bg-surface-raised text-ink-muted transition-colors hover:border-good/60 hover:text-good focus-visible:ring-2 focus-visible:ring-brand focus-visible:outline-none disabled:opacity-40"
+              tone="good"
             >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden>
-                <path
-                  d="m3 13 4 4 7-7"
-                  stroke="currentColor"
-                  strokeWidth="2.2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="m11 13 4 4 7-7"
-                  stroke="currentColor"
-                  strokeWidth="2.2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </button>
+              <circle cx="12" cy="12" r="8.5" stroke="currentColor" strokeWidth="1.8" />
+              <path
+                d="m8.5 12 2.5 2.5 4.5-5"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </IconAction>
           </div>
 
           <div className="flex items-center justify-between gap-3 text-sm">
@@ -423,10 +466,10 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
               Ukončit kolo
             </Link>
             <span className="hidden text-right text-ink-muted sm:inline">
-              ← nevím · → vím · ↑↓ výběr · K už umím · mezerník otočí
+              ← nevím · → vím · ↑↓ výběr · K už umím
             </span>
             <span className="text-right text-ink-muted sm:hidden">
-              tažením do stran odpovíš, nahoru/dolů řídíš výběr
+              odpovíš i tažením karty
             </span>
           </div>
         </div>
