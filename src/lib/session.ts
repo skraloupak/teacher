@@ -1,4 +1,4 @@
-import { MAX_BOX, difficultyScore, getProgress, isDue, progressKey } from "./srs";
+import { MAX_BOX, difficultyScore, getProgress, isDue, isMastered, progressKey } from "./srs";
 import { directionsOf } from "./settings";
 import type { Direction, Item, Lesson, ProgressMap, StudySettings } from "./types";
 
@@ -28,10 +28,10 @@ export function shuffle<T>(list: T[]): T[] {
 }
 
 /**
- * Vybere kartičky odpovídající nastavení. Deterministické – žádné míchání,
- * takže se dá zavolat i jen pro spočítání, kolik toho v kole bude.
+ * Kartičky z vybraných lekcí bez ohledu na to, jestli jsou zrovna na řadě.
+ * Vynechává jen položky ručně odložené jako „už umím" – ty se nevrací nikdy.
  */
-export function selectCards(
+function selectCandidates(
   lessons: Lesson[],
   settings: StudySettings,
   progress: ProgressMap,
@@ -71,12 +71,31 @@ export function selectCards(
       const p = getProgress(progress, item.id, direction, now);
       // „Tohle už umím" platí napořád, ne jen do konce kola.
       if (p.mastered) continue;
-      if (settings.mode === "due" && !isDue(p, now)) continue;
       cards.push({ key: progressKey(item.id, direction), item, direction });
     }
   }
 
   return cards;
+}
+
+/**
+ * Vybere kartičky, které se mají zkoušet. Deterministické – žádné míchání,
+ * takže se dá zavolat i jen pro spočítání, kolik toho v kole bude.
+ *
+ * Naučené kartičky (poslední box) se nenabízejí; výjimkou je režim „Podle plánu",
+ * kde se po svém odstupu vrátí ke kontrole.
+ */
+export function selectCards(
+  lessons: Lesson[],
+  settings: StudySettings,
+  progress: ProgressMap,
+  now: number,
+  marked?: ReadonlySet<string>,
+): Card[] {
+  return selectCandidates(lessons, settings, progress, now, marked).filter((card) => {
+    const p = getProgress(progress, card.item.id, card.direction, now);
+    return settings.mode === "due" ? isDue(p, now) : !isMastered(p);
+  });
 }
 
 /** Kolik kartiček nastavení nabízí a kolik jich do kola opravdu půjde. */
@@ -128,6 +147,30 @@ export type NextRoundPlan = {
   /** Kolik je jich zopakovaných, protože mi dřív nešly. */
   reviewInRound: number;
 };
+
+/**
+ * Kdy přijde na řadu nejbližší kartička z vybraných lekcí – bez ohledu na režim.
+ * Když je co dělat hned, vrací aktuální čas; když už není co opakovat, null.
+ */
+export function nextDueAt(
+  lessons: Lesson[],
+  settings: StudySettings,
+  progress: ProgressMap,
+  now: number,
+  marked?: ReadonlySet<string>,
+): number | null {
+  // Termín nás zajímá i u kartiček, které zvolený režim zrovna odfiltroval –
+  // včetně naučených, ty se v plánu opakování po svém odstupu vrátí.
+  const cards = selectCandidates(lessons, settings, progress, now, marked);
+
+  let soonest: number | null = null;
+  for (const card of cards) {
+    const p = progress[card.key];
+    const due = p ? p.dueAt : now;
+    if (soonest === null || due < soonest) soonest = due;
+  }
+  return soonest;
+}
 
 /** Kolik kartiček z vybraných lekcí jsem ještě nikdy neprocvičoval. */
 export function countUnpracticed(

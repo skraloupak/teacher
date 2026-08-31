@@ -100,6 +100,20 @@ export function formatDuration(ms: number): string {
   return hours > 0 ? `${hours} h ${minutes} min` : `${minutes} min`;
 }
 
+/** „za 20 minut", „za 3 hodiny", „zítra" – odstup do budoucího okamžiku. */
+export function formatUntil(ms: number): string {
+  const minutes = Math.round(ms / 60_000);
+  if (minutes < 1) return "za chvíli";
+  if (minutes < 60) return `za ${minutes} min`;
+
+  const hours = Math.round(minutes / 60);
+  if (hours < 24) return `za ${hours} ${hours === 1 ? "hodinu" : hours < 5 ? "hodiny" : "hodin"}`;
+
+  const days = Math.round(hours / 24);
+  if (days === 1) return "zítra";
+  return `za ${days} ${days < 5 ? "dny" : "dní"}`;
+}
+
 /** „pondělí 3. 9." pro popisky v tabulce. */
 export function formatDay(date: string): string {
   const [year, month, day] = date.split("-").map(Number);

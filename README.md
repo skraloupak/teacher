@@ -82,6 +82,11 @@ Kartičky se vybírají podle zvoleného **režimu**:
 | Co mi nejde | seřadí podle chybovosti, nejhorší jdou první |
 | Vybrané | jen slovíčka zaškrtnutá ve slovníčku, napříč všemi lekcemi |
 
+Naučené kartičky (poslední box) se nenabízejí – s jedinou výjimkou režimu **Podle plánu**,
+kde se po třech týdnech vrátí ke kontrole. Když v tomhle režimu není co dělat, není to
+chyba: znamená to, že všechno z vybraných lekcí čeká na svůj odstup. Aplikace napíše, kdy
+přijde nejbližší kartička na řadu, a nabídne přepnutí na *Náhodně*.
+
 Ve slovníčku jde levý nebo pravý sloupec zakrýt a odkrývat po jednom – hodí se na rychlé
 projetí bez spouštění kola. Zaškrtnutá slovíčka se pak dají zkoušet volbou režimu **Vybrané**.
 

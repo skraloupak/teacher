@@ -6,7 +6,7 @@ import { useMemo } from "react";
 import { Button, Chip, Panel, ProgressBar, Switch } from "@/components/ui";
 import { useAppState } from "@/hooks/useAppState";
 import { primeAudio } from "@/lib/audio";
-import { previewSize } from "@/lib/session";
+import { nextDueAt, previewSize } from "@/lib/session";
 import {
   DIRECTION_LABELS,
   MODES,
@@ -17,6 +17,7 @@ import {
   directionsOf,
 } from "@/lib/settings";
 import { summarize } from "@/lib/srs";
+import { formatUntil } from "@/lib/daily";
 import type { Book, DirectionSetting, ItemType, Lesson } from "@/lib/types";
 
 const DIRECTIONS: DirectionSetting[] = ["en2cs", "cs2en", "mixed"];
@@ -47,6 +48,17 @@ export function HomeClient({ lessons, books }: { lessons: Lesson[]; books: Book[
     () => (now === null ? null : previewSize(lessons, settings, progress, now, marked)),
     [lessons, settings, progress, now, marked],
   );
+
+  /**
+   * Když režim „Podle plánu" nic nenabízí, není to chyba – kartičky čekají na svůj
+   * odstup. Uživateli ale musíme říct, kdy budou, a nabídnout cestu dál.
+   */
+  const waiting = useMemo(() => {
+    if (now === null || settings.mode !== "due" || (preview?.inSession ?? 0) > 0) return null;
+    const due = nextDueAt(lessons, settings, progress, now, marked);
+    if (due === null) return null;
+    return { at: due, in: formatUntil(due - now) };
+  }, [lessons, settings, progress, now, marked, preview]);
 
   function toggleLesson(id: string) {
     updateSettings((prev) => ({
@@ -196,6 +208,24 @@ export function HomeClient({ lessons, books }: { lessons: Lesson[]; books: Book[
           ))}
         </div>
         <p className="mt-2 text-sm text-ink-muted">{MODE_HINTS[settings.mode]}</p>
+        {waiting && (
+          <div className="mt-3 rounded-2xl bg-surface-sunken px-4 py-3">
+            <p className="text-sm text-ink">
+              Teď není co opakovat – všechno z vybraných lekcí už jsi dal a čeká na svůj
+              odstup. Nejbližší kartička přijde na řadu <strong>{waiting.in}</strong>.
+            </p>
+            <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+              <button
+                type="button"
+                onClick={() => updateSettings({ mode: "random" })}
+                className="font-medium text-brand"
+              >
+                Procvičovat i tak
+              </button>
+              <span className="text-ink-muted">nebo si přiber další lekce výše.</span>
+            </div>
+          </div>
+        )}
         {settings.mode === "marked" && (
           <p className="mt-1 text-sm text-ink-muted">
             Zaškrtnuto: <span className="font-semibold text-ink">{marked.size}</span>{" "}

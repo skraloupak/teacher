@@ -317,10 +317,11 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
   if (state.queue.length === 0) {
     return (
       <div className="flex flex-1 flex-col items-center justify-center gap-4 py-16 text-center">
-        <p className="text-lg font-semibold text-ink">Pro tohle nastavení nic nezbylo.</p>
+        <p className="text-lg font-semibold text-ink">Teď není co opakovat.</p>
         <p className="max-w-sm text-ink-muted">
-          Buď nemáš vybranou žádnou lekci, nebo máš zapnutý výběr „podle plánu“ a všechno už je
-          na dnešek hotové.
+          {settings.mode === "due"
+            ? "Všechno z vybraných lekcí už jsi dal a kartičky čekají na svůj odstup – právě proto si je zapamatuješ. Přiber si další lekce, nebo přepni výběr na „Náhodně“."
+            : "Buď nemáš vybranou žádnou lekci, nebo z ní po filtrech nic nezbylo."}
         </p>
         <Link href="/">
           <Button variant="secondary">Zpět na nastavení</Button>
