@@ -57,17 +57,20 @@ export function selectCards(
 
     if (settings.direction === "mixed") {
       // Nechceme každou položku dvakrát – vybereme směr, který mi jde hůř.
+      // Odložené směry do výběru vůbec nevstupují.
       const scored = directions
-        .map((direction) => {
-          const p = getProgress(progress, item.id, direction, now);
-          return { direction, score: difficultyScore(p), due: isDue(p, now) };
-        })
+        .map((direction) => getProgress(progress, item.id, direction, now))
+        .filter((p) => !p.mastered)
+        .map((p) => ({ direction: p.direction, score: difficultyScore(p), due: isDue(p, now) }))
         .sort((a, b) => Number(b.due) - Number(a.due) || b.score - a.score);
+      if (scored.length === 0) continue;
       candidates = [scored[0].direction];
     }
 
     for (const direction of candidates) {
       const p = getProgress(progress, item.id, direction, now);
+      // „Tohle už umím" platí napořád, ne jen do konce kola.
+      if (p.mastered) continue;
       if (settings.mode === "due" && !isDue(p, now)) continue;
       cards.push({ key: progressKey(item.id, direction), item, direction });
     }
@@ -214,6 +217,8 @@ export type SessionState = {
   learned: Set<string>;
   /** Klíče, u kterých jsem aspoň jednou chyboval. */
   missed: Set<string>;
+  /** Klíče odložené jako „tohle už umím" – z kola vypadly bez zkoušení. */
+  mastered: Set<string>;
   answers: number;
   correct: number;
   wrong: number;
@@ -234,6 +239,7 @@ export function createSession(queue: Card[], now: number): SessionState {
     awaitingNext: false,
     learned: new Set(),
     missed: new Set(),
+    mastered: new Set(),
     answers: 0,
     correct: 0,
     wrong: 0,
@@ -246,6 +252,7 @@ export function createSession(queue: Card[], now: number): SessionState {
 }
 
 export type SessionAction =
+  | { type: "master"; now: number }
   | { type: "reveal"; now: number }
   | { type: "hide"; now: number }
   | { type: "answer"; knew: boolean; now: number }
@@ -331,6 +338,36 @@ export function sessionReducer(
       return advance(counted, queue, action.now);
     }
 
+    case "master": {
+      const card = state.queue[state.position];
+      if (!card || state.finished) return state;
+
+      // Kartička opouští kolo úplně – i případné další výskyty, které v něm čekají.
+      const queue = state.queue.filter(
+        (item, index) => index < state.position || item.key !== card.key,
+      );
+      const mastered = new Set(state.mastered);
+      mastered.add(card.key);
+      const missed = new Set(state.missed);
+      missed.delete(card.key);
+      const learned = new Set(state.learned);
+      learned.delete(card.key);
+
+      // Na uvolněné místo se posunula další kartička, pozice zůstává.
+      const finished = state.position >= queue.length;
+      return {
+        ...tick(state, action.now),
+        queue,
+        mastered,
+        missed,
+        learned,
+        revealed: false,
+        awaitingNext: false,
+        finished,
+        finishedAt: finished ? action.now : state.finishedAt,
+      };
+    }
+
     case "next":
       if (!state.awaitingNext || state.finished) return state;
       return advance(tick(state, action.now), state.queue, action.now);
@@ -343,10 +380,21 @@ export function sessionReducer(
   }
 }
 
-/** Kolik unikátních kartiček kolo obsahuje a kolik už mám za sebou. */
+/**
+ * Kolik unikátních kartiček kolo obsahuje a kolik už mám za sebou.
+ * Odložené („tohle už umím") se počítají do obojího – z fronty sice zmizely,
+ * ale ukazatel průběhu se kvůli tomu nesmí vrátit zpátky.
+ */
 export function sessionProgress(state: SessionState): { done: number; total: number } {
-  const unique = new Set(state.queue.map((card) => card.key));
-  return { done: state.learned.size, total: unique.size };
+  // Odložená kartička může mít ve frontě ještě svůj dřívější, už odbytý výskyt –
+  // ten by se sečetl s `mastered` a tatáž kartička by se do součtu započítala dvakrát.
+  const unique = new Set(
+    state.queue.map((card) => card.key).filter((key) => !state.mastered.has(key)),
+  );
+  return {
+    done: state.learned.size + state.mastered.size,
+    total: unique.size + state.mastered.size,
+  };
 }
 
 /** Text na přední straně kartičky. */

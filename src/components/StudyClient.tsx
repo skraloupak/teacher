@@ -40,6 +40,7 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
     marked,
     setMark,
     recordAnswer,
+    markMastered,
     recordSession,
   } = useAppState(lessons);
 
@@ -147,6 +148,14 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
     [answer, markAndAnswer],
   );
 
+  /** „Tohle už umím" – kartička se odloží jako naučená a z kola zmizí. */
+  const master = useCallback(() => {
+    if (!card || state.finished || state.awaitingNext) return;
+    stopSpeaking();
+    markMastered(card.item.id);
+    dispatch({ type: "master", now: Date.now() });
+  }, [card, state.finished, state.awaitingNext, markMastered]);
+
   const next = useCallback(() => {
     stopSpeaking();
     dispatch({ type: "next", now: Date.now() });
@@ -220,6 +229,9 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
       } else if (event.key === "ArrowRight" || event.key === "2") {
         event.preventDefault();
         answer(true);
+      } else if (event.key === "k" || event.key === "K") {
+        event.preventDefault();
+        master();
       } else if (event.key === "ArrowUp") {
         event.preventDefault();
         markAndAnswer(true);
@@ -235,7 +247,7 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
     }
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [state.finished, state.awaitingNext, answer, markAndAnswer, flip, next]);
+  }, [state.finished, state.awaitingNext, answer, markAndAnswer, master, flip, next]);
 
   /** Další kolo ze stejných lekcí – hlavně to, co jsem ještě neviděl. */
   function nextRound() {
@@ -361,12 +373,12 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
         )}
 
         <div className="flex flex-col gap-2">
-          <div className="grid grid-cols-2 gap-3">
+          <div className="flex gap-3">
             <Button
               variant="secondary"
               onClick={() => markAndAnswer(true)}
               disabled={state.awaitingNext}
-              className="py-2.5 text-sm"
+              className="flex-1 py-2.5 text-sm"
             >
               ↑ Zařadit mezi vybraná
             </Button>
@@ -374,10 +386,35 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
               variant="secondary"
               onClick={() => markAndAnswer(false)}
               disabled={state.awaitingNext}
-              className="py-2.5 text-sm"
+              className="flex-1 py-2.5 text-sm"
             >
               ↓ Umím, vyřadit
             </Button>
+            <button
+              type="button"
+              onClick={master}
+              disabled={state.awaitingNext}
+              title="Tohle už umím – neopakovat (klávesa K)"
+              aria-label="Tohle už umím, přeskočit napořád"
+              className="no-tap-zoom flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-line bg-surface-raised text-ink-muted transition-colors hover:border-good/60 hover:text-good focus-visible:ring-2 focus-visible:ring-brand focus-visible:outline-none disabled:opacity-40"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden>
+                <path
+                  d="m3 13 4 4 7-7"
+                  stroke="currentColor"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="m11 13 4 4 7-7"
+                  stroke="currentColor"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
           </div>
 
           <div className="flex items-center justify-between gap-3 text-sm">
@@ -385,7 +422,7 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
               Ukončit kolo
             </Link>
             <span className="hidden text-right text-ink-muted sm:inline">
-              ← nevím · → vím · ↑↓ výběr · mezerník otočí
+              ← nevím · → vím · ↑↓ výběr · K už umím · mezerník otočí
             </span>
             <span className="text-right text-ink-muted sm:hidden">
               tažením do stran odpovíš, nahoru/dolů řídíš výběr

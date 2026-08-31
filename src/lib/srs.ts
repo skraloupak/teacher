@@ -61,12 +61,38 @@ export function applyAnswer(prev: CardProgress, knew: boolean, now: number): Car
   return {
     ...prev,
     box,
+    // Odpověď na kartičku odložení ruší – uživatel ji zjevně zkouší dál.
+    mastered: false,
     correct: prev.correct + (knew ? 1 : 0),
     wrong: prev.wrong + (knew ? 0 : 1),
     streak: knew ? prev.streak + 1 : 0,
     lastSeen: now,
     dueAt: now + BOX_INTERVALS[box],
   };
+}
+
+/**
+ * Označí kartičku za naučenou bez zkoušení – rovnou do posledního boxu.
+ * Používá se u slov, která uživatel zjevně zná a nechce je opakovat.
+ */
+export function masterCard(prev: CardProgress, now: number): CardProgress {
+  return {
+    ...prev,
+    box: MAX_BOX,
+    mastered: true,
+    lastSeen: now,
+    dueAt: now + BOX_INTERVALS[MAX_BOX],
+  };
+}
+
+/**
+ * Vrátí kartičku zpátky do opakování – do prvního boxu a rovnou na řadu.
+ * Statistiky úspěšnosti zůstávají, ať se neztratí historie.
+ */
+export function resetCard(prev: CardProgress, now: number): CardProgress {
+  // lastSeen se musí posunout, jinak by při synchronizaci z druhého zařízení
+  // vyhrál starší odložený záznam a položka by se odložila znovu.
+  return { ...prev, box: 0, streak: 0, mastered: false, lastSeen: now, dueAt: now };
 }
 
 export function isDue(p: CardProgress, now: number): boolean {

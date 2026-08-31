@@ -61,6 +61,12 @@ Na kartičce odpovídáš rovnou z přední strany:
 | tažení nahoru | `↑` | **zařadit mezi vybraná** – zaškrtne ve slovníčku a počítá se jako chyba, ať se vrací častěji |
 | tažení dolů | `↓` | **umím, vyřadit** – odškrtne ve slovníčku a počítá se jako správně |
 | klepnutí na kartu | mezerník | otočí kartu, když si nejsi jistý – odpovědět můžeš pak |
+| čtvercové tlačítko pod kartou | `K` | **tohle už umím** – slovíčko se odloží a už se neobjeví |
+
+Odložení je pro slova, která nemá smysl opakovat (`and`, `brother`). Platí pro oba směry
+naráz a napořád, ve všech režimech – nese ho vlastní příznak, ne jen poslední box, který
+by se po třech týdnech vrátil. Zrušíš ho ve slovníčku klepnutím na zelený štítek
+„už umím" u dané položky; statistiky úspěšnosti přitom zůstanou.
 
 Po dokončení kola nabídne souhrn **Pokračovat dalším kolem** – poskládá se ze stejných
 lekcí, přednost mají kartičky, které jsi ještě neprocvičoval, a mezi ně se přimíchá menší

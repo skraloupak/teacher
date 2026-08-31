@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { getStore } from "@/lib/storage";
 import { normalizeSettings } from "@/lib/settings";
-import { applyAnswer, getProgress } from "@/lib/srs";
+import { applyAnswer, getProgress, masterCard, resetCard } from "@/lib/srs";
 import type { Direction, Lesson, ProgressMap, SessionRecord, StudySettings } from "@/lib/types";
 
 /**
@@ -79,6 +79,53 @@ export function useAppState(lessons: Lesson[]) {
     [store],
   );
 
+  /**
+   * Odloží položku jako naučenou, a to v obou směrech – kdo zná „and", zná ho
+   * česky i anglicky a nemá důvod ho zkoušet zvlášť.
+   */
+  const markMastered = useCallback(
+    (itemId: string) => {
+      const now = Date.now();
+      const next = { ...progressRef.current };
+      for (const direction of ["en2cs", "cs2en"] as const) {
+        const current = getProgress(next, itemId, direction, now);
+        const updated = masterCard(current, now);
+        next[updated.key] = updated;
+      }
+      progressRef.current = next;
+      setProgress(next);
+      void store.saveProgress(next);
+
+      // Odložená položka nemá co dělat ani mezi vybranými, jinak by chodila
+      // dál v režimu „Vybrané".
+      setMarked((prev) => {
+        if (!prev.has(itemId)) return prev;
+        const nextMarks = new Set(prev);
+        nextMarks.delete(itemId);
+        void store.saveMarked([...nextMarks]);
+        return nextMarks;
+      });
+    },
+    [store],
+  );
+
+  /** Vrátí položku zpátky do opakování – opak markMastered, opět v obou směrech. */
+  const resetMastered = useCallback(
+    (itemId: string) => {
+      const now = Date.now();
+      const next = { ...progressRef.current };
+      for (const direction of ["en2cs", "cs2en"] as const) {
+        const current = getProgress(next, itemId, direction, now);
+        const updated = resetCard(current, now);
+        next[updated.key] = updated;
+      }
+      progressRef.current = next;
+      setProgress(next);
+      void store.saveProgress(next);
+    },
+    [store],
+  );
+
   const recordSession = useCallback(
     (record: SessionRecord) => {
       setSessions((prev) => [...prev, record].slice(-1000));
@@ -140,6 +187,8 @@ export function useAppState(lessons: Lesson[]) {
     clearMarks,
     updateSettings,
     recordAnswer,
+    markMastered,
+    resetMastered,
     recordSession,
     resetProgress,
   };

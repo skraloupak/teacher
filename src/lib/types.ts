@@ -77,6 +77,11 @@ export type CardProgress = {
   streak: number;
   lastSeen: number;
   dueAt: number;
+  /**
+   * Uživatel položku odložil tlačítkem „tohle už umím". Vypadává z výběru ve všech
+   * režimech – na rozdíl od poctivě dosaženého posledního boxu, který se po čase vrací.
+   */
+  mastered?: boolean;
 };
 
 export type ProgressMap = Record<string, CardProgress>;
