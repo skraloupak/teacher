@@ -5,7 +5,17 @@ import { Button, Panel, ProgressBar } from "@/components/ui";
 import { useAppState } from "@/hooks/useAppState";
 import { DIRECTION_LABELS } from "@/lib/settings";
 import { BOX_LABELS, MAX_BOX, isDue } from "@/lib/srs";
-import type { Item, Lesson } from "@/lib/types";
+import type { Direction, Item, Lesson } from "@/lib/types";
+
+type DirectionStat = {
+  touched: number;
+  mastered: number;
+  /** Z toho odloženo tlačítkem „už umím" – bez jediné odpovědi. */
+  setAside: number;
+  due: number;
+  answered: number;
+  successRate: number;
+};
 
 function formatDate(timestamp: number): string {
   return new Date(timestamp).toLocaleDateString("cs-CZ", {
@@ -34,35 +44,34 @@ export function StatsClient({ lessons }: { lessons: Lesson[] }) {
 
   const orphanCount = Object.keys(progress).length - liveCards.length;
 
-  const overview = useMemo(() => {
-    const cards = liveCards;
-    const byBox = new Array(MAX_BOX + 1).fill(0);
-    let due = 0;
-    for (const card of cards) {
-      byBox[Math.min(card.box, MAX_BOX)]++;
-      if (now !== null && isDue(card, now)) due++;
-    }
-    const answered = cards.reduce((sum, c) => sum + c.correct + c.wrong, 0);
-    const correct = cards.reduce((sum, c) => sum + c.correct, 0);
-    return {
-      touched: cards.length,
-      mastered: byBox[MAX_BOX],
-      due,
-      byBox,
-      answered,
-      successRate: answered > 0 ? Math.round((correct / answered) * 100) : 0,
-    };
-  }, [liveCards, now]);
-
-  /** Naučené kartičky zvlášť po směrech – jinak nesedí součet s úvodní obrazovkou. */
-  const byDirection = useMemo(() => {
-    if (liveCards.length === 0) return null;
-    const counts = { en2cs: 0, cs2en: 0 };
-    for (const card of liveCards) {
-      if (card.box >= MAX_BOX) counts[card.direction]++;
-    }
+  /** Rozložení podle boxů bereme dohromady – je to obrázek stavu, ne součet. */
+  const byBox = useMemo(() => {
+    const counts = new Array(MAX_BOX + 1).fill(0);
+    for (const card of liveCards) counts[Math.min(card.box, MAX_BOX)]++;
     return counts;
   }, [liveCards]);
+
+  /**
+   * Čísla se počítají zvlášť pro každý směr. Sčítat je dohromady by mátlo:
+   * jedno slovíčko je kartička dvakrát a „naučeno 146" pak neodpovídá ničemu,
+   * co uživatel vidí při učení.
+   */
+  const overview = useMemo(() => {
+    const forDirection = (direction: Direction) => {
+      const cards = liveCards.filter((card) => card.direction === direction);
+      const answered = cards.reduce((sum, c) => sum + c.correct + c.wrong, 0);
+      const correct = cards.reduce((sum, c) => sum + c.correct, 0);
+      return {
+        touched: cards.length,
+        mastered: cards.filter((c) => c.box >= MAX_BOX).length,
+        setAside: cards.filter((c) => c.mastered).length,
+        due: now === null ? 0 : cards.filter((c) => isDue(c, now)).length,
+        answered,
+        successRate: answered > 0 ? Math.round((correct / answered) * 100) : 0,
+      };
+    };
+    return { en2cs: forDirection("en2cs"), cs2en: forDirection("cs2en") };
+  }, [liveCards, now]);
 
   const hardest = useMemo(
     () =>
@@ -77,7 +86,7 @@ export function StatsClient({ lessons }: { lessons: Lesson[] }) {
 
   if (!ready) return <p className="py-16 text-center text-ink-muted">Načítám…</p>;
 
-  if (overview.touched === 0) {
+  if (liveCards.length === 0) {
     return (
       <Panel className="mt-4">
         <p className="text-ink">
@@ -89,39 +98,63 @@ export function StatsClient({ lessons }: { lessons: Lesson[] }) {
 
   return (
     <div className="flex flex-col gap-4 pb-8">
-      <Panel title="Celkem">
-        <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-          <Metric value={overview.touched} label="rozpracovaných" />
-          <Metric value={overview.mastered} label="naučeno" tone="good" />
-          <Metric value={overview.due} label="čeká na řadě" tone="brand" />
-          <Metric value={`${overview.successRate} %`} label="úspěšnost" />
+      <Panel title="Podle směru">
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-line text-xs text-ink-muted">
+                <th scope="col" className="py-2 text-left font-medium">
+                  &nbsp;
+                </th>
+                <th scope="col" className="py-2 text-right font-medium">
+                  anglicky → česky
+                </th>
+                <th scope="col" className="py-2 text-right font-medium">
+                  česky → anglicky
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {(
+                [
+                  ["naučeno", (d: DirectionStat) => d.mastered, "text-good"],
+                  ["z toho odloženo", (d: DirectionStat) => d.setAside, "text-ink-muted"],
+                  ["rozpracovaných", (d: DirectionStat) => d.touched, "text-ink"],
+                  ["čeká na řadě", (d: DirectionStat) => d.due, "text-brand"],
+                  ["odpovědí", (d: DirectionStat) => d.answered, "text-ink"],
+                  ["úspěšnost", (d: DirectionStat) => `${d.successRate} %`, "text-ink"],
+                ] as const
+              ).map(([label, pick, tone]) => (
+                <tr key={label} className="border-b border-line last:border-0">
+                  <th scope="row" className="py-2 text-left font-normal text-ink-muted">
+                    {label}
+                  </th>
+                  <td className={`py-2 text-right font-semibold tabular-nums ${tone}`}>
+                    {pick(overview.en2cs)}
+                  </td>
+                  <td className={`py-2 text-right font-semibold tabular-nums ${tone}`}>
+                    {pick(overview.cs2en)}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
         <p className="mt-3 text-sm text-ink-muted">
-          Počítá se všechno, co jsi kdy zkoušel – napříč lekcemi a v obou směrech.
-          Každé slovíčko je proto započítané dvakrát: zvlášť anglicky → česky a zvlášť
-          opačně. Na úvodní obrazovce vidíš jen to, co máš právě vybrané.
+          Každé slovíčko je kartička dvakrát – zvlášť pro každý směr. Čísla se proto
+          nesčítají; na úvodní obrazovce vidíš ten směr, který máš nastavený. Odložená
+          slovíčka („už umím“) se počítají do obou směrů, i když jsi je v jednom z nich
+          nikdy nezkoušel.
         </p>
-        {byDirection && (
-          <dl className="mt-3 grid grid-cols-2 gap-2 text-sm">
-            <div className="rounded-2xl bg-surface-sunken px-3 py-2">
-              <dt className="text-xs text-ink-muted">naučeno anglicky → česky</dt>
-              <dd className="text-lg font-bold tabular-nums text-ink">{byDirection.en2cs}</dd>
-            </div>
-            <div className="rounded-2xl bg-surface-sunken px-3 py-2">
-              <dt className="text-xs text-ink-muted">naučeno česky → anglicky</dt>
-              <dd className="text-lg font-bold tabular-nums text-ink">{byDirection.cs2en}</dd>
-            </div>
-          </dl>
-        )}
       </Panel>
 
       <Panel title="Rozložení podle boxů">
         <ul className="flex flex-col gap-2">
-          {overview.byBox.map((count, box) => (
+          {byBox.map((count, box) => (
             <li key={box} className="flex items-center gap-3">
               <span className="w-28 shrink-0 text-sm text-ink-muted">{BOX_LABELS[box]}</span>
               <div className="flex-1">
-                <ProgressBar value={count} max={overview.touched} />
+                <ProgressBar value={count} max={liveCards.length} />
               </div>
               <span className="w-8 shrink-0 text-right text-sm tabular-nums text-ink-muted">
                 {count}
@@ -214,24 +247,6 @@ export function StatsClient({ lessons }: { lessons: Lesson[] }) {
           </Button>
         )}
       </Panel>
-    </div>
-  );
-}
-
-function Metric({
-  value,
-  label,
-  tone = "ink",
-}: {
-  value: number | string;
-  label: string;
-  tone?: "ink" | "brand" | "good";
-}) {
-  const color = tone === "brand" ? "text-brand" : tone === "good" ? "text-good" : "text-ink";
-  return (
-    <div className="rounded-2xl bg-surface-sunken px-3 py-3 text-center">
-      <div className={`text-2xl font-bold tabular-nums ${color}`}>{value}</div>
-      <div className="text-xs text-ink-muted">{label}</div>
     </div>
   );
 }
