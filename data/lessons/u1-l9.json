@@ -75,7 +75,8 @@
       "type": "word",
       "en": "drank",
       "ipa": "dræŋk",
-      "cs": "min. čas od drink"
+      "cs": "vypil, pil",
+      "note": "minulý čas od drink"
     },
     {
       "type": "word",
@@ -135,7 +136,8 @@
       "type": "word",
       "en": "had",
       "ipa": "hæd, həd",
-      "cs": "min. čas od have (got)"
+      "cs": "měl",
+      "note": "minulý čas od have (got)"
     },
     {
       "type": "word",
@@ -268,13 +270,15 @@
       "type": "word",
       "en": "sat",
       "ipa": "sæt",
-      "cs": "min. čas od sit"
+      "cs": "seděl, sedl si",
+      "note": "minulý čas od sit"
     },
     {
       "type": "word",
       "en": "saw",
       "ipa": "sɔː",
-      "cs": "min. čas od see"
+      "cs": "viděl",
+      "note": "minulý čas od see"
     },
     {
       "type": "word",
@@ -331,13 +335,15 @@
       "type": "word",
       "en": "spent",
       "ipa": "spent",
-      "cs": "min. čas od spend"
+      "cs": "strávil; utratil, utrácel",
+      "note": "minulý čas od spend"
     },
     {
       "type": "word",
       "en": "spoke",
       "ipa": "spəʊk",
-      "cs": "min. čas od speak"
+      "cs": "mluvil, hovořil",
+      "note": "minulý čas od speak"
     },
     {
       "type": "word",
@@ -374,13 +380,15 @@
       "type": "word",
       "en": "told",
       "ipa": "təʊld",
-      "cs": "min. čas od tell"
+      "cs": "řekl, říkal; vyprávěl",
+      "note": "minulý čas od tell"
     },
     {
       "type": "word",
       "en": "took",
       "ipa": "tʊk",
-      "cs": "min. čas od take"
+      "cs": "vzal, bral; snímal",
+      "note": "minulý čas od take"
     },
     {
       "type": "word",
@@ -404,21 +412,22 @@
       "type": "word",
       "en": "was",
       "ipa": "wɒz, wəz",
-      "cs": "min. čas od be",
-      "note": "1. a 3. os. j. č."
+      "cs": "byl",
+      "note": "minulý čas od be; 1. a 3. osoba jednotného čísla"
     },
     {
       "type": "word",
       "en": "went",
       "ipa": "went",
-      "cs": "min. čas od go"
+      "cs": "šel, jel, chodil, jezdil",
+      "note": "minulý čas od go"
     },
     {
       "type": "word",
       "en": "were",
       "ipa": "wɜː, wə",
-      "cs": "min. čas od be",
-      "note": "mn. č. a 2. os."
+      "cs": "byli, byly; byl jsi",
+      "note": "minulý čas od be; množné číslo a 2. osoba"
     },
     {
       "type": "word",
@@ -442,7 +451,8 @@
       "type": "word",
       "en": "wrote",
       "ipa": "rəʊt",
-      "cs": "min. čas od write"
+      "cs": "psal, napsal",
+      "note": "minulý čas od write"
     },
     {
       "type": "phrase",

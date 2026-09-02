@@ -11,7 +11,8 @@
     "proxy": "ngrok http --hostname=teacher.eu.ngrok.io 4000",
     "audio:clean": "node scripts/generate-audio.mjs --prune",
     "user": "node scripts/create-user.mjs",
-    "ipa:check": "node scripts/check-ipa.mjs"
+    "ipa:check": "node scripts/check-ipa.mjs",
+    "fix:mastered": "node scripts/fix-mastered-direction.mjs"
   },
   "dependencies": {
     "mongodb": "^7.6.0",

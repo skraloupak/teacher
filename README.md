@@ -3,7 +3,7 @@
 Webová aplikace na učení anglických slovíček a frází pomocí kartiček. Otočíš kartu, řekneš
 si, jestli jsi to věděl, a co ti nešlo, se vrací častěji.
 
-- 23 lekcí, 2 292 slovíček a frází včetně výslovnosti – dvě učebnice a tematické okruhy
+- 24 lekcí, 2 398 slovíček a frází včetně výslovnosti – dvě učebnice a tematické okruhy
 - **Next.js 16 + React 19 + Tailwind v4**, TypeScript
 - Mobil na prvním místě, funguje i offline (kromě prvního načtení)
 - Pokrok a nastavení v prohlížeči, volitelně zrcadlené do MongoDB
@@ -137,7 +137,11 @@ Položky (`items`):
 | `en` | ano | anglicky |
 | `cs` | ano | česky |
 | `ipa` | ne | výslovnost z učebnice, zobrazí se na odpovědi |
-| `note` | ne | upřesnění překladu nebo název oddílu |
+| `note` | ne | upřesnění překladu, název oddílu, nebo tvary slovesa |
+
+Poznámka se na kartičce ukazuje pod překladem, takže se hodí i na věci, které se mají hádat
+zároveň s významem. Lekce nepravidelných sloves toho využívá: na otázce je infinitiv
+(`bring`), na odpovědi překlad a pod ním druhý a třetí tvar (`brought – brought`).
 
 Lekce:
 

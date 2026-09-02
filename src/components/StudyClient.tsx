@@ -194,11 +194,14 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
     [answer, markAndAnswer],
   );
 
-  /** „Tohle už umím" – kartička se odloží jako naučená a z kola zmizí. */
+  /**
+   * „Tohle už umím" – kartička se odloží a z kola zmizí. Platí to jen pro směr,
+   * který je zrovna na obrazovce; opačný se musí zkusit zvlášť.
+   */
   const master = useCallback(() => {
     if (!card || state.finished || state.awaitingNext) return;
     stopSpeaking();
-    markMastered(card.item.id);
+    markMastered(card.item.id, card.direction);
     dispatch({ type: "master", now: Date.now() });
   }, [card, state.finished, state.awaitingNext, markMastered]);
 
@@ -463,7 +466,7 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
             </IconAction>
 
             <IconAction
-              label="Tohle už umím – neopakovat (klávesa K)"
+              label={`Tohle už umím ${card!.direction === "en2cs" ? "anglicky → česky" : "česky → anglicky"} – neopakovat (klávesa K)`}
               onClick={master}
               disabled={state.awaitingNext}
               tone="good"

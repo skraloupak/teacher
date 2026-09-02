@@ -65,12 +65,14 @@
       "type": "word",
       "en": "forgot",
       "ipa": "fəˈgɒt",
-      "cs": "min. čas od forget"
+      "cs": "zapomněl",
+      "note": "minulý čas od forget"
     },
     {
       "type": "word",
       "en": "front",
-      "cs": "viz in front of"
+      "cs": "přední strana, předek",
+      "note": "viz in front of"
     },
     {
       "type": "word",
@@ -133,7 +135,8 @@
       "type": "word",
       "en": "left",
       "ipa": "left",
-      "cs": "min. čas od leave"
+      "cs": "odešel, odjel; opustil",
+      "note": "minulý čas od leave"
     },
     {
       "type": "word",
@@ -146,7 +149,8 @@
       "type": "word",
       "en": "lost",
       "ipa": "lɒst",
-      "cs": "min. čas od lose"
+      "cs": "ztratil",
+      "note": "minulý čas od lose"
     },
     {
       "type": "word",
@@ -158,7 +162,8 @@
       "type": "word",
       "en": "made",
       "ipa": "meɪd",
-      "cs": "min. čas od make"
+      "cs": "udělal, dělal",
+      "note": "minulý čas od make"
     },
     {
       "type": "word",
@@ -171,7 +176,8 @@
       "type": "word",
       "en": "met",
       "ipa": "met",
-      "cs": "min. čas od meet"
+      "cs": "seznámil se s; potkal, setkal se s",
+      "note": "minulý čas od meet"
     },
     {
       "type": "word",
@@ -232,7 +238,8 @@
       "type": "word",
       "en": "ran",
       "ipa": "ræn",
-      "cs": "min. čas od run"
+      "cs": "běžel, běhal, utíkal",
+      "note": "minulý čas od run"
     },
     {
       "type": "word",

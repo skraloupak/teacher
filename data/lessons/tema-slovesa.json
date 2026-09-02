@@ -1,0 +1,752 @@
+{
+  "id": "tema-slovesa",
+  "order": 2,
+  "book": 3,
+  "bookTitle": "Témata",
+  "title": "Nepravidelná slovesa",
+  "description": "106 nepravidelných sloves – na kartičce infinitiv, na odpovědi překlad i druhý a třetí tvar.",
+  "items": [
+    {
+      "type": "word",
+      "en": "be",
+      "ipa": "biː",
+      "cs": "být",
+      "note": "was/were – been"
+    },
+    {
+      "type": "word",
+      "en": "bear",
+      "ipa": "beə",
+      "cs": "snést, vydržet; nést",
+      "note": "bore – borne"
+    },
+    {
+      "type": "word",
+      "en": "become",
+      "ipa": "bɪˈkʌm",
+      "cs": "stát se",
+      "note": "became – become"
+    },
+    {
+      "type": "word",
+      "en": "begin",
+      "ipa": "bɪˈɡɪn",
+      "cs": "začít, začínat",
+      "note": "began – begun"
+    },
+    {
+      "type": "word",
+      "en": "bite",
+      "ipa": "baɪt",
+      "cs": "kousnout, kousat; štípnout",
+      "note": "bit – bitten"
+    },
+    {
+      "type": "word",
+      "en": "blow",
+      "ipa": "bləʊ",
+      "cs": "foukat, vát",
+      "note": "blew – blown"
+    },
+    {
+      "type": "word",
+      "en": "break",
+      "ipa": "breɪk",
+      "cs": "rozbít, zlomit; porušit",
+      "note": "broke – broken"
+    },
+    {
+      "type": "word",
+      "en": "bring",
+      "ipa": "brɪŋ",
+      "cs": "přinést, přivést",
+      "note": "brought – brought"
+    },
+    {
+      "type": "word",
+      "en": "build",
+      "ipa": "bɪld",
+      "cs": "stavět, postavit",
+      "note": "built – built"
+    },
+    {
+      "type": "word",
+      "en": "burn",
+      "ipa": "bɜːn",
+      "cs": "hořet; spálit, pálit",
+      "note": "burnt/burned – burnt/burned"
+    },
+    {
+      "type": "word",
+      "en": "buy",
+      "ipa": "baɪ",
+      "cs": "koupit, kupovat",
+      "note": "bought – bought"
+    },
+    {
+      "type": "word",
+      "en": "catch",
+      "ipa": "kætʃ",
+      "cs": "chytit; stihnout",
+      "note": "caught – caught"
+    },
+    {
+      "type": "word",
+      "en": "choose",
+      "ipa": "tʃuːz",
+      "cs": "vybrat si, zvolit",
+      "note": "chose – chosen"
+    },
+    {
+      "type": "word",
+      "en": "come",
+      "ipa": "kʌm",
+      "cs": "přijít, přijet",
+      "note": "came – come"
+    },
+    {
+      "type": "word",
+      "en": "cost",
+      "ipa": "kɒst",
+      "cs": "stát (mít cenu)",
+      "note": "cost – cost"
+    },
+    {
+      "type": "word",
+      "en": "cut",
+      "ipa": "kʌt",
+      "cs": "řezat, krájet; stříhat",
+      "note": "cut – cut"
+    },
+    {
+      "type": "word",
+      "en": "dig",
+      "ipa": "dɪɡ",
+      "cs": "kopat, hrabat; vykopat",
+      "note": "dug – dug"
+    },
+    {
+      "type": "word",
+      "en": "do",
+      "ipa": "duː",
+      "cs": "dělat, udělat",
+      "note": "did – done"
+    },
+    {
+      "type": "word",
+      "en": "draw",
+      "ipa": "drɔː",
+      "cs": "kreslit, nakreslit; táhnout",
+      "note": "drew – drawn"
+    },
+    {
+      "type": "word",
+      "en": "dream",
+      "ipa": "driːm",
+      "cs": "snít, zdát se; toužit",
+      "note": "dreamt/dreamed – dreamt/dreamed"
+    },
+    {
+      "type": "word",
+      "en": "drink",
+      "ipa": "drɪŋk",
+      "cs": "pít, vypít",
+      "note": "drank – drunk"
+    },
+    {
+      "type": "word",
+      "en": "drive",
+      "ipa": "draɪv",
+      "cs": "řídit, jet autem",
+      "note": "drove – driven"
+    },
+    {
+      "type": "word",
+      "en": "eat",
+      "ipa": "iːt",
+      "cs": "jíst, sníst",
+      "note": "ate – eaten"
+    },
+    {
+      "type": "word",
+      "en": "fall",
+      "ipa": "fɔːl",
+      "cs": "padat, spadnout",
+      "note": "fell – fallen"
+    },
+    {
+      "type": "word",
+      "en": "feed",
+      "ipa": "fiːd",
+      "cs": "krmit, nakrmit",
+      "note": "fed – fed"
+    },
+    {
+      "type": "word",
+      "en": "feel",
+      "ipa": "fiːl",
+      "cs": "cítit, cítit se",
+      "note": "felt – felt"
+    },
+    {
+      "type": "word",
+      "en": "find",
+      "ipa": "faɪnd",
+      "cs": "najít, zjistit",
+      "note": "found – found"
+    },
+    {
+      "type": "word",
+      "en": "fly",
+      "ipa": "flaɪ",
+      "cs": "letět, létat",
+      "note": "flew – flown"
+    },
+    {
+      "type": "word",
+      "en": "forget",
+      "ipa": "fəˈɡet",
+      "cs": "zapomenout, zapomínat",
+      "note": "forgot – forgotten"
+    },
+    {
+      "type": "word",
+      "en": "forgive",
+      "ipa": "fəˈɡɪv",
+      "cs": "odpustit, prominout",
+      "note": "forgave – forgiven"
+    },
+    {
+      "type": "word",
+      "en": "freeze",
+      "ipa": "friːz",
+      "cs": "mrznout, zmrznout; zmrazit",
+      "note": "froze – frozen"
+    },
+    {
+      "type": "word",
+      "en": "get",
+      "ipa": "get",
+      "cs": "dostat, získat; stát se",
+      "note": "got – got"
+    },
+    {
+      "type": "word",
+      "en": "give",
+      "ipa": "gɪv",
+      "cs": "dát, dávat",
+      "note": "gave – given"
+    },
+    {
+      "type": "word",
+      "en": "go",
+      "ipa": "gəʊ",
+      "cs": "jít, jet",
+      "note": "went – gone"
+    },
+    {
+      "type": "word",
+      "en": "grow",
+      "ipa": "ɡrəʊ",
+      "cs": "růst, vyrůst; pěstovat",
+      "note": "grew – grown"
+    },
+    {
+      "type": "word",
+      "en": "hang",
+      "ipa": "hæŋ",
+      "cs": "viset; pověsit, zavěsit",
+      "note": "hung – hung"
+    },
+    {
+      "type": "word",
+      "en": "have",
+      "ipa": "hæv",
+      "cs": "mít",
+      "note": "had – had"
+    },
+    {
+      "type": "word",
+      "en": "hear",
+      "ipa": "hɪə",
+      "cs": "slyšet",
+      "note": "heard – heard"
+    },
+    {
+      "type": "word",
+      "en": "hide",
+      "ipa": "haɪd",
+      "cs": "schovat, skrýt; schovat se",
+      "note": "hid – hidden"
+    },
+    {
+      "type": "word",
+      "en": "hit",
+      "ipa": "hɪt",
+      "cs": "udeřit, praštit; trefit",
+      "note": "hit – hit"
+    },
+    {
+      "type": "word",
+      "en": "hold",
+      "ipa": "həʊld",
+      "cs": "držet; konat, pořádat",
+      "note": "held – held"
+    },
+    {
+      "type": "word",
+      "en": "hurt",
+      "ipa": "hɜːt",
+      "cs": "zranit, ublížit; bolet",
+      "note": "hurt – hurt"
+    },
+    {
+      "type": "word",
+      "en": "keep",
+      "ipa": "kiːp",
+      "cs": "nechat si, udržovat",
+      "note": "kept – kept"
+    },
+    {
+      "type": "word",
+      "en": "know",
+      "ipa": "nəʊ",
+      "cs": "vědět, znát",
+      "note": "knew – known"
+    },
+    {
+      "type": "word",
+      "en": "lay",
+      "ipa": "leɪ",
+      "cs": "položit, klást; prostřít",
+      "note": "laid – laid"
+    },
+    {
+      "type": "word",
+      "en": "learn",
+      "ipa": "lɜːn",
+      "cs": "učit se, naučit se; dozvědět se",
+      "note": "learnt/learned – learnt/learned"
+    },
+    {
+      "type": "word",
+      "en": "leave",
+      "ipa": "liːv",
+      "cs": "odejít, odjet; nechat, opustit",
+      "note": "left – left"
+    },
+    {
+      "type": "word",
+      "en": "lend",
+      "ipa": "lend",
+      "cs": "půjčit (někomu)",
+      "note": "lent – lent"
+    },
+    {
+      "type": "word",
+      "en": "let",
+      "ipa": "let",
+      "cs": "nechat, dovolit",
+      "note": "let – let"
+    },
+    {
+      "type": "word",
+      "en": "lie",
+      "ipa": "laɪ",
+      "cs": "ležet, lehnout si; nacházet se",
+      "note": "lay – lain"
+    },
+    {
+      "type": "word",
+      "en": "light",
+      "ipa": "laɪt",
+      "cs": "rozsvítit; zapálit, rozžehnout",
+      "note": "lit/lighted – lit/lighted"
+    },
+    {
+      "type": "word",
+      "en": "lose",
+      "ipa": "luːz",
+      "cs": "ztratit; prohrát",
+      "note": "lost – lost"
+    },
+    {
+      "type": "word",
+      "en": "make",
+      "ipa": "meɪk",
+      "cs": "dělat, vyrobit",
+      "note": "made – made"
+    },
+    {
+      "type": "word",
+      "en": "mean",
+      "ipa": "miːn",
+      "cs": "znamenat; mínit, myslet vážně",
+      "note": "meant – meant"
+    },
+    {
+      "type": "word",
+      "en": "meet",
+      "ipa": "miːt",
+      "cs": "potkat, setkat se",
+      "note": "met – met"
+    },
+    {
+      "type": "word",
+      "en": "mistake",
+      "ipa": "mɪˈsteɪk",
+      "cs": "splést si, zaměnit; nesprávně pochopit",
+      "note": "mistook – mistaken"
+    },
+    {
+      "type": "word",
+      "en": "overcome",
+      "ipa": "ˌəʊvəˈkʌm",
+      "cs": "překonat, přemoci; zdolat",
+      "note": "overcame – overcome"
+    },
+    {
+      "type": "word",
+      "en": "pay",
+      "ipa": "peɪ",
+      "cs": "platit, zaplatit",
+      "note": "paid – paid"
+    },
+    {
+      "type": "word",
+      "en": "put",
+      "ipa": "pʊt",
+      "cs": "dát, položit",
+      "note": "put – put"
+    },
+    {
+      "type": "word",
+      "en": "read",
+      "ipa": "riːd",
+      "cs": "číst, přečíst",
+      "note": "read – read"
+    },
+    {
+      "type": "word",
+      "en": "rebuild",
+      "ipa": "ˌriːˈbɪld",
+      "cs": "přestavět, znovu postavit; obnovit",
+      "note": "rebuilt – rebuilt"
+    },
+    {
+      "type": "word",
+      "en": "ride",
+      "ipa": "raɪd",
+      "cs": "jezdit (na kole, na koni)",
+      "note": "rode – ridden"
+    },
+    {
+      "type": "word",
+      "en": "ring",
+      "ipa": "rɪŋ",
+      "cs": "zvonit; zatelefonovat",
+      "note": "rang – rung"
+    },
+    {
+      "type": "word",
+      "en": "rise",
+      "ipa": "raɪz",
+      "cs": "stoupat, zvedat se; vycházet (o slunci)",
+      "note": "rose – risen"
+    },
+    {
+      "type": "word",
+      "en": "run",
+      "ipa": "rʌn",
+      "cs": "běžet, utíkat; řídit, provozovat",
+      "note": "ran – run"
+    },
+    {
+      "type": "word",
+      "en": "say",
+      "ipa": "seɪ",
+      "cs": "říct, říkat",
+      "note": "said – said"
+    },
+    {
+      "type": "word",
+      "en": "see",
+      "ipa": "siː",
+      "cs": "vidět, spatřit",
+      "note": "saw – seen"
+    },
+    {
+      "type": "word",
+      "en": "sell",
+      "ipa": "sel",
+      "cs": "prodat, prodávat",
+      "note": "sold – sold"
+    },
+    {
+      "type": "word",
+      "en": "send",
+      "ipa": "send",
+      "cs": "poslat, posílat",
+      "note": "sent – sent"
+    },
+    {
+      "type": "word",
+      "en": "set",
+      "ipa": "set",
+      "cs": "nastavit; stanovit, určit",
+      "note": "set – set"
+    },
+    {
+      "type": "word",
+      "en": "shake",
+      "ipa": "ʃeɪk",
+      "cs": "třást, zatřást; protřepat",
+      "note": "shook – shaken"
+    },
+    {
+      "type": "word",
+      "en": "shine",
+      "ipa": "ʃaɪn",
+      "cs": "svítit, zářit; lesknout se",
+      "note": "shone – shone"
+    },
+    {
+      "type": "word",
+      "en": "shoot",
+      "ipa": "ʃuːt",
+      "cs": "střílet, zastřelit; natáčet (film)",
+      "note": "shot – shot"
+    },
+    {
+      "type": "word",
+      "en": "show",
+      "ipa": "ʃəʊ",
+      "cs": "ukázat, ukazovat",
+      "note": "showed – shown"
+    },
+    {
+      "type": "word",
+      "en": "shut",
+      "ipa": "ʃʌt",
+      "cs": "zavřít, zavírat",
+      "note": "shut – shut"
+    },
+    {
+      "type": "word",
+      "en": "sing",
+      "ipa": "sɪŋ",
+      "cs": "zpívat, zazpívat",
+      "note": "sang – sung"
+    },
+    {
+      "type": "word",
+      "en": "sink",
+      "ipa": "sɪŋk",
+      "cs": "potopit se, klesnout; potopit",
+      "note": "sank – sunk"
+    },
+    {
+      "type": "word",
+      "en": "sit",
+      "ipa": "sɪt",
+      "cs": "sedět, sednout si",
+      "note": "sat – sat"
+    },
+    {
+      "type": "word",
+      "en": "sleep",
+      "ipa": "sliːp",
+      "cs": "spát",
+      "note": "slept – slept"
+    },
+    {
+      "type": "word",
+      "en": "smell",
+      "ipa": "smel",
+      "cs": "cítit, čichat; vonět, páchnout",
+      "note": "smelt/smelled – smelt/smelled"
+    },
+    {
+      "type": "word",
+      "en": "speak",
+      "ipa": "spiːk",
+      "cs": "mluvit, hovořit",
+      "note": "spoke – spoken"
+    },
+    {
+      "type": "word",
+      "en": "spell",
+      "ipa": "spel",
+      "cs": "hláskovat; psát pravopisně správně",
+      "note": "spelt/spelled – spelt/spelled"
+    },
+    {
+      "type": "word",
+      "en": "spend",
+      "ipa": "spend",
+      "cs": "utratit; strávit (čas)",
+      "note": "spent – spent"
+    },
+    {
+      "type": "word",
+      "en": "spill",
+      "ipa": "spɪl",
+      "cs": "rozlít, vylít; rozsypat",
+      "note": "spilt/spilled – spilt/spilled"
+    },
+    {
+      "type": "word",
+      "en": "spread",
+      "ipa": "spred",
+      "cs": "rozšířit, šířit se; roztírat",
+      "note": "spread – spread"
+    },
+    {
+      "type": "word",
+      "en": "spring",
+      "ipa": "sprɪŋ",
+      "cs": "vyskočit, vymrštit se; tryskat",
+      "note": "sprang – sprung"
+    },
+    {
+      "type": "word",
+      "en": "stand",
+      "ipa": "stænd",
+      "cs": "stát, postavit se; snést",
+      "note": "stood – stood"
+    },
+    {
+      "type": "word",
+      "en": "steal",
+      "ipa": "stiːl",
+      "cs": "krást, ukrást",
+      "note": "stole – stolen"
+    },
+    {
+      "type": "word",
+      "en": "stick",
+      "ipa": "stɪk",
+      "cs": "nalepit, přilepit; uvíznout, zaseknout se",
+      "note": "stuck – stuck"
+    },
+    {
+      "type": "word",
+      "en": "strike",
+      "ipa": "straɪk",
+      "cs": "udeřit, zasáhnout; stávkovat",
+      "note": "struck – struck"
+    },
+    {
+      "type": "word",
+      "en": "swear",
+      "ipa": "sweə",
+      "cs": "přísahat; nadávat",
+      "note": "swore – sworn"
+    },
+    {
+      "type": "word",
+      "en": "sweep",
+      "ipa": "swiːp",
+      "cs": "zametat, smést",
+      "note": "swept – swept"
+    },
+    {
+      "type": "word",
+      "en": "swim",
+      "ipa": "swɪm",
+      "cs": "plavat",
+      "note": "swam – swum"
+    },
+    {
+      "type": "word",
+      "en": "swing",
+      "ipa": "swɪŋ",
+      "cs": "houpat se, kývat se; švihnout",
+      "note": "swung – swung"
+    },
+    {
+      "type": "word",
+      "en": "take",
+      "ipa": "teɪk",
+      "cs": "vzít, brát; trvat (o čase)",
+      "note": "took – taken"
+    },
+    {
+      "type": "word",
+      "en": "teach",
+      "ipa": "tiːtʃ",
+      "cs": "učit, vyučovat",
+      "note": "taught – taught"
+    },
+    {
+      "type": "word",
+      "en": "tear",
+      "ipa": "teə",
+      "cs": "trhat, roztrhnout",
+      "note": "tore – torn; pozor: slza se píše stejně, ale čte [tɪə]"
+    },
+    {
+      "type": "word",
+      "en": "tell",
+      "ipa": "tel",
+      "cs": "říct někomu, povědět",
+      "note": "told – told"
+    },
+    {
+      "type": "word",
+      "en": "think",
+      "ipa": "θɪŋk",
+      "cs": "myslet si, přemýšlet",
+      "note": "thought – thought"
+    },
+    {
+      "type": "word",
+      "en": "throw",
+      "ipa": "θrəʊ",
+      "cs": "házet, hodit",
+      "note": "threw – thrown"
+    },
+    {
+      "type": "word",
+      "en": "understand",
+      "ipa": "ˌʌndəˈstænd",
+      "cs": "rozumět, chápat",
+      "note": "understood – understood"
+    },
+    {
+      "type": "word",
+      "en": "wake",
+      "ipa": "weɪk",
+      "cs": "probudit se, vzbudit se; vzbudit",
+      "note": "woke – woken"
+    },
+    {
+      "type": "word",
+      "en": "wear",
+      "ipa": "weə",
+      "cs": "nosit (oblečení), mít na sobě",
+      "note": "wore – worn"
+    },
+    {
+      "type": "word",
+      "en": "win",
+      "ipa": "wɪn",
+      "cs": "vyhrát, zvítězit; získat",
+      "note": "won – won"
+    },
+    {
+      "type": "word",
+      "en": "wind",
+      "ipa": "waɪnd",
+      "cs": "vinout, namotat; natáhnout (hodinky); klikatit se",
+      "note": "wound – wound"
+    },
+    {
+      "type": "word",
+      "en": "write",
+      "ipa": "raɪt",
+      "cs": "psát, napsat",
+      "note": "wrote – written"
+    }
+  ]
+}

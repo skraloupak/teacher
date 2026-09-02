@@ -7,7 +7,7 @@ import { Chip, Panel } from "@/components/ui";
 import { useAppState } from "@/hooks/useAppState";
 import { TYPE_LABELS } from "@/lib/settings";
 import { BOX_LABELS, MAX_BOX, progressKey } from "@/lib/srs";
-import type { Book, Item, ItemType, Lesson } from "@/lib/types";
+import type { Book, Direction, Item, ItemType, Lesson } from "@/lib/types";
 
 type Scope = { kind: "all" } | { kind: "book"; book: number } | { kind: "lesson"; id: string };
 /** Který sloupec je zakrytý, aby se dalo zkoušet sám ze sebe. */
@@ -78,11 +78,10 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
     return Math.min(a ?? MAX_BOX, b ?? MAX_BOX);
   }
 
-  /** Odložil ji uživatel ručně tlačítkem „tohle už umím"? */
-  function isMasteredByHand(item: Item): boolean {
-    return Boolean(
-      progress[progressKey(item.id, "en2cs")]?.mastered ||
-        progress[progressKey(item.id, "cs2en")]?.mastered,
+  /** Ve kterých směrech je položka odložená tlačítkem „tohle už umím". */
+  function setAsideIn(item: Item): Direction[] {
+    return (["en2cs", "cs2en"] as const).filter(
+      (direction) => progress[progressKey(item.id, direction)]?.mastered,
     );
   }
 
@@ -194,7 +193,8 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
           <ul className="divide-y divide-line">
             {items.map((item) => {
               const box = boxOf(item);
-              const byHand = isMasteredByHand(item);
+              const setAside = setAsideIn(item);
+              const byHand = setAside.length > 0;
               const isMarked = marked.has(item.id);
               const open = peeked.has(item.id);
 
@@ -258,11 +258,21 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
                           <button
                             type="button"
                             onClick={() => resetMastered(item.id)}
-                            title={`${item.en}: ${byHand ? "odloženo jako známé" : "naučeno"} – klepnutím vrátíš do opakování`}
+                            title={
+                              byHand
+                                ? `${item.en}: odloženo jako známé (${setAside
+                                    .map((d) => (d === "en2cs" ? "anglicky → česky" : "česky → anglicky"))
+                                    .join(", ")}) – klepnutím vrátíš do opakování`
+                                : `${item.en}: naučeno – klepnutím vrátíš do opakování`
+                            }
                             aria-label={`${item.en}: vrátit do opakování`}
                             className="no-tap-zoom mt-0.5 inline-flex items-center gap-1 text-xs text-good transition-colors hover:text-ink"
                           >
-                            {byHand ? "už umím" : "naučeno"}
+                            {byHand
+                              ? setAside.length === 2
+                                ? "už umím"
+                                : "už umím 1 ze 2 směrů"
+                              : "naučeno"}
                             <svg width="11" height="11" viewBox="0 0 24 24" fill="none" aria-hidden>
                               <path
                                 d="M3 12a9 9 0 1 0 3-6.7M3 4v5h5"

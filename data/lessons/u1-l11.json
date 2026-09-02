@@ -63,7 +63,8 @@
       "type": "word",
       "en": "bought",
       "ipa": "bɔːt",
-      "cs": "min. čas od buy"
+      "cs": "koupil, kupoval",
+      "note": "minulý čas od buy"
     },
     {
       "type": "word",
@@ -76,7 +77,8 @@
       "type": "word",
       "en": "brought",
       "ipa": "brɔːt",
-      "cs": "min. čas od bring"
+      "cs": "přivedl, přinesl",
+      "note": "minulý čas od bring"
     },
     {
       "type": "word",
@@ -160,7 +162,8 @@
       "type": "word",
       "en": "down",
       "ipa": "daʊn",
-      "cs": "viz lie down and sit down"
+      "cs": "dolů, dole",
+      "note": "viz lie down a sit down"
     },
     {
       "type": "word",
@@ -172,7 +175,8 @@
       "type": "word",
       "en": "found",
       "ipa": "faʊnd",
-      "cs": "min. čas od find"
+      "cs": "našel, nalezl",
+      "note": "minulý čas od find"
     },
     {
       "type": "word",
@@ -250,7 +254,8 @@
       "type": "word",
       "en": "lay",
       "ipa": "leɪ",
-      "cs": "min. čas od lie"
+      "cs": "ležel",
+      "note": "minulý čas od lie (ležet)"
     },
     {
       "type": "word",

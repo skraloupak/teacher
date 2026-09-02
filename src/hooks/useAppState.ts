@@ -80,18 +80,16 @@ export function useAppState(lessons: Lesson[]) {
   );
 
   /**
-   * Odloží položku jako naučenou, a to v obou směrech – kdo zná „and", zná ho
-   * česky i anglicky a nemá důvod ho zkoušet zvlášť.
+   * Odloží kartičku jako naučenou – jen ve směru, ve kterém se zkoušela.
+   * Poznat „and" v anglické větě je něco jiného než vybavit si ho z českého „a",
+   * takže odložení jedné strany nic neříká o té druhé.
    */
   const markMastered = useCallback(
-    (itemId: string) => {
+    (itemId: string, direction: Direction) => {
       const now = Date.now();
-      const next = { ...progressRef.current };
-      for (const direction of ["en2cs", "cs2en"] as const) {
-        const current = getProgress(next, itemId, direction, now);
-        const updated = masterCard(current, now);
-        next[updated.key] = updated;
-      }
+      const current = getProgress(progressRef.current, itemId, direction, now);
+      const updated = masterCard(current, now);
+      const next = { ...progressRef.current, [updated.key]: updated };
       progressRef.current = next;
       setProgress(next);
       void store.saveProgress(next);
@@ -109,7 +107,10 @@ export function useAppState(lessons: Lesson[]) {
     [store],
   );
 
-  /** Vrátí položku zpátky do opakování – opak markMastered, opět v obou směrech. */
+  /**
+   * Vrátí položku do opakování. Tady sáhneme na oba směry – ve slovníčku uživatel
+   * směry nerozlišuje a vracení do oběhu nic nezkazí.
+   */
   const resetMastered = useCallback(
     (itemId: string) => {
       const now = Date.now();
