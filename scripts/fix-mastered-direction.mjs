@@ -3,9 +3,12 @@
  * Jednorázová oprava dat po změně chování tlačítka „tohle už umím".
  *
  * Dřív odložení platilo pro oba směry naráz. To ale není pravda – poznat slovo
- * v anglické větě je něco jiného než vybavit si ho z češtiny. Skript vrátí do
- * opakování ta odložení, která vznikla ve směru, kde uživatel nikdy neodpověděl.
- * Čeho se dotkl vlastním učením, nechá být.
+ * v anglické větě je něco jiného než vybavit si ho z češtiny.
+ *
+ * Skript vrátí do opakování jen ta odložení, která leží ve směru, kde uživatel
+ * nikdy na nic neodpověděl. Takový směr se nemohl odložit vědomě, je to pozůstatek
+ * starého chování. Odložení ve směru, který uživatel trénuje, zůstává – i když
+ * na tu konkrétní kartičku neodpověděl, protože právě to tlačítko „už umím" umí.
  *
  *   npm run fix:mastered            # jen ukáže, co by udělal
  *   npm run fix:mastered -- --apply # provede
@@ -51,32 +54,50 @@ try {
   await client.connect();
   const progress = client.db(env.MONGODB_DATABASE).collection("progress");
 
-  // Kartičky v posledním boxu, na které uživatel nikdy neodpověděl. Nemohly se tam
-  // dostat učením – vznikly odložením, které dřív platilo pro oba směry. Bereme i ty
-  // bez příznaku `mastered`, protože ten v aplikaci přibyl až později.
-  const untouched = await progress
-    .find({
-      correct: 0,
-      wrong: 0,
-      $or: [{ mastered: true }, { box: { $gte: 5 } }],
-    })
-    .toArray();
+  // Nejdřív zjistíme, které směry uživatel opravdu trénuje – tedy kde má aspoň
+  // jednu odpověď. Odložení v NETRÉNOVANÉM směru nemohlo vzniknout vědomě;
+  // je pozůstatek staršího chování, kdy tlačítko odkládalo oba směry naráz.
+  const all = await progress.find({}).toArray();
+  const answeredIn = new Set(
+    all.filter((c) => c.correct > 0 || c.wrong > 0).map((c) => c.direction),
+  );
+
+  const untouched = all.filter(
+    (c) =>
+      !answeredIn.has(c.direction) &&
+      c.correct === 0 &&
+      c.wrong === 0 &&
+      (c.mastered === true || c.box >= 5),
+  );
+
+  const keptDeliberate = all.filter(
+    (c) =>
+      answeredIn.has(c.direction) &&
+      c.correct === 0 &&
+      c.wrong === 0 &&
+      (c.mastered === true || c.box >= 5),
+  );
+
+  console.log(
+    `Směry, ve kterých se opravdu učíš: ${[...answeredIn].join(", ") || "(zatím žádný)"}\n`,
+  );
 
   const byDirection = {};
   for (const card of untouched) {
     byDirection[card.direction] = (byDirection[card.direction] ?? 0) + 1;
   }
 
-  const keptCount = await progress.countDocuments({
-    box: { $gte: 5 },
-    $or: [{ correct: { $gt: 0 } }, { wrong: { $gt: 0 } }],
-  });
+  const keptCount = all.filter(
+    (c) => c.box >= 5 && (c.correct > 0 || c.wrong > 0),
+  ).length;
 
-  console.log(`Naučených kartiček bez jediné odpovědi: ${untouched.length}`);
+  console.log(`K vrácení do opakování: ${untouched.length}`);
   for (const [direction, count] of Object.entries(byDirection)) {
     console.log(`  ${direction === "en2cs" ? "anglicky → česky" : "česky → anglicky"}: ${count}`);
   }
-  console.log(`Naučených, které si uživatel odpracoval (zůstanou): ${keptCount}`);
+  console.log("\nZŮSTANOU beze změny:");
+  console.log(`  odložená ve směru, který trénuješ: ${keptDeliberate.length}`);
+  console.log(`  naučená vlastními odpověďmi:       ${keptCount}`);
 
   if (untouched.length === 0) {
     console.log("\nNení co opravovat.");
