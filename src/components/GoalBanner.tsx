@@ -1,6 +1,7 @@
 "use client";
 
 import { Confetti } from "@/components/Confetti";
+import { CloseIcon } from "@/components/icons";
 import { formatDuration } from "@/lib/daily";
 
 /** Oznámení, že dnešní cíl padl. Zobrazí se jednou denně. */
@@ -40,14 +41,7 @@ export function GoalBanner({
             aria-label="Zavřít"
             className="no-tap-zoom shrink-0 rounded-full p-2 text-ink-muted transition-colors hover:text-ink"
           >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
-              <path
-                d="m6 6 12 12M18 6 6 18"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-              />
-            </svg>
+            <CloseIcon size={18} />
           </button>
         </div>
       </div>

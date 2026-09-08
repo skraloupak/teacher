@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { SpeakButton } from "@/components/SpeakButton";
+import { CheckIcon, UndoIcon } from "@/components/icons";
 import { Chip, Panel } from "@/components/ui";
 import { useAppState } from "@/hooks/useAppState";
 import { TYPE_LABELS } from "@/lib/settings";
@@ -212,15 +213,7 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
                         : "border-line bg-surface-raised text-transparent"
                     }`}
                   >
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden>
-                      <path
-                        d="m5 12.5 4.5 4.5L19 7.5"
-                        stroke="currentColor"
-                        strokeWidth="2.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
+                    <CheckIcon size={15} />
                   </button>
 
                   <div className="grid min-w-0 flex-1 grid-cols-2 gap-2 sm:gap-4">
@@ -273,15 +266,7 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
                                 ? "už umím"
                                 : "už umím 1 ze 2 směrů"
                               : "naučeno"}
-                            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" aria-hidden>
-                              <path
-                                d="M3 12a9 9 0 1 0 3-6.7M3 4v5h5"
-                                stroke="currentColor"
-                                strokeWidth="2.4"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                            </svg>
+                            <UndoIcon size={11} weight={1.4} />
                           </button>
                         ) : (
                           <span

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { SpeakButton } from "@/components/SpeakButton";
+import { BookmarkFilledIcon } from "@/components/icons";
 import { answerOf, promptOf, type Card } from "@/lib/session";
 import { TYPE_LABELS } from "@/lib/settings";
 
@@ -236,9 +237,7 @@ function MarkedTag() {
       className="inline-flex items-center gap-1 rounded-full bg-brand-soft px-2 py-0.5 text-brand normal-case"
       title="Slovíčko je mezi vybranými"
     >
-      <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
-        <path d="M12 2.5 15 9l7 .8-5.2 4.7 1.5 6.9L12 17.9 5.7 21.4l1.5-6.9L2 9.8 9 9z" />
-      </svg>
+      <BookmarkFilledIcon />
       vybráno
     </span>
   );

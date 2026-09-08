@@ -5,6 +5,12 @@ import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useReducer, useRef } from "react";
 import { FlashCard, type SwipeIntent } from "@/components/FlashCard";
 import { GoalBanner } from "@/components/GoalBanner";
+import {
+  BookmarkFilledIcon,
+  BookmarkMinusIcon,
+  BookmarkPlusIcon,
+  CheckCircleIcon,
+} from "@/components/icons";
 import { SessionSummary } from "@/components/SessionSummary";
 import { Button, ProgressBar } from "@/components/ui";
 import { useAuth } from "@/components/AuthGate";
@@ -36,7 +42,7 @@ function IconAction({
   disabled,
   tone = "muted",
   active,
-  children,
+  icon,
 }: {
   label: string;
   onClick: () => void;
@@ -44,7 +50,7 @@ function IconAction({
   tone?: "muted" | "brand" | "good";
   /** Stav už platí – tlačítko je zvýrazněné, ať ho uživatel nemačká podruhé. */
   active?: boolean;
-  children: React.ReactNode;
+  icon: React.ReactNode;
 }) {
   const hover =
     tone === "brand"
@@ -67,9 +73,7 @@ function IconAction({
       aria-pressed={active}
       className={`no-tap-zoom flex h-12 w-12 items-center justify-center rounded-2xl border transition-colors focus-visible:ring-2 focus-visible:ring-brand focus-visible:outline-none disabled:opacity-40 ${look}`}
     >
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden>
-        {children}
-      </svg>
+      {icon}
     </button>
   );
 }
@@ -435,16 +439,9 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
               disabled={state.awaitingNext}
               tone="brand"
               active={isMarked}
-            >
-              <path
-                d="M12 4v13m0-13 5 5m-5-5-5 5"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              <path d="M5 20h14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-            </IconAction>
+              // Zvýrazněné tlačítko už nic nepřidává – plný praporek říká „hotovo“.
+              icon={isMarked ? <BookmarkFilledIcon size={22} /> : <BookmarkPlusIcon size={22} />}
+            />
 
             <IconAction
               label={
@@ -454,32 +451,16 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
               }
               onClick={() => markAndAnswer(false)}
               disabled={state.awaitingNext}
-            >
-              <path
-                d="M12 20V7m0 13 5-5m-5 5-5-5"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              <path d="M5 4h14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-            </IconAction>
+              icon={<BookmarkMinusIcon size={22} />}
+            />
 
             <IconAction
               label={`Tohle už umím ${card!.direction === "en2cs" ? "anglicky → česky" : "česky → anglicky"} – neopakovat (klávesa K)`}
               onClick={master}
               disabled={state.awaitingNext}
               tone="good"
-            >
-              <circle cx="12" cy="12" r="8.5" stroke="currentColor" strokeWidth="1.8" />
-              <path
-                d="m8.5 12 2.5 2.5 4.5-5"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </IconAction>
+              icon={<CheckCircleIcon size={22} />}
+            />
           </div>
 
           <div className="flex items-center justify-between gap-3 text-sm">
