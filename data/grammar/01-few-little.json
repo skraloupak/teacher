@@ -1,0 +1,144 @@
+{
+  "id": "few-little",
+  "order": 1,
+  "title": "few × little (a few × a little)",
+  "tagline": "Kdy se říká few a kdy little – a co změní členek „a“.",
+  "core": "few se pojí s tím, co se dá spočítat na kusy (few bugs, few people), little s tím, co se lije, sype nebo měří (little time, little coffee). Členek „a“ přepíná znaménko: a few / a little = „pár, trochu“ a je to v pohodě, few / little bez „a“ = „skoro nic“ a je to problém.",
+  "rules": [
+    {
+      "label": "few počítá kusy, little měří hmotu",
+      "text": "few + podstatné jméno v množném čísle: a few commits, a few colleagues, a few days. little + nepočitatelné: a little time, a little money, a little patience. Obráceně to nejde – „a few water“ ani „a little bugs“ neexistuje."
+    },
+    {
+      "label": "S „a“ je sklenice poloplná",
+      "text": "„I have a little time“ znamená, že čas máš a stačí ti. „I've got a few ideas“ znamená, že nějaké nápady máš. Tohle je běžný, neutrální až pozitivní tón."
+    },
+    {
+      "label": "Bez „a“ je sklenice skoro prázdná",
+      "text": "„I have little time“ = času mám tak málo, že to nezvládnu. „Few people read the docs“ = dokumentaci čte skoro nikdo. Bez členu si vždycky stěžuješ."
+    },
+    {
+      "label": "quite a few znamená hodně, ne málo",
+      "text": "„Quite a few users complained“ = stěžovalo si docela dost uživatelů. Je to past: vypadá to jako málo, znamená to spoustu."
+    }
+  ],
+  "memoryHook": "few má v sobě „kusy“ – a few tickets, a few commits, dá se to spočítat na prstech. little je „trochu“ něčeho, co se lije nebo sype – little coffee, little time. A členek „a“ funguje jako znaménko: s „a“ plus (něco tam je, v pohodě), bez „a“ minus (skoro nic, průšvih).",
+  "examples": [
+    {
+      "en": "I have a few tickets left before the release.",
+      "cs": "Do releasu mi zbývá pár ticketů."
+    },
+    {
+      "en": "Give me a little time, I'm still debugging it.",
+      "cs": "Dej mi trochu času, ještě to ladím.",
+      "note": "a little = trochu, ale dost na to, abych to dodělal."
+    },
+    {
+      "en": "I have little patience for meetings that could have been an email.",
+      "cs": "Na schůzky, které mohly být e-mail, nemám skoro žádnou trpělivost.",
+      "note": "Bez „a“ – stěžuju si, trpělivost už mi došla."
+    },
+    {
+      "en": "Few people actually read the release notes.",
+      "cs": "Poznámky k vydání si opravdu přečte málokdo.",
+      "note": "Few bez „a“ – a je to škoda."
+    },
+    {
+      "en": "Quite a few of our users are still on the old version.",
+      "cs": "Docela dost našich uživatelů je pořád na staré verzi.",
+      "note": "quite a few = hodně, ne pár."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "I have few time before the meeting.",
+      "right": "I have little time before the meeting.",
+      "why": "Čas se nedá počítat na kusy, patří k němu little."
+    },
+    {
+      "wrong": "There were a little people at the standup.",
+      "right": "There were a few people at the standup.",
+      "why": "Lidi se počítají, takže a few."
+    },
+    {
+      "wrong": "Only a little of my colleagues use the CLI.",
+      "right": "Only a few of my colleagues use the CLI.",
+      "why": "Čeština má na obojí „málo“, angličtina rozlišuje kusy (few) a hmotu (little)."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "I'll be there in ___ minutes.",
+      "options": [
+        "a few",
+        "a little"
+      ],
+      "correct": 0,
+      "explain": "Minuty se dají spočítat, proto a few."
+    },
+    {
+      "prompt": "Can you give me ___ help with this regex?",
+      "options": [
+        "a few",
+        "a little"
+      ],
+      "correct": 1,
+      "explain": "help je nepočitatelné, k němu patří a little."
+    },
+    {
+      "prompt": "There's ___ milk left, I'll buy some on the way home.",
+      "options": [
+        "a few",
+        "a little"
+      ],
+      "correct": 1,
+      "explain": "Mléko se lije, ne počítá – a little."
+    },
+    {
+      "prompt": "Give me ___ time and I'll have it done by lunch.",
+      "options": [
+        "little",
+        "a little"
+      ],
+      "correct": 1,
+      "explain": "Slibuješ, že to stihneš, takže je to to dobré „trochu“ – a little."
+    },
+    {
+      "prompt": "We had ___ time, so we had to skip the tests completely.",
+      "options": [
+        "little",
+        "a little"
+      ],
+      "correct": 0,
+      "explain": "Bez „a“ znamená skoro žádný čas – proto ty vynechané testy."
+    },
+    {
+      "prompt": "He knows ___ about security, which is exactly why the data leaked.",
+      "options": [
+        "little",
+        "a little"
+      ],
+      "correct": 0,
+      "explain": "Bez „a“ = skoro nic, a to je tady ta příčina."
+    },
+    {
+      "prompt": "___ a few people asked about dark mode, so we're adding it.",
+      "options": [
+        "Quite",
+        "Very",
+        "Too"
+      ],
+      "correct": 0,
+      "explain": "Před „a few“ může stát jedině quite – „very a few“ ani „too a few“ anglicky neexistuje."
+    },
+    {
+      "prompt": "There is ___ point in optimizing a script that runs once a year.",
+      "options": [
+        "little",
+        "few"
+      ],
+      "correct": 0,
+      "explain": "point je tu nepočitatelné („smysl“), takže little – a bez „a“ to znamená, že smysl to nemá."
+    }
+  ]
+}

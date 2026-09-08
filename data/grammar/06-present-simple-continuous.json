@@ -1,0 +1,135 @@
+{
+  "id": "present-simple-continuous",
+  "order": 6,
+  "title": "present simple × present continuous",
+  "tagline": "Kdy se říká „I work\" a kdy „I'm working\".",
+  "core": "Present simple popisuje, jak to chodí obecně – zvyky, fakta, trvalé stavy. Present continuous popisuje, co běží právě teď nebo dočasně v tomhle období. Čeština tenhle rozdíl nedělá vůbec, angličtina ho musí rozhodnout u každé věty.",
+  "rules": [
+    {
+      "label": "Trvale × dočasně",
+      "text": "„I work at Seznam\" = tam pracuju, to je moje práce. „I'm working on the payment API\" = na tomhle zrovna dělám, za měsíc budu dělat na něčem jiném. Obojí platí ve stejný okamžik, jen každé mluví o jiné době."
+    },
+    {
+      "label": "Slovesa stavu nedávej do -ing",
+      "text": "know, understand, want, need, believe, remember, mean, own, cost, like, hate – tyhle popisují stav, ne činnost, a v běžné angličtině je do průběhu nedávej. „I'm knowing\" ani „I'm wanting\" neexistuje, správně je „I know\", „I want\". (Reklamní „I'm lovin' it\" je záměrné porušení pravidla, ne vzor.)"
+    },
+    {
+      "label": "always + průběh = naštvanost",
+      "text": "„He's always breaking the build\" neznamená chladné „vždycky\", ale „pořád nám rozbíjí build a už mě to štve\". „He always breaks the build\" je jen neutrální konstatování."
+    },
+    {
+      "label": "Domluvená budoucnost",
+      "text": "Na plán, který je už dohodnutý s někým konkrétním, se používá present continuous: „We're deploying on Friday.\" „I'm meeting the client at three.\" Není to přítomnost, ale angličtina to takhle říká."
+    }
+  ],
+  "memoryHook": "Present simple je konfigurace v repu – platí pořád, dokud ji někdo nezmění. Present continuous je proces, který zrovna běží a má PID – jednou skončí. „I work here\" je záznam v HR systému, „I'm working on it\" je běžící úloha. Když váháš, zeptej se: popisuju nastavení, nebo hlásím, co teď běží?",
+  "examples": [
+    {
+      "en": "I work in Brno, but this month I'm working from Prague.",
+      "cs": "Pracuju v Brně, ale tenhle měsíc pracuju z Prahy.",
+      "note": "První půlka je trvalý stav, druhá dočasná výjimka. Česky obojí stejně, anglicky dvěma různými časy."
+    },
+    {
+      "en": "The build usually takes ten minutes, but today it's taking forever.",
+      "cs": "Build obvykle trvá deset minut, ale dneska trvá celou věčnost.",
+      "note": "„usually\" táhne simple, „today\" v tomhle kontrastu táhne continuous."
+    },
+    {
+      "en": "Don't call him now, he's having lunch.",
+      "cs": "Teď mu nevolej, obědvá.",
+      "note": "have ve významu „jíst\" do -ing klidně jde – zakázané je jen have ve významu „mít\"."
+    },
+    {
+      "en": "I don't understand this stack trace at all.",
+      "cs": "Vůbec nechápu tenhle stack trace.",
+      "note": "understand je sloveso stavu, a to i když mluvíš o téhle chvíli."
+    },
+    {
+      "en": "My colleague is always forgetting to update the ticket.",
+      "cs": "Kolega pořád zapomíná aktualizovat ticket.",
+      "note": "Průběhový tvar tu nese podtón „a leze mi to na nervy\"."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "I'm knowing the answer.",
+      "right": "I know the answer.",
+      "why": "Slovesa vědění, chtění a pocitů se do průběhového tvaru nedávají, i když mluvíš o téhle chvíli."
+    },
+    {
+      "wrong": "What do you do now?",
+      "right": "What are you doing now?",
+      "why": "„What do you do?\" znamená „čím se živíš\" – na aktuální činnost se musí ptát průběhovým časem."
+    },
+    {
+      "wrong": "Sorry, I can't talk, I go to a meeting.",
+      "right": "Sorry, I can't talk, I'm going to a meeting.",
+      "why": "Čeština průběhový tvar nemá, tak Čech sáhne po prostém – jednorázová právě probíhající činnost ale musí být continuous."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Water ___ at one hundred degrees.",
+      "options": [
+        "boils",
+        "is boiling"
+      ],
+      "correct": 0,
+      "explain": "Obecně platný fakt se říká present simple."
+    },
+    {
+      "prompt": "Don't ring the bell, the baby ___ .",
+      "options": [
+        "sleeps",
+        "is sleeping"
+      ],
+      "correct": 1,
+      "explain": "Děj probíhá právě v tuhle chvíli, proto průběhový čas."
+    },
+    {
+      "prompt": "Sorry, I ___ what you mean.",
+      "options": [
+        "'m not understanding",
+        "don't understand"
+      ],
+      "correct": 1,
+      "explain": "understand popisuje stav, a ten se do -ing nedává."
+    },
+    {
+      "prompt": "I usually work on the backend, but this sprint I ___ on the mobile app.",
+      "options": [
+        "work",
+        "'m working"
+      ],
+      "correct": 1,
+      "explain": "Trvalá náplň práce je simple, dočasná výjimka na tenhle sprint je continuous."
+    },
+    {
+      "prompt": "I can't make it on Thursday, I ___ my parents up from the airport.",
+      "options": [
+        "'m picking",
+        "pick"
+      ],
+      "correct": 0,
+      "explain": "Domluvený jednorázový plán s konkrétním člověkem se říká průběhovým přítomným časem."
+    },
+    {
+      "prompt": "This soup ___ amazing, what did you put in it?",
+      "options": [
+        "tastes",
+        "is tasting"
+      ],
+      "correct": 0,
+      "explain": "taste ve významu „chutnat\" je sloveso stavu – průběh by znamenal, že něco ochutnáváš."
+    },
+    {
+      "prompt": "I ___ you're right, actually.",
+      "options": [
+        "'m thinking",
+        "think"
+      ],
+      "correct": 1,
+      "explain": "think ve významu „myslet si, mít názor\" je stavové; „I'm thinking\" znamená „zrovna přemýšlím\"."
+    }
+  ]
+}

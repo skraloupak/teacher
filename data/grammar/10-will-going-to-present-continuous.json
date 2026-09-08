@@ -1,0 +1,142 @@
+{
+  "id": "will-going-to-present-continuous",
+  "order": 10,
+  "title": "will × going to × present continuous o budoucnosti",
+  "tagline": "Tři způsoby, jak mluvit o budoucnosti – rozhoduje, kdy padlo rozhodnutí.",
+  "core": "will použij, když se rozhoduješ ve chvíli, kdy mluvíš – nabídka, slib, spontánní reakce – a taky pro odhad budoucnosti bez důkazu. going to použij pro záměr, o kterém bylo rozhodnuto dřív, a pro předpověď opřenou o to, co máš právě před očima. Přítomný průběhový čas (I'm meeting…) patří k tomu, co je domluvené s někým dalším a má čas – prostě kalendář.",
+  "rules": [
+    {
+      "label": "Rozhoduju se teď = will",
+      "text": "Nabídky, sliby a spontánní reakce: „The phone is ringing – I'll get it.“ / „Don't worry, I'll fix it.“ Nic z toho jsi neplánoval ani o minutu dřív."
+    },
+    {
+      "label": "Rozhodnuto dřív = going to",
+      "text": "„We're going to migrate to Postgres next quarter.“ Záměr už v hlavě je, ale ještě nemusí být domluvený termín ani druhá strana."
+    },
+    {
+      "label": "Je to v kalendáři = present continuous",
+      "text": "„I'm deploying at six.“ / „I'm flying to Berlin on Tuesday.“ Domluveno s někým dalším, na konkrétní čas. Skoro vždycky je u toho časový údaj – nebo je čas jasný z kontextu."
+    },
+    {
+      "label": "U předpovědi rozhoduje důkaz",
+      "text": "„It will rain tomorrow“ = můj odhad. „Look at those clouds – it's going to rain“ = vidím to na vlastní oči. Mezi will a going to je to často jen odstín a nikdo tě za záměnu neopraví; zato „Tomorrow I go to Brno“ místo „I'm going to Brno“ zní vyloženě špatně."
+    }
+  ],
+  "memoryHook": "will = nápad, going to = plán, I'm -ing = kalendář. Seřaď si to podle toho, kolik přípravy je za tím: will nemá za sebou nic (rozhoduješ se, zatímco mluvíš), going to má rozhodnutí z minula, present continuous má navíc domluvený čas a druhého člověka.",
+  "examples": [
+    {
+      "en": "Don't worry, I'll fix that bug before the release.",
+      "cs": "Neboj, tu chybu opravím před releasem.",
+      "note": "Slib – rozhodnutí padá právě v tuhle vteřinu."
+    },
+    {
+      "en": "We're going to rewrite the whole payment module next quarter.",
+      "cs": "Příští čtvrtletí přepíšeme celý platební modul.",
+      "note": "Rozhodnuto na plánování už dřív, ale termín zatím nikde."
+    },
+    {
+      "en": "I'm meeting the client at nine, so I'll be a bit late for standup.",
+      "cs": "V devět mám schůzku s klientem, takže na standup přijdu trochu později.",
+      "note": "První půlka je domluvený kalendář, druhá je odhad – proto dva různé časy v jedné větě."
+    },
+    {
+      "en": "Look at the memory graph – the server is going to crash.",
+      "cs": "Podívej se na graf paměti – ten server spadne.",
+      "note": "Předpověď opřená o to, co mám před očima."
+    },
+    {
+      "en": "AI will probably write most of the boilerplate in ten years.",
+      "cs": "Za deset let bude většinu boilerplate nejspíš psát AI.",
+      "note": "Názor o vzdálené budoucnosti, žádný důkaz na stole – proto will."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "Tomorrow I go to Brno for a workshop.",
+      "right": "Tomorrow I'm going to Brno for a workshop.",
+      "why": "Čeština klidně řekne „zítra jedu“, ale anglický prostý přítomný čas takhle funguje jen u jízdních řádů a programů."
+    },
+    {
+      "wrong": "We will have a retro on Friday at ten.",
+      "right": "We're having a retro on Friday at ten.",
+      "why": "Domluvený termín v kalendáři se říká přítomným průběhovým časem, ne pomocí will."
+    },
+    {
+      "wrong": "That box looks heavy – I'm going to help you.",
+      "right": "That box looks heavy – I'll help you.",
+      "why": "Nabídka, která tě napadne až ve chvíli mluvení, patří k will; going to by znamenalo, že jsi to plánoval předem."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "The phone is ringing – ___ get it.",
+      "options": [
+        "I'll",
+        "I'm going to",
+        "I get"
+      ],
+      "correct": 0,
+      "explain": "Telefon právě začal zvonit, takže rozhodnutí padá teď – will; going to by znamenalo, že jsi to plánoval už předtím."
+    },
+    {
+      "prompt": "I ___ the dentist at 8:30 tomorrow, so I'll join the call late.",
+      "options": [
+        "am seeing",
+        "will see",
+        "see"
+      ],
+      "correct": 0,
+      "explain": "Objednaný termín u zubaře je domluvená událost s časem – přítomný průběhový čas."
+    },
+    {
+      "prompt": "Don't worry about the invoice – I ___ it as soon as we hang up.",
+      "options": [
+        "will send",
+        "am sending",
+        "send"
+      ],
+      "correct": 0,
+      "explain": "Slib vyslovený v reakci na obavu druhého, nic předem domluveného – tedy will."
+    },
+    {
+      "prompt": "A: Why are you carrying that ladder? B: I ___ the router on the roof.",
+      "options": [
+        "am going to check",
+        "will check",
+        "check"
+      ],
+      "correct": 0,
+      "explain": "Žebřík dokazuje, že plán vznikl dřív, než jsi o něm začal mluvit – going to, ne will."
+    },
+    {
+      "prompt": "Look at the memory graph – the server ___ crash any minute now.",
+      "options": [
+        "is going to",
+        "is crashing",
+        "crashes"
+      ],
+      "correct": 0,
+      "explain": "Předpověď opřená o to, co máš před očima, se říká pomocí going to; přítomné časy by mluvily o tom, co se děje teď."
+    },
+    {
+      "prompt": "Everything's booked – I ___ the 6:40 train tomorrow morning.",
+      "options": [
+        "am taking",
+        "will take",
+        "take"
+      ],
+      "correct": 0,
+      "explain": "Jízdenka je koupená, je to hotová domluvená věc s časem – přítomný průběhový čas."
+    },
+    {
+      "prompt": "We ___ hire a second designer at some point, but we haven't talked to anyone yet.",
+      "options": [
+        "are going to",
+        "are hiring",
+        "hire"
+      ],
+      "correct": 0,
+      "explain": "Záměr existuje, ale nic není domluvené ani na termín – přesně sem patří going to, ne kalendářové I'm -ing."
+    }
+  ]
+}

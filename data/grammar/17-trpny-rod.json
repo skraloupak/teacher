@@ -1,0 +1,149 @@
+{
+  "id": "trpny-rod",
+  "order": 17,
+  "title": "trpný rod (kdy a proč ho použít)",
+  "tagline": "Kdy je lepší říct „the server was restarted“ než „somebody restarted the server“.",
+  "core": "Trpný rod se tvoří jako be + třetí tvar slovesa: is fixed, was deployed, will be released, has been merged. Používáš ho, když je důležitější věc než ten, kdo ji udělal, nebo když původce neznáš, případně ho záměrně nechceš jmenovat. Původce se dá přidat s „by“, ale ve většině vět se vůbec neuvádí.",
+  "rules": [
+    {
+      "label": "Kdy ho použít",
+      "text": "Když původce neznáš (The database was migrated last night), když je zřejmý z kontextu (He was arrested = policií), nebo když chceš dát věc na začátek věty jako téma (This API is used by three teams)."
+    },
+    {
+      "label": "Mění se jen be, zbytek zůstává",
+      "text": "Čas nese pomocné sloveso: it is checked, it was checked, it will be checked, it has been checked, it is being checked. Třetí tvar se nemění nikdy."
+    },
+    {
+      "label": "České „se“ a „oni“ = anglický trpný rod",
+      "text": "„To se dělá jednou za měsíc“ → It's done once a month. „Ukradli mi kolo“ → My bike was stolen. „Říkali mi, že…“ → I was told that… Angličtina nemá bezpodmětné věty, vždycky potřebuje podmět."
+    },
+    {
+      "label": "Nepřehánět to a hlídat by × with",
+      "text": "V e-mailu zní činný rod přímočařeji: We haven't fixed it yet je lepší než It has not yet been fixed – pokud zrovna nechceš schovat viníka. Původce se přidává s „by“ (written by an intern), nástroj s „with“ (opened with a screwdriver)."
+    }
+  ],
+  "memoryHook": "Trpný rod je reflektor: posvítíš na věc a člověka necháš ve tmě. „The config was changed“ – změnil se, kdo za to může, neřeším. Když chceš viníka ukázat, přidáš „by“ a otočíš reflektor zpátky na něj. Praktický převodník z češtiny: co řekneš přes „se“ nebo přes neurčité „oni“, to je anglicky skoro vždycky trpný rod.",
+  "examples": [
+    {
+      "en": "The staging server is restarted every night at three.",
+      "cs": "Staging server se restartuje každou noc ve tři.",
+      "note": "Čeština „se“, angličtina trpný rod."
+    },
+    {
+      "en": "My laptop was stolen at the airport.",
+      "cs": "Na letišti mi ukradli notebook.",
+      "note": "Čeština použije „oni“, angličtina musí mít podmět."
+    },
+    {
+      "en": "I was told the release is postponed until Friday.",
+      "cs": "Řekli mi, že se release odkládá na pátek."
+    },
+    {
+      "en": "This library is maintained by two volunteers.",
+      "cs": "Tuhle knihovnu udržují dva dobrovolníci.",
+      "note": "„by“ tu dává smysl, protože právě na těch lidech záleží."
+    },
+    {
+      "en": "Your account has been blocked after five failed logins.",
+      "cs": "Váš účet byl zablokován po pěti neúspěšných přihlášeních.",
+      "note": "Předpřítomný čas: has been + třetí tvar."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The incident was happened last night.",
+      "right": "The incident happened last night.",
+      "why": "Happen nemá předmět, takže z něj trpný rod udělat nejde."
+    },
+    {
+      "wrong": "I am born in Brno.",
+      "right": "I was born in Brno.",
+      "why": "„Narodit se“ je anglicky vždycky trpný rod v minulém čase: be born."
+    },
+    {
+      "wrong": "The email was send yesterday morning.",
+      "right": "The email was sent yesterday morning.",
+      "why": "V trpném rodě musí být třetí tvar slovesa, ne infinitiv."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "The bug ___ in yesterday's release.",
+      "options": [
+        "was fixed",
+        "was fix",
+        "is fixing"
+      ],
+      "correct": 0,
+      "explain": "Minulý trpný rod je was + třetí tvar."
+    },
+    {
+      "prompt": "The invoices ___ at the end of every month.",
+      "options": [
+        "send",
+        "are sent"
+      ],
+      "correct": 1,
+      "explain": "Faktury se neposílají samy, někdo je posílá – proto trpný rod."
+    },
+    {
+      "prompt": "My phone ___ on the train.",
+      "options": [
+        "was stolen",
+        "stole",
+        "was stole"
+      ],
+      "correct": 0,
+      "explain": "Telefon je ten, komu se to stalo, a třetí tvar od steal je stolen."
+    },
+    {
+      "prompt": "The report has ___ sent to the client.",
+      "options": [
+        "been",
+        "being",
+        "be"
+      ],
+      "correct": 0,
+      "explain": "V předpřítomném trpném rodě je vazba have been + třetí tvar."
+    },
+    {
+      "prompt": "The incident ___ during the night.",
+      "options": [
+        "happened",
+        "was happened"
+      ],
+      "correct": 0,
+      "explain": "Happen nemá předmět, a proto z něj trpný rod nejde vytvořit."
+    },
+    {
+      "prompt": "Somebody told me about it. → I ___ about it.",
+      "options": [
+        "was told",
+        "was telled",
+        "told"
+      ],
+      "correct": 0,
+      "explain": "Z předmětu „me“ se stane podmět „I“ a sloveso jde do tvaru was told."
+    },
+    {
+      "prompt": "Don't call him now, the release ___ tested at the moment.",
+      "options": [
+        "is being",
+        "is",
+        "has been"
+      ],
+      "correct": 0,
+      "explain": "Právě probíhající děj v trpném rodě má tvar is being + třetí tvar."
+    },
+    {
+      "prompt": "This dashboard ___ by the data team, not by us.",
+      "options": [
+        "is maintained",
+        "is maintaining",
+        "maintains"
+      ],
+      "correct": 0,
+      "explain": "Dashboard je udržován, původce je uvedený pomocí „by“."
+    }
+  ]
+}

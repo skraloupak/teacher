@@ -1,0 +1,152 @@
+{
+  "id": "cleny-a-an-the",
+  "order": 18,
+  "title": "a/an × the × bez členu",
+  "tagline": "Kdy dát a/an, kdy the a kdy nic.",
+  "core": "Počitatelné podstatné jméno v jednotném čísle v angličtině nikdy nestojí samo: má před sebou buď a/an, nebo the, nebo jiné určující slovo (my, this, every). a/an znamená „jeden z mnoha, ty zatím nevíš který\", the znamená „ten konkrétní, oba víme který\". Bez členu se obejde jen množné číslo a nepočitatelná slova, když mluvíš obecně.",
+  "rules": [
+    {
+      "label": "Poprvé a/an, podruhé the",
+      "text": "Věc, kterou do hovoru zavádíš, dostane a/an. Jakmile o ní mluvíš znovu, je z ní the: „I found a bug in the parser. The bug only happens on Windows.\""
+    },
+    {
+      "label": "the = oba víme který",
+      "text": "Dej the, když je věc jediná možná nebo jasná z kontextu: the production server, the logs from yesterday, the internet, the same problem. Taky u superlativů a řadových číslovek: the fastest, the first."
+    },
+    {
+      "label": "Bez členu = obecně",
+      "text": "Množné číslo a nepočitatelná slova v obecném významu jdou bez členu: Developers hate meetings. Life is short. Pozor na slova, která jsou v angličtině nepočitatelná, i když v češtině ne: information, advice, news, feedback, software, hardware, work, money."
+    },
+    {
+      "label": "a nebo an podle zvuku, ne podle písmene",
+      "text": "Rozhoduje výslovnost prvního zvuku: an hour, an SSD (es-es-dý), an API (ej-pí-aj), ale a university (jů-), a URL (jů-ár-el), a one-off script (wan-)."
+    }
+  ],
+  "memoryHook": "Zkus si do české věty vložit „nějaký\" nebo „ten\". „Založil jsem (nějaký) tiket\" → a ticket. „Podívej se na (ten) tiket\" → the ticket. Když tam nesedí ani jedno a mluvíš o množném čísle nebo o něčem nepočitatelném, nedávej nic. Pomůcka do zásoby: a je vlastně obroušené one, the je obroušené that.",
+  "examples": [
+    {
+      "en": "I've opened a ticket. The ticket is assigned to Petr.",
+      "cs": "Založil jsem tiket. Ten tiket má na starost Petr.",
+      "note": "První zmínka a, druhá už the — je to ten samý tiket."
+    },
+    {
+      "en": "Can you send me the logs from yesterday?",
+      "cs": "Můžeš mi poslat logy ze včerejška?",
+      "note": "Množné číslo, ale konkrétní logy, které oba známe — the. Čeština to nijak neoznačí, proto to Čech zapomíná."
+    },
+    {
+      "en": "Testers find bugs faster than developers.",
+      "cs": "Testeři najdou chyby rychleji než vývojáři.",
+      "note": "Obecné tvrzení o všech testerech a všech chybách — bez členu."
+    },
+    {
+      "en": "She's a backend developer at a startup in Brno.",
+      "cs": "Je backend vývojářka ve startupu v Brně.",
+      "note": "Povolání v jednotném čísle člen potřebuje, a při první zmínce je to a/an."
+    },
+    {
+      "en": "We had an incident on the production server last night.",
+      "cs": "Včera v noci jsme měli incident na produkčním serveru.",
+      "note": "an incident (první zmínka, slovo začíná samohláskou), the production server (máme jen jeden a oba víme který)."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "I am developer.",
+      "right": "I am a developer.",
+      "why": "Počitatelné jednotné číslo nesmí stát holé — povolání se bez a/an neobejde."
+    },
+    {
+      "wrong": "I have a good news for you.",
+      "right": "I have good news for you.",
+      "why": "news je v angličtině nepočitatelné, takže nikdy nemá a/an ani množné číslo."
+    },
+    {
+      "wrong": "The life is short, the money isn't everything.",
+      "right": "Life is short, money isn't everything.",
+      "why": "Obecné nepočitatelné pojmy jdou bez členu; the by znamenalo „ten konkrétní život, ty konkrétní peníze\"."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "She works as ___ tester.",
+      "options": [
+        "a",
+        "an",
+        "bez členu"
+      ],
+      "correct": 0,
+      "explain": "Povolání v jednotném čísle nese člen a tester začíná souhláskou, proto a."
+    },
+    {
+      "prompt": "I got ___ email from the client this morning.",
+      "options": [
+        "a",
+        "an",
+        "bez členu"
+      ],
+      "correct": 1,
+      "explain": "email se vyslovuje se samohláskou na začátku (ý-mejl), proto an."
+    },
+    {
+      "prompt": "The deploy failed. ___ error is in the config file.",
+      "options": [
+        "A",
+        "The",
+        "bez členu"
+      ],
+      "correct": 1,
+      "explain": "O chybě už víme z předchozí věty, je to ta konkrétní."
+    },
+    {
+      "prompt": "___ life is too short to debug someone else's code.",
+      "options": [
+        "The",
+        "A",
+        "bez členu"
+      ],
+      "correct": 2,
+      "explain": "life v obecném významu je nepočitatelné a člen nikdy nemá."
+    },
+    {
+      "prompt": "It took ___ hour to restore the database.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct": 1,
+      "explain": "Rozhoduje výslovnost: hour začíná na „au\", proto an."
+    },
+    {
+      "prompt": "This is ___ fastest laptop in the office.",
+      "options": [
+        "a",
+        "the",
+        "bez členu"
+      ],
+      "correct": 1,
+      "explain": "Superlativ může být jen jeden, a ten má vždycky the."
+    },
+    {
+      "prompt": "He gave me ___ good advice about the interview.",
+      "options": [
+        "a",
+        "an",
+        "bez členu"
+      ],
+      "correct": 2,
+      "explain": "advice je nepočitatelné, takže žádné a/an — případně a piece of advice."
+    },
+    {
+      "prompt": "Can you check ___ logs I sent you yesterday?",
+      "options": [
+        "a",
+        "the",
+        "bez členu"
+      ],
+      "correct": 1,
+      "explain": "Vedlejší věta ty logy jednoznačně určuje — the platí i v množném čísle."
+    }
+  ]
+}

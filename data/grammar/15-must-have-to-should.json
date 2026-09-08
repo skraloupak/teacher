@@ -1,0 +1,147 @@
+{
+  "id": "must-have-to-should",
+  "order": 15,
+  "title": "must × have to × should",
+  "tagline": "Kdy je to tlak zevnitř, kdy pravidlo zvenčí a kdy jen dobře míněná rada.",
+  "core": "Have to je povinnost daná zvenčí – pravidlo, zákon, šéf, smlouva. Must je povinnost, kterou si ukládám sám, a v psaných pravidlech tvrdý příkaz. Should je doporučení: je to dobrý nápad, ale nikdo tě nenutí. Po must a should stojí sloveso holé, bez „to“; have to má „to“ napevno ve vazbě.",
+  "rules": [
+    {
+      "label": "Zápor se rozchází úplně",
+      "text": "You mustn't push to main = je to zakázáno. You don't have to push to main = nemusíš, je to na tobě. Čeština svádí k záměně, protože obojí umíme říct jako „nemusíš / nesmíš“."
+    },
+    {
+      "label": "Must se neohýbá, have to ano",
+      "text": "Must nemá minulý čas ani budoucnost – v obou ho nahradí have to: I had to restart the server. You'll have to ask the admin. He might have to work this weekend. Have to se přitom chová jako běžné sloveso: he has to, did you have to, I didn't have to."
+    },
+    {
+      "label": "Must jako jistý odhad",
+      "text": "He must be on holiday = určitě je na dovolené (dedukce z důkazů, ne povinnost). Opak je can't: He can't be at home, his car is still here."
+    },
+    {
+      "label": "Should = rada i očekávání",
+      "text": "You should write a test for that = rada. The build should be done by now = mělo by být hotové, tak to čekám."
+    }
+  ],
+  "memoryHook": "must = musím já (M jako Můj vlastní tlak), have to = mám to zadané od někoho jiného. A hlavní past si zapiš za uši: mustn't = nesmíš, don't have to = nemusíš. Angličtina tu láme větu přesně na hranici mezi zákazem a volností, čeština ne.",
+  "examples": [
+    {
+      "en": "I have to be online at nine – it's in my contract.",
+      "cs": "Musím být v devět online – mám to ve smlouvě.",
+      "note": "Povinnost zvenčí."
+    },
+    {
+      "en": "I must stop checking Slack every five minutes.",
+      "cs": "Musím přestat koukat na Slack každých pět minut.",
+      "note": "Tlak, který si dávám sám."
+    },
+    {
+      "en": "You mustn't share the production password with anyone.",
+      "cs": "S nikým nesmíš sdílet produkční heslo.",
+      "note": "Zákaz."
+    },
+    {
+      "en": "You don't have to come to the standup if you're on a call.",
+      "cs": "Nemusíš chodit na standup, když máš zrovna hovor.",
+      "note": "Proti předchozí větě: žádný zákaz, jen volnost."
+    },
+    {
+      "en": "She must know the answer – she wrote that code herself.",
+      "cs": "Ona to určitě ví – ten kód psala sama.",
+      "note": "Must jako jistý závěr, ne povinnost."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "You must not come to the meeting, it's optional.",
+      "right": "You don't have to come to the meeting, it's optional.",
+      "why": "mustn't je zákaz, ne dobrovolnost."
+    },
+    {
+      "wrong": "Yesterday I must restart the server twice.",
+      "right": "Yesterday I had to restart the server twice.",
+      "why": "Must nemá minulý tvar, v minulosti ho vždycky nahradí had to."
+    },
+    {
+      "wrong": "I must to finish it today.",
+      "right": "I must finish it today.",
+      "why": "Po must (i po should, can, may) nikdy nestojí „to“."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "It's Saturday, you ___ work today, but nobody will stop you if you want to.",
+      "options": [
+        "mustn't",
+        "don't have to"
+      ],
+      "correct": 1,
+      "explain": "Druhá půlka věty říká, že práce je dovolená, jen nepovinná – tedy don't have to."
+    },
+    {
+      "prompt": "___ touch that cable, it's live.",
+      "options": [
+        "You mustn't",
+        "You don't have to"
+      ],
+      "correct": 0,
+      "explain": "Je to zákaz kvůli nebezpečí, a ten se vyjadřuje pomocí mustn't."
+    },
+    {
+      "prompt": "Last month I ___ work two weekends in a row.",
+      "options": [
+        "must",
+        "had to",
+        "must to"
+      ],
+      "correct": 1,
+      "explain": "V minulém čase se místo must používá had to."
+    },
+    {
+      "prompt": "You ___ write a comment there, but it would help the next person.",
+      "options": [
+        "mustn't",
+        "don't have to"
+      ],
+      "correct": 1,
+      "explain": "„but it would help“ ukazuje, že komentář je vítaný, takže o zákaz nejde."
+    },
+    {
+      "prompt": "The deployment ___ be finished by now, but it's still running.",
+      "options": [
+        "should",
+        "must",
+        "has to"
+      ],
+      "correct": 0,
+      "explain": "Should tu vyjadřuje očekávání, které se nenaplnilo; must by znamenalo jistotu, a tu druhá půlka věty vyvrací."
+    },
+    {
+      "prompt": "If it fails again, you ___ ask the DevOps team.",
+      "options": [
+        "will must",
+        "will have to"
+      ],
+      "correct": 1,
+      "explain": "Must nemá budoucí tvar, v budoucnosti se používá will have to."
+    },
+    {
+      "prompt": "I can hear her typing next door, so she ___ be in the office.",
+      "options": [
+        "must",
+        "should",
+        "doesn't have to"
+      ],
+      "correct": 0,
+      "explain": "Jde o jistý závěr z přímého důkazu, a ten se říká pomocí must."
+    },
+    {
+      "prompt": "It's not a recommendation – every merge request ___ be approved by two reviewers.",
+      "options": [
+        "should",
+        "must"
+      ],
+      "correct": 1,
+      "explain": "„It's not a recommendation“ vylučuje should, zbývá závazné must."
+    }
+  ]
+}

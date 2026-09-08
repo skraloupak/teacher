@@ -1,0 +1,138 @@
+{
+  "id": "used-to-would",
+  "order": 9,
+  "title": "used to × would",
+  "tagline": "Jak říct „dřív jsem…\" a kdy z toho nesmí být „would\".",
+  "core": "„Used to\" znamená dřív ano, dneska už ne – a funguje na činnosti i na stavy. „Would\" umí jen opakované činnosti, nikdy stavy, a potřebuje kolem sebe už nastavené minulé období. Kde jde „would\", jde skoro vždycky i „used to\" – obráceně to neplatí, takže při pochybnostech sáhni po „used to\".",
+  "rules": [
+    {
+      "label": "Stavy umí jen used to",
+      "text": "have, be, know, live, like, own – tady „would\" nejde. „I used to have long hair.\" „There used to be a bakery here.\" Věta „I would have long hair\" znamená něco úplně jiného (podmínku)."
+    },
+    {
+      "label": "would potřebuje rámec",
+      "text": "„Would\" patří do vyprávění, když už je jasné, o jakém období mluvíš: „When I was a kid, we would spend every summer at my grandma's.\" Bez takového úvodu větu s „would\" nezačínej."
+    },
+    {
+      "label": "Otázka a zápor bez -d",
+      "text": "„Did you use to work here?\" a „I didn't use to like coffee.\" Po „did\" je vždycky základní tvar, takže „use\", ne „used\". Zápor s „would\" v tomhle významu radši nepoužívej – „wouldn't\" totiž čtenář pochopí jako „odmítal\"."
+    },
+    {
+      "label": "Nezaměňovat s be used to",
+      "text": "„I'm used to working nights\" znamená „jsem zvyklý pracovat v noci\" a mluví o přítomnosti. Jiná vazba, jiný význam, a po „to\" následuje -ing tvar."
+    }
+  ],
+  "memoryHook": "used to = „bejvávalo\": platí pro činnosti i pro stavy a vždycky říká „a už to tak není\". would = „chodívali jsme, dělávali jsme\": jen to, co se dá opakovat. Test češtinou: dokážeš to říct s koncovkou -ával (chodíval, jezdíval, brával)? Pak jde would. Je to stav (byl jsem, měl jsem, bydlel jsem)? Pak zbývá jen used to. A chytačka navrch: „I used to\" je dřív, „I'm used to\" je jsem zvyklý.",
+  "examples": [
+    {
+      "en": "I used to smoke, but I quit five years ago.",
+      "cs": "Dřív jsem kouřil, ale před pěti lety jsem přestal.",
+      "note": "Klasické „dřív ano, teď ne\"."
+    },
+    {
+      "en": "We used to have a Nokia in every drawer.",
+      "cs": "Dřív jsme měli v každém šuplíku nokii.",
+      "note": "Vlastnictví je stav, takže „would\" tady nejde."
+    },
+    {
+      "en": "Every Friday my dad would take us out for ice cream.",
+      "cs": "Každý pátek nás táta bral na zmrzlinu.",
+      "note": "Opakovaná činnost uvnitř jasně daného období – tady je „would\" na svém místě."
+    },
+    {
+      "en": "Did you use to play any instrument?",
+      "cs": "Hrál jsi dřív na nějaký nástroj?",
+      "note": "V otázce po „did\" se koncové -d ztrácí."
+    },
+    {
+      "en": "I'm used to working with legacy code.",
+      "cs": "Jsem zvyklý pracovat s legacy kódem.",
+      "note": "Úplně jiná vazba: be used to + -ing, a mluví o přítomnosti, ne o minulém zvyku."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "I am used to smoke.",
+      "right": "I used to smoke.",
+      "why": "„be used to\" znamená „být zvyklý na\" a pojí se s -ing; minulý zvyk je prosté „used to\" bez slovesa být."
+    },
+    {
+      "wrong": "I would live in Brno when I was a student.",
+      "right": "I used to live in Brno when I was a student.",
+      "why": "Bydlení je stav, ne opakovaná činnost, a „would\" umí jenom činnosti."
+    },
+    {
+      "wrong": "Did you used to work here?",
+      "right": "Did you use to work here?",
+      "why": "Po pomocném „did\" stojí sloveso vždycky v základním tvaru."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "I ___ have a beard, but I shaved it off last year.",
+      "options": [
+        "used to",
+        "would"
+      ],
+      "correct": 0,
+      "explain": "„have\" je stav, a na stavy „would\" použít nejde."
+    },
+    {
+      "prompt": "When we were kids, we ___ build huts in the forest every summer.",
+      "options": [
+        "would",
+        "will",
+        "use to"
+      ],
+      "correct": 0,
+      "explain": "Opakovaná činnost uvnitř jasně daného minulého období je přesně práce pro „would\"."
+    },
+    {
+      "prompt": "___ you use to live in Prague?",
+      "options": [
+        "Did",
+        "Do",
+        "Have"
+      ],
+      "correct": 0,
+      "explain": "Otázka na minulý zvyk se tvoří pomocným „did\" plus základním tvarem „use to\"."
+    },
+    {
+      "prompt": "She didn't ___ to like coffee at all.",
+      "options": [
+        "used",
+        "use"
+      ],
+      "correct": 1,
+      "explain": "Po „didn't\" následuje základní tvar slovesa, tedy „use\"."
+    },
+    {
+      "prompt": "I'm used to ___ up at five, it doesn't bother me anymore.",
+      "options": [
+        "get",
+        "getting",
+        "got"
+      ],
+      "correct": 1,
+      "explain": "Vazba „be used to\" znamená „být zvyklý\" a pojí se s -ing tvarem."
+    },
+    {
+      "prompt": "There ___ be a bakery on this corner.",
+      "options": [
+        "would",
+        "used to"
+      ],
+      "correct": 1,
+      "explain": "Existence něčeho je stav, takže „would\" je vyloučené."
+    },
+    {
+      "prompt": "The open office was hard at first, but now I ___ the noise.",
+      "options": [
+        "am used to",
+        "used to"
+      ],
+      "correct": 0,
+      "explain": "Jde o dnešní zvyk („jsem zvyklý na hluk\"), ne o minulost."
+    }
+  ]
+}

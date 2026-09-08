@@ -1,0 +1,143 @@
+{
+  "id": "countable-uncountable",
+  "order": 4,
+  "title": "countable × uncountable (kdy se dá říct „a“)",
+  "tagline": "Které slovo smí mít „a“ a množné číslo – a které nikdy, i když v češtině ano.",
+  "core": "Počitatelné slovo má jednotné i množné číslo a v jednotném čísle před ním musí stát „a/an“, „the“ nebo jiné určení: a bug, the bug, two bugs. Nepočitatelné slovo množné číslo nemá a „a“ před ním nestojí nikdy: information, advice, software, money. Když ho potřebuješ počítat, přidáš k němu nádobu nebo jednotku: a piece of advice, two cups of coffee.",
+  "rules": [
+    {
+      "label": "Zapamatovat si seznam zrádců",
+      "text": "Nepočitatelná jsou: information, advice, news, feedback, research, knowledge, progress, work, software, hardware, equipment, furniture, money, luggage, traffic. Žádné -s, žádné „an“. Správně: some information, a lot of feedback, a piece of advice."
+    },
+    {
+      "label": "Nepočitatelné je vždy jednotné číslo",
+      "text": "Sloveso u nich stojí v jednotném čísle: The news is bad. Your feedback was helpful. The software runs on Linux. Česky to zní jako množné číslo („zprávy jsou“), anglicky je to „is“."
+    },
+    {
+      "label": "Počítá se přes nádobu nebo jednotku",
+      "text": "a piece of information, two pieces of advice, a bit of luck, a cup of coffee, a slice of pizza, a sheet of paper, three items of equipment."
+    },
+    {
+      "label": "Stejné slovo umí oba režimy a mění význam",
+      "text": "coffee (nápoj) × a coffee (jeden šálek). experience (praxe) × an experience (jeden zážitek). paper (papír) × a paper (článek nebo noviny). Přidáním „a“ uděláš z hmoty kus."
+    }
+  ],
+  "memoryHook": "Zeptej se: dá se to spočítat na kusy, nebo se to lije, sype a měří? Kusy → a bug, three bugs. Hmota → water, money, information. A nadrť si tři slova, na kterých Čech pokaždé uklouzne, protože česky počitatelná jsou: information, advice, news – žádné „an“, žádné „-s“, sloveso v jednotném čísle.",
+  "examples": [
+    {
+      "en": "Let me give you a piece of advice: never deploy on Friday.",
+      "cs": "Dám ti jednu radu: nikdy nedeployuj v pátek.",
+      "note": "„an advice“ neexistuje, jedna rada se řekne přes a piece of."
+    },
+    {
+      "en": "I need more information about the incident.",
+      "cs": "Potřebuju o tom incidentu víc informací.",
+      "note": "information nemá množné číslo, i když čeština má „informace“."
+    },
+    {
+      "en": "The news from the client is better than we expected.",
+      "cs": "Zprávy od klienta jsou lepší, než jsme čekali.",
+      "note": "news vypadá jako množné číslo, ale sloveso je „is“."
+    },
+    {
+      "en": "We ordered three coffees for the team.",
+      "cs": "Objednali jsme týmu tři kávy.",
+      "note": "V kavárně znamená a coffee jeden šálek – tam počitatelná být může."
+    },
+    {
+      "en": "We don't have enough equipment for the new hires.",
+      "cs": "Nemáme dost vybavení pro nové lidi."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "Thanks for the informations you sent me.",
+      "right": "Thanks for the information you sent me.",
+      "why": "information nemá množné číslo, i když česká „informace“ ano."
+    },
+    {
+      "wrong": "He gave me a good advice about the interview.",
+      "right": "He gave me good advice about the interview.",
+      "why": "advice je nepočitatelné, takže před ním nesmí být „a“."
+    },
+    {
+      "wrong": "Our team uses many different softwares.",
+      "right": "Our team uses a lot of different software.",
+      "why": "software nemá množné číslo; když chceš kusy, řekni tools nebo applications."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "I need ___ about the new API before I start.",
+      "options": [
+        "an information",
+        "some information"
+      ],
+      "correct": 1,
+      "explain": "information je nepočitatelné, takže nikdy ne „an“."
+    },
+    {
+      "prompt": "She gave me ___ that saved my whole afternoon.",
+      "options": [
+        "an advice",
+        "a piece of advice"
+      ],
+      "correct": 1,
+      "explain": "Jedna rada se v angličtině řekne vazbou a piece of advice."
+    },
+    {
+      "prompt": "The news from the security audit ___ worse than we hoped.",
+      "options": [
+        "is",
+        "are"
+      ],
+      "correct": 0,
+      "explain": "news je nepočitatelné a bere sloveso v jednotném čísle."
+    },
+    {
+      "prompt": "We bought new ___ for the office kitchen.",
+      "options": [
+        "furnitures",
+        "furniture"
+      ],
+      "correct": 1,
+      "explain": "furniture nemá množné číslo."
+    },
+    {
+      "prompt": "Our team tries out a lot of new ___ every quarter.",
+      "options": [
+        "software",
+        "softwares"
+      ],
+      "correct": 0,
+      "explain": "software zůstává bez -s i tam, kde česky říkáme „softwary“."
+    },
+    {
+      "prompt": "Could I have two ___, please?",
+      "options": [
+        "coffee",
+        "coffees"
+      ],
+      "correct": 1,
+      "explain": "V kavárně se káva počítá po šálcích, takže tady počitatelná je."
+    },
+    {
+      "prompt": "How ___ luggage are you taking on the trip?",
+      "options": [
+        "much",
+        "many"
+      ],
+      "correct": 0,
+      "explain": "luggage je nepočitatelné, proto much."
+    },
+    {
+      "prompt": "I have ten years of ___ with distributed systems.",
+      "options": [
+        "experiences",
+        "experience"
+      ],
+      "correct": 1,
+      "explain": "Praxe je nepočitatelná; „an experience“ by znamenalo jeden zážitek."
+    }
+  ]
+}

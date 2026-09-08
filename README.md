@@ -48,6 +48,7 @@ v lokálním režimu jen z prohlížeče.
 | `/study` | samotné kartičky |
 | `/slovnicek` | všechna slovíčka ve dvou sloupcích: filtr podle učebnice, lekce a typu, hledání, výslovnost, stav učení, zaškrtávání |
 | `/stats` | úspěšnost, rozložení podle boxů, co ti nejde, poslední kola |
+| `/gramatika` | gramatická témata: výklad s pomůckou pro zapamatování, nebo test |
 | `/profil` | denní cíl, čas strávený učením, graf posledních dvou týdnů, tabulka po dnech, účet |
 
 ## Jak se učení chová
@@ -112,6 +113,27 @@ Správná odpověď posune kartičku o box výš, chybná ji vrátí na začáte
 zařadí zpátky do fronty aktuálního kola. Kolo končí, až všechno projde správně.
 
 Nastavení (lekce, slovíčka/fráze, směr, délka kola) se ukládá a příště se předvyplní.
+
+## Gramatika
+
+Témata jsou JSON soubory v `data/grammar/`, jeden soubor = jedno téma. U každého si vybereš
+**Vysvětlení**, nebo **Procvičit**.
+
+Výklad má pevnou stavbu: *o co jde* (pravidlo natvrdo, ne rozcestník), **jak si to
+zapamatovat**, pravidla v bodech, příklady s výslovností a *na čem Čech chybuje* – chybná
+věta, správná a proč. Test je doplňovačka s výběrem; po odpovědi se hned ukáže vysvětlení,
+protože právě to učí.
+
+| Pole | Povinné | Význam |
+| --- | --- | --- |
+| `id`, `title`, `tagline` | ano | identifikátor, název a jedna věta, o co jde |
+| `core` | ano | jádro pravidla ve dvou až třech větách |
+| `rules` | ano | pole `{ label, text }` |
+| `memoryHook` | ano | pomůcka pro zapamatování |
+| `examples` | ano | pole `{ en, cs, note? }` |
+| `pitfalls` | ne | pole `{ wrong, right, why }` |
+| `quiz` | ano | pole `{ prompt, options, correct, explain }`; `prompt` obsahuje `___` |
+| `order` | ne | pořadí v přehledu; bez něj se řadí podle názvu souboru |
 
 ## Přidání nové lekce
 

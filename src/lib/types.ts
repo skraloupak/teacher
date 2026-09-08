@@ -95,6 +95,33 @@ export type ProgressMap = Record<string, CardProgress>;
  */
 export type StudyMode = "random" | "due" | "hardest" | "marked";
 
+/** Jedno gramatické téma – výklad, pomůcka pro zapamatování a test. */
+export type GrammarTopic = {
+  id: string;
+  order: number;
+  title: string;
+  /** Jedna věta, o co jde. */
+  tagline: string;
+  /** Jádro pravidla ve dvou až třech větách. */
+  core: string;
+  rules: { label: string; text: string }[];
+  /** Jak si to zapamatovat – to nejcennější na celém tématu. */
+  memoryHook: string;
+  examples: { en: string; cs: string; note?: string }[];
+  /** Chyby, ke kterým svádí čeština. */
+  pitfalls?: { wrong: string; right: string; why: string }[];
+  quiz: GrammarQuestion[];
+};
+
+export type GrammarQuestion = {
+  /** Věta s ___ na místě, kam se doplňuje. */
+  prompt: string;
+  options: string[];
+  /** Index správné odpovědi. */
+  correct: number;
+  explain: string;
+};
+
 export type StudySettings = {
   lessonIds: string[];
   types: ItemType[];

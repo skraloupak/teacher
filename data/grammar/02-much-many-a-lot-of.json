@@ -1,0 +1,133 @@
+{
+  "id": "much-many-a-lot-of",
+  "order": 2,
+  "title": "much × many × a lot of",
+  "tagline": "Kdy „hodně“ přeložit jako much, kdy jako many a kdy raději jako a lot of.",
+  "core": "many jde k počitatelným v množném čísle (many bugs), much k nepočitatelným (much time). V kladné oznamovací větě se ale much a many skoro nepoužívají – tam patří a lot of. much a many si nech do otázek a záporů.",
+  "rules": [
+    {
+      "label": "Kladná věta → a lot of",
+      "text": "„We have a lot of tests“ je normální angličtina. „We have many tests“ zní jako výroční zpráva a „We have much work“ by rodilý mluvčí neřekl vůbec. a lot of funguje s počitatelnými i nepočitatelnými, takže je to bezpečná volba."
+    },
+    {
+      "label": "Otázka a zápor → much / many",
+      "text": "How many users are online? Do we have much time? I don't have much experience with Go. We didn't get many replies. Tady naopak a lot of často zní divně."
+    },
+    {
+      "label": "Po how, too, so, as zůstává much/many vždycky",
+      "text": "too many meetings, too much coffee, so many options, how much RAM, as many retries as possible. V těchhle vazbách se a lot of nepoužívá."
+    },
+    {
+      "label": "Vazba much of / many of the…",
+      "text": "Před určeným podstatným jménem funguje much i v kladné větě: „Much of the code was written before I joined.“ „Many of our clients are on the free plan.“"
+    }
+  ],
+  "memoryHook": "many jde ke slovům, která mají množné číslo (many bugs, many users), much ke slovům, která množné číslo nemají (much time, much money). A když je věta kladná a ty váháš, dej a lot of – sedne na obojí. Holé „much“ v kladné oznamovací větě je červený praporek.",
+  "examples": [
+    {
+      "en": "How many people do we need for the on-call rotation?",
+      "cs": "Kolik lidí potřebujeme na pohotovostní službu?"
+    },
+    {
+      "en": "I don't have much time today, can we do it tomorrow?",
+      "cs": "Dneska nemám moc času, můžeme to dát zítra?"
+    },
+    {
+      "en": "There are a lot of open tickets in the backlog.",
+      "cs": "V backlogu je spousta otevřených ticketů.",
+      "note": "Kladná věta – „there are many“ by znělo úředně."
+    },
+    {
+      "en": "We spent too much time on that refactoring.",
+      "cs": "Strávili jsme tím refaktoringem moc času.",
+      "note": "Po „too“ zůstává much i v kladné větě."
+    },
+    {
+      "en": "How much does the licence cost per seat?",
+      "cs": "Kolik stojí licence na jednoho uživatele?"
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "I have much work today.",
+      "right": "I have a lot of work today.",
+      "why": "much v kladné oznamovací větě nefunguje, patří tam a lot of."
+    },
+    {
+      "wrong": "How much users are online right now?",
+      "right": "How many users are online right now?",
+      "why": "users se počítají, takže many."
+    },
+    {
+      "wrong": "We don't have many money left in the budget.",
+      "right": "We don't have much money left in the budget.",
+      "why": "money je v angličtině nepočitatelné, i když česky říkáme „peníze“."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "How ___ people are coming to the workshop?",
+      "options": [
+        "much",
+        "many"
+      ],
+      "correct": 1,
+      "explain": "people je množné číslo počitatelného jména."
+    },
+    {
+      "prompt": "I don't have ___ experience with Rust.",
+      "options": [
+        "much",
+        "many"
+      ],
+      "correct": 0,
+      "explain": "experience ve významu „praxe“ je nepočitatelné."
+    },
+    {
+      "prompt": "There were too ___ bugs to release on Friday.",
+      "options": [
+        "much",
+        "many"
+      ],
+      "correct": 1,
+      "explain": "bugs se počítají, a po „too“ se používá much/many, ne a lot of."
+    },
+    {
+      "prompt": "We got ___ feedback after the launch.",
+      "options": [
+        "a lot of",
+        "many",
+        "much"
+      ],
+      "correct": 0,
+      "explain": "Kladná věta plus nepočitatelné feedback – jedině a lot of."
+    },
+    {
+      "prompt": "Don't drink so ___ coffee before the on-call shift.",
+      "options": [
+        "much",
+        "many"
+      ],
+      "correct": 0,
+      "explain": "coffee je tu nepočitatelné a po „so“ zůstává much."
+    },
+    {
+      "prompt": "How ___ does the domain renewal cost?",
+      "options": [
+        "much",
+        "many"
+      ],
+      "correct": 0,
+      "explain": "Ptáš se na cenu, a ta je nepočitatelná."
+    },
+    {
+      "prompt": "___ of the code was written before I joined the team.",
+      "options": [
+        "Much",
+        "Many"
+      ],
+      "correct": 0,
+      "explain": "code je nepočitatelné a ve vazbě „much of the…“ se much používá i v kladné větě."
+    }
+  ]
+}

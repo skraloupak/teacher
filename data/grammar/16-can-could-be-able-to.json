@@ -1,0 +1,144 @@
+{
+  "id": "can-could-be-able-to",
+  "order": 16,
+  "title": "can × could × be able to",
+  "tagline": "Kdy stačí can, kdy je could zdvořilost a kdy musíš sáhnout po be able to.",
+  "core": "Can je schopnost nebo možnost teď, could je obecná schopnost v minulosti a zároveň zdvořilá nebo hypotetická forma. Be able to je náhradník: použiješ ho všude tam, kde can gramaticky nejde – v budoucnosti, po jiném slovesu, v infinitivu a v předpřítomném čase. Po can a could nikdy nestojí „to“.",
+  "rules": [
+    {
+      "label": "could = uměl jsem to obecně, was able to = tentokrát se to povedlo",
+      "text": "I could read at five (obecná schopnost – tady jde i I was able to read). Ale u jednoho konkrétního úspěchu už could nefunguje: The server crashed, but we were able to restore the data in an hour. V záporu je to jedno: couldn't i wasn't able to jsou obojí správně."
+    },
+    {
+      "label": "Can nemá budoucnost ani infinitiv",
+      "text": "I'll be able to test it tomorrow. I'd love to be able to work remotely. I haven't been able to reproduce it. Dvě způsobová slovesa za sebou nejdou, proto „will can“ neexistuje."
+    },
+    {
+      "label": "Could jako zdvořilost a nabídka",
+      "text": "Could you review my PR? je měkčí a zdvořilejší než Can you…? A „We could try Redis“ znamená mohli bychom to zkusit – návrh do budoucna, ne minulý čas."
+    },
+    {
+      "label": "could have + třetí tvar = mohlo se to stát, ale nestalo",
+      "text": "You could have told me the build was broken. We could have finished it yesterday if the API had worked."
+    }
+  ],
+  "memoryHook": "can je „umím / jde to teď“. be able to je náhradní díl, který nasadíš všude, kam can gramaticky nedosáhne – po will, po to, po have. A druhé rozlišení si drž jako sport: could = uměl jsem hrát fotbal (dovednost), was able to = dal jsem ten gól (jeden konkrétní úspěch).",
+  "examples": [
+    {
+      "en": "Can you take a look at my pull request?",
+      "cs": "Můžeš se mi podívat na pull request?"
+    },
+    {
+      "en": "Could you send me the logs when you have a minute?",
+      "cs": "Mohl bys mi poslat logy, až budeš mít chvilku?",
+      "note": "Could tu zní zdvořileji – není to minulý čas."
+    },
+    {
+      "en": "When I was a student, I could code all night.",
+      "cs": "Když jsem byl student, dokázal jsem programovat celou noc.",
+      "note": "Obecná schopnost v minulosti."
+    },
+    {
+      "en": "The disk was full, but we were able to free up some space.",
+      "cs": "Disk byl plný, ale povedlo se nám uvolnit místo.",
+      "note": "Jeden konkrétní úspěch – tady „could“ nejde."
+    },
+    {
+      "en": "I haven't been able to reproduce the bug on my machine.",
+      "cs": "Nepodařilo se mi tu chybu zreprodukovat u sebe na počítači.",
+      "note": "Po have musí být be able to, „have could“ neexistuje."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "I will can help you tomorrow.",
+      "right": "I'll be able to help you tomorrow.",
+      "why": "Dvě způsobová slovesa nemůžou stát za sebou, budoucnost se tvoří přes be able to."
+    },
+    {
+      "wrong": "Yesterday I could finally fix that bug.",
+      "right": "Yesterday I was finally able to fix that bug.",
+      "why": "V kladné větě o jednom konkrétním úspěchu se používá was able to (nebo managed to), ne could."
+    },
+    {
+      "wrong": "I can to explain it in two minutes.",
+      "right": "I can explain it in two minutes.",
+      "why": "Po can a could nikdy nestojí „to“."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "___ you help me with this config file?",
+      "options": [
+        "Can",
+        "Can to",
+        "Do can"
+      ],
+      "correct": 0,
+      "explain": "Can se pojí s holým infinitivem a otázku tvoří přehozením slov, ne pomocí do."
+    },
+    {
+      "prompt": "I'm sorry, I won't ___ join the call tomorrow.",
+      "options": [
+        "can",
+        "be able to"
+      ],
+      "correct": 1,
+      "explain": "Po won't nemůže stát další způsobové sloveso, proto be able to."
+    },
+    {
+      "prompt": "When she was ten, she ___ already speak three languages.",
+      "options": [
+        "could",
+        "can"
+      ],
+      "correct": 0,
+      "explain": "Věta mluví o minulosti, takže can nejde; obecnou schopnost v minulosti nese could."
+    },
+    {
+      "prompt": "The lift was broken, but we ___ carry all the boxes upstairs.",
+      "options": [
+        "could",
+        "were able to"
+      ],
+      "correct": 1,
+      "explain": "Jde o jeden konkrétní zvládnutý případ, ne o obecnou schopnost."
+    },
+    {
+      "prompt": "If we had more time, we ___ rewrite the whole module.",
+      "options": [
+        "can",
+        "could"
+      ],
+      "correct": 1,
+      "explain": "Věta je hypotetická („kdybychom měli čas“), a tam patří could."
+    },
+    {
+      "prompt": "I've never ___ understand regular expressions properly.",
+      "options": [
+        "could",
+        "been able to"
+      ],
+      "correct": 1,
+      "explain": "V předpřítomném čase se používá have been able to."
+    },
+    {
+      "prompt": "It would be great to ___ work from home two days a week.",
+      "options": [
+        "can",
+        "be able to"
+      ],
+      "correct": 1,
+      "explain": "Po „to“ nemůže stát can, protože can nemá infinitiv."
+    },
+    {
+      "prompt": "You ___ told me the build was broken – I wasted an hour.",
+      "options": [
+        "could have",
+        "could"
+      ],
+      "correct": 0,
+      "explain": "could have + třetí tvar znamená, že se to stát mohlo, ale nestalo."
+    }
+  ]
+}

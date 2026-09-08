@@ -3,12 +3,15 @@
 import { canSpeak, speakEnglish } from "@/lib/audio";
 import type { Item } from "@/lib/types";
 
+/** Stačí to, z čeho se dá přehrát – gramatické příklady nemají celý záznam položky. */
+type Speakable = Pick<Item, "en" | "audioKey" | "hasAudio">;
+
 export function SpeakButton({
   item,
   size = "md",
   className = "",
 }: {
-  item: Item;
+  item: Speakable;
   size?: "sm" | "md";
   className?: string;
 }) {

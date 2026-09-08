@@ -1,0 +1,145 @@
+{
+  "id": "gerundium-infinitiv",
+  "order": 14,
+  "title": "-ing × to + infinitiv",
+  "tagline": "Kdy po slovese následuje -ing a kdy „to“ – a proč „stop doing“ a „stop to do“ znamenají něco úplně jiného.",
+  "core": "Po některých slovesech stojí vždycky -ing tvar (enjoy, avoid, finish, suggest), po jiných vždycky to + infinitiv (want, need, decide, promise). U malé skupiny sloves jde obojí, ale mění se význam: -ing je ta činnost sama, to + infinitiv je cíl nebo další krok. Po jakékoli předložce stojí vždycky -ing, bez výjimky.",
+  "rules": [
+    {
+      "label": "Vždycky -ing",
+      "text": "enjoy, avoid, finish, mind, suggest, keep, consider, imagine, risk – a hlavně po jakékoli předložce: good at fixing bugs, instead of waiting, before deploying, without testing."
+    },
+    {
+      "label": "Vždycky to + infinitiv",
+      "text": "want, need, decide, promise, hope, offer, agree, learn, manage, refuse, expect. Po způsobových slovesech (can, must, should) naopak žádné „to“ nestojí: I must finish it."
+    },
+    {
+      "label": "stop, remember, forget, try – tady se význam láme",
+      "text": "stop doing = přestat s tou činností; stop to do = zastavit se, abych něco udělal. remember doing = pamatuju si, že jsem to udělal; remember to do = nezapomenout to udělat. try doing = zkusit to jinak; try to do = snažit se o něco těžkého."
+    },
+    {
+      "label": "like, love, hate – obojí jde",
+      "text": "like doing = baví mě to, mám z toho radost. like to do = považuji to za rozumné, dělám to ze zvyku (I like to check my mail before the standup). Ale would like je vždycky s „to“: I'd like to help."
+    }
+  ],
+  "memoryHook": "-ing je proces, který už běží. „to“ je šipka dopředu → k něčemu, co teprve nastane. I stopped smoking = proces skončil. I stopped to smoke = zastavil jsem se a šipka míří k cigaretě. Když si po slovese umíš představit šipku k cíli, dej „to“; když popisuješ činnost samotnou, dej -ing.",
+  "examples": [
+    {
+      "en": "I don't mind working late, but I hate getting up early.",
+      "cs": "Nevadí mi pracovat dlouho do večera, ale nesnáším brzké vstávání."
+    },
+    {
+      "en": "We decided to rewrite the whole module.",
+      "cs": "Rozhodli jsme se přepsat celý modul.",
+      "note": "Po decide jde jen „to“, nikdy -ing."
+    },
+    {
+      "en": "He stopped answering my emails.",
+      "cs": "Přestal mi odpovídat na e-maily.",
+      "note": "Přestal s tou činností."
+    },
+    {
+      "en": "On the way to the office he stopped to buy coffee.",
+      "cs": "Cestou do kanceláře se zastavil, aby si koupil kávu.",
+      "note": "Stejné sloveso, ale „to“ tu udává důvod té zastávky."
+    },
+    {
+      "en": "Remember to push your changes before you leave.",
+      "cs": "Nezapomeň před odchodem pushnout své změny.",
+      "note": "„I remember pushing them“ by naopak znamenalo: pamatuju si, že jsem je pushnul."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "I look forward to hear from you.",
+      "right": "I look forward to hearing from you.",
+      "why": "„To“ je tady předložka, ne infinitiv – a po předložce stojí vždycky -ing."
+    },
+    {
+      "wrong": "I enjoy to work with this team.",
+      "right": "I enjoy working with this team.",
+      "why": "Po enjoy nikdy nestojí infinitiv, jen -ing."
+    },
+    {
+      "wrong": "He suggested me to try Redis.",
+      "right": "He suggested trying Redis.",
+      "why": "Po suggest nemůže stát předmět s infinitivem; buď -ing, nebo věta: He suggested that we try Redis."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "I enjoy ___ new frameworks in my free time.",
+      "options": [
+        "learning",
+        "to learn"
+      ],
+      "correct": 0,
+      "explain": "Po enjoy stojí vždycky -ing."
+    },
+    {
+      "prompt": "She decided ___ the job offer.",
+      "options": [
+        "accepting",
+        "to accept"
+      ],
+      "correct": 1,
+      "explain": "Po decide jde pouze to + infinitiv."
+    },
+    {
+      "prompt": "He's really good at ___ bugs nobody else can find.",
+      "options": [
+        "finding",
+        "to find",
+        "find"
+      ],
+      "correct": 0,
+      "explain": "„at“ je předložka, takže následuje -ing."
+    },
+    {
+      "prompt": "Instead of ___ for the fix, we rolled back to the previous version.",
+      "options": [
+        "waiting",
+        "to wait",
+        "wait"
+      ],
+      "correct": 0,
+      "explain": "„instead of“ je předložková vazba a po ní stojí vždycky -ing."
+    },
+    {
+      "prompt": "Sorry, I completely forgot ___ you back – I'll do it right now.",
+      "options": [
+        "calling",
+        "to call"
+      ],
+      "correct": 1,
+      "explain": "forget to do = zapomněl jsem to udělat; forget doing by znamenalo, že si na to nevzpomínám."
+    },
+    {
+      "prompt": "We stopped ___ the logs because it was taking too long.",
+      "options": [
+        "reading",
+        "to read"
+      ],
+      "correct": 0,
+      "explain": "„protože to trvalo dlouho“ znamená, že jsme s tou činností přestali – tedy stop + -ing."
+    },
+    {
+      "prompt": "I'll never forget ___ my first production server.",
+      "options": [
+        "crashing",
+        "to crash"
+      ],
+      "correct": 0,
+      "explain": "Jde o vzpomínku na to, co se stalo, a tam patří -ing."
+    },
+    {
+      "prompt": "Would you like ___ a coffee before the call?",
+      "options": [
+        "having",
+        "to have"
+      ],
+      "correct": 1,
+      "explain": "Po would like je vždycky to + infinitiv, i když po samotném like může být -ing."
+    }
+  ]
+}

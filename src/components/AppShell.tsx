@@ -48,6 +48,7 @@ function ThemeToggle() {
 const NAV = [
   { href: "/", label: "Učení" },
   { href: "/slovnicek", label: "Slovníček" },
+  { href: "/gramatika", label: "Gramatika" },
   { href: "/stats", label: "Statistiky" },
   { href: "/profil", label: "Profil" },
 ] as const;

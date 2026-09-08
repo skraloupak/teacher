@@ -1,0 +1,139 @@
+{
+  "id": "first-conditional",
+  "order": 11,
+  "title": "první podmínka: if + přítomný čas",
+  "tagline": "Reálná podmínka do budoucna: po if přítomný čas, ve druhé půlce will.",
+  "core": "Když je podmínka reálná a mluvíš o budoucnosti, dej po if přítomný čas a do druhé půlky will. Za if nesmí will, i když česky říkáš „když to bude fungovat“. Věta se dá otočit – čárka se píše jen tehdy, když věta začíná částí s if.",
+  "rules": [
+    {
+      "label": "Vzorec",
+      "text": "If + přítomný prostý čas, will + základní tvar slovesa: „If the tests pass, I'll merge it.“ Otočeně bez čárky: „I'll merge it if the tests pass.“"
+    },
+    {
+      "label": "Za if žádné will – a nejen za if",
+      "text": "Totéž platí po when, as soon as, until, before, after a unless: „I'll call you when I get home.“ (ne „when I will get home“). Výjimka: když if znamená „jestli, zda“, o podmínku nejde a will tam být smí – „I don't know if he'll come.“"
+    },
+    {
+      "label": "Místo will může být i něco jiného",
+      "text": "Ve druhé půlce klidně can, may, might, should nebo rozkaz: „If it breaks, we can roll back.“ / „If you see a 500, ping me.“"
+    },
+    {
+      "label": "unless = if not",
+      "text": "„I'll deploy tonight unless someone objects.“ = pokud nikdo nebude proti. Za unless už zápor nedávej."
+    }
+  ],
+  "memoryHook": "Čeština dá budoucnost do obou půlek („Když to bude fungovat, nasadím to“), angličtina jen do jedné: „If it works, I'll deploy it.“ Za if (a za when, as soon as, until) stojí přítomný čas a will si šetři do té druhé půlky – ať je pořadí vět jakékoli.",
+  "examples": [
+    {
+      "en": "If the build passes, I'll deploy it after lunch.",
+      "cs": "Jestli projde build, nasadím to po obědě."
+    },
+    {
+      "en": "If you don't reply by Friday, they'll give the job to someone else.",
+      "cs": "Když do pátku neodpovíš, dají to místo někomu jinému."
+    },
+    {
+      "en": "Call me if anything goes wrong during the night.",
+      "cs": "Zavolej mi, kdyby se v noci něco pokazilo.",
+      "note": "Místo will je rozkaz; čárka není, protože věta nezačíná částí s if."
+    },
+    {
+      "en": "I'll buy the beers if we hit the deadline.",
+      "cs": "Zaplatím pivo, jestli stihneme deadline."
+    },
+    {
+      "en": "Unless the client changes the specs again, we'll be done by Thursday.",
+      "cs": "Pokud klient zase nezmění zadání, budeme hotoví do čtvrtka.",
+      "note": "unless už v sobě má zápor, proto je sloveso kladné."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "If it will rain tomorrow, we will stay home.",
+      "right": "If it rains tomorrow, we'll stay home.",
+      "why": "Po if se budoucnost vyjadřuje přítomným časem, i když česky říkáš „bude pršet“."
+    },
+    {
+      "wrong": "When I will finish the ticket, I'll let you know.",
+      "right": "When I finish the ticket, I'll let you know.",
+      "why": "Stejné pravidlo jako u if platí i po when, as soon as, before a until."
+    },
+    {
+      "wrong": "Unless you don't finish the tests, we can't deploy.",
+      "right": "Unless you finish the tests, we can't deploy.",
+      "why": "Čech sem tahá zápor z českého „pokud nedoděláš“, jenže unless znamená „pokud ne“ samo o sobě."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "If it ___ tomorrow, we'll cancel the offsite.",
+      "options": [
+        "rains",
+        "will rain",
+        "would rain"
+      ],
+      "correct": 0,
+      "explain": "Po if je přítomný čas, i když mluvíš o zítřku."
+    },
+    {
+      "prompt": "I'll text you as soon as I ___ at the airport.",
+      "options": [
+        "arrive",
+        "will arrive",
+        "arrived"
+      ],
+      "correct": 0,
+      "explain": "Po as soon as platí stejný zákaz will jako po if."
+    },
+    {
+      "prompt": "If you ___ me the credentials today, I can start tomorrow.",
+      "options": [
+        "send",
+        "will send",
+        "would send"
+      ],
+      "correct": 0,
+      "explain": "Podmínka je reálná, takže přítomný čas; ve druhé půlce může být can místo will."
+    },
+    {
+      "prompt": "We'll ship on Thursday unless QA ___ something serious.",
+      "options": [
+        "finds",
+        "will find",
+        "doesn't find"
+      ],
+      "correct": 0,
+      "explain": "Za unless je přítomný čas a už žádný zápor – unless samo znamená „pokud ne“."
+    },
+    {
+      "prompt": "If the server goes down again, ___ me immediately.",
+      "options": [
+        "call",
+        "you would call",
+        "calling"
+      ],
+      "correct": 0,
+      "explain": "Ve druhé půlce může stát rozkaz – je to běžnější než celá věta s will."
+    },
+    {
+      "prompt": "I don't know if he ___ to the party tonight.",
+      "options": [
+        "will come",
+        "comes",
+        "came"
+      ],
+      "correct": 0,
+      "explain": "Tady if znamená „jestli, zda“ v nepřímé otázce – to není podmínka, takže will je v pořádku."
+    },
+    {
+      "prompt": "If you ___ that button, the whole app crashes.",
+      "options": [
+        "press",
+        "will press",
+        "would press"
+      ],
+      "correct": 0,
+      "explain": "Obecně platná věc: obě půlky v přítomném čase, žádné will."
+    }
+  ]
+}

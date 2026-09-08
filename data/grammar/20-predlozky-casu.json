@@ -1,0 +1,152 @@
+{
+  "id": "predlozky-casu",
+  "order": 20,
+  "title": "in × on × at (čas)",
+  "tagline": "Kdy je in July, on Monday a at 6 p.m.",
+  "core": "Čím přesnější čas, tím kratší předložka. at patří k hodinám a bodům v čase (at 9:15, at night, at noon), on k jednomu konkrétnímu dni nebo datu (on Monday, on 3 May), in ke všemu delšímu než den — měsíce, roční období, roky a části dne (in July, in 2026, in the morning).",
+  "rules": [
+    {
+      "label": "Trychtýř at → on → in",
+      "text": "at 8:00 (bod), on Tuesday (jeden den), in June / in winter / in 2026 (delší úsek). Části dne mají in the morning, in the afternoon, in the evening — ale at night, at noon, at midnight."
+    },
+    {
+      "label": "Den vždycky přebije část dne",
+      "text": "Jakmile je ve výrazu konkrétní den, použiješ on, i když tam část dne zůstane: on Monday morning, on Friday night, on Christmas Eve."
+    },
+    {
+      "label": "Před next, last, this, every žádná předložka",
+      "text": "See you next Monday. We shipped it last week. I check the logs every morning. Stejně tak tomorrow, yesterday, today — nikdy „on tomorrow\"."
+    },
+    {
+      "label": "in + doba znamená „za\"",
+      "text": "The build finishes in ten minutes = za deset minut. Když myslíš „během\", řekni within ten minutes; když „nejpozději do\", řekni by: I'll send it by Friday."
+    }
+  ],
+  "memoryHook": "Tři obaly podle velikosti: in je pytel (rok, měsíc, ráno), on je jeden list v kalendáři (den má datum, píšeš ho „na\" kalendář), at je špendlík píchnutý do ciferníku (at 8:00). Zvětšuješ obal, zvětšuje se předložka.",
+  "examples": [
+    {
+      "en": "The standup is at 9:15 every morning.",
+      "cs": "Standup je každé ráno v 9:15.",
+      "note": "at u přesné hodiny; před every se předložka nedává."
+    },
+    {
+      "en": "We're releasing on Thursday, not on Monday.",
+      "cs": "Nasazujeme ve čtvrtek, ne v pondělí.",
+      "note": "Dny v týdnu mají vždycky on, i když čeština říká „ve\"."
+    },
+    {
+      "en": "She joined the team in March 2024.",
+      "cs": "Do týmu nastoupila v březnu 2024.",
+      "note": "Měsíc i rok jsou delší než den, takže in."
+    },
+    {
+      "en": "Don't worry, the pipeline will be done in twenty minutes.",
+      "cs": "Neboj, pipeline doběhne za dvacet minut.",
+      "note": "in + doba = za jak dlouho, ne „během\"."
+    },
+    {
+      "en": "The server usually crashes at night — last time it was on Sunday night.",
+      "cs": "Server obvykle spadne v noci — naposledy to bylo v neděli v noci.",
+      "note": "Samotné at night, ale jakmile přibude den, vyhraje on."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "See you on next week.",
+      "right": "See you next week.",
+      "why": "Po next, last, this a every se předložka vůbec nepoužívá."
+    },
+    {
+      "wrong": "I'll be back in Monday.",
+      "right": "I'll be back on Monday.",
+      "why": "České „v pondělí\" svádí k in, ale dny mají v angličtině on."
+    },
+    {
+      "wrong": "The call starts in 3 o'clock.",
+      "right": "The call starts at 3 o'clock.",
+      "why": "Přesná hodina je bod v čase, a ten má vždy at."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "The retro starts ___ 2 p.m.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "correct": 0,
+      "explain": "Přesná hodina je bod v čase, a ten bere at."
+    },
+    {
+      "prompt": "We ship the new version ___ Thursday.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct": 1,
+      "explain": "Dny v týdnu mají on."
+    },
+    {
+      "prompt": "He joined the company ___ 1998.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "correct": 2,
+      "explain": "Roky, měsíce a roční období berou in."
+    },
+    {
+      "prompt": "I always read the changelog ___ the morning.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct": 0,
+      "explain": "Části dne mají in the morning / afternoon / evening."
+    },
+    {
+      "prompt": "The alerts always fire ___ night.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct": 2,
+      "explain": "night je výjimka mezi částmi dne: at night."
+    },
+    {
+      "prompt": "The pipeline will be finished ___ ten minutes.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct": 0,
+      "explain": "in + doba znamená „za deset minut\"."
+    },
+    {
+      "prompt": "Let's go through it ___ Monday morning.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct": 1,
+      "explain": "Jakmile je ve výrazu konkrétní den, použije se on."
+    },
+    {
+      "prompt": "I'm on holiday ___ next week.",
+      "options": [
+        "in",
+        "on",
+        "bez předložky"
+      ],
+      "correct": 2,
+      "explain": "Před next, last, this a every žádná předložka nepatří."
+    }
+  ]
+}

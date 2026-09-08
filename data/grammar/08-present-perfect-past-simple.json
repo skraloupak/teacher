@@ -1,0 +1,146 @@
+{
+  "id": "present-perfect-past-simple",
+  "order": 8,
+  "title": "present perfect × past simple",
+  "tagline": "Kdy „I have done it\" a kdy „I did it\" – největší česká noční můra.",
+  "core": "Past simple patří uzavřené minulosti: konkrétnímu okamžiku, který skončil a už se nemění. Present perfect mluví o minulé události jen proto, že z ní teď něco plyne, nebo že období ještě neskončilo. Jakmile ve větě řekneš, kdy přesně se to v uzavřené minulosti stalo, musíš použít past simple – a je jedno, jak silný ten následek je.",
+  "rules": [
+    {
+      "label": "Test na „kdy\"",
+      "text": "Je ve větě uzavřený minulý čas – yesterday, last week, in 2019, at five, two years ago, when I was a kid? Pak past simple, bez výjimky. „I have seen him yesterday\" je chyba, i když ho pořád vidíš před očima. Pozor: „today\", „this week\", „this year\" se za uzavřený čas nepočítají, to období pořád běží."
+    },
+    {
+      "label": "Výsledek teď × vyprávění",
+      "text": "„I've lost my badge\" = a nemám ho, nedostanu se dovnitř (zajímá nás stav). „I lost my badge on Friday\" = vyprávím, co se v pátek stalo. Stejná událost, jiný úhel pohledu."
+    },
+    {
+      "label": "for a since = trvá to dodneška",
+      "text": "„I've worked here for six years\" znamená, že tu pořád pracuju. „I worked here for six years\" znamená, že už tam nepracuju. Tenhle rozdíl Čech neslyší, a přitom mění celý význam věty."
+    },
+    {
+      "label": "already, yet, just, ever, never",
+      "text": "Tahle slova mluví o stavu k dnešku, takže si berou present perfect: „Has it finished yet?\", „I've just pushed it\", „Have you ever used Rust?\" Konkrétní datum k nim nikdy nepřidáš."
+    }
+  ],
+  "memoryHook": "Ptej se na jedinou věc: je ten příběh zavřený? Past simple je fotka s datem – okamžik, který skončil a už se nezmění. Present perfect je výpis z účtu: pohyby jsou minulé, ale zůstatek platí teď. Jakmile do věty přidáš datum, vyhrává fotka. IT most: past simple je commit v git logu s timestampem, present perfect je aktuální stav working tree.",
+  "examples": [
+    {
+      "en": "I've lost my badge, so I can't get into the building.",
+      "cs": "Ztratil jsem kartu, takže se nedostanu do budovy.",
+      "note": "Zajímá nás následek – kartu pořád nemám."
+    },
+    {
+      "en": "I lost my badge on Friday.",
+      "cs": "Ztratil jsem kartu v pátek.",
+      "note": "Úplně stejná událost, ale s časovým údajem, takže povinně past simple."
+    },
+    {
+      "en": "Have you ever worked with Kubernetes? – Yes, I used it at my last job.",
+      "cs": "Dělal jsi někdy s Kubernetes? – Jo, používal jsem ho v minulé práci.",
+      "note": "Otázka na životní zkušenost je present perfect, konkrétní uzavřené období v odpovědi je past simple."
+    },
+    {
+      "en": "I've worked here for six years.",
+      "cs": "Pracuju tady šest let.",
+      "note": "Pořád tu pracuju. Čeština použije obyčejný přítomný čas, angličtina present perfect."
+    },
+    {
+      "en": "He worked here for six years.",
+      "cs": "Pracoval tady šest let.",
+      "note": "Už tady nepracuje – proto past simple. Rozdíl proti předchozí větě je jen v čase, ale mění všechno."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "I am here since Monday.",
+      "right": "I've been here since Monday.",
+      "why": "Česky je „jsem tu od pondělí\" přítomný čas, ale trvání od nějakého bodu až doteď se anglicky říká present perfectem."
+    },
+    {
+      "wrong": "I have seen that film yesterday.",
+      "right": "I saw that film yesterday.",
+      "why": "S uzavřeným časovým údajem present perfect stát nesmí, ať je následek jakkoli živý."
+    },
+    {
+      "wrong": "How long do you know her?",
+      "right": "How long have you known her?",
+      "why": "Na trvání do dneška se angličtina ptá present perfectem, i když čeština použije přítomný čas."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "We ___ to Croatia last summer.",
+      "options": [
+        "have gone",
+        "went"
+      ],
+      "correct": 1,
+      "explain": "„last summer\" je uzavřené období, a to vždycky znamená past simple."
+    },
+    {
+      "prompt": "___ you ever eaten sushi?",
+      "options": [
+        "Have",
+        "Did"
+      ],
+      "correct": 0,
+      "explain": "Tvar „eaten\" patří k present perfectu; po „did\" by muselo následovat „eat\"."
+    },
+    {
+      "prompt": "She ___ for this company since 2020.",
+      "options": [
+        "works",
+        "has worked",
+        "worked"
+      ],
+      "correct": 1,
+      "explain": "„since\" značí období, které pořád trvá, a to nese jedině present perfect."
+    },
+    {
+      "prompt": "The deployment ___ finished yet.",
+      "options": [
+        "hasn't",
+        "didn't"
+      ],
+      "correct": 0,
+      "explain": "Po „didn't\" by muselo být „finish\"; tvar „finished\" tu patří k present perfectu."
+    },
+    {
+      "prompt": "I ___ this laptop three years ago and it still works.",
+      "options": [
+        "bought",
+        "have bought"
+      ],
+      "correct": 0,
+      "explain": "„three years ago\" je konkrétní bod v minulosti, i když věc dodnes funguje."
+    },
+    {
+      "prompt": "My grandfather died in 2001. He ___ in three different countries.",
+      "options": [
+        "lived",
+        "has lived"
+      ],
+      "correct": 0,
+      "explain": "Jeho život je uzavřená kapitola; present perfect by naznačoval, že ještě žije."
+    },
+    {
+      "prompt": "He ___ here for six years and then moved to Berlin.",
+      "options": [
+        "has worked",
+        "worked"
+      ],
+      "correct": 1,
+      "explain": "Těch šest let už skončilo, takže past simple."
+    },
+    {
+      "prompt": "How long ___ you had that car?",
+      "options": [
+        "have",
+        "did",
+        "do"
+      ],
+      "correct": 0,
+      "explain": "Tvar „had\" tu tvoří present perfect – po „did\" ani „do\" stát nemůže."
+    }
+  ]
+}

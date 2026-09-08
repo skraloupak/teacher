@@ -1,0 +1,140 @@
+{
+  "id": "second-conditional",
+  "order": 12,
+  "title": "druhá podmínka: if + minulý čas, would",
+  "tagline": "Nereálné „kdyby“ o teď a o budoucnosti – minulý čas po if, would ve druhé půlce.",
+  "core": "Když je podmínka nereálná, vymyšlená nebo hodně nepravděpodobná, dej po if minulý čas a do druhé půlky would + základní tvar slovesa. Ten minulý čas nemluví o minulosti – jen říká „tohle není skutečnost“. U slovesa be se v téhle vazbě používá were pro všechny osoby.",
+  "rules": [
+    {
+      "label": "Vzorec",
+      "text": "If + minulý prostý čas, would + základní tvar: „If I had more time, I'd refactor it.“ Otočeně: „I'd refactor it if I had more time.“"
+    },
+    {
+      "label": "Za if nikdy would",
+      "text": "„If I would have“ je nejčastější česká chyba vůbec. would patří výhradně do druhé půlky. Jediná výjimka je zdvořilá prosba „If you would just wait a moment“ – ber ji jako hotovou frázi."
+    },
+    {
+      "label": "If I were you",
+      "text": "Rada se říká „If I were you, I'd…“ – česky „být tebou“. „If I was“ sice v hovoru uslyšíš, ale tahle rada má pevný tvar were."
+    },
+    {
+      "label": "Místo would může být could nebo might",
+      "text": "„If we hired one more dev, we might make it.“ / „If she spoke German, she could work from Munich.“ – když jde o možnost, ne o jistotu."
+    }
+  ],
+  "memoryHook": "Minulý čas po if tady neznamená minulost, je to krok dozadu od reality – čím dál od pravdy, tím dál dozadu v čase. Kde čeština řekne „bych, bys, by“, tam patří would – a would nikdy nesmí zpátky za if. Srovnej si dvojici: „If I get the job, I'll move“ (reálné) × „If I got the job, I'd move“ (jen si to představuju).",
+  "examples": [
+    {
+      "en": "If I had a bigger monitor, I'd finally see the whole stack trace.",
+      "cs": "Kdybych měl větší monitor, konečně bych viděl celý stack trace."
+    },
+    {
+      "en": "If I were you, I wouldn't push that on Friday afternoon.",
+      "cs": "Být tebou, nenasazoval bych to v pátek odpoledne.",
+      "note": "Pevná fráze na rady – vždycky were, nikdy was."
+    },
+    {
+      "en": "What would you do if they offered you twice the salary?",
+      "cs": "Co bys dělal, kdyby ti nabídli dvojnásobný plat?",
+      "note": "V otázce se would dostane dopředu, ale za if zůstává minulý čas."
+    },
+    {
+      "en": "If we didn't have all those legacy tests, the pipeline would run in five minutes.",
+      "cs": "Kdybychom neměli všechny ty legacy testy, pipeline by běžela pět minut."
+    },
+    {
+      "en": "If she spoke German, she could work from the Munich office.",
+      "cs": "Kdyby uměla německy, mohla by pracovat z mnichovské pobočky.",
+      "note": "could místo would, protože jde o možnost, ne o jistotu."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "If I would have more time, I would help you.",
+      "right": "If I had more time, I would help you.",
+      "why": "would nikdy nestojí za if – patří jen do druhé půlky věty."
+    },
+    {
+      "wrong": "If I would be you, I would wait a week.",
+      "right": "If I were you, I'd wait a week.",
+      "why": "Rada „být tebou“ má v angličtině jediný správný tvar: If I were you."
+    },
+    {
+      "wrong": "If I will win the lottery, I would buy a house by the lake.",
+      "right": "If I won the lottery, I'd buy a house by the lake.",
+      "why": "Obě půlky musí být ze stejného patra – nereálná podmínka znamená minulý čas plus would."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "If I ___ more time, I'd finally learn Rust.",
+      "options": [
+        "had",
+        "would have",
+        "have"
+      ],
+      "correct": 0,
+      "explain": "Za if patří minulý čas, would zůstává ve druhé půlce."
+    },
+    {
+      "prompt": "If I ___ you, I'd ask for a raise right after the release.",
+      "options": [
+        "were",
+        "would be",
+        "am"
+      ],
+      "correct": 0,
+      "explain": "Rada se říká „If I were you“ – were pro všechny osoby."
+    },
+    {
+      "prompt": "What ___ you do if the client cancelled the contract tomorrow?",
+      "options": [
+        "would",
+        "will",
+        "did"
+      ],
+      "correct": 0,
+      "explain": "Podmínka je v minulém čase, takže hlavní věta nese would."
+    },
+    {
+      "prompt": "If we ___ the deadline by one day, honestly nobody would care.",
+      "options": [
+        "missed",
+        "would miss",
+        "will miss"
+      ],
+      "correct": 0,
+      "explain": "Vymyšlená situace: po if minulý čas, ne would."
+    },
+    {
+      "prompt": "If we had one more tester, we ___ ship on time.",
+      "options": [
+        "could",
+        "can",
+        "could have"
+      ],
+      "correct": 0,
+      "explain": "could + základní tvar vyjadřuje možnost v nereálné podmínce."
+    },
+    {
+      "prompt": "If it ___ tomorrow, we'll take the car instead of the bikes.",
+      "options": [
+        "rains",
+        "rained",
+        "would rain"
+      ],
+      "correct": 0,
+      "explain": "Déšť zítra je docela reálný a druhá půlka má will, takže jde o první podmínku – přítomný čas."
+    },
+    {
+      "prompt": "I'd tell you the answer if I ___ it myself.",
+      "options": [
+        "knew",
+        "would know",
+        "know"
+      ],
+      "correct": 0,
+      "explain": "Nevím to, takže je to nereálná podmínka: minulý čas za if."
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "third-conditional-regret",
+  "order": 13,
+  "title": "třetí podmínka a lítost",
+  "tagline": "Kdyby to bývalo dopadlo jinak – o minulosti, kterou už nezměníš.",
+  "core": "O minulosti, která se nedá vzít zpátky, mluv takhle: if + had + třetí tvar slovesa, would have + třetí tvar. Vždycky jde o něco, co se nestalo, takže věta nese lítost, výčitku nebo úlevu. Za if nikdy nepatří would have.",
+  "rules": [
+    {
+      "label": "Vzorec",
+      "text": "„If we had tested it, we wouldn't have broken production.“ Dvakrát složený tvar: had + třetí tvar slovesa (tested, known, gone) v podmínce, would have + třetí tvar v hlavní větě."
+    },
+    {
+      "label": "V řeči se to smrskne",
+      "text": "„If we'd tested it, we would've caught it.“ To 'd v první půlce je had, ve druhé would – rodilí mluvčí to skoro vždycky zkracují."
+    },
+    {
+      "label": "Lítost i bez if",
+      "text": "Tři fráze se stejným významem: „I should have tested it.“ (měl jsem to otestovat, a neudělal jsem to) / „I wish I had tested it.“ / „If only we'd tested it.“"
+    },
+    {
+      "label": "Smíšená podmínka",
+      "text": "Když má minulá příčina následek dnes, sešij dvě patra dohromady: „If I had accepted the offer, I'd be in Berlin now.“ – had v podmínce, ale ve druhé půlce samotné would, bez have."
+    }
+  ],
+  "memoryHook": "Celá třetí podmínka je „had-had“: had v podmínce, have za would. Nauč se ji na jediné větě a už ji nepustíš: „If I'd known, I would have told you.“ Kde by čeština řekla „kdybych býval“, tam anglicky sáhni po had + třetí tvar. A na lítost bez if máš dvě hotové fráze: „I should have…“ = měl jsem, a neudělal jsem to, „I wish I had…“ = škoda, že jsem to neudělal.",
+  "examples": [
+    {
+      "en": "If I had known about the outage, I wouldn't have started the migration.",
+      "cs": "Kdybych býval věděl o tom výpadku, nezačínal bych s migrací."
+    },
+    {
+      "en": "We would have caught it in review if anyone had actually read the diff.",
+      "cs": "Odchytili bychom to v reviewu, kdyby si ten diff někdo doopravdy přečetl."
+    },
+    {
+      "en": "I should have taken that job offer three years ago.",
+      "cs": "Měl jsem tu nabídku práce před třemi lety vzít.",
+      "note": "Lítost bez if – významově totéž jako „If I had taken it…“."
+    },
+    {
+      "en": "I wish I hadn't replied to that email at midnight.",
+      "cs": "Škoda, že jsem na ten mail odpovídal o půlnoci.",
+      "note": "Po wish se o minulosti mluví tvarem had + třetí tvar, ne prostým minulým časem."
+    },
+    {
+      "en": "If we'd hired her back then, we wouldn't be rewriting this now.",
+      "cs": "Kdybychom ji tenkrát vzali, dneska bychom to nepřepisovali.",
+      "note": "Smíšená podmínka: příčina v minulosti, následek dnes."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "If I would have known, I would have called you.",
+      "right": "If I had known, I would have called you.",
+      "why": "Za if patří had + třetí tvar; would have smí být jen ve druhé půlce věty."
+    },
+    {
+      "wrong": "I should go to the doctor yesterday.",
+      "right": "I should have gone to the doctor yesterday.",
+      "why": "Lítost nad minulostí je should have + třetí tvar – samotné should mluví o přítomnosti a budoucnosti."
+    },
+    {
+      "wrong": "I wish I knew about the release yesterday.",
+      "right": "I wish I had known about the release yesterday.",
+      "why": "Po wish se o minulosti mluví tvarem had known; samotné knew by mluvilo o tom, co nevím teď."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "If we ___ a backup, we wouldn't have lost the data.",
+      "options": [
+        "had made",
+        "would have made",
+        "made"
+      ],
+      "correct": 0,
+      "explain": "Za if patří had + třetí tvar, nikdy would have."
+    },
+    {
+      "prompt": "She ___ passed the exam if she had practised more.",
+      "options": [
+        "would have",
+        "would",
+        "had"
+      ],
+      "correct": 0,
+      "explain": "Hlavní věta třetí podmínky nese would have + třetí tvar."
+    },
+    {
+      "prompt": "I ___ that email – it only made things worse.",
+      "options": [
+        "shouldn't have sent",
+        "shouldn't send",
+        "didn't should send"
+      ],
+      "correct": 0,
+      "explain": "Výčitka nad tím, co se už stalo, je should(n't) have + třetí tvar."
+    },
+    {
+      "prompt": "If I hadn't missed the train, I ___ on time.",
+      "options": [
+        "would have arrived",
+        "would arrive",
+        "had arrived"
+      ],
+      "correct": 0,
+      "explain": "Obě půlky jsou o minulosti, takže would have + třetí tvar."
+    },
+    {
+      "prompt": "I wish I ___ his advice back in 2019.",
+      "options": [
+        "had taken",
+        "took",
+        "would take"
+      ],
+      "correct": 0,
+      "explain": "Po wish se o minulosti mluví tvarem had + třetí tvar."
+    },
+    {
+      "prompt": "If you ___ me yesterday, I would have helped you.",
+      "options": [
+        "had called",
+        "called",
+        "would call"
+      ],
+      "correct": 0,
+      "explain": "„Yesterday“ ukazuje na minulost, takže třetí podmínka: had + třetí tvar."
+    },
+    {
+      "prompt": "If I had learned English at school, I ___ to study it now.",
+      "options": [
+        "wouldn't need",
+        "wouldn't have needed",
+        "didn't need"
+      ],
+      "correct": 0,
+      "explain": "Smíšená podmínka: příčina v minulosti, ale následek je dnes, proto jen would + základní tvar."
+    }
+  ]
+}

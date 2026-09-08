@@ -1,0 +1,152 @@
+{
+  "id": "stupnovani-pridavnych-jmen",
+  "order": 19,
+  "title": "-er/-est × more/most",
+  "tagline": "Kdy říct faster a kdy more complex.",
+  "core": "Rozhoduje délka slova, ne význam. Jednoslabičná přídavná jména a dvouslabičná zakončená na -y berou -er/-est (fast → faster → the fastest, easy → easier → the easiest). Všechno delší dostane more/most (more stable, the most reliable). Nikdy obojí najednou.",
+  "rules": [
+    {
+      "label": "Počítej slabiky",
+      "text": "Jedna slabika → -er/-est (old, big, cheap). Dvě slabiky končící na -y → -ier/-iest (busy → busier, risky → riskiest). Delší slova → more/most (useful, stable, expensive, complicated). U pár dvojslabičných jde obojí a nespleteš se: simple, narrow, quiet, clever — simpler i more simple je v pořádku."
+    },
+    {
+      "label": "Pravopisné drobnosti",
+      "text": "Jednoslabičné slovo končící souhláskou po krátké samohlásce tu souhlásku zdvojí: big → bigger, hot → hottest. Když slovo končí na -e, přidá se jen -r/-st: nice → nicer, safe → safest. Koncové -y se mění na -i: easy → easier."
+    },
+    {
+      "label": "Nepravidelná čtyřka, kterou musíš umět zpaměti",
+      "text": "good → better → the best, bad → worse → the worst, far → further/farther → the furthest/farthest, much/many → more → the most. Opak more je less: less expensive, the least expensive."
+    },
+    {
+      "label": "than a the",
+      "text": "Když srovnáváš s něčím konkrétním, je po druhém stupni than, nikdy as: faster than, more stable than (as … as je jiná vazba, „stejně jako\"). Třetí stupeň má skoro vždy the: the fastest query, the most annoying bug."
+    }
+  ],
+  "memoryHook": "Krátké slovo, krátká koncovka. Dlouhé slovo, dlouhé more. Angličtina je líná: ke slovu, které samo o sobě unaví (com-pli-ca-ted), už nechce lepit další slabiku. A „more faster\" zní rodilému mluvčímu přesně tak, jako když česky řekneš „více rychlejší\".",
+  "examples": [
+    {
+      "en": "This query is faster than the old one.",
+      "cs": "Tenhle dotaz je rychlejší než ten starý.",
+      "note": "fast je jednoslabičné → faster, a po něm than."
+    },
+    {
+      "en": "Rust is more difficult to learn than Python, but the error messages are more helpful.",
+      "cs": "Rust se učí hůř než Python, ale chybové hlášky jsou užitečnější.",
+      "note": "difficult i helpful mají dvě a víc slabik → more."
+    },
+    {
+      "en": "It's the worst outage we've had this year.",
+      "cs": "Je to nejhorší výpadek, jaký jsme letos měli.",
+      "note": "Nepravidelné bad → worse → the worst."
+    },
+    {
+      "en": "The new build is a bit more stable, but the tests are still slower.",
+      "cs": "Nový build je o něco stabilnější, ale testy jsou pořád pomalejší.",
+      "note": "V jedné větě obojí: more stable (dvě slabiky), slower (jedna slabika)."
+    },
+    {
+      "en": "Friday deploys are the riskiest thing we do.",
+      "cs": "Páteční nasazování je to nejriskantnější, co děláme.",
+      "note": "risky končí na -y, takže y → i a přidá se -est."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "This solution is more better.",
+      "right": "This solution is better.",
+      "why": "better už druhý stupeň je, more se k němu nepřidává."
+    },
+    {
+      "wrong": "My laptop is more old than yours.",
+      "right": "My laptop is older than yours.",
+      "why": "Jednoslabičné old musí vzít -er, more se u něj nepoužívá."
+    },
+    {
+      "wrong": "Python is easier as Java.",
+      "right": "Python is easier than Java.",
+      "why": "České „než\" je po druhém stupni vždy than; as patří jen do dvojice as … as."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "My new laptop is ___ than the old one.",
+      "options": [
+        "more fast",
+        "faster",
+        "most fast"
+      ],
+      "correct": 1,
+      "explain": "fast je jednoslabičné, takže bere koncovku -er."
+    },
+    {
+      "prompt": "The new API is ___ to use than the old one.",
+      "options": [
+        "easier",
+        "more easy",
+        "more easier"
+      ],
+      "correct": 0,
+      "explain": "Dvojslabičné slovo končící na -y mění y na i a přidává -er."
+    },
+    {
+      "prompt": "That was ___ meeting of the whole week.",
+      "options": [
+        "the longest",
+        "the most long",
+        "longest"
+      ],
+      "correct": 0,
+      "explain": "Jednoslabičné long bere -est a třetí stupeň má před sebou the."
+    },
+    {
+      "prompt": "Our uptime this quarter is ___ than last year.",
+      "options": [
+        "gooder",
+        "better",
+        "more good"
+      ],
+      "correct": 1,
+      "explain": "good se stupňuje nepravidelně: good – better – the best."
+    },
+    {
+      "prompt": "Postgres is ___ than the database we used before.",
+      "options": [
+        "reliabler",
+        "more reliable",
+        "most reliable"
+      ],
+      "correct": 1,
+      "explain": "reliable má víc než dvě slabiky, takže jedině more."
+    },
+    {
+      "prompt": "Honestly, it's ___ documentation I've ever read.",
+      "options": [
+        "the worse",
+        "the worst",
+        "the most bad"
+      ],
+      "correct": 1,
+      "explain": "Třetí stupeň od bad je the worst."
+    },
+    {
+      "prompt": "Fixing it now is ___ expensive than fixing it in production.",
+      "options": [
+        "less",
+        "lesser",
+        "little"
+      ],
+      "correct": 0,
+      "explain": "Opakem more je less; lesser se v běžném srovnání nepoužívá."
+    },
+    {
+      "prompt": "The backup server is ___ from the office than the main one.",
+      "options": [
+        "further",
+        "farer",
+        "more far"
+      ],
+      "correct": 0,
+      "explain": "far se stupňuje nepravidelně: further nebo farther, nikdy farer."
+    }
+  ]
+}

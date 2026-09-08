@@ -1,0 +1,152 @@
+{
+  "id": "predlozky-mista",
+  "order": 21,
+  "title": "in × on × at (místo)",
+  "tagline": "Kdy jsi in the office, on the bus a at the airport.",
+  "core": "in znamená uvnitř nějakého prostoru nebo hranic (in the drawer, in Prague, in the building). on znamená na povrchu, na ploše nebo na lince (on the desk, on the wall, on the fourth floor, on page 12). at je bod na mapě, kde se něco odehrává, bez ohledu na tvar (at the airport, at work, at the bus stop).",
+  "rules": [
+    {
+      "label": "Krabice, deska, špendlík",
+      "text": "in = něco tě obklopuje. on = dotýkáš se povrchu. at = jen říkáš, kde přibližně jsi. Proto: He's at the airport, sitting in the café, with his laptop on the table."
+    },
+    {
+      "label": "Adresní žebřík",
+      "text": "Od velkého k malému: in Brno (město, země) → on Veveří Street (ulice jako linie) → at number 70 (konkrétní bod). Američané říkají on Main Street, Britové in Oxford Street — obojí uslyšíš."
+    },
+    {
+      "label": "Dopravní prostředky",
+      "text": "Do čeho se dá vejít a projít se v tom, to má on: on the bus, on the train, on a plane, on a ship. V čem jenom sedíš, má in: in the car, in a taxi."
+    },
+    {
+      "label": "České „na\" u institucí je většinou at",
+      "text": "at school, at university, at the post office, at the doctor's, at work. Pracovně navíc: you're in a meeting, but on a call — a v IT on GitHub, in the repository."
+    }
+  ],
+  "memoryHook": "Zeptej se sám sebe: obklopuje mě to (in), dotýkám se toho shora (on), nebo jen říkám, kde asi jsem (at)? Krabice – deska – špendlík. Celé to shrne jedna věta: the label is on the box, the invoice is in the box, and the box is at the reception desk.",
+  "examples": [
+    {
+      "en": "He's at the airport, waiting in the lounge.",
+      "cs": "Je na letišti, čeká v salonku.",
+      "note": "at = kde zhruba je, in = uvnitř konkrétního prostoru."
+    },
+    {
+      "en": "Our office is on the fourth floor, in the building next to the tram stop.",
+      "cs": "Kancelář máme ve čtvrtém patře, v budově vedle tramvajové zastávky.",
+      "note": "Patra jsou vždycky on, budova je in."
+    },
+    {
+      "en": "Sorry, I can't talk — I'm in a meeting. She's on a call with the client.",
+      "cs": "Promiň, nemůžu mluvit, jsem na schůzce. Ona je na hovoru s klientem.",
+      "note": "Obojí je česky „na\", anglicky in a meeting, ale on a call."
+    },
+    {
+      "en": "I live in Brno, on Veveří Street, at number 70.",
+      "cs": "Bydlím v Brně, na ulici Veveří, na čísle 70.",
+      "note": "Celý žebřík od města po číslo popisné v jedné větě."
+    },
+    {
+      "en": "I opened an issue on GitHub — the fix is already in the main branch.",
+      "cs": "Založil jsem issue na GitHubu, oprava je už v hlavní větvi.",
+      "note": "Platformy jsou on, obsah uvnitř repozitáře je in."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "I'm in the bus, I'll be there in ten minutes.",
+      "right": "I'm on the bus, I'll be there in ten minutes.",
+      "why": "V autobuse, vlaku i letadle se dá vstát a projít, proto on; in zůstává autu a taxíku, kde jenom sedíš."
+    },
+    {
+      "wrong": "She studies on the university.",
+      "right": "She studies at university.",
+      "why": "České „na\" u institucí se do angličtiny nepřekládá jako on, ale jako at."
+    },
+    {
+      "wrong": "There's a whiteboard in the wall.",
+      "right": "There's a whiteboard on the wall.",
+      "why": "Je to na povrchu, ne uvnitř — plochy mají vždy on."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "The keys are ___ the drawer.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct": 0,
+      "explain": "Zásuvka klíče obklopuje zevnitř, proto in."
+    },
+    {
+      "prompt": "Meet me ___ the reception desk.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct": 2,
+      "explain": "Místo srazu jako bod na mapě má at."
+    },
+    {
+      "prompt": "You'll find the diagram ___ page 42.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct": 1,
+      "explain": "Stránka je plocha, takže on page 42."
+    },
+    {
+      "prompt": "I'm ___ the train, we arrive in ten minutes.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct": 1,
+      "explain": "Ve vlaku se dá chodit, proto on the train."
+    },
+    {
+      "prompt": "He's not here today, he's ___ the dentist's.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct": 2,
+      "explain": "České „u\" i „na\" u institucí odpovídá anglickému at."
+    },
+    {
+      "prompt": "The bug report is ___ GitHub.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct": 1,
+      "explain": "Online platformy fungují jako plocha: on GitHub, on Slack, on the internet."
+    },
+    {
+      "prompt": "We spent three hours ___ the car on the way to Prague.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct": 0,
+      "explain": "Auto a taxi jsou výjimka mezi dopravními prostředky — vždy in."
+    },
+    {
+      "prompt": "Sorry, I can't answer — I'm ___ a meeting.",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "correct": 1,
+      "explain": "Na schůzce se anglicky říká in a meeting, zato telefonát je on a call."
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "past-simple-continuous",
+  "order": 7,
+  "title": "past simple × past continuous",
+  "tagline": "Kdy se v minulosti něco stalo a kdy něco jen běželo na pozadí.",
+  "core": "Past simple je hotová událost – stala se, skončila, jde se dál. Past continuous je kulisa: děj, který už běžel, když do něj něco vpadlo. Krátká hotová akce v past simple typicky přeruší delší běžící děj v past continuous.",
+  "rules": [
+    {
+      "label": "Kulisa a herec",
+      "text": "Delší běžící děj = past continuous, krátký zásah do něj = past simple: „While I was deploying, the VPN dropped.\" Obráceně to nedává smysl – nasazování běželo, VPN spadla v jednom okamžiku."
+    },
+    {
+      "label": "while × when",
+      "text": "Po „while\" typicky stojí průběhový čas (while I was cooking), po „when\" typicky prostý (when the phone rang). Ber to jako dvojici, ušetří ti to půlku rozhodování."
+    },
+    {
+      "label": "Řada hotových kroků = jen past simple",
+      "text": "„I opened the ticket, read it and closed it.\" Tři kroky za sebou, žádný průběh. Průběhový čas nasaď jen tam, kde chceš říct „tohle už běželo, když…\"."
+    },
+    {
+      "label": "Slovesa stavu ani tady",
+      "text": "know, want, believe, understand, own nemají průběhový tvar ani v minulosti. Správně je „I knew him from school\", ne „I was knowing him\"."
+    }
+  ],
+  "memoryHook": "Nakresli si vodorovnou čáru a na ni křížek. Čára je děj, který běžel (past continuous, -ing), křížek je moment, kdy se něco stalo (past simple). IT verze: continuous je běžící log, simple je ten jeden řádek s ERROR.",
+  "examples": [
+    {
+      "en": "I was cooking dinner when the phone rang.",
+      "cs": "Vařil jsem večeři, když zazvonil telefon.",
+      "note": "Vaření je čára, zvonění je křížek na ní."
+    },
+    {
+      "en": "While we were testing on staging, someone pushed to master.",
+      "cs": "Zatímco jsme testovali na stagingu, někdo pushnul do masteru.",
+      "note": "Po „while\" běžící děj, hotový zásah v past simple."
+    },
+    {
+      "en": "I got up, made coffee and opened my laptop.",
+      "cs": "Vstal jsem, udělal si kávu a otevřel notebook.",
+      "note": "Tři hotové kroky za sebou – všechny past simple, žádný průběh."
+    },
+    {
+      "en": "The sun was shining and the birds were singing when we set off.",
+      "cs": "Svítilo slunce a zpívali ptáci, když jsme vyráželi.",
+      "note": "Popis kulis na začátku vyprávění je typická práce pro past continuous."
+    },
+    {
+      "en": "What were you doing at eight yesterday evening?",
+      "cs": "Co jsi dělal včera v osm večer?",
+      "note": "Ptáme se, co v tu chvíli běželo, ne co se v tu chvíli stalo."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "When I came home, she cooked dinner.",
+      "right": "When I came home, she was cooking dinner.",
+      "why": "Past simple by znamenalo, že s vařením začala až po tvém příchodu – „zastihl jsem ji uprostřed\" vyžaduje průběhový čas."
+    },
+    {
+      "wrong": "Yesterday I was going to the doctor and then I was buying milk.",
+      "right": "Yesterday I went to the doctor and then bought some milk.",
+      "why": "Řada hotových kroků patří do past simple; průběhový čas se hodí na pozadí, ne na výčet toho, co jsi stihl."
+    },
+    {
+      "wrong": "I was knowing him from university.",
+      "right": "I knew him from university.",
+      "why": "Slovesa stavu nemají průběhový tvar ani v minulém čase."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "I ___ TV when you called.",
+      "options": [
+        "watched",
+        "was watching"
+      ],
+      "correct": 1,
+      "explain": "Sledování už běželo, když do něj vpadl telefonát."
+    },
+    {
+      "prompt": "She ___ the door and walked out.",
+      "options": [
+        "opened",
+        "was opening"
+      ],
+      "correct": 0,
+      "explain": "Dva hotové kroky za sebou, nic se nepřerušuje."
+    },
+    {
+      "prompt": "While he ___ the presentation, the projector died.",
+      "options": [
+        "was preparing",
+        "prepared"
+      ],
+      "correct": 0,
+      "explain": "Po „while\" stojí delší běžící děj, tedy past continuous."
+    },
+    {
+      "prompt": "I dropped my phone while I ___ off the bus.",
+      "options": [
+        "was getting",
+        "got"
+      ],
+      "correct": 0,
+      "explain": "Vystupování bylo pozadí, upuštění telefonu ten krátký zásah."
+    },
+    {
+      "prompt": "I didn't hear the doorbell because I ___ the kitchen.",
+      "options": [
+        "was cleaning",
+        "cleaned"
+      ],
+      "correct": 0,
+      "explain": "Úklid v tu chvíli běžel a překryl zvonek; past simple by znamenalo, že jsi uklidil až potom."
+    },
+    {
+      "prompt": "I ___ him from university, so I said hello.",
+      "options": [
+        "knew",
+        "was knowing"
+      ],
+      "correct": 0,
+      "explain": "know je sloveso stavu a průběhový tvar nemá ani v minulosti."
+    },
+    {
+      "prompt": "I ___ her at a conference last year.",
+      "options": [
+        "was meeting",
+        "met"
+      ],
+      "correct": 1,
+      "explain": "Jednorázová hotová událost s konkrétním časem patří do past simple."
+    }
+  ]
+}

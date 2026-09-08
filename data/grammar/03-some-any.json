@@ -1,0 +1,142 @@
+{
+  "id": "some-any",
+  "order": 3,
+  "title": "some × any",
+  "tagline": "Kdy „nějaký“ znamená some a kdy any – a proč se to v otázce občas obrací.",
+  "core": "some patří do kladných vět, any do otázek a záporů. Výjimka, kterou uslyšíš každý den: když otázkou něco nabízíš nebo o něco žádáš, dává se some. A v kladné větě any nemá význam „nějaký“, ale „kterýkoli“.",
+  "rules": [
+    {
+      "label": "Kladně some, tázavě a záporně any",
+      "text": "I have some questions. → Do you have any questions? → I don't have any questions. Když věta zamíří do otázky nebo do záporu, some se automaticky mění na any."
+    },
+    {
+      "label": "Nabídka a prosba drží some",
+      "text": "Would you like some coffee? Can you send me some examples? Ptáš se, ale čekáš „ano“ – proto some. „Would you like any coffee?“ by znělo, jako by ti na tom vůbec nezáleželo."
+    },
+    {
+      "label": "any v kladné větě = kterýkoli",
+      "text": "„Any developer can fix this.“ = spraví to kterýkoli vývojář. „Call me any time.“ = klidně kdykoli. Tady any nepřekládáš jako „nějaký“, ale jako „kterýkoli“."
+    },
+    {
+      "label": "not any = no, a dvojitý zápor neexistuje",
+      "text": "„I don't have any idea“ = „I have no idea“. Verze s no je důraznější, ale sloveso pak musí být kladné. Nikdy ne „I don't have no idea“ – angličtina zápor nezdvojuje, čeština ano."
+    }
+  ],
+  "memoryHook": "some je „nějaký, co tam je“, any je „nějaký vůbec“. Otázka a zápor sahají do prázdna, tam patří any. Když ale otázkou něco podáváš – kávu, pomoc, prosbu – čekáš odpověď ano, a to jde se some. A v kladné větě any přeskočí na význam „úplně jakýkoli“.",
+  "examples": [
+    {
+      "en": "I found some weird entries in the log this morning.",
+      "cs": "Ráno jsem našel v logu nějaké divné záznamy."
+    },
+    {
+      "en": "Did you get any response from their API?",
+      "cs": "Přišla ti z jejich API nějaká odpověď?"
+    },
+    {
+      "en": "Would you like some help with the migration?",
+      "cs": "Chtěl bys s tou migrací pomoct?",
+      "note": "Otázka, ale je to nabídka – proto some."
+    },
+    {
+      "en": "There isn't any documentation for this endpoint.",
+      "cs": "K tomuhle endpointu neexistuje žádná dokumentace."
+    },
+    {
+      "en": "Any of these branches can be deleted, they're all merged.",
+      "cs": "Kteroukoli z těch větví je možné smazat, všechny jsou zmergované.",
+      "note": "Kladná věta, takže any = kterýkoli."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "I don't have some time for that today.",
+      "right": "I don't have any time for that today.",
+      "why": "V záporné větě se some mění na any."
+    },
+    {
+      "wrong": "We don't have no tests for this module.",
+      "right": "We don't have any tests for this module.",
+      "why": "Angličtina nesmí mít dva zápory v jedné větě, čeština ano."
+    },
+    {
+      "wrong": "Can I get any coffee?",
+      "right": "Can I get some coffee?",
+      "why": "Je to prosba, ne skutečný dotaz – tam zůstává some."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Do you have ___ questions before we start?",
+      "options": [
+        "some",
+        "any"
+      ],
+      "correct": 1,
+      "explain": "Běžná otázka, ne nabídka – proto any."
+    },
+    {
+      "prompt": "I bought ___ new headphones for the calls.",
+      "options": [
+        "some",
+        "any"
+      ],
+      "correct": 0,
+      "explain": "Kladná oznamovací věta patří some."
+    },
+    {
+      "prompt": "Would you like ___ tea?",
+      "options": [
+        "some",
+        "any"
+      ],
+      "correct": 0,
+      "explain": "Otázka, která něco nabízí, drží some."
+    },
+    {
+      "prompt": "There aren't ___ free meeting rooms this afternoon.",
+      "options": [
+        "some",
+        "any"
+      ],
+      "correct": 1,
+      "explain": "Zápor přepíná some na any."
+    },
+    {
+      "prompt": "Could you send me ___ examples of the payload?",
+      "options": [
+        "some",
+        "any"
+      ],
+      "correct": 0,
+      "explain": "Prosba, u které čekáš kladnou odpověď – some."
+    },
+    {
+      "prompt": "Sorry, I don't have ___ idea what that error means.",
+      "options": [
+        "any",
+        "some",
+        "no"
+      ],
+      "correct": 0,
+      "explain": "Sloveso je už záporné, takže any – „no idea“ jde jen ve větě „I have no idea“."
+    },
+    {
+      "prompt": "___ modern browser can run this app: Chrome, Firefox, Safari, it doesn't matter.",
+      "options": [
+        "Some",
+        "Any"
+      ],
+      "correct": 1,
+      "explain": "V kladné větě any znamená „kterýkoli“, a přesně to ten výčet říká."
+    },
+    {
+      "prompt": "If you have ___ trouble with the setup, ping me on Slack.",
+      "options": [
+        "some",
+        "any"
+      ],
+      "correct": 1,
+      "explain": "Podmínka míří do neznáma stejně jako otázka, proto any."
+    }
+  ]
+}

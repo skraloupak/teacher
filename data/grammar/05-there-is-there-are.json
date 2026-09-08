@@ -1,0 +1,133 @@
+{
+  "id": "there-is-there-are",
+  "order": 5,
+  "title": "there is × there are",
+  "tagline": "Jak anglicky říct „je tam / jsou tam“ a podle čeho vybrat sloveso.",
+  "core": "there is jde k jednotnému číslu a k nepočitatelným (there is a bug, there is milk), there are k množnému číslu (there are two bugs). Sloveso se řídí tím podstatným jménem, které stojí hned za ním. „There“ tady neznamená „tam“, je to jen povinná vycpávka na začátku věty.",
+  "rules": [
+    {
+      "label": "Rozhoduje jméno hned za slovesem",
+      "text": "There are two monitors and a laptop on the desk. Když je vpředu množné číslo, je to jednoznačně are. U opačného pořadí („There is a laptop and two monitors…“) se drží jednotné číslo, ale v mluvené řeči uslyšíš i are – nejjistější je dát množné číslo dopředu."
+    },
+    {
+      "label": "Nepočitatelné bere is",
+      "text": "There is milk in the fridge. There is a lot of traffic today. There is too much noise in here. Nepočitatelné je vždycky jednotné číslo, i když je toho hodně."
+    },
+    {
+      "label": "Zápor a zkratky",
+      "text": "Zkracuje se jen there's; „there're“ se v psaném textu nepoužívá. Zápor: There isn't any coffee / There's no coffee; There aren't any tickets / There are no tickets. Minulý čas: There was / There were."
+    },
+    {
+      "label": "Podmět nesmí chybět",
+      "text": "Čeština klidně řekne „Je problém se serverem“, angličtina podmět vynechat nesmí. Ne „Is a problem with the server“, ale „There's a problem with the server“. A místo se dopisuje až na konec: There's a bug in the parser."
+    }
+  ],
+  "memoryHook": "Překládej si there is / there are jako české „je / jsou“ na začátku věty: „Je tu problém“ → There is a problem. „Jsou tu dva problémy“ → There are two problems. A sloveso poslouchá jen to slovo, které přijde hned po něm – ne zbytek věty.",
+  "examples": [
+    {
+      "en": "There's a merge conflict in the config file.",
+      "cs": "V konfiguračním souboru je konflikt při mergi."
+    },
+    {
+      "en": "There are three people ahead of you in the queue.",
+      "cs": "Ve frontě jsou před tebou tři lidi."
+    },
+    {
+      "en": "There isn't any coffee left, someone finished the pot.",
+      "cs": "Nezbyla žádná káva, někdo dopil celou konvici."
+    },
+    {
+      "en": "There is a lot of noise in the open space today.",
+      "cs": "V open spacu je dnes hodně hluku.",
+      "note": "noise je nepočitatelné, proto is, i když je toho hodně."
+    },
+    {
+      "en": "There were a few complaints about the new design.",
+      "cs": "Na nový design přišlo pár stížností.",
+      "note": "Minulý čas: there was pro jednotné číslo, there were pro množné."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "There is two errors in the log.",
+      "right": "There are two errors in the log.",
+      "why": "Hned za slovesem stojí množné číslo, takže are."
+    },
+    {
+      "wrong": "Is a problem with the deployment.",
+      "right": "There's a problem with the deployment.",
+      "why": "Angličtina nesmí vynechat podmět, čeština ano."
+    },
+    {
+      "wrong": "In the meeting room are five people.",
+      "right": "There are five people in the meeting room.",
+      "why": "Věta o tom, že něco existuje, začíná v angličtině there, ne určením místa."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "There ___ a new version available in the store.",
+      "options": [
+        "is",
+        "are"
+      ],
+      "correct": 0,
+      "explain": "a new version je jednotné číslo."
+    },
+    {
+      "prompt": "There ___ too many tabs open in my browser.",
+      "options": [
+        "is",
+        "are"
+      ],
+      "correct": 1,
+      "explain": "tabs je množné číslo."
+    },
+    {
+      "prompt": "There ___ some milk in the fridge if you want coffee.",
+      "options": [
+        "is",
+        "are"
+      ],
+      "correct": 0,
+      "explain": "milk je nepočitatelné, tedy jednotné číslo."
+    },
+    {
+      "prompt": "There ___ two cables and a dock in the box.",
+      "options": [
+        "is",
+        "are"
+      ],
+      "correct": 1,
+      "explain": "Hned za slovesem stojí two cables, takže are."
+    },
+    {
+      "prompt": "There ___ five people at the standup yesterday.",
+      "options": [
+        "was",
+        "were"
+      ],
+      "correct": 1,
+      "explain": "Minulý čas s množným číslem je were."
+    },
+    {
+      "prompt": "___ two problems with your ticket, I'll look at them.",
+      "options": [
+        "There are",
+        "It is",
+        "Are"
+      ],
+      "correct": 0,
+      "explain": "Existenci něčeho uvozuje there, a k množnému číslu patří are."
+    },
+    {
+      "prompt": "There ___ a lot of data to process before the report.",
+      "options": [
+        "is",
+        "are"
+      ],
+      "correct": 0,
+      "explain": "data se tu bere jako nepočitatelná hmota, proto is."
+    }
+  ]
+}
