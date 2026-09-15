@@ -16,14 +16,41 @@ export const BOX_INTERVALS: number[] = [
   21 * DAY, // box 5 – naučeno
 ];
 
+/**
+ * Jak se boxy jmenují v přehledu. Popisek říká, jaký ODSTUP se u kartičky použije
+ * po správné odpovědi – ne za jak dlouho se objeví. Kartička v boxu „po 10 minutách"
+ * může mít termín dávno za sebou a čekat na řadě.
+ */
 export const BOX_LABELS = [
-  "Nová / chybná",
-  "Za 10 minut",
-  "Za 1 den",
-  "Za 3 dny",
-  "Za týden",
+  "Nové a chybné",
+  "Odstup 10 minut",
+  "Odstup 1 den",
+  "Odstup 3 dny",
+  "Odstup týden",
   "Naučeno",
 ];
+
+/** Časová pásma pro přehled „kdy co přijde na řadu". */
+export const DUE_BUCKETS: Array<{ label: string; within: number }> = [
+  { label: "na řadě teď", within: 0 },
+  { label: "do hodiny", within: 60 * MINUTE },
+  { label: "dnes", within: DAY },
+  { label: "do týdne", within: 7 * DAY },
+  { label: "později", within: Infinity },
+];
+
+/** Rozdělí kartičky podle toho, kdy přijdou na řadu. Odložené se nepočítají. */
+export function bucketByDue(cards: CardProgress[], now: number): number[] {
+  const counts = new Array(DUE_BUCKETS.length).fill(0);
+
+  for (const card of cards) {
+    if (card.mastered) continue;
+    const inMs = card.dueAt - now;
+    const index = DUE_BUCKETS.findIndex((bucket) => inMs <= bucket.within);
+    counts[index === -1 ? DUE_BUCKETS.length - 1 : index]++;
+  }
+  return counts;
+}
 
 export function progressKey(itemId: string, direction: Direction): string {
   return `${itemId}:${direction}`;

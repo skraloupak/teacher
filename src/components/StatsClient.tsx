@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import { Button, Panel, ProgressBar } from "@/components/ui";
 import { useAppState } from "@/hooks/useAppState";
 import { DIRECTION_LABELS } from "@/lib/settings";
-import { BOX_LABELS, MAX_BOX, isDue } from "@/lib/srs";
+import { BOX_LABELS, DUE_BUCKETS, MAX_BOX, bucketByDue, isDue } from "@/lib/srs";
 import type { Direction, Item, Lesson } from "@/lib/types";
 
 type DirectionStat = {
@@ -44,12 +44,26 @@ export function StatsClient({ lessons }: { lessons: Lesson[] }) {
 
   const orphanCount = Object.keys(progress).length - liveCards.length;
 
-  /** Rozložení podle boxů bereme dohromady – je to obrázek stavu, ne součet. */
+  /**
+   * Rozložení podle boxů bereme dohromady – je to obrázek stavu, ne součet.
+   * Ke každému boxu se počítá i to, kolik kartiček z něj už na řadu čeká;
+   * samotný počet v boxu totiž o termínu nic neříká.
+   */
   const byBox = useMemo(() => {
-    const counts = new Array(MAX_BOX + 1).fill(0);
-    for (const card of liveCards) counts[Math.min(card.box, MAX_BOX)]++;
+    const counts = Array.from({ length: MAX_BOX + 1 }, () => ({ total: 0, due: 0 }));
+    for (const card of liveCards) {
+      const box = Math.min(card.box, MAX_BOX);
+      counts[box].total++;
+      if (now !== null && isDue(card, now) && !card.mastered) counts[box].due++;
+    }
     return counts;
-  }, [liveCards]);
+  }, [liveCards, now]);
+
+  /** Kdy co přijde na řadu – to je informace, kterou uživatel opravdu hledá. */
+  const dueBuckets = useMemo(
+    () => (now === null ? null : bucketByDue(liveCards, now)),
+    [liveCards, now],
+  );
 
   /**
    * Čísla se počítají zvlášť pro každý směr. Sčítat je dohromady by mátlo:
@@ -148,20 +162,59 @@ export function StatsClient({ lessons }: { lessons: Lesson[] }) {
         </p>
       </Panel>
 
-      <Panel title="Rozložení podle boxů">
+      {dueBuckets && (
+        <Panel title="Kdy co přijde na řadu">
+          <ul className="flex flex-col gap-2">
+            {DUE_BUCKETS.map((bucket, index) => {
+              const count = dueBuckets[index];
+              const max = Math.max(...dueBuckets, 1);
+              return (
+                <li key={bucket.label} className="flex items-center gap-3">
+                  <span
+                    className={`w-24 shrink-0 text-sm ${
+                      index === 0 ? "font-semibold text-brand" : "text-ink-muted"
+                    }`}
+                  >
+                    {bucket.label}
+                  </span>
+                  <div className="flex-1">
+                    <ProgressBar value={count} max={max} />
+                  </div>
+                  <span className="w-10 shrink-0 text-right text-sm tabular-nums text-ink">
+                    {count}
+                  </span>
+                </li>
+              );
+            })}
+          </ul>
+          <p className="mt-3 text-sm text-ink-muted">
+            Počítá se přes oba směry a všechny lekce. Kolik toho dostaneš v kole, závisí na
+            tom, co máš vybrané na úvodní obrazovce.
+          </p>
+        </Panel>
+      )}
+
+      <Panel title="Rozložení podle úrovní">
         <ul className="flex flex-col gap-2">
-          {byBox.map((count, box) => (
+          {byBox.map((slot, box) => (
             <li key={box} className="flex items-center gap-3">
               <span className="w-28 shrink-0 text-sm text-ink-muted">{BOX_LABELS[box]}</span>
               <div className="flex-1">
-                <ProgressBar value={count} max={liveCards.length} />
+                <ProgressBar value={slot.total} max={liveCards.length} />
               </div>
-              <span className="w-8 shrink-0 text-right text-sm tabular-nums text-ink-muted">
-                {count}
+              <span className="w-20 shrink-0 text-right text-sm tabular-nums">
+                <span className="text-ink">{slot.total}</span>
+                {slot.due > 0 && (
+                  <span className="text-brand"> · {slot.due}</span>
+                )}
               </span>
             </li>
           ))}
         </ul>
+        <p className="mt-3 text-sm text-ink-muted">
+          Popisek říká, jaký <strong>odstup</strong> kartička dostane po správné odpovědi –
+          ne za jak dlouho se objeví. Druhé číslo modře je, kolik z nich už čeká na řadě.
+        </p>
       </Panel>
 
       {hardest.length > 0 && (

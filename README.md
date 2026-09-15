@@ -100,14 +100,18 @@ kartičky, protože jedno umíš dřív než druhé).
 
 Kartičky putují Leitnerovými boxy 0–5:
 
-| Box | Kdy se vrátí |
+| Úroveň | Odstup po správné odpovědi |
 | --- | --- |
-| 0 | hned (nová nebo čerstvě chybná) |
-| 1 | za 10 minut |
-| 2 | za den |
-| 3 | za 3 dny |
-| 4 | za týden |
-| 5 | za 3 týdny – naučeno |
+| 0 | žádný – nová nebo čerstvě chybná |
+| 1 | 10 minut |
+| 2 | den |
+| 3 | 3 dny |
+| 4 | týden |
+| 5 | 3 týdny – naučeno |
+
+Pozor na čtení statistik: `Odstup 10 minut` neznamená, že těch kartiček se dočkáš za deset
+minut. Je to odstup, který dostanou, až je dáš správně – většina z nich má termín dávno za
+sebou a čeká. Kolik toho je opravdu na řadě, ukazuje panel **Kdy co přijde na řadu**.
 
 Správná odpověď posune kartičku o box výš, chybná ji vrátí na začátek a zároveň ji hned
 zařadí zpátky do fronty aktuálního kola. Kolo končí, až všechno projde správně.
