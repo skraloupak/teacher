@@ -1,0 +1,631 @@
+{
+  "id": "u3-l10",
+  "order": 10,
+  "title": "Učebnice 3 – lekce 10",
+  "description": "Slovníček – 66 slovíček, 36 frází.",
+  "source": [
+    "screenshots/lekce/u3-l10.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "against",
+      "ipa": "əˈgenst",
+      "cs": "proti"
+    },
+    {
+      "type": "word",
+      "en": "blizzard",
+      "ipa": "ˈblɪzəd",
+      "cs": "vánice, sněhová bouře"
+    },
+    {
+      "type": "word",
+      "en": "blow, blew, blown",
+      "ipa": "bləʊ, bluː, bləʊn",
+      "cs": "foukat, vát"
+    },
+    {
+      "type": "word",
+      "en": "breeze",
+      "ipa": "briːz",
+      "cs": "vánek"
+    },
+    {
+      "type": "word",
+      "en": "Celsius",
+      "ipa": "ˈselsɪəs",
+      "cs": "Celsius"
+    },
+    {
+      "type": "word",
+      "en": "Celsius: degree Celsius",
+      "cs": "stupeň Celsia"
+    },
+    {
+      "type": "word",
+      "en": "chilly",
+      "ipa": "ˈtʃɪlɪ",
+      "cs": "chladný, mrazivý; chladno"
+    },
+    {
+      "type": "word",
+      "en": "climate",
+      "ipa": "ˈklaɪmət",
+      "cs": "podnebí, klima"
+    },
+    {
+      "type": "word",
+      "en": "close down",
+      "ipa": "ˌkləʊz ˈdaʊn",
+      "cs": "(u)zavřít (se)"
+    },
+    {
+      "type": "word",
+      "en": "cloudy",
+      "ipa": "ˈklaʊdɪ",
+      "cs": "zamračený; zamračeno"
+    },
+    {
+      "type": "word",
+      "en": "come out",
+      "cs": "vyjít",
+      "note": "slunce z mraků, publikace"
+    },
+    {
+      "type": "word",
+      "en": "couple",
+      "ipa": "ˈkʌpl",
+      "cs": "dvojice, pár"
+    },
+    {
+      "type": "word",
+      "en": "damp",
+      "ipa": "dæmp",
+      "cs": "vlhký; vlhko"
+    },
+    {
+      "type": "word",
+      "en": "delight",
+      "ipa": "dɪˈlaɪt",
+      "cs": "potěšení; rozkoš; potěšit"
+    },
+    {
+      "type": "word",
+      "en": "downpour",
+      "ipa": "ˈdaʊnpɔː",
+      "cs": "liják"
+    },
+    {
+      "type": "word",
+      "en": "dress up",
+      "cs": "obléknout (se); vyšňořit (se)",
+      "note": "jak"
+    },
+    {
+      "type": "word",
+      "en": "drop",
+      "ipa": "drɒp",
+      "cs": "kapka; (u)pustit",
+      "note": "(pp), z ruky"
+    },
+    {
+      "type": "word",
+      "en": "drought",
+      "ipa": "draʊt",
+      "cs": "sucho"
+    },
+    {
+      "type": "word",
+      "en": "exactly",
+      "ipa": "ɪgˈzæktlɪ",
+      "cs": "přesně; přesně tak"
+    },
+    {
+      "type": "word",
+      "en": "exciting",
+      "ipa": "ɪkˈsaɪtɪŋ",
+      "cs": "vzrušující"
+    },
+    {
+      "type": "word",
+      "en": "extreme",
+      "ipa": "ɪkˈstriːm",
+      "cs": "extrém; extrémní"
+    },
+    {
+      "type": "word",
+      "en": "fine",
+      "ipa": "faɪn",
+      "cs": "pěkný; pěkně",
+      "note": "o počasí"
+    },
+    {
+      "type": "word",
+      "en": "flake",
+      "ipa": "fleɪk",
+      "cs": "vločka"
+    },
+    {
+      "type": "word",
+      "en": "flood",
+      "ipa": "flʌd",
+      "cs": "povodeň, záplava; zaplavit"
+    },
+    {
+      "type": "word",
+      "en": "fog",
+      "ipa": "fɒg",
+      "cs": "mlha",
+      "note": "hustší"
+    },
+    {
+      "type": "word",
+      "en": "forecast, forecast, forecast",
+      "ipa": "ˈfɔːkɑːst",
+      "cs": "předpovídat; předpověď",
+      "note": "počasí"
+    },
+    {
+      "type": "word",
+      "en": "foreigner",
+      "ipa": "ˈfɒrənə",
+      "cs": "cizinec",
+      "note": "ze zahraničí"
+    },
+    {
+      "type": "word",
+      "en": "freeze, froze, frozen",
+      "ipa": "friːz, frəʊz, frəʊzn",
+      "cs": "(z)mrznout; zmrazit"
+    },
+    {
+      "type": "word",
+      "en": "gentle",
+      "ipa": "ˈdʒentl",
+      "cs": "jemný; mírný"
+    },
+    {
+      "type": "word",
+      "en": "go in",
+      "cs": "zajít",
+      "note": "slunce za mraky"
+    },
+    {
+      "type": "word",
+      "en": "hailstorm",
+      "ipa": "ˈheɪlstɔːm",
+      "cs": "krupobití"
+    },
+    {
+      "type": "word",
+      "en": "heat",
+      "ipa": "hiːt",
+      "cs": "horko, žár; ohřát; topit"
+    },
+    {
+      "type": "word",
+      "en": "heating",
+      "ipa": "ˈhiːtɪŋ",
+      "cs": "topení"
+    },
+    {
+      "type": "word",
+      "en": "heatwave",
+      "ipa": "ˈhiːtˌweɪv",
+      "cs": "vlna horka"
+    },
+    {
+      "type": "word",
+      "en": "hurricane",
+      "ipa": "ˈhʌrɪkən",
+      "cs": "hurikán, uragán"
+    },
+    {
+      "type": "word",
+      "en": "ice",
+      "ipa": "aɪs",
+      "cs": "led"
+    },
+    {
+      "type": "word",
+      "en": "lightning",
+      "ipa": "ˈlaɪtnɪŋ",
+      "cs": "blesk"
+    },
+    {
+      "type": "word",
+      "en": "mist",
+      "ipa": "mɪst",
+      "cs": "mlha, opar",
+      "note": "lehčí"
+    },
+    {
+      "type": "word",
+      "en": "moon",
+      "ipa": "muːn",
+      "cs": "měsíc"
+    },
+    {
+      "type": "word",
+      "en": "mountainous",
+      "ipa": "ˈmaʊntɪnəs",
+      "cs": "hornatý"
+    },
+    {
+      "type": "word",
+      "en": "overcast",
+      "ipa": "ˈəʊvəkɑːst",
+      "cs": "zatažený; zataženo"
+    },
+    {
+      "type": "word",
+      "en": "point",
+      "ipa": "pɔɪnt",
+      "cs": "smysl; pointa"
+    },
+    {
+      "type": "word",
+      "en": "pour",
+      "ipa": "pɔː",
+      "cs": "lít; nalít",
+      "note": "o dešti"
+    },
+    {
+      "type": "word",
+      "en": "rainy",
+      "ipa": "ˈreɪnɪ",
+      "cs": "deštivý"
+    },
+    {
+      "type": "word",
+      "en": "region",
+      "ipa": "ˈriːdʒən",
+      "cs": "oblast, kraj"
+    },
+    {
+      "type": "word",
+      "en": "Scotland",
+      "ipa": "ˈskɒtlənd",
+      "cs": "Skotsko"
+    },
+    {
+      "type": "word",
+      "en": "season",
+      "ipa": "ˈsiːzn",
+      "cs": "roční období; sezóna"
+    },
+    {
+      "type": "word",
+      "en": "shower",
+      "ipa": "ˈʃaʊə",
+      "cs": "přeháňka"
+    },
+    {
+      "type": "word",
+      "en": "snowdrift",
+      "ipa": "ˈsnəʊdrɪft",
+      "cs": "závěj"
+    },
+    {
+      "type": "word",
+      "en": "south-westerly",
+      "ipa": "ˌsaʊθˈwestəlɪ",
+      "cs": "jihozápadní",
+      "note": "vítr"
+    },
+    {
+      "type": "word",
+      "en": "spell",
+      "ipa": "spel",
+      "cs": "období, doba"
+    },
+    {
+      "type": "word",
+      "en": "storm",
+      "ipa": "stɔːm",
+      "cs": "bouřka"
+    },
+    {
+      "type": "word",
+      "en": "sunshine",
+      "ipa": "ˈsʌnʃaɪn",
+      "cs": "sluníčko; slunečno"
+    },
+    {
+      "type": "word",
+      "en": "superstition",
+      "ipa": "ˌsuːpəˈstɪʃn",
+      "cs": "pověra"
+    },
+    {
+      "type": "word",
+      "en": "thick",
+      "ipa": "θɪk",
+      "cs": "hustý; silný, tlustý"
+    },
+    {
+      "type": "word",
+      "en": "thunder",
+      "ipa": "ˈθʌndə",
+      "cs": "hrom, hromobití; hřmět"
+    },
+    {
+      "type": "word",
+      "en": "track",
+      "ipa": "træk",
+      "cs": "koleje; dráha"
+    },
+    {
+      "type": "word",
+      "en": "turn off",
+      "cs": "vypnout; zavřít",
+      "note": "vodu, kohoutek"
+    },
+    {
+      "type": "word",
+      "en": "turn on",
+      "cs": "zapnout; otevřít",
+      "note": "vodu, kohoutek"
+    },
+    {
+      "type": "word",
+      "en": "unpredictable",
+      "ipa": "ˌʌnprɪˈdɪktəbl",
+      "cs": "nepředvídatelný; nejistý"
+    },
+    {
+      "type": "word",
+      "en": "waste",
+      "ipa": "weɪst",
+      "cs": "plýtvání; ztráta, škoda; plýtvat, marnit",
+      "note": "čeho"
+    },
+    {
+      "type": "word",
+      "en": "water",
+      "ipa": "ˈwɔːtə",
+      "cs": "zalévat"
+    },
+    {
+      "type": "word",
+      "en": "weatherman",
+      "ipa": "ˈweðəmæn",
+      "cs": "hlasatel počasí"
+    },
+    {
+      "type": "word",
+      "en": "whether",
+      "ipa": "ˈweðə",
+      "cs": "zda, zdali, jestli"
+    },
+    {
+      "type": "word",
+      "en": "wonder",
+      "ipa": "ˈwʌndə",
+      "cs": "(ú)div; divit se"
+    },
+    {
+      "type": "word",
+      "en": "work",
+      "ipa": "wɜːk",
+      "cs": "fungovat"
+    },
+    {
+      "type": "phrase",
+      "en": "a pair – two things (or sometimes people) used or belonging together",
+      "cs": "pár – dvě věci (nebo někdy i lidé), které se používají společně nebo patří k sobě",
+      "note": "couple x pair"
+    },
+    {
+      "type": "phrase",
+      "en": "a couple – two people belonging together (eg husband and wife, boyfriend and girlfriend, two people dancing together)",
+      "cs": "dvojice – dva lidé, kteří patří k sobě (např. manžel a manželka, kluk a holka, dva lidé tančící spolu)",
+      "note": "couple x pair"
+    },
+    {
+      "type": "phrase",
+      "en": "a pair of – two",
+      "cs": "pár, dva/dvě",
+      "note": "couple x pair"
+    },
+    {
+      "type": "phrase",
+      "en": "a pair of hands",
+      "cs": "(jedny) ruce",
+      "note": "couple x pair"
+    },
+    {
+      "type": "phrase",
+      "en": "one pair of gloves",
+      "cs": "(jedny) rukavice",
+      "note": "couple x pair"
+    },
+    {
+      "type": "phrase",
+      "en": "a couple of – about two",
+      "cs": "asi dva, zhruba dva",
+      "note": "couple x pair"
+    },
+    {
+      "type": "phrase",
+      "en": "a couple of months",
+      "cs": "asi dva měsíce",
+      "note": "couple x pair"
+    },
+    {
+      "type": "phrase",
+      "en": "a couple of years",
+      "cs": "zhruba dva roky",
+      "note": "couple x pair"
+    },
+    {
+      "type": "phrase",
+      "en": "It's going to be fine/a fine day.",
+      "cs": "Dnes bude pěkně.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "Tomorrow's going to be fine.",
+      "cs": "Zítra bude pěkně.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's sunny./It's a sunny day.",
+      "cs": "Je slunečno.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "The sun's shining.",
+      "cs": "Svítí sluníčko.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "The sun's rising/coming up.",
+      "cs": "Slunce vychází.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "The sun's setting/going down.",
+      "cs": "Slunce zapadá.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "The sun's coming out/going in.",
+      "cs": "Slunce vylézá z mraků/zalézá za mraky.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's cloudy/overcast.",
+      "cs": "Je zataženo.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "The skies are clear/cloudy.",
+      "cs": "Obloha je jasná/oblačná.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's clouding over.",
+      "cs": "Zatahuje se.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's pouring (down).",
+      "cs": "Leje.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's pouring with rain.",
+      "cs": "Leje.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's frosty.",
+      "cs": "Mrzne.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's windy/foggy/damp.",
+      "cs": "Fouká vítr./Je mlha./Je vlhko.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "There's going to be fog/a downpour.",
+      "cs": "Bude mlha/liják.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "There are going to be showers.",
+      "cs": "Budou přeháňky.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "There's a light breeze blowing.",
+      "cs": "Fouká vánek.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "There's a storm coming.",
+      "cs": "Přichází bouřka.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "There's going to be a (thunder)storm.",
+      "cs": "Bude bouřka.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "Temperatures are rising/are going up.",
+      "cs": "Teploty stoupají.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "Temperatures are falling/are going down.",
+      "cs": "Teploty klesají.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's warming up/getting cooler.",
+      "cs": "Otepluje se./Ochlazuje se.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "twenty-five degrees Celsius",
+      "cs": "dvacet pět stupňů Celsia",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "minus ten/ten below zero",
+      "cs": "minus deset/deset pod nulou",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "freezing point",
+      "cs": "bod mrazu",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "There's frost./It's frosty.",
+      "cs": "Je mráz./Mrzne.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's freezing (cold)!",
+      "cs": "Je strašná zima!",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's boiling (hot)!",
+      "cs": "Je vedro!",
+      "note": "remember!"
+    }
+  ]
+}

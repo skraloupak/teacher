@@ -1,0 +1,425 @@
+{
+  "id": "u3-l4",
+  "order": 4,
+  "title": "Učebnice 3 – lekce 4",
+  "description": "Slovníček – 65 slovíček, 3 frází.",
+  "source": [
+    "screenshots/lekce/u3-l4.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "actually",
+      "ipa": "ˈæktʃʊəlɪ",
+      "cs": "skutečně, ve skutečnosti; vlastně"
+    },
+    {
+      "type": "word",
+      "en": "alive",
+      "ipa": "əˈlaɪv",
+      "cs": "živý; naživu"
+    },
+    {
+      "type": "word",
+      "en": "American",
+      "ipa": "əˈmerɪkn",
+      "cs": "americký; Američan"
+    },
+    {
+      "type": "word",
+      "en": "among",
+      "ipa": "əˈmʌŋ",
+      "cs": "mezi"
+    },
+    {
+      "type": "word",
+      "en": "autobiography",
+      "ipa": "ˌɔːtəʊbaɪˈɒgrəfɪ",
+      "cs": "vlastní životopis"
+    },
+    {
+      "type": "word",
+      "en": "backwards",
+      "ipa": "ˈbækwədz",
+      "cs": "dozadu; pozadu"
+    },
+    {
+      "type": "word",
+      "en": "beauty",
+      "ipa": "ˈbjuːtɪ",
+      "cs": "krása; kráska, krasavice"
+    },
+    {
+      "type": "word",
+      "en": "behave",
+      "ipa": "bɪˈheɪv",
+      "cs": "chovat se"
+    },
+    {
+      "type": "word",
+      "en": "behaviour",
+      "ipa": "bɪˈheɪvɪə",
+      "cs": "chování"
+    },
+    {
+      "type": "word",
+      "en": "by",
+      "ipa": "baɪ",
+      "cs": "do",
+      "note": "určité doby/určitého termínu"
+    },
+    {
+      "type": "word",
+      "en": "champagne",
+      "ipa": "ʃæmˈpeɪn",
+      "cs": "šampaňské"
+    },
+    {
+      "type": "word",
+      "en": "damage",
+      "ipa": "ˈdæmɪdʒ",
+      "cs": "škoda; poškodit"
+    },
+    {
+      "type": "word",
+      "en": "dress",
+      "ipa": "dres",
+      "cs": "obléknout (se)"
+    },
+    {
+      "type": "word",
+      "en": "drum",
+      "ipa": "drʌm",
+      "cs": "buben; bubnovat",
+      "note": "(mm)"
+    },
+    {
+      "type": "word",
+      "en": "dry",
+      "ipa": "draɪ",
+      "cs": "suchý; (u)sušit"
+    },
+    {
+      "type": "word",
+      "en": "effect",
+      "ipa": "ɪˈfekt",
+      "cs": "vliv, efekt; následek"
+    },
+    {
+      "type": "word",
+      "en": "endless",
+      "ipa": "ˈendləs",
+      "cs": "nekonečný"
+    },
+    {
+      "type": "word",
+      "en": "enthusiastic",
+      "ipa": "ɪnˌθjuːzɪˈæstɪk",
+      "cs": "nadšený"
+    },
+    {
+      "type": "word",
+      "en": "event",
+      "ipa": "ɪˈvent",
+      "cs": "událost"
+    },
+    {
+      "type": "word",
+      "en": "extravagant",
+      "ipa": "ˌɪkˈstrævəgənt",
+      "cs": "marnotratný; výstřední"
+    },
+    {
+      "type": "word",
+      "en": "fair",
+      "ipa": "feə",
+      "cs": "pouť; veletrh"
+    },
+    {
+      "type": "word",
+      "en": "float",
+      "ipa": "fləʊt",
+      "cs": "plout; vznášet se"
+    },
+    {
+      "type": "word",
+      "en": "forwards",
+      "ipa": "ˈfɔːwədz",
+      "cs": "dopředu; kupředu"
+    },
+    {
+      "type": "word",
+      "en": "freedom",
+      "ipa": "ˈfriːdm",
+      "cs": "svoboda, volnost"
+    },
+    {
+      "type": "word",
+      "en": "gate",
+      "ipa": "geɪt",
+      "cs": "brána, branka; vrata"
+    },
+    {
+      "type": "word",
+      "en": "gin",
+      "ipa": "dʒɪn",
+      "cs": "gin"
+    },
+    {
+      "type": "word",
+      "en": "gold",
+      "ipa": "gəʊld",
+      "cs": "zlato; zlatý"
+    },
+    {
+      "type": "word",
+      "en": "guest",
+      "ipa": "gest",
+      "cs": "host"
+    },
+    {
+      "type": "word",
+      "en": "happiness",
+      "ipa": "ˈhæpɪnəs",
+      "cs": "štěstí, radost"
+    },
+    {
+      "type": "word",
+      "en": "host",
+      "ipa": "həʊst",
+      "cs": "hostitel"
+    },
+    {
+      "type": "word",
+      "en": "instrument",
+      "ipa": "ˈɪnstrəmənt",
+      "cs": "nástroj"
+    },
+    {
+      "type": "word",
+      "en": "introduce",
+      "ipa": "ˌɪntrəˈdjuːs",
+      "cs": "představit; uvést"
+    },
+    {
+      "type": "word",
+      "en": "introduction",
+      "ipa": "ˌɪntrəˈdʌkʃn",
+      "cs": "představování; úvod"
+    },
+    {
+      "type": "word",
+      "en": "invent",
+      "ipa": "ɪnˈvent",
+      "cs": "vynalézt, vymyslet"
+    },
+    {
+      "type": "word",
+      "en": "judge",
+      "ipa": "dʒʌdʒ",
+      "cs": "soudce; soudit, usuzovat"
+    },
+    {
+      "type": "word",
+      "en": "light",
+      "ipa": "laɪt",
+      "cs": "světlo; světlý"
+    },
+    {
+      "type": "word",
+      "en": "low",
+      "ipa": "ləʊ",
+      "cs": "nízký; nízko"
+    },
+    {
+      "type": "word",
+      "en": "moth",
+      "ipa": "mɒθ",
+      "cs": "můra, mol",
+      "note": "šatní"
+    },
+    {
+      "type": "word",
+      "en": "motorboat",
+      "ipa": "ˈməʊtəbəʊt",
+      "cs": "motorový člun"
+    },
+    {
+      "type": "word",
+      "en": "mysterious",
+      "ipa": "mɪˈstɪərɪəs",
+      "cs": "záhadný, tajemný"
+    },
+    {
+      "type": "word",
+      "en": "negative",
+      "ipa": "ˈnegətɪv",
+      "cs": "negativní, záporný"
+    },
+    {
+      "type": "word",
+      "en": "occasion",
+      "ipa": "əˈkeɪʒn",
+      "cs": "příležitost"
+    },
+    {
+      "type": "word",
+      "en": "park",
+      "ipa": "pɑːk",
+      "cs": "parkovat"
+    },
+    {
+      "type": "word",
+      "en": "partly",
+      "ipa": "ˈpɑːtlɪ",
+      "cs": "částečně, zčásti"
+    },
+    {
+      "type": "word",
+      "en": "press",
+      "ipa": "pres",
+      "cs": "stisknout, zmáčknout"
+    },
+    {
+      "type": "word",
+      "en": "sand",
+      "ipa": "sænd",
+      "cs": "písek"
+    },
+    {
+      "type": "word",
+      "en": "saxophone",
+      "ipa": "ˈsæksəfəʊn",
+      "cs": "saxofon"
+    },
+    {
+      "type": "word",
+      "en": "servant",
+      "ipa": "ˈsɜːvnt",
+      "cs": "sluha, služebník"
+    },
+    {
+      "type": "word",
+      "en": "shallow",
+      "ipa": "ˈʃæləʊ",
+      "cs": "mělký; povrchní"
+    },
+    {
+      "type": "word",
+      "en": "social",
+      "ipa": "ˈsəʊʃl",
+      "cs": "společenský"
+    },
+    {
+      "type": "word",
+      "en": "soldier",
+      "ipa": "ˈsəʊldʒə",
+      "cs": "voják"
+    },
+    {
+      "type": "word",
+      "en": "somehow",
+      "ipa": "ˈsʌmhaʊ",
+      "cs": "nějak"
+    },
+    {
+      "type": "word",
+      "en": "spirits",
+      "ipa": "ˈspɪrɪts",
+      "cs": "lihoviny, tvrdý alkohol"
+    },
+    {
+      "type": "word",
+      "en": "spot",
+      "ipa": "spɒt",
+      "cs": "místo; tečka; skvrna"
+    },
+    {
+      "type": "word",
+      "en": "status",
+      "ipa": "ˈsteɪtəs",
+      "cs": "postavení; stav"
+    },
+    {
+      "type": "word",
+      "en": "swimmer",
+      "ipa": "ˈswɪmə",
+      "cs": "plavec"
+    },
+    {
+      "type": "word",
+      "en": "take place",
+      "ipa": "ˌteɪk ˈpleɪs",
+      "cs": "odehrát se, konat se"
+    },
+    {
+      "type": "word",
+      "en": "thumb",
+      "ipa": "θʌm",
+      "cs": "palec",
+      "note": "na ruce"
+    },
+    {
+      "type": "word",
+      "en": "wave",
+      "ipa": "weɪv",
+      "cs": "vlna; mávat"
+    },
+    {
+      "type": "word",
+      "en": "wealth",
+      "ipa": "welθ",
+      "cs": "bohatství"
+    },
+    {
+      "type": "word",
+      "en": "wealthy",
+      "ipa": "ˈwelθɪ",
+      "cs": "bohatý, zámožný"
+    },
+    {
+      "type": "word",
+      "en": "whisper",
+      "ipa": "ˈwɪspə",
+      "cs": "šeptat"
+    },
+    {
+      "type": "word",
+      "en": "wild",
+      "ipa": "waɪld",
+      "cs": "divoký"
+    },
+    {
+      "type": "word",
+      "en": "win, won, won",
+      "ipa": "wɪn, wʌn",
+      "cs": "vyhrát, zvítězit",
+      "note": "(nn)"
+    },
+    {
+      "type": "word",
+      "en": "hostess",
+      "ipa": "ˈhəʊstɪs",
+      "cs": "hostitelka",
+      "note": "guest x host"
+    },
+    {
+      "type": "phrase",
+      "en": "It's between you and me.",
+      "cs": "Je to mezi tebou a mnou.",
+      "note": "mezi: among, nebo between?"
+    },
+    {
+      "type": "phrase",
+      "en": "I didn't feel very comfortable among them.",
+      "cs": "Necítil jsem se mezi nimi moc pohodlně/dobře.",
+      "note": "mezi: among, nebo between?"
+    },
+    {
+      "type": "phrase",
+      "en": "The Czech Republic lies between Germany, Austria, Poland and Slovakia.",
+      "cs": "Česká republika leží obklopena Německem, Rakouskem, Polskem a Slovenskem.",
+      "note": "mezi: among, nebo between?"
+    }
+  ]
+}

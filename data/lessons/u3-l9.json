@@ -1,0 +1,507 @@
+{
+  "id": "u3-l9",
+  "order": 9,
+  "title": "Učebnice 3 – lekce 9",
+  "description": "Slovníček – 59 slovíček, 23 frází.",
+  "source": [
+    "screenshots/lekce/u3-l9.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "air-conditioning",
+      "ipa": "ˈeəkənˌdɪʃnɪŋ",
+      "cs": "klimatizace"
+    },
+    {
+      "type": "word",
+      "en": "airline",
+      "ipa": "ˈeəlaɪn",
+      "cs": "letecká společnost"
+    },
+    {
+      "type": "word",
+      "en": "airport",
+      "ipa": "ˈeəpɔːt",
+      "cs": "letiště"
+    },
+    {
+      "type": "word",
+      "en": "arrival",
+      "ipa": "əˈraɪvl",
+      "cs": "příjezd, příchod, přílet"
+    },
+    {
+      "type": "word",
+      "en": "as for",
+      "ipa": "ˈæz fə",
+      "cs": "pokud jde o, co se týče"
+    },
+    {
+      "type": "word",
+      "en": "as long as",
+      "ipa": "əz ˈlɒŋ əz",
+      "cs": "pokud, dokud"
+    },
+    {
+      "type": "word",
+      "en": "because of",
+      "ipa": "bɪˈkɒz əv",
+      "cs": "kvůli"
+    },
+    {
+      "type": "word",
+      "en": "channel",
+      "ipa": "ˈtʃænl",
+      "cs": "kanál; program",
+      "note": "v televizi"
+    },
+    {
+      "type": "word",
+      "en": "the English Channel",
+      "cs": "kanál La Manche"
+    },
+    {
+      "type": "word",
+      "en": "complicated",
+      "ipa": "ˈkɒmplɪkeɪtɪd",
+      "cs": "složitý"
+    },
+    {
+      "type": "word",
+      "en": "connection",
+      "ipa": "kəˈnekʃn",
+      "cs": "spoj(ení); souvislost"
+    },
+    {
+      "type": "word",
+      "en": "consider",
+      "ipa": "kənˈsɪdə",
+      "cs": "zvážit, uvažovat"
+    },
+    {
+      "type": "word",
+      "en": "cross",
+      "ipa": "krɒs",
+      "cs": "přejít, přejet, přeplavat; kříž"
+    },
+    {
+      "type": "word",
+      "en": "daily",
+      "ipa": "ˈdeɪlɪ",
+      "cs": "denní; denně"
+    },
+    {
+      "type": "word",
+      "en": "destination",
+      "ipa": "ˌdestɪˈneɪʃn",
+      "cs": "cíl, místo určení, destinace",
+      "note": "cesty"
+    },
+    {
+      "type": "word",
+      "en": "detail",
+      "ipa": "ˈdiːteɪl",
+      "cs": "detail; podrobnost"
+    },
+    {
+      "type": "word",
+      "en": "distance",
+      "ipa": "ˈdɪstəns",
+      "cs": "vzdálenost"
+    },
+    {
+      "type": "word",
+      "en": "employee",
+      "ipa": "ɪmˈplɔɪiː",
+      "cs": "zaměstnanec"
+    },
+    {
+      "type": "word",
+      "en": "express",
+      "ipa": "ɪkˈspres",
+      "cs": "expres(ní); vyjádřit"
+    },
+    {
+      "type": "word",
+      "en": "fare",
+      "ipa": "feə",
+      "cs": "jízdné"
+    },
+    {
+      "type": "word",
+      "en": "feeling",
+      "ipa": "ˈfiːlɪŋ",
+      "cs": "pocit"
+    },
+    {
+      "type": "word",
+      "en": "ferry",
+      "ipa": "ˈferɪ",
+      "cs": "trajekt"
+    },
+    {
+      "type": "word",
+      "en": "flight",
+      "ipa": "flaɪt",
+      "cs": "let"
+    },
+    {
+      "type": "word",
+      "en": "former",
+      "ipa": "ˈfɔːmə",
+      "cs": "bývalý"
+    },
+    {
+      "type": "word",
+      "en": "get (a)round to",
+      "cs": "dostat se k"
+    },
+    {
+      "type": "word",
+      "en": "get to know",
+      "cs": "poznat, seznámit se"
+    },
+    {
+      "type": "word",
+      "en": "hitchhike",
+      "ipa": "ˈhɪtʃhaɪk",
+      "cs": "stopovat, jet stopem"
+    },
+    {
+      "type": "word",
+      "en": "hovercraft",
+      "ipa": "ˈhɒvəkrɑːft",
+      "cs": "vznášedlo"
+    },
+    {
+      "type": "word",
+      "en": "in spite of",
+      "ipa": "ɪn ˈspaɪt ɒv",
+      "cs": "navzdory, přes"
+    },
+    {
+      "type": "word",
+      "en": "land",
+      "ipa": "lænd",
+      "cs": "pevnina; země; půda; přistát",
+      "note": "letadlo, pták"
+    },
+    {
+      "type": "word",
+      "en": "lift",
+      "ipa": "lɪft",
+      "cs": "odvoz, svezení"
+    },
+    {
+      "type": "word",
+      "en": "give sb a lift",
+      "cs": "svézt někoho"
+    },
+    {
+      "type": "word",
+      "en": "long-distance",
+      "ipa": "ˌlɒŋˈdɪstəns",
+      "cs": "na dlouhou vzdálenost"
+    },
+    {
+      "type": "word",
+      "en": "luggage",
+      "ipa": "ˈlʌgɪdʒ",
+      "cs": "zavazadlo, zavazadla"
+    },
+    {
+      "type": "word",
+      "en": "mid-",
+      "ipa": "mɪd",
+      "cs": "v půli",
+      "note": "čeho"
+    },
+    {
+      "type": "word",
+      "en": "non-smoking",
+      "ipa": "ˌnɒnˈsməʊkɪŋ",
+      "cs": "nekuřácký"
+    },
+    {
+      "type": "word",
+      "en": "on-line",
+      "ipa": "ˌɒnˈlaɪn",
+      "cs": "připojený na internet"
+    },
+    {
+      "type": "word",
+      "en": "passenger",
+      "ipa": "ˈpæsɪndʒə",
+      "cs": "cestující, pasažér"
+    },
+    {
+      "type": "word",
+      "en": "petrol",
+      "ipa": "ˈpetrəl",
+      "cs": "benzín"
+    },
+    {
+      "type": "word",
+      "en": "platform",
+      "ipa": "ˈplætfɔːm",
+      "cs": "nástupiště"
+    },
+    {
+      "type": "word",
+      "en": "possibility",
+      "ipa": "ˌpɒsəˈbɪlətɪ",
+      "cs": "možnost"
+    },
+    {
+      "type": "word",
+      "en": "rail",
+      "ipa": "reɪl",
+      "cs": "železnice, železniční"
+    },
+    {
+      "type": "word",
+      "en": "reason (for)",
+      "ipa": "ˈriːzn",
+      "cs": "důvod (k)"
+    },
+    {
+      "type": "word",
+      "en": "rely (on)",
+      "ipa": "rɪˈlaɪ",
+      "cs": "spoléhat se (na)"
+    },
+    {
+      "type": "word",
+      "en": "return",
+      "ipa": "rɪˈtɜːn",
+      "cs": "zpáteční",
+      "note": "jízdenka/letenka"
+    },
+    {
+      "type": "word",
+      "en": "risk",
+      "ipa": "rɪsk",
+      "cs": "riskovat; riziko"
+    },
+    {
+      "type": "word",
+      "en": "rush hour",
+      "ipa": "ˈrʌʃ ˌaʊə",
+      "cs": "dopravní špička"
+    },
+    {
+      "type": "word",
+      "en": "single",
+      "ipa": "ˈsɪŋgl",
+      "cs": "jednosměrná",
+      "note": "jízdenka/letenka"
+    },
+    {
+      "type": "word",
+      "en": "succeed",
+      "ipa": "səkˈsiːd",
+      "cs": "uspět; podařit se"
+    },
+    {
+      "type": "word",
+      "en": "suppose",
+      "ipa": "səˈpəʊz",
+      "cs": "domnívat se"
+    },
+    {
+      "type": "word",
+      "en": "sweat",
+      "ipa": "swet",
+      "cs": "potit se; pot"
+    },
+    {
+      "type": "word",
+      "en": "Switzerland",
+      "ipa": "ˈswɪtsələnd",
+      "cs": "Švýcarsko"
+    },
+    {
+      "type": "word",
+      "en": "through",
+      "ipa": "θruː",
+      "cs": "přímý; skrz",
+      "note": "spoj"
+    },
+    {
+      "type": "word",
+      "en": "traffic",
+      "ipa": "ˈtræfɪk",
+      "cs": "doprava; provoz",
+      "note": "na cestách"
+    },
+    {
+      "type": "word",
+      "en": "traffic jam",
+      "ipa": "ˈtræfɪk ˌdʒæm",
+      "cs": "dopravní zácpa"
+    },
+    {
+      "type": "word",
+      "en": "transport",
+      "ipa": "ˈtrænspɔːt",
+      "cs": "doprava, přeprava"
+    },
+    {
+      "type": "word",
+      "en": "tunnel",
+      "ipa": "ˈtʌnl",
+      "cs": "tunel"
+    },
+    {
+      "type": "word",
+      "en": "valid",
+      "ipa": "ˈvælɪd",
+      "cs": "platný"
+    },
+    {
+      "type": "word",
+      "en": "website",
+      "ipa": "ˈwebsaɪt",
+      "cs": "webová stránka"
+    },
+    {
+      "type": "phrase",
+      "en": "the day after tomorrow",
+      "cs": "pozítří",
+      "note": "the day before, the day after"
+    },
+    {
+      "type": "phrase",
+      "en": "the day before yesterday",
+      "cs": "předevčírem",
+      "note": "the day before, the day after"
+    },
+    {
+      "type": "phrase",
+      "en": "the week after next",
+      "cs": "přespříští týden",
+      "note": "the day before, the day after"
+    },
+    {
+      "type": "phrase",
+      "en": "the week before last",
+      "cs": "předminulý týden",
+      "note": "the day before, the day after"
+    },
+    {
+      "type": "phrase",
+      "en": "get around to",
+      "cs": "dostat se k činnosti",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "rely on",
+      "cs": "spolehnout se na",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "way of + -ing",
+      "cs": "způsob, jak",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in a traffic jam",
+      "cs": "v dopravní zácpě",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the rush hour",
+      "cs": "v dopravní špičce",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "pick sb up from the airport",
+      "cs": "vyzvednout někoho na letišti",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "by mid-afternoon",
+      "cs": "nejpozději v polovině odpoledne",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "these days",
+      "cs": "v současné době",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "details of",
+      "cs": "podrobnosti o",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "Where are they travelling to?",
+      "cs": "Kam jedou?",
+      "note": "kudy kam..."
+    },
+    {
+      "type": "phrase",
+      "en": "Here./There.",
+      "cs": "Sem./Tam.",
+      "note": "kudy kam..."
+    },
+    {
+      "type": "phrase",
+      "en": "As far as here/there.",
+      "cs": "Až sem/tam.",
+      "note": "kudy kam..."
+    },
+    {
+      "type": "phrase",
+      "en": "Somewhere./Nowhere./Everywhere.",
+      "cs": "Někam./Nikam./Všude.",
+      "note": "kudy kam..."
+    },
+    {
+      "type": "phrase",
+      "en": "Where are they travelling from?",
+      "cs": "Odkud jedou?",
+      "note": "kudy kam..."
+    },
+    {
+      "type": "phrase",
+      "en": "From here.",
+      "cs": "Tady odsud.",
+      "note": "kudy kam..."
+    },
+    {
+      "type": "phrase",
+      "en": "From there.",
+      "cs": "Tam odtud.",
+      "note": "kudy kam..."
+    },
+    {
+      "type": "phrase",
+      "en": "From somewhere./From nowhere./From everywhere.",
+      "cs": "Odněkud./Odnikud./Odevšad.",
+      "note": "kudy kam..."
+    },
+    {
+      "type": "phrase",
+      "en": "Which way are they travelling?",
+      "cs": "Kudy jedou?",
+      "note": "kudy kam..."
+    },
+    {
+      "type": "phrase",
+      "en": "This way./That way.",
+      "cs": "Tudy./Tamtudy.",
+      "note": "kudy kam..."
+    }
+  ]
+}

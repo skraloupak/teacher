@@ -1,0 +1,665 @@
+{
+  "id": "u3-l2",
+  "order": 2,
+  "title": "Učebnice 3 – lekce 2",
+  "description": "Slovníček – 72 slovíček, 36 frází.",
+  "source": [
+    "screenshots/lekce/u3-l2.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "ankle",
+      "ipa": "ˈæŋkl",
+      "cs": "kotník",
+      "note": "na noze"
+    },
+    {
+      "type": "word",
+      "en": "appetite",
+      "ipa": "ˈæpɪtaɪt",
+      "cs": "chuť",
+      "note": "k jídlu"
+    },
+    {
+      "type": "word",
+      "en": "appointment",
+      "ipa": "əˈpɔɪntmənt",
+      "cs": "schůzka",
+      "note": "dojednaná"
+    },
+    {
+      "type": "word",
+      "en": "article",
+      "ipa": "ˈɑːtɪkl",
+      "cs": "článek"
+    },
+    {
+      "type": "word",
+      "en": "aspirin",
+      "ipa": "ˈæsprɪn",
+      "cs": "acylpyrin, aspirin"
+    },
+    {
+      "type": "word",
+      "en": "bless",
+      "ipa": "bles",
+      "cs": "požehnat"
+    },
+    {
+      "type": "word",
+      "en": "break, broke, broken",
+      "ipa": "breɪk, brəʊk, brəʊkn",
+      "cs": "zlámat; rozbít (se)"
+    },
+    {
+      "type": "word",
+      "en": "call out",
+      "ipa": "ˌkɔːl ˈaʊt",
+      "cs": "zavolat, ohlásit"
+    },
+    {
+      "type": "word",
+      "en": "check-up",
+      "ipa": "ˈtʃekʌp",
+      "cs": "kontrola",
+      "note": "lékařská"
+    },
+    {
+      "type": "word",
+      "en": "chest",
+      "ipa": "tʃest",
+      "cs": "hruď, hrudník"
+    },
+    {
+      "type": "word",
+      "en": "clear",
+      "ipa": "klɪə",
+      "cs": "jasný, zřejmý; zřetelný"
+    },
+    {
+      "type": "word",
+      "en": "closely",
+      "ipa": "ˈkləʊslɪ",
+      "cs": "pozorně, důkladně; zblízka"
+    },
+    {
+      "type": "word",
+      "en": "cold",
+      "ipa": "kəʊld",
+      "cs": "nachlazení; zima, chlad(no)"
+    },
+    {
+      "type": "word",
+      "en": "cough",
+      "ipa": "kɒf",
+      "cs": "kašel; kašlat"
+    },
+    {
+      "type": "word",
+      "en": "cure",
+      "ipa": "kjʊə",
+      "cs": "léčba, lék; vyléčit"
+    },
+    {
+      "type": "word",
+      "en": "depression",
+      "ipa": "dɪˈpreʃn",
+      "cs": "deprese"
+    },
+    {
+      "type": "word",
+      "en": "fall over",
+      "ipa": "ˌfɔːl ˈəʊvə",
+      "cs": "upadnout"
+    },
+    {
+      "type": "word",
+      "en": "flu = influenza",
+      "ipa": "fluː, ˌɪnflʊˈenzə",
+      "cs": "chřipka"
+    },
+    {
+      "type": "word",
+      "en": "general",
+      "ipa": "ˈdʒenərəl",
+      "cs": "všeobecný, obecný, celkový"
+    },
+    {
+      "type": "word",
+      "en": "glad",
+      "ipa": "glæd",
+      "cs": "rád"
+    },
+    {
+      "type": "word",
+      "en": "glad: be glad",
+      "cs": "být rád"
+    },
+    {
+      "type": "word",
+      "en": "G.P. = general practitioner",
+      "ipa": "ˌdʒiː ˈpiː, ˌdʒenərəl prækˈtɪʃənə",
+      "cs": "praktický lékař"
+    },
+    {
+      "type": "word",
+      "en": "handkerchief",
+      "ipa": "ˈhæŋkətʃiːf",
+      "cs": "kapesník"
+    },
+    {
+      "type": "word",
+      "en": "head",
+      "ipa": "hed",
+      "cs": "hlava"
+    },
+    {
+      "type": "word",
+      "en": "headache",
+      "ipa": "ˈhedeɪk",
+      "cs": "bolest hlavy"
+    },
+    {
+      "type": "word",
+      "en": "ill",
+      "ipa": "ɪl",
+      "cs": "nemocný"
+    },
+    {
+      "type": "word",
+      "en": "Italy",
+      "ipa": "ˈɪtəlɪ",
+      "cs": "Itálie"
+    },
+    {
+      "type": "word",
+      "en": "knock",
+      "ipa": "nɒk",
+      "cs": "(za)klepat, ťukat"
+    },
+    {
+      "type": "word",
+      "en": "let, let, let",
+      "ipa": "let",
+      "cs": "dovolit, povolit, nechat",
+      "note": "(tt)"
+    },
+    {
+      "type": "word",
+      "en": "let sb know",
+      "cs": "dát vědět, uvědomit",
+      "note": "komu, koho"
+    },
+    {
+      "type": "word",
+      "en": "match",
+      "ipa": "mætʃ",
+      "cs": "zápas"
+    },
+    {
+      "type": "word",
+      "en": "medicine",
+      "ipa": "ˈmedsn",
+      "cs": "lék; medicína"
+    },
+    {
+      "type": "word",
+      "en": "mirror",
+      "ipa": "ˈmɪrə",
+      "cs": "zrcadlo"
+    },
+    {
+      "type": "word",
+      "en": "nurse",
+      "ipa": "nɜːs",
+      "cs": "zdravotní sestra"
+    },
+    {
+      "type": "word",
+      "en": "otherwise",
+      "ipa": "ˈʌðəwaɪz",
+      "cs": "jinak"
+    },
+    {
+      "type": "word",
+      "en": "pain",
+      "ipa": "peɪn",
+      "cs": "bolest"
+    },
+    {
+      "type": "word",
+      "en": "pale",
+      "ipa": "peɪl",
+      "cs": "bledý"
+    },
+    {
+      "type": "word",
+      "en": "plaster",
+      "ipa": "ˈplɑːstə",
+      "cs": "sádra; náplast"
+    },
+    {
+      "type": "word",
+      "en": "pneumonia",
+      "ipa": "njuːˈməʊnɪə",
+      "cs": "zápal plic"
+    },
+    {
+      "type": "word",
+      "en": "point",
+      "ipa": "pɔɪnt",
+      "cs": "tečka, bod; desetinná čárka"
+    },
+    {
+      "type": "word",
+      "en": "prescribe",
+      "ipa": "prɪˈskraɪb",
+      "cs": "předepsat"
+    },
+    {
+      "type": "word",
+      "en": "prescription",
+      "ipa": "prɪˈskrɪpʃn",
+      "cs": "předpis",
+      "note": "lékařský"
+    },
+    {
+      "type": "word",
+      "en": "pressure",
+      "ipa": "ˈpreʃə",
+      "cs": "tlak"
+    },
+    {
+      "type": "word",
+      "en": "promise",
+      "ipa": "ˈprɒmɪs",
+      "cs": "slibovat; slib"
+    },
+    {
+      "type": "word",
+      "en": "promotion",
+      "ipa": "prəˈməʊʃn",
+      "cs": "povýšení; propagace"
+    },
+    {
+      "type": "word",
+      "en": "put on",
+      "ipa": "ˌpʊt ˈɒn",
+      "cs": "obléknout (si)"
+    },
+    {
+      "type": "word",
+      "en": "reception",
+      "ipa": "rɪˈsepʃn",
+      "cs": "recepce; příjem"
+    },
+    {
+      "type": "word",
+      "en": "receptionist",
+      "ipa": "rɪˈsepʃnɪst",
+      "cs": "recepční"
+    },
+    {
+      "type": "word",
+      "en": "recover",
+      "ipa": "rɪˈkʌvə",
+      "cs": "zotavit se; uzdravit se"
+    },
+    {
+      "type": "word",
+      "en": "reply (to)",
+      "ipa": "rɪˈplaɪ",
+      "cs": "odpovědět (na); odepsat (na); odpověď (na)"
+    },
+    {
+      "type": "word",
+      "en": "rest",
+      "ipa": "rest",
+      "cs": "odpočinek; odpočívat"
+    },
+    {
+      "type": "word",
+      "en": "runny nose",
+      "ipa": "ˌrʌnɪ ˈnəʊz",
+      "cs": "nos, ze kterého teče; rýma"
+    },
+    {
+      "type": "word",
+      "en": "sign",
+      "ipa": "saɪn",
+      "cs": "znamení"
+    },
+    {
+      "type": "word",
+      "en": "ski",
+      "ipa": "skiː",
+      "cs": "lyžovat; lyže"
+    },
+    {
+      "type": "word",
+      "en": "sneeze",
+      "ipa": "sniːz",
+      "cs": "kýchat"
+    },
+    {
+      "type": "word",
+      "en": "sore",
+      "ipa": "sɔː",
+      "cs": "bolavý; bolák"
+    },
+    {
+      "type": "word",
+      "en": "sprain",
+      "ipa": "spreɪn",
+      "cs": "vymknout; vymknutí"
+    },
+    {
+      "type": "word",
+      "en": "stomach",
+      "ipa": "ˈstʌmək",
+      "cs": "žaludek; břicho"
+    },
+    {
+      "type": "word",
+      "en": "stress",
+      "ipa": "stres",
+      "cs": "stres; (vy)stresovat"
+    },
+    {
+      "type": "word",
+      "en": "suffer (from)",
+      "ipa": "ˈsʌfə",
+      "cs": "trpět (čím)"
+    },
+    {
+      "type": "word",
+      "en": "symptom",
+      "ipa": "ˈsɪmptəm",
+      "cs": "příznak"
+    },
+    {
+      "type": "word",
+      "en": "tablet",
+      "ipa": "ˈtæblət",
+      "cs": "tableta"
+    },
+    {
+      "type": "word",
+      "en": "take off",
+      "ipa": "ˌteɪk ˈɒf",
+      "cs": "svléknout (si)"
+    },
+    {
+      "type": "word",
+      "en": "team",
+      "ipa": "tiːm",
+      "cs": "mužstvo; tým; kolektiv"
+    },
+    {
+      "type": "word",
+      "en": "temperature",
+      "ipa": "ˈtemprətʃə",
+      "cs": "teplota"
+    },
+    {
+      "type": "word",
+      "en": "thermometer",
+      "ipa": "θəˈmɒmɪtə",
+      "cs": "teploměr"
+    },
+    {
+      "type": "word",
+      "en": "throat",
+      "ipa": "θrəʊt",
+      "cs": "hrdlo, krk"
+    },
+    {
+      "type": "word",
+      "en": "unwell",
+      "ipa": "ʌnˈwel",
+      "cs": "nemocen, necítící se dobře"
+    },
+    {
+      "type": "word",
+      "en": "vitamin",
+      "ipa": "ˈvɪtəmɪn",
+      "cs": "vitamín"
+    },
+    {
+      "type": "word",
+      "en": "waiting room",
+      "ipa": "ˈweɪtɪŋ rʊm",
+      "cs": "čekárna"
+    },
+    {
+      "type": "word",
+      "en": "wedding",
+      "ipa": "ˈwedɪŋ",
+      "cs": "svatba"
+    },
+    {
+      "type": "word",
+      "en": "wet",
+      "ipa": "wet",
+      "cs": "mokrý; namočit",
+      "note": "(tt)"
+    },
+    {
+      "type": "phrase",
+      "en": "half – halves",
+      "cs": "polovina – poloviny",
+      "note": "handkerchief – handkerchieves!"
+    },
+    {
+      "type": "phrase",
+      "en": "knife – knives",
+      "cs": "nůž – nože",
+      "note": "handkerchief – handkerchieves!"
+    },
+    {
+      "type": "phrase",
+      "en": "life – lives",
+      "cs": "život – životy",
+      "note": "handkerchief – handkerchieves!"
+    },
+    {
+      "type": "phrase",
+      "en": "shelf – shelves",
+      "cs": "police – police",
+      "note": "handkerchief – handkerchieves!"
+    },
+    {
+      "type": "phrase",
+      "en": "wife – wives",
+      "cs": "manželka – manželky",
+      "note": "handkerchief – handkerchieves!"
+    },
+    {
+      "type": "phrase",
+      "en": "come in",
+      "cs": "vstoupit",
+      "note": "phrasal verbs"
+    },
+    {
+      "type": "phrase",
+      "en": "pick up",
+      "cs": "zvednout, sebrat; vyzvednout",
+      "note": "phrasal verbs"
+    },
+    {
+      "type": "phrase",
+      "en": "turn (a)round",
+      "cs": "ohlédnout se, otočit se",
+      "note": "phrasal verbs"
+    },
+    {
+      "type": "phrase",
+      "en": "thirty-six point eight",
+      "cs": "36.8",
+      "note": "temperature"
+    },
+    {
+      "type": "phrase",
+      "en": "thirty-seven point five",
+      "cs": "37.5",
+      "note": "temperature"
+    },
+    {
+      "type": "phrase",
+      "en": "make an appointment",
+      "cs": "objednat se",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "go to the doctor's/be at the doctor's",
+      "cs": "jít k lékaři/být u lékaře",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "go for a (general) check-up",
+      "cs": "jít na (preventivní) prohlídku",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I've got an appointment with...",
+      "cs": "Jsem objednán k...",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "Take a seat in the waiting room, please.",
+      "cs": "Posaďte se v čekárně.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "Next, please!",
+      "cs": "Další!",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I feel unwell.",
+      "cs": "Není mi dobře./Necítím se dobře.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I've got a cold./I've caught a cold.",
+      "cs": "Jsem nastydlý.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I've got (the) flu.",
+      "cs": "Mám chřipku.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I've got a headache/a stomachache/a backache.",
+      "cs": "Bolí mě hlava/žaludek/záda.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "My back aches/hurts.",
+      "cs": "Bolí mě záda.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I've got a sore throat.",
+      "cs": "Bolí mě v krku.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I've got a cough/a runny nose.",
+      "cs": "Mám kašel/rýmu.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I keep coughing/sneezing.",
+      "cs": "Kašlu/Kýchám.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I've lost my appetite.",
+      "cs": "Ztratil jsem/Nemám chuť k jídlu.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I've fallen over.",
+      "cs": "Upadl jsem.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I've broken/sprained my ankle.",
+      "cs": "Zlomil/Vymkl jsem si kotník.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I suffer from high blood pressure.",
+      "cs": "Mám vysoký tlak.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "Is there a cure for it?",
+      "cs": "Je na to lék?",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I'll take your temperature.",
+      "cs": "Změřím vám teplotu.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "We'll do a blood test.",
+      "cs": "Uděláme krevní test.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "thirty-six point six",
+      "cs": "třicet šest šest",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "prescribe a medicine/some tablets",
+      "cs": "předepsat lék/tablety",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "Take it three times a day.",
+      "cs": "Berte to třikrát denně.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "Take it every four hours.",
+      "cs": "Berte to každé čtyři hodiny.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "Take it on an empty stomach.",
+      "cs": "Berte to na lačno.",
+      "note": "remember!"
+    }
+  ]
+}

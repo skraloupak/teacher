@@ -1,0 +1,742 @@
+{
+  "id": "u3-l5",
+  "order": 5,
+  "title": "Učebnice 3 – lekce 5",
+  "description": "Slovníček – 70 slovíček, 50 frází.",
+  "source": [
+    "screenshots/lekce/u3-l5.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "banana",
+      "ipa": "bəˈnɑːnə",
+      "cs": "banán"
+    },
+    {
+      "type": "word",
+      "en": "boutique",
+      "ipa": "buːˈtiːk",
+      "cs": "butik"
+    },
+    {
+      "type": "word",
+      "en": "brand",
+      "ipa": "brænd",
+      "cs": "značka",
+      "note": "obchodní"
+    },
+    {
+      "type": "word",
+      "en": "can",
+      "ipa": "kæn",
+      "cs": "plechovka, konzerva"
+    },
+    {
+      "type": "word",
+      "en": "car park",
+      "ipa": "ˈkɑː ˌpɑːk",
+      "cs": "parkoviště"
+    },
+    {
+      "type": "word",
+      "en": "cash",
+      "ipa": "kæʃ",
+      "cs": "hotovost"
+    },
+    {
+      "type": "word",
+      "en": "charge",
+      "ipa": "tʃɑːdʒ",
+      "cs": "(na)účtovat"
+    },
+    {
+      "type": "word",
+      "en": "chemist's",
+      "ipa": "ˈkemɪsts",
+      "cs": "drogerie, lékárna"
+    },
+    {
+      "type": "word",
+      "en": "cheque",
+      "ipa": "tʃek",
+      "cs": "šek"
+    },
+    {
+      "type": "word",
+      "en": "choice",
+      "ipa": "tʃɔɪs",
+      "cs": "výběr, nabídka; volba"
+    },
+    {
+      "type": "word",
+      "en": "correct",
+      "ipa": "kəˈrekt",
+      "cs": "správný; opravit",
+      "note": "chybu"
+    },
+    {
+      "type": "word",
+      "en": "credit",
+      "ipa": "ˈkredɪt",
+      "cs": "kredit, úvěr"
+    },
+    {
+      "type": "word",
+      "en": "credit card",
+      "ipa": "ˈkredɪt ˌkɑːd",
+      "cs": "kreditní karta"
+    },
+    {
+      "type": "word",
+      "en": "department",
+      "ipa": "dɪˈpɑːtmənt",
+      "cs": "oddělení"
+    },
+    {
+      "type": "word",
+      "en": "despite",
+      "ipa": "dɪˈspaɪt",
+      "cs": "navzdory, přes"
+    },
+    {
+      "type": "word",
+      "en": "dozen",
+      "ipa": "ˈdʌzn",
+      "cs": "tucet"
+    },
+    {
+      "type": "word",
+      "en": "draw out",
+      "ipa": "ˌdrɔː ˈaʊt",
+      "cs": "vybrat",
+      "note": "peníze"
+    },
+    {
+      "type": "word",
+      "en": "envelope",
+      "ipa": "ˈenvələʊp",
+      "cs": "obálka",
+      "note": "poštovní"
+    },
+    {
+      "type": "word",
+      "en": "escalator",
+      "ipa": "ˈeskəleɪtə",
+      "cs": "pohyblivé schody"
+    },
+    {
+      "type": "word",
+      "en": "except (for)",
+      "ipa": "ɪkˈsept",
+      "cs": "kromě, až na"
+    },
+    {
+      "type": "word",
+      "en": "exchange",
+      "ipa": "ɪksˈtʃeɪndʒ",
+      "cs": "vyměnit, směnit; výměna"
+    },
+    {
+      "type": "word",
+      "en": "exercise book",
+      "ipa": "ˈeksəsaɪz ˌbʊk",
+      "cs": "sešit"
+    },
+    {
+      "type": "word",
+      "en": "fitting room",
+      "ipa": "ˈfɪtɪŋ ˌrʊm",
+      "cs": "kabinka",
+      "note": "ke zkoušení oděvů"
+    },
+    {
+      "type": "word",
+      "en": "flour",
+      "ipa": "ˈflaʊə",
+      "cs": "mouka"
+    },
+    {
+      "type": "word",
+      "en": "frown",
+      "ipa": "fraʊn",
+      "cs": "mračit se; zamračený výraz"
+    },
+    {
+      "type": "word",
+      "en": "goods",
+      "ipa": "gʊdz",
+      "cs": "zboží",
+      "note": "mn. č."
+    },
+    {
+      "type": "word",
+      "en": "gram",
+      "ipa": "græm",
+      "cs": "gram"
+    },
+    {
+      "type": "word",
+      "en": "grapes",
+      "ipa": "greɪps",
+      "cs": "hroznové víno",
+      "note": "mn. č."
+    },
+    {
+      "type": "word",
+      "en": "greengrocer's",
+      "ipa": "ˈgriːnˌgrəʊsəz",
+      "cs": "ovoce-zelenina",
+      "note": "obchod"
+    },
+    {
+      "type": "word",
+      "en": "list",
+      "ipa": "lɪst",
+      "cs": "seznam; vyjmenovat"
+    },
+    {
+      "type": "word",
+      "en": "litre",
+      "ipa": "ˈliːtə",
+      "cs": "litr"
+    },
+    {
+      "type": "word",
+      "en": "loaf",
+      "ipa": "ləʊf",
+      "cs": "bochník",
+      "note": "mn. č. loaves [ləʊvz]"
+    },
+    {
+      "type": "word",
+      "en": "newsagent's",
+      "ipa": "ˈnjuːzˌeɪdʒnts",
+      "cs": "trafika"
+    },
+    {
+      "type": "word",
+      "en": "order",
+      "ipa": "ˈɔːdə",
+      "cs": "pořádek, pořadí; seřadit"
+    },
+    {
+      "type": "word",
+      "en": "order: out of order",
+      "cs": "mimo provoz"
+    },
+    {
+      "type": "word",
+      "en": "overcharge",
+      "ipa": "ˌəʊvəˈtʃɑːdʒ",
+      "cs": "účtovat vyšší cenu/ceny",
+      "note": "než správnou/správné"
+    },
+    {
+      "type": "word",
+      "en": "overpriced",
+      "ipa": "ˌəʊvəˈpraɪst",
+      "cs": "předražený"
+    },
+    {
+      "type": "word",
+      "en": "pen",
+      "ipa": "pen",
+      "cs": "pero, propiska"
+    },
+    {
+      "type": "word",
+      "en": "pencil",
+      "ipa": "ˈpensl",
+      "cs": "tužka"
+    },
+    {
+      "type": "word",
+      "en": "product",
+      "ipa": "ˈprɒdʌkt",
+      "cs": "výrobek"
+    },
+    {
+      "type": "word",
+      "en": "purse",
+      "ipa": "pɜːs",
+      "cs": "peněženka",
+      "note": "zprav. dámská"
+    },
+    {
+      "type": "word",
+      "en": "queue",
+      "ipa": "kjuː",
+      "cs": "fronta; stát ve frontě"
+    },
+    {
+      "type": "word",
+      "en": "receipt",
+      "ipa": "rɪˈsiːt",
+      "cs": "účtenka, paragon"
+    },
+    {
+      "type": "word",
+      "en": "refund",
+      "ipa": "rɪˈfʌnd",
+      "cs": "vrátit peníze, proplatit; [ˈriːfʌnd] vrácení peněz"
+    },
+    {
+      "type": "word",
+      "en": "save",
+      "ipa": "seɪv",
+      "cs": "šetřit; zachránit"
+    },
+    {
+      "type": "word",
+      "en": "selection",
+      "ipa": "səˈlekʃn",
+      "cs": "výběr, sortiment"
+    },
+    {
+      "type": "word",
+      "en": "serve",
+      "ipa": "sɜːv",
+      "cs": "obsluhovat"
+    },
+    {
+      "type": "word",
+      "en": "shampoo",
+      "ipa": "ʃæmˈpuː",
+      "cs": "šampón"
+    },
+    {
+      "type": "word",
+      "en": "shop assistant",
+      "ipa": "ˈʃɒp əˌsɪstənt",
+      "cs": "prodavač"
+    },
+    {
+      "type": "word",
+      "en": "shop window",
+      "ipa": "ˌʃɒp ˈwɪndəʊ",
+      "cs": "výloha"
+    },
+    {
+      "type": "word",
+      "en": "space",
+      "ipa": "speɪs",
+      "cs": "místo; prostor; vesmír"
+    },
+    {
+      "type": "word",
+      "en": "stationer's",
+      "ipa": "ˈsteɪʃənəz",
+      "cs": "papírnictví"
+    },
+    {
+      "type": "word",
+      "en": "stock",
+      "ipa": "stɒk",
+      "cs": "zásoba"
+    },
+    {
+      "type": "word",
+      "en": "stock: in stock",
+      "cs": "v prodejně, na skladě"
+    },
+    {
+      "type": "word",
+      "en": "store",
+      "ipa": "stɔː",
+      "cs": "sklad; obchod"
+    },
+    {
+      "type": "word",
+      "en": "store: department store",
+      "cs": "obchodní dům"
+    },
+    {
+      "type": "word",
+      "en": "take",
+      "ipa": "teɪk",
+      "cs": "trvat",
+      "note": "o čase"
+    },
+    {
+      "type": "word",
+      "en": "till",
+      "ipa": "tɪl",
+      "cs": "kasa, pokladna"
+    },
+    {
+      "type": "word",
+      "en": "tin",
+      "ipa": "tɪn",
+      "cs": "konzerva"
+    },
+    {
+      "type": "word",
+      "en": "toothbrush",
+      "ipa": "ˈtuːθbrʌʃ",
+      "cs": "kartáček na zuby"
+    },
+    {
+      "type": "word",
+      "en": "trolley",
+      "ipa": "ˈtrɒlɪ",
+      "cs": "vozík",
+      "note": "nákupní"
+    },
+    {
+      "type": "word",
+      "en": "tuna",
+      "ipa": "ˈtjuːnə",
+      "cs": "tuňák"
+    },
+    {
+      "type": "word",
+      "en": "turn: It's your turn.",
+      "ipa": "tɜːn",
+      "cs": "Jsi na řadě."
+    },
+    {
+      "type": "word",
+      "en": "value",
+      "ipa": "ˈvæljuː",
+      "cs": "hodnota, cena"
+    },
+    {
+      "type": "word",
+      "en": "vase",
+      "ipa": "vɑːz",
+      "cs": "váza"
+    },
+    {
+      "type": "word",
+      "en": "wallet",
+      "ipa": "ˈwɒlɪt",
+      "cs": "peněženka",
+      "note": "zprav. pánská"
+    },
+    {
+      "type": "word",
+      "en": "weigh",
+      "ipa": "weɪ",
+      "cs": "vážit, zvážit"
+    },
+    {
+      "type": "phrase",
+      "en": "If it's drink we put it in a can.",
+      "cs": "Když jde o nápoj, dáváme ho do plechovky.",
+      "note": "can or tin?"
+    },
+    {
+      "type": "phrase",
+      "en": "a can of Coke",
+      "cs": "plechovka koly",
+      "note": "can or tin?"
+    },
+    {
+      "type": "phrase",
+      "en": "Food is usually put in a tin.",
+      "cs": "Jídlo se obvykle dává do konzervy.",
+      "note": "can or tin?"
+    },
+    {
+      "type": "phrase",
+      "en": "a tin of tuna",
+      "cs": "konzerva tuňáka",
+      "note": "can or tin?"
+    },
+    {
+      "type": "phrase",
+      "en": "in my experience",
+      "cs": "podle mých zkušeností",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at the till",
+      "cs": "u pokladny",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the High Street",
+      "cs": "na hlavní ulici",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "out of order",
+      "cs": "mimo provoz",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in stock",
+      "cs": "na skladě",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in all sizes",
+      "cs": "ve všech velikostech",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "except (for) your size",
+      "cs": "kromě vaší velikosti",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "for decoration",
+      "cs": "na ozdobu",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at the supermarket",
+      "cs": "v samoobsluze",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "by credit card",
+      "cs": "kreditní kartou",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at the bank",
+      "cs": "v bance",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in cash",
+      "cs": "v hotovosti",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on special offer",
+      "cs": "v nabídce",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at the stationer's",
+      "cs": "v papírnictví",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "two sizes too large",
+      "cs": "o dvě velikosti větší",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "A lot of shop names come from the names of people who own them or work in them.",
+      "cs": "Řada názvů obchodů pochází ze jmen lidí, kteří je vlastní nebo v nich pracují.",
+      "note": "shop names"
+    },
+    {
+      "type": "word",
+      "en": "baker's",
+      "cs": "pekařství",
+      "note": "shop names"
+    },
+    {
+      "type": "word",
+      "en": "butcher's",
+      "cs": "řeznictví",
+      "note": "shop names"
+    },
+    {
+      "type": "phrase",
+      "en": "at the newsagent's",
+      "cs": "v trafice",
+      "note": "shop names"
+    },
+    {
+      "type": "phrase",
+      "en": "Others come from the type of goods that the shop sells.",
+      "cs": "Další názvy pocházejí z druhu zboží, které obchod prodává.",
+      "note": "shop names"
+    },
+    {
+      "type": "word",
+      "en": "bookshop",
+      "cs": "knihkupectví",
+      "note": "shop names"
+    },
+    {
+      "type": "phrase",
+      "en": "pet shop",
+      "cs": "obchod se zvířaty",
+      "note": "shop names"
+    },
+    {
+      "type": "phrase",
+      "en": "shoe shop",
+      "cs": "obchod obuví",
+      "note": "shop names"
+    },
+    {
+      "type": "phrase",
+      "en": "at the toy shop",
+      "cs": "v hračkářství",
+      "note": "shop names"
+    },
+    {
+      "type": "phrase",
+      "en": "Are you being served?",
+      "cs": "Už dostáváte?",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm already being served, thank you.",
+      "cs": "Děkuji. Už dostávám.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "How can I help you?",
+      "cs": "Čím mohu posloužit?",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "Where's the sports department, please?",
+      "cs": "Kde je oddělení sportu?",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "Where are the fitting rooms, please?",
+      "cs": "Kde jsou kabinky?",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I'd like these in (a) size five, please.",
+      "cs": "Chtěla bych tyto v pětce.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "We haven't got them in stock.",
+      "cs": "Právě teď je nemáme.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "We don't stock it.",
+      "cs": "To nevedeme.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "There's one in the (shop) window.",
+      "cs": "Jeden je ve výloze.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's on special offer.",
+      "cs": "Je to v nabídce.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "Five pounds off!",
+      "cs": "Se slevou pěti liber!",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "Three for the price of two!",
+      "cs": "Tři kusy za cenu dvou.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It was half-price.",
+      "cs": "Bylo to za polovinu běžné ceny.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's good value/a real bargain.",
+      "cs": "To je výhodná koupě.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's overpriced.",
+      "cs": "Je to předražené.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I haven't got enough money on me.",
+      "cs": "Nemám u sebe dost peněz.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "How would you like to pay?",
+      "cs": "Jak budete platit?",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "by cheque/by credit card",
+      "cs": "šekem/kreditní kartou",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "Have you got anything smaller?",
+      "cs": "Nemáte menší?",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "Here's your change.",
+      "cs": "Tady máte nazpátek.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "Could I have my (till) receipt, please?",
+      "cs": "Prosil bych účtenku.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "Your receipt's in the bag.",
+      "cs": "Účtenku máte v tašce.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's a size too large.",
+      "cs": "Je to o číslo větší.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "Can I exchange it for something else?",
+      "cs": "Mohu to vyměnit za něco jiného?",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I'd like a refund, please.",
+      "cs": "Chtěl bych vrátit peníze.",
+      "note": "remember!"
+    }
+  ]
+}

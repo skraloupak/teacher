@@ -1,0 +1,638 @@
+{
+  "id": "u3-l11",
+  "order": 11,
+  "title": "Učebnice 3 – lekce 11",
+  "description": "Slovníček – 93 slovíček, 7 frází.",
+  "source": [
+    "screenshots/lekce/u3-l11.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "agriculture",
+      "ipa": "ˈægrɪˌkʌltʃə",
+      "cs": "zemědělství"
+    },
+    {
+      "type": "word",
+      "en": "average",
+      "ipa": "ˈævərɪdʒ",
+      "cs": "průměr; průměrný"
+    },
+    {
+      "type": "word",
+      "en": "battle",
+      "ipa": "ˈbætl",
+      "cs": "bitva, boj; bojovat"
+    },
+    {
+      "type": "word",
+      "en": "besides",
+      "ipa": "bɪˈsaɪdz",
+      "cs": "kromě toho, nadto"
+    },
+    {
+      "type": "word",
+      "en": "cattle",
+      "ipa": "ˈkætl",
+      "cs": "dobytek"
+    },
+    {
+      "type": "word",
+      "en": "central",
+      "ipa": "ˈsentrəl",
+      "cs": "střední"
+    },
+    {
+      "type": "word",
+      "en": "Christian",
+      "ipa": "ˈkrɪstʃən",
+      "cs": "křesťan; křesťanský"
+    },
+    {
+      "type": "word",
+      "en": "circle",
+      "ipa": "ˈsɜːkl",
+      "cs": "kruh, okruh; zakroužkovat"
+    },
+    {
+      "type": "word",
+      "en": "coal",
+      "ipa": "kəʊl",
+      "cs": "uhlí"
+    },
+    {
+      "type": "word",
+      "en": "coast",
+      "ipa": "kəʊst",
+      "cs": "pobřeží"
+    },
+    {
+      "type": "word",
+      "en": "currency",
+      "ipa": "ˈkʌrənsɪ",
+      "cs": "měna; valuta"
+    },
+    {
+      "type": "word",
+      "en": "daffodil",
+      "ipa": "ˈdæfədɪl",
+      "cs": "narcis"
+    },
+    {
+      "type": "word",
+      "en": "destroy",
+      "ipa": "dɪˈstrɔɪ",
+      "cs": "zničit"
+    },
+    {
+      "type": "word",
+      "en": "develop",
+      "ipa": "dɪˈveləp",
+      "cs": "vyvíjet (se), rozvíjet (se)"
+    },
+    {
+      "type": "word",
+      "en": "discover",
+      "ipa": "dɪsˈkʌvə",
+      "cs": "objevit"
+    },
+    {
+      "type": "word",
+      "en": "empire",
+      "ipa": "ˈempaɪə",
+      "cs": "říše, impérium"
+    },
+    {
+      "type": "word",
+      "en": "engine",
+      "ipa": "ˈendʒɪn",
+      "cs": "stroj; motor"
+    },
+    {
+      "type": "word",
+      "en": "ethnic",
+      "ipa": "ˈeθnɪk",
+      "cs": "etnický"
+    },
+    {
+      "type": "word",
+      "en": "execute",
+      "ipa": "ˈeksɪkjuːt",
+      "cs": "popravit"
+    },
+    {
+      "type": "word",
+      "en": "fire",
+      "ipa": "faɪə",
+      "cs": "oheň; požár"
+    },
+    {
+      "type": "word",
+      "en": "fireworks",
+      "ipa": "ˈfaɪəwɜːks",
+      "cs": "ohňostroj"
+    },
+    {
+      "type": "word",
+      "en": "flag",
+      "ipa": "flæg",
+      "cs": "vlajka, prapor"
+    },
+    {
+      "type": "word",
+      "en": "flow",
+      "ipa": "fləʊ",
+      "cs": "téct, proudit; tok, proud"
+    },
+    {
+      "type": "word",
+      "en": "gas",
+      "ipa": "gæs",
+      "cs": "plyn"
+    },
+    {
+      "type": "word",
+      "en": "government",
+      "ipa": "ˈgʌvnmənt",
+      "cs": "vláda"
+    },
+    {
+      "type": "word",
+      "en": "height",
+      "ipa": "haɪt",
+      "cs": "výška"
+    },
+    {
+      "type": "word",
+      "en": "industry",
+      "ipa": "ˈɪndəstrɪ",
+      "cs": "průmysl; průmyslové odvětví"
+    },
+    {
+      "type": "word",
+      "en": "Irish",
+      "ipa": "ˈaɪrɪʃ",
+      "cs": "irský; irština"
+    },
+    {
+      "type": "word",
+      "en": "kingdom",
+      "ipa": "ˈkɪŋdəm",
+      "cs": "království"
+    },
+    {
+      "type": "word",
+      "en": "lawn",
+      "ipa": "lɔːn",
+      "cs": "trávník"
+    },
+    {
+      "type": "word",
+      "en": "leek",
+      "ipa": "liːk",
+      "cs": "pórek"
+    },
+    {
+      "type": "word",
+      "en": "make up",
+      "ipa": "ˌmeɪk ˈʌp",
+      "cs": "utvářet"
+    },
+    {
+      "type": "word",
+      "en": "minister",
+      "ipa": "ˈmɪnɪstə",
+      "cs": "ministr"
+    },
+    {
+      "type": "word",
+      "en": "prime minister",
+      "ipa": "ˌpraɪm ˈmɪnɪstə",
+      "cs": "premiér"
+    },
+    {
+      "type": "word",
+      "en": "minority",
+      "ipa": "maɪˈnɒrətɪ",
+      "cs": "menšina"
+    },
+    {
+      "type": "word",
+      "en": "natural",
+      "ipa": "ˈnætʃrəl",
+      "cs": "přírodní; přirozený"
+    },
+    {
+      "type": "word",
+      "en": "northern",
+      "ipa": "ˈnɔːðn",
+      "cs": "severní"
+    },
+    {
+      "type": "word",
+      "en": "nowadays",
+      "ipa": "ˈnaʊədeɪz",
+      "cs": "v dnešní době"
+    },
+    {
+      "type": "word",
+      "en": "official",
+      "ipa": "əˈfɪʃl",
+      "cs": "úřední, oficiální"
+    },
+    {
+      "type": "word",
+      "en": "oil",
+      "ipa": "ɔɪl",
+      "cs": "ropa; olej; namazat"
+    },
+    {
+      "type": "word",
+      "en": "onto",
+      "ipa": "ˈɒntuː",
+      "cs": "na"
+    },
+    {
+      "type": "word",
+      "en": "parliament",
+      "ipa": "ˈpɑːləmənt",
+      "cs": "parlament"
+    },
+    {
+      "type": "word",
+      "en": "patron",
+      "ipa": "ˈpeɪtrən",
+      "cs": "patron; mecenáš"
+    },
+    {
+      "type": "word",
+      "en": "per",
+      "ipa": "pɜː",
+      "cs": "pro, na, za",
+      "note": "každý"
+    },
+    {
+      "type": "word",
+      "en": "per cent",
+      "ipa": "pəˈsent",
+      "cs": "procento"
+    },
+    {
+      "type": "word",
+      "en": "population",
+      "ipa": "ˌpɒpjʊˈleɪʃn",
+      "cs": "obyvatelstvo; počet obyvatel"
+    },
+    {
+      "type": "word",
+      "en": "power",
+      "ipa": "paʊə",
+      "cs": "síla, moc"
+    },
+    {
+      "type": "word",
+      "en": "production",
+      "ipa": "prəˈdʌkʃn",
+      "cs": "výroba, produkce"
+    },
+    {
+      "type": "word",
+      "en": "pronounce",
+      "ipa": "prəˈnaʊns",
+      "cs": "vyslovit"
+    },
+    {
+      "type": "word",
+      "en": "queen",
+      "ipa": "kwiːn",
+      "cs": "královna"
+    },
+    {
+      "type": "word",
+      "en": "record",
+      "ipa": "rɪˈkɔːd",
+      "cs": "zaznamenat; [ˈrekɔːd] rekord; záznam"
+    },
+    {
+      "type": "word",
+      "en": "salary",
+      "ipa": "ˈsælərɪ",
+      "cs": "plat"
+    },
+    {
+      "type": "word",
+      "en": "settle",
+      "ipa": "ˈsetl",
+      "cs": "usadit se"
+    },
+    {
+      "type": "word",
+      "en": "sheep",
+      "ipa": "ʃiːp",
+      "cs": "ovce",
+      "note": "mn. č. sheep"
+    },
+    {
+      "type": "word",
+      "en": "steam",
+      "ipa": "stiːm",
+      "cs": "pára"
+    },
+    {
+      "type": "word",
+      "en": "steel",
+      "ipa": "stiːl",
+      "cs": "ocel"
+    },
+    {
+      "type": "word",
+      "en": "switch",
+      "ipa": "swɪtʃ",
+      "cs": "vypínač, spínač"
+    },
+    {
+      "type": "word",
+      "en": "switch on",
+      "ipa": "swɪtʃ ˈɒn",
+      "cs": "zapnout"
+    },
+    {
+      "type": "word",
+      "en": "symbol",
+      "ipa": "ˈsɪmbl",
+      "cs": "symbol, znamení"
+    },
+    {
+      "type": "word",
+      "en": "textile",
+      "ipa": "ˈtekstaɪl",
+      "cs": "textil, textilie"
+    },
+    {
+      "type": "word",
+      "en": "throw, threw, thrown",
+      "ipa": "θrəʊ, θruː, θrəʊn",
+      "cs": "hodit"
+    },
+    {
+      "type": "word",
+      "en": "tyre",
+      "ipa": "ˈtaɪə",
+      "cs": "pneumatika"
+    },
+    {
+      "type": "word",
+      "en": "union",
+      "ipa": "ˈjuːnɪən",
+      "cs": "spojení; unie, svaz"
+    },
+    {
+      "type": "word",
+      "en": "unite",
+      "ipa": "jʊˈnaɪt",
+      "cs": "spojit, sloučit"
+    },
+    {
+      "type": "word",
+      "en": "valley",
+      "ipa": "ˈvælɪ",
+      "cs": "údolí"
+    },
+    {
+      "type": "word",
+      "en": "weekly",
+      "ipa": "ˈwiːklɪ",
+      "cs": "týdenní; týdně; týdeník"
+    },
+    {
+      "type": "word",
+      "en": "Welsh",
+      "ipa": "welʃ",
+      "cs": "waleský, velšský; velština"
+    },
+    {
+      "type": "word",
+      "en": "Welshman",
+      "ipa": "ˈwelʃmən",
+      "cs": "Velšan"
+    },
+    {
+      "type": "word",
+      "en": "barley",
+      "ipa": "ˈbɑːlɪ",
+      "cs": "ječmen",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "Catholic",
+      "ipa": "ˈkæθlɪk",
+      "cs": "katolík; katolický",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "Celtic",
+      "ipa": "ˈkeltɪk",
+      "cs": "keltský",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "chemicals",
+      "ipa": "ˈkemɪklz",
+      "cs": "chemikálie",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "dale",
+      "ipa": "deɪl",
+      "cs": "údolí (na severu)",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "electronic",
+      "ipa": "ˌelekˈtrɒnɪk",
+      "cs": "elektronický",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "engineering",
+      "ipa": "ˌendʒɪˈnɪərɪŋ",
+      "cs": "strojírenství",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "Gaelic",
+      "ipa": "ˈgeɪlɪk",
+      "cs": "gaelský",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "gunpowder",
+      "ipa": "ˈgʌnˌpaʊdə",
+      "cs": "střelný prach",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "guy",
+      "ipa": "gaɪ",
+      "cs": "chlap (především v americké angl.)",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "hippy",
+      "ipa": "ˈhɪpɪ",
+      "cs": "hippie, hipík",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "the House of York",
+      "ipa": "ˌhaʊs əv ˈjɔːk",
+      "cs": "rod Yorků",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "isle",
+      "ipa": "aɪl",
+      "cs": "ostrov (básn., v názvech)",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "Midsummer's Day",
+      "ipa": "ˌmɪdsʌməz ˈdeɪ",
+      "cs": "den sv. Jana (24. června)",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "monster",
+      "ipa": "ˈmɒnstə",
+      "cs": "příšera",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "oilseed rape",
+      "ipa": "ˌɔɪlsiːd ˈreɪp",
+      "cs": "řepka olejka",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "plain",
+      "ipa": "pleɪn",
+      "cs": "planina",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "principality",
+      "ipa": "ˌprɪnsəˈpælətɪ",
+      "cs": "knížectví",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "Protestant",
+      "ipa": "ˈprɒtɪstənt",
+      "cs": "protestant",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "shamrock",
+      "ipa": "ˈʃæmrɒk",
+      "cs": "trojlístek",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "sugar beet",
+      "ipa": "ˈʃʊgə ˌbiːt",
+      "cs": "cukrová řepa",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "thistle",
+      "ipa": "ˈθɪsl",
+      "cs": "bodlák",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "Trinity",
+      "ipa": "ˈtrɪnətɪ",
+      "cs": "nejsvětější Trojice",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "wheat",
+      "ipa": "wiːt",
+      "cs": "pšenice",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "word",
+      "en": "worship",
+      "ipa": "ˈwɜːʃɪp",
+      "cs": "uctívání; uctívat",
+      "note": "glosář nepovinné slovní zásoby"
+    },
+    {
+      "type": "phrase",
+      "en": "the British",
+      "cs": "Britové",
+      "note": "who lives there?"
+    },
+    {
+      "type": "phrase",
+      "en": "the English",
+      "cs": "Angličané",
+      "note": "who lives there?"
+    },
+    {
+      "type": "phrase",
+      "en": "the Irish",
+      "cs": "Irové",
+      "note": "who lives there?"
+    },
+    {
+      "type": "phrase",
+      "en": "the Scottish",
+      "cs": "Skotové",
+      "note": "who lives there?"
+    },
+    {
+      "type": "phrase",
+      "en": "the Welsh",
+      "cs": "Velšané",
+      "note": "who lives there?"
+    },
+    {
+      "type": "phrase",
+      "en": "James I",
+      "cs": "James the First",
+      "note": "kings and queens"
+    },
+    {
+      "type": "phrase",
+      "en": "Elizabeth II",
+      "cs": "Elizabeth the Second",
+      "note": "kings and queens"
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "id": "u3-l12",
+  "order": 12,
+  "title": "Učebnice 3 – lekce 12",
+  "description": "Slovníček – 62 slovíček, 12 frází.",
+  "source": [
+    "screenshots/lekce/u3-l12.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "adopt",
+      "ipa": "əˈdɒpt",
+      "cs": "adoptovat; přijmout"
+    },
+    {
+      "type": "word",
+      "en": "aggressive",
+      "ipa": "əˈgresɪv",
+      "cs": "agresivní"
+    },
+    {
+      "type": "word",
+      "en": "ahead",
+      "ipa": "əˈhed",
+      "cs": "dopředu, kupředu; vpřed"
+    },
+    {
+      "type": "word",
+      "en": "bet, bet, bet",
+      "ipa": "bet",
+      "cs": "vsadit (se); sázka",
+      "note": "(tt)"
+    },
+    {
+      "type": "word",
+      "en": "board",
+      "ipa": "bɔːd",
+      "cs": "prkno, deska"
+    },
+    {
+      "type": "word",
+      "en": "canoe",
+      "ipa": "kəˈnuː",
+      "cs": "kánoe"
+    },
+    {
+      "type": "word",
+      "en": "chill",
+      "ipa": "tʃɪl",
+      "cs": "nachlazení; chlad; chladit"
+    },
+    {
+      "type": "word",
+      "en": "coward",
+      "ipa": "ˈkaʊəd",
+      "cs": "zbabělec"
+    },
+    {
+      "type": "word",
+      "en": "damn",
+      "ipa": "dæm",
+      "cs": "zpropadený; zpropadeně"
+    },
+    {
+      "type": "word",
+      "en": "devil",
+      "ipa": "ˈdevl",
+      "cs": "čert, ďábel"
+    },
+    {
+      "type": "word",
+      "en": "devil: poor devil",
+      "cs": "chudák"
+    },
+    {
+      "type": "word",
+      "en": "difference",
+      "ipa": "ˈdɪfrəns",
+      "cs": "rozdíl"
+    },
+    {
+      "type": "word",
+      "en": "direction",
+      "ipa": "dɪˈrekʃn",
+      "cs": "směr"
+    },
+    {
+      "type": "word",
+      "en": "dollar",
+      "ipa": "ˈdɒlə",
+      "cs": "dolar"
+    },
+    {
+      "type": "word",
+      "en": "drunk",
+      "ipa": "drʌŋk",
+      "cs": "opilý"
+    },
+    {
+      "type": "word",
+      "en": "earn",
+      "ipa": "ɜːn",
+      "cs": "vydělat (si)"
+    },
+    {
+      "type": "word",
+      "en": "escape (from)",
+      "ipa": "ɪˈskeɪp",
+      "cs": "uprchnout, utéct (před); útěk"
+    },
+    {
+      "type": "word",
+      "en": "favour",
+      "ipa": "ˈfeɪvə",
+      "cs": "laskavost, pozornost"
+    },
+    {
+      "type": "word",
+      "en": "favour: do sb a favour",
+      "cs": "udělat komu laskavost"
+    },
+    {
+      "type": "word",
+      "en": "fever",
+      "ipa": "ˈfiːvə",
+      "cs": "horečka"
+    },
+    {
+      "type": "word",
+      "en": "gentleman",
+      "ipa": "ˈdʒentlmən",
+      "cs": "pán; gentleman"
+    },
+    {
+      "type": "word",
+      "en": "give up",
+      "ipa": "gɪv ˈʌp",
+      "cs": "vydat"
+    },
+    {
+      "type": "word",
+      "en": "grateful",
+      "ipa": "ˈgreɪtfl",
+      "cs": "vděčný"
+    },
+    {
+      "type": "word",
+      "en": "guilty (of)",
+      "ipa": "ˈgɪltɪ",
+      "cs": "vinen (čím)"
+    },
+    {
+      "type": "word",
+      "en": "gun",
+      "ipa": "gʌn",
+      "cs": "střelná zbraň, puška"
+    },
+    {
+      "type": "word",
+      "en": "hero",
+      "ipa": "ˈhɪərəʊ",
+      "cs": "hrdina"
+    },
+    {
+      "type": "word",
+      "en": "however",
+      "ipa": "haʊˈevə",
+      "cs": "přesto, avšak, však"
+    },
+    {
+      "type": "word",
+      "en": "hut",
+      "ipa": "hʌt",
+      "cs": "chatrč, bouda"
+    },
+    {
+      "type": "word",
+      "en": "intend",
+      "ipa": "ɪnˈtend",
+      "cs": "zamýšlet, mít v úmyslu"
+    },
+    {
+      "type": "word",
+      "en": "keep, kept, kept",
+      "ipa": "kiːp, kept, kept",
+      "cs": "držet (se); nechat si"
+    },
+    {
+      "type": "word",
+      "en": "let sb down",
+      "ipa": "let ˈdaʊn",
+      "cs": "zklamat, zradit"
+    },
+    {
+      "type": "word",
+      "en": "lock",
+      "ipa": "lɒk",
+      "cs": "zamknout; zámek"
+    },
+    {
+      "type": "word",
+      "en": "mean",
+      "ipa": "miːn",
+      "cs": "zlý, ošklivý; lakomý",
+      "note": "povahou"
+    },
+    {
+      "type": "word",
+      "en": "mom",
+      "ipa": "mɑːm",
+      "cs": "máma"
+    },
+    {
+      "type": "word",
+      "en": "murder",
+      "ipa": "ˈmɜːdə",
+      "cs": "vražda; zavraždit"
+    },
+    {
+      "type": "word",
+      "en": "narrator",
+      "ipa": "nəˈreɪtə",
+      "cs": "vypravěč"
+    },
+    {
+      "type": "word",
+      "en": "nigger",
+      "ipa": "ˈnɪgə",
+      "cs": "černoch",
+      "note": "hanlivě"
+    },
+    {
+      "type": "word",
+      "en": "pity",
+      "ipa": "ˈpɪtɪ",
+      "cs": "litovat; lítost; škoda"
+    },
+    {
+      "type": "word",
+      "en": "pop",
+      "ipa": "pɑːp",
+      "cs": "táta"
+    },
+    {
+      "type": "word",
+      "en": "previous",
+      "ipa": "ˈpriːvɪəs",
+      "cs": "dřívější, předchozí"
+    },
+    {
+      "type": "word",
+      "en": "protect",
+      "ipa": "prəˈtekt",
+      "cs": "chránit, ochraňovat"
+    },
+    {
+      "type": "word",
+      "en": "raft",
+      "ipa": "rɑːft",
+      "cs": "vor"
+    },
+    {
+      "type": "word",
+      "en": "reward",
+      "ipa": "rɪˈwɔːd",
+      "cs": "odměna; odměnit"
+    },
+    {
+      "type": "word",
+      "en": "rope",
+      "ipa": "rəʊp",
+      "cs": "lano, provaz"
+    },
+    {
+      "type": "word",
+      "en": "row",
+      "ipa": "rəʊ",
+      "cs": "veslovat"
+    },
+    {
+      "type": "word",
+      "en": "run away",
+      "ipa": "rʌn əˈweɪ",
+      "cs": "utéct"
+    },
+    {
+      "type": "word",
+      "en": "share",
+      "ipa": "ʃeə",
+      "cs": "sdílet, dělit se o"
+    },
+    {
+      "type": "word",
+      "en": "shore",
+      "ipa": "ʃɔː",
+      "cs": "břeh",
+      "note": "zprav. mořský"
+    },
+    {
+      "type": "word",
+      "en": "sick",
+      "ipa": "sɪk",
+      "cs": "nemocný, chorý"
+    },
+    {
+      "type": "word",
+      "en": "situation",
+      "ipa": "ˌsɪtʃʊˈeɪʃn",
+      "cs": "situace"
+    },
+    {
+      "type": "word",
+      "en": "slave",
+      "ipa": "sleɪv",
+      "cs": "otrok"
+    },
+    {
+      "type": "word",
+      "en": "smallpox",
+      "ipa": "ˈsmɔːlpɒks",
+      "cs": "neštovice"
+    },
+    {
+      "type": "word",
+      "en": "steal, stole, stolen",
+      "ipa": "stiːl, stəʊl, stəʊlən",
+      "cs": "ukrást"
+    },
+    {
+      "type": "word",
+      "en": "sunrise",
+      "ipa": "ˈsʌnraɪz",
+      "cs": "východ slunce"
+    },
+    {
+      "type": "word",
+      "en": "suspect (of)",
+      "ipa": "səˈspekt; ˈsʌspekt",
+      "cs": "podezírat (z); podezřelý"
+    },
+    {
+      "type": "word",
+      "en": "tame",
+      "ipa": "teɪm",
+      "cs": "ochočit; zklidnit; ochočený"
+    },
+    {
+      "type": "word",
+      "en": "trouble",
+      "ipa": "ˈtrʌbl",
+      "cs": "potíž, průšvih, trable"
+    },
+    {
+      "type": "word",
+      "en": "trouble: be in trouble",
+      "cs": "mít potíže, mít průšvih"
+    },
+    {
+      "type": "word",
+      "en": "unkind",
+      "ipa": "ˌʌnˈkaɪnd",
+      "cs": "nevlídný, nepřívětivý"
+    },
+    {
+      "type": "word",
+      "en": "wages",
+      "ipa": "ˈweɪdʒɪz",
+      "cs": "mzda, výplata"
+    },
+    {
+      "type": "word",
+      "en": "whichever",
+      "ipa": "wɪtʃˈevə",
+      "cs": "kterýkoliv"
+    },
+    {
+      "type": "word",
+      "en": "widow",
+      "ipa": "ˈwɪdəʊ",
+      "cs": "vdova"
+    },
+    {
+      "type": "phrase",
+      "en": "It's a pity that...",
+      "cs": "Je (to) škoda, že...",
+      "note": "pity"
+    },
+    {
+      "type": "phrase",
+      "en": "What a pity!",
+      "cs": "To je ale škoda!",
+      "note": "pity"
+    },
+    {
+      "type": "phrase",
+      "en": "We can only pity him.",
+      "cs": "Můžeme ho jenom litovat.",
+      "note": "pity"
+    },
+    {
+      "type": "phrase",
+      "en": "Don't take pity on him.",
+      "cs": "Nelitujte ho.",
+      "note": "pity"
+    },
+    {
+      "type": "phrase",
+      "en": "suspect sb of sth",
+      "cs": "podezírat koho z čeho",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "by chance",
+      "cs": "náhodou",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "along the way",
+      "cs": "cestou",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in our direction",
+      "cs": "naším směrem",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "break into pieces",
+      "cs": "rozbít na kusy",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "sick with",
+      "cs": "nemocný čím",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "guilty of",
+      "cs": "vinen čím",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "escape from",
+      "cs": "utéci před",
+      "note": "předložky"
+    }
+  ]
+}

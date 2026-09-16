@@ -1,0 +1,634 @@
+{
+  "id": "u3-l3",
+  "order": 3,
+  "title": "Učebnice 3 – lekce 3",
+  "description": "Slovníček – 71 slovíček, 29 frází.",
+  "source": [
+    "screenshots/lekce/u3-l3a.jpg",
+    "screenshots/lekce/u3-l3b.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "aunt",
+      "ipa": "ɑːnt",
+      "cs": "teta"
+    },
+    {
+      "type": "word",
+      "en": "belt",
+      "ipa": "belt",
+      "cs": "pásek, opasek, pás"
+    },
+    {
+      "type": "word",
+      "en": "boot",
+      "ipa": "buːt",
+      "cs": "bota",
+      "note": "nad kotníky"
+    },
+    {
+      "type": "word",
+      "en": "bright",
+      "ipa": "braɪt",
+      "cs": "jasný, zářivý, veselý; bystrý"
+    },
+    {
+      "type": "word",
+      "en": "button",
+      "ipa": "ˈbʌtn",
+      "cs": "knoflík; tlačítko"
+    },
+    {
+      "type": "word",
+      "en": "cap",
+      "ipa": "kæp",
+      "cs": "čepice; víčko"
+    },
+    {
+      "type": "word",
+      "en": "checked",
+      "ipa": "tʃekt",
+      "cs": "kostkovaný"
+    },
+    {
+      "type": "word",
+      "en": "class",
+      "ipa": "klɑːs",
+      "cs": "třída"
+    },
+    {
+      "type": "word",
+      "en": "colourful",
+      "ipa": "ˈkʌləfl",
+      "cs": "pestrý",
+      "note": "barevný"
+    },
+    {
+      "type": "word",
+      "en": "corduroy",
+      "ipa": "ˈkɔːdərɔɪ",
+      "cs": "manšestr"
+    },
+    {
+      "type": "word",
+      "en": "count",
+      "ipa": "kaʊnt",
+      "cs": "počítat"
+    },
+    {
+      "type": "word",
+      "en": "creation",
+      "ipa": "krɪˈeɪʃn",
+      "cs": "výtvor, kreace; tvorba"
+    },
+    {
+      "type": "word",
+      "en": "cut, cut, cut",
+      "ipa": "kʌt",
+      "cs": "stříhat; krájet; řezat",
+      "note": "(tt)"
+    },
+    {
+      "type": "word",
+      "en": "denim",
+      "ipa": "ˈdenɪm",
+      "cs": "džínsovina"
+    },
+    {
+      "type": "word",
+      "en": "dressmaking",
+      "ipa": "ˈdresˌmeɪkɪŋ",
+      "cs": "šití oděvů"
+    },
+    {
+      "type": "word",
+      "en": "fit",
+      "ipa": "fɪt",
+      "cs": "sedět, padnout",
+      "note": "(tt), o velikosti"
+    },
+    {
+      "type": "word",
+      "en": "follow",
+      "ipa": "ˈfɒləʊ",
+      "cs": "(ná)sledovat, jít za; postupovat podle"
+    },
+    {
+      "type": "word",
+      "en": "glove",
+      "ipa": "glʌv",
+      "cs": "rukavice"
+    },
+    {
+      "type": "word",
+      "en": "grandad",
+      "ipa": "ˈgrændæd",
+      "cs": "dědeček"
+    },
+    {
+      "type": "word",
+      "en": "handbag",
+      "ipa": "ˈhændbæg",
+      "cs": "kabelka"
+    },
+    {
+      "type": "word",
+      "en": "informal",
+      "ipa": "ɪnˈfɔːml",
+      "cs": "neformální"
+    },
+    {
+      "type": "word",
+      "en": "inspiration",
+      "ipa": "ˌɪnspəˈreɪʃn",
+      "cs": "inspirace"
+    },
+    {
+      "type": "word",
+      "en": "jeans",
+      "ipa": "dʒiːnz",
+      "cs": "džínsové kalhoty"
+    },
+    {
+      "type": "word",
+      "en": "machine",
+      "ipa": "məˈʃiːn",
+      "cs": "stroj; automat"
+    },
+    {
+      "type": "word",
+      "en": "magic",
+      "ipa": "ˈmædʒɪk",
+      "cs": "kouzlo, zázrak; kouzelný"
+    },
+    {
+      "type": "word",
+      "en": "match",
+      "ipa": "mætʃ",
+      "cs": "hodit se k (sobě), ladit"
+    },
+    {
+      "type": "word",
+      "en": "mini-skirt",
+      "ipa": "ˈmɪnɪskɜːt",
+      "cs": "minisukně"
+    },
+    {
+      "type": "word",
+      "en": "narrow",
+      "ipa": "ˈnærəʊ",
+      "cs": "úzký"
+    },
+    {
+      "type": "word",
+      "en": "pair",
+      "ipa": "peə",
+      "cs": "pár, dvojice"
+    },
+    {
+      "type": "word",
+      "en": "piece",
+      "ipa": "piːs",
+      "cs": "kus"
+    },
+    {
+      "type": "word",
+      "en": "pyjamas",
+      "ipa": "pəˈdʒɑːməz",
+      "cs": "pyžamo",
+      "note": "mn. č."
+    },
+    {
+      "type": "word",
+      "en": "realize",
+      "ipa": "ˈrɪəlaɪz",
+      "cs": "uvědomit si"
+    },
+    {
+      "type": "word",
+      "en": "recognize",
+      "ipa": "ˈrekəgnaɪz",
+      "cs": "poznat"
+    },
+    {
+      "type": "word",
+      "en": "rose",
+      "ipa": "rəʊz",
+      "cs": "růže"
+    },
+    {
+      "type": "word",
+      "en": "scissors",
+      "ipa": "ˈsɪzəz",
+      "cs": "nůžky"
+    },
+    {
+      "type": "word",
+      "en": "second-hand",
+      "ipa": "ˌsekəndˈhænd",
+      "cs": "z druhé ruky"
+    },
+    {
+      "type": "word",
+      "en": "shape",
+      "ipa": "ʃeɪp",
+      "cs": "tvar; tvarovat"
+    },
+    {
+      "type": "word",
+      "en": "shoe",
+      "ipa": "ʃuː",
+      "cs": "bota"
+    },
+    {
+      "type": "word",
+      "en": "shorten",
+      "ipa": "ˈʃɔːtn",
+      "cs": "zkrátit"
+    },
+    {
+      "type": "word",
+      "en": "silk",
+      "ipa": "sɪlk",
+      "cs": "hedvábí"
+    },
+    {
+      "type": "word",
+      "en": "size",
+      "ipa": "saɪz",
+      "cs": "velikost"
+    },
+    {
+      "type": "word",
+      "en": "straight",
+      "ipa": "streɪt",
+      "cs": "rovný; rovně; rovnou"
+    },
+    {
+      "type": "word",
+      "en": "striped",
+      "ipa": "straɪpt",
+      "cs": "pruhovaný"
+    },
+    {
+      "type": "word",
+      "en": "T-shirt",
+      "ipa": "ˈtiːʃɜːt",
+      "cs": "tričko"
+    },
+    {
+      "type": "word",
+      "en": "tie",
+      "ipa": "taɪ",
+      "cs": "kravata; vázat, zavázat"
+    },
+    {
+      "type": "word",
+      "en": "tight",
+      "ipa": "taɪt",
+      "cs": "těsný"
+    },
+    {
+      "type": "word",
+      "en": "top",
+      "ipa": "tɒp",
+      "cs": "triko, košile, košilka, top"
+    },
+    {
+      "type": "word",
+      "en": "trend",
+      "ipa": "trend",
+      "cs": "trend"
+    },
+    {
+      "type": "word",
+      "en": "turn into",
+      "ipa": "ˌtɜːn ˈɪntuː",
+      "cs": "změnit v; předělat na"
+    },
+    {
+      "type": "word",
+      "en": "uniform",
+      "ipa": "ˈjuːnɪfɔːm",
+      "cs": "stejnokroj, uniforma"
+    },
+    {
+      "type": "word",
+      "en": "velvet",
+      "ipa": "ˈvelvɪt",
+      "cs": "samet"
+    },
+    {
+      "type": "word",
+      "en": "waistcoat",
+      "ipa": "ˈweɪskəʊt",
+      "cs": "vesta"
+    },
+    {
+      "type": "word",
+      "en": "wide",
+      "ipa": "waɪd",
+      "cs": "široký"
+    },
+    {
+      "type": "phrase",
+      "en": "put on",
+      "cs": "obléknout, obout",
+      "note": "phrasal verbs and prepositions"
+    },
+    {
+      "type": "phrase",
+      "en": "take off",
+      "cs": "svléknout, zout",
+      "note": "phrasal verbs and prepositions"
+    },
+    {
+      "type": "phrase",
+      "en": "do up",
+      "cs": "zapnout, zavázat",
+      "note": "phrasal verbs and prepositions"
+    },
+    {
+      "type": "word",
+      "en": "undo",
+      "cs": "rozepnout, rozvázat",
+      "note": "phrasal verbs and prepositions, v knize jako (x undo), tj. opak do up"
+    },
+    {
+      "type": "phrase",
+      "en": "try on",
+      "cs": "zkusit si, vyzkoušet si",
+      "note": "phrasal verbs and prepositions, oděv"
+    },
+    {
+      "type": "phrase",
+      "en": "go with",
+      "cs": "hodit se k",
+      "note": "phrasal verbs and prepositions, čemu"
+    },
+    {
+      "type": "phrase",
+      "en": "take up",
+      "cs": "zkrátit",
+      "note": "phrasal verbs and prepositions, oděv"
+    },
+    {
+      "type": "phrase",
+      "en": "let down",
+      "cs": "popustit",
+      "note": "phrasal verbs and prepositions, o délce oděvu"
+    },
+    {
+      "type": "phrase",
+      "en": "take in",
+      "cs": "zabrat",
+      "note": "phrasal verbs and prepositions, oděv"
+    },
+    {
+      "type": "phrase",
+      "en": "let out",
+      "cs": "popustit",
+      "note": "phrasal verbs and prepositions, o šířce oděvu"
+    },
+    {
+      "type": "phrase",
+      "en": "cut out",
+      "cs": "vystřihnout",
+      "note": "phrasal verbs and prepositions"
+    },
+    {
+      "type": "phrase",
+      "en": "sew on",
+      "cs": "našít, přišít",
+      "note": "phrasal verbs and prepositions"
+    },
+    {
+      "type": "phrase",
+      "en": "look through",
+      "cs": "prohlédnout si, projít si",
+      "note": "phrasal verbs and prepositions"
+    },
+    {
+      "type": "phrase",
+      "en": "take out",
+      "cs": "vyndat",
+      "note": "phrasal verbs and prepositions"
+    },
+    {
+      "type": "phrase",
+      "en": "I don't often wear pink.",
+      "cs": "Růžovou moc často nenosím.",
+      "note": "wear or put on?"
+    },
+    {
+      "type": "phrase",
+      "en": "Put it on and show me.",
+      "cs": "Vezmi si to a ukaž se mi v tom.",
+      "note": "wear or put on?"
+    },
+    {
+      "type": "phrase",
+      "en": "What shall I wear this evening?",
+      "cs": "Co si mám dnes večer vzít?",
+      "note": "wear or put on?, ALE"
+    },
+    {
+      "type": "phrase",
+      "en": "a straight road",
+      "cs": "rovná silnice",
+      "note": "straight"
+    },
+    {
+      "type": "phrase",
+      "en": "a straight skirt",
+      "cs": "úzká sukně",
+      "note": "straight"
+    },
+    {
+      "type": "phrase",
+      "en": "long, straight hair",
+      "cs": "dlouhé, rovné vlasy",
+      "note": "straight"
+    },
+    {
+      "type": "phrase",
+      "en": "walk straight",
+      "cs": "jít rovně",
+      "note": "straight, po rovné čáře"
+    },
+    {
+      "type": "phrase",
+      "en": "Walk straight on/ahead.",
+      "cs": "Jděte rovně.",
+      "note": "straight"
+    },
+    {
+      "type": "phrase",
+      "en": "straight away",
+      "cs": "rovnou, ihned",
+      "note": "straight"
+    },
+    {
+      "type": "phrase",
+      "en": "one pair/a pair of trousers",
+      "cs": "jedny kalhoty",
+      "note": "a pair of"
+    },
+    {
+      "type": "phrase",
+      "en": "two pairs of trousers",
+      "cs": "dvoje kalhoty",
+      "note": "a pair of"
+    },
+    {
+      "type": "phrase",
+      "en": "a pair of boots, corduroys, glasses, gloves, jeans, pyjamas, scissors, shoes, socks",
+      "cs": "Podobně: a pair of boots, corduroys, glasses, gloves, jeans, pyjamas, scissors, shoes, socks aj.",
+      "note": "a pair of"
+    },
+    {
+      "type": "phrase",
+      "en": "It's second-hand.",
+      "cs": "Je to z druhé ruky. Je to použité zboží.",
+      "note": "second-hand"
+    },
+    {
+      "type": "phrase",
+      "en": "He sells second-hand cars.",
+      "cs": "Prodává ojetá auta.",
+      "note": "second-hand"
+    },
+    {
+      "type": "phrase",
+      "en": "I bought it at a second-hand shop.",
+      "cs": "Koupil jsem to v „sekáči“.",
+      "note": "second-hand"
+    },
+    {
+      "type": "phrase",
+      "en": "She works in a second-hand bookshop.",
+      "cs": "Pracuje v antikvariátu.",
+      "note": "second-hand"
+    },
+    {
+      "type": "word",
+      "en": "jumper",
+      "ipa": "ˈdʒʌmpə",
+      "cs": "svetr",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "sweater",
+      "ipa": "ˈswetə",
+      "cs": "svetr",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "sweatshirt",
+      "ipa": "ˈswetʃɜːt",
+      "cs": "mikina",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "leisure suit",
+      "ipa": "ˈleʒə suːt",
+      "cs": "tepláková souprava, volnočasový komplet",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "shorts",
+      "ipa": "ʃɔːts",
+      "cs": "šortky, kraťasy",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "nightdress",
+      "ipa": "ˈnaɪtdres",
+      "cs": "noční košile",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "dressing gown",
+      "ipa": "ˈdresɪŋ gaʊn",
+      "cs": "župan",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "underwear",
+      "ipa": "ˈʌndəweə",
+      "cs": "spodní prádlo",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "slippers",
+      "ipa": "ˈslɪpəz",
+      "cs": "bačkory, pantofle",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "sandals",
+      "ipa": "ˈsændlz",
+      "cs": "sandály",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "trainers",
+      "ipa": "ˈtreɪnəz",
+      "cs": "tenisky, sportovní boty",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "socks",
+      "ipa": "sɒks",
+      "cs": "ponožky",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "scarf",
+      "ipa": "skɑːf",
+      "cs": "šátek, šála",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "glasses",
+      "ipa": "ˈglɑːsɪz",
+      "cs": "brýle",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "briefcase",
+      "ipa": "ˈbriːfkeɪs",
+      "cs": "aktovka",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "umbrella",
+      "ipa": "ʌmˈbrelə",
+      "cs": "deštník",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "jewellery",
+      "ipa": "ˈdʒuːəlri",
+      "cs": "šperky, klenoty",
+      "note": "obrázkový slovníček"
+    }
+  ]
+}

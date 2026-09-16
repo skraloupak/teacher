@@ -1,0 +1,673 @@
+{
+  "id": "u3-l1",
+  "order": 1,
+  "title": "Učebnice 3 – lekce 1",
+  "description": "Slovníček – 67 slovíček, 41 frází.",
+  "source": [
+    "screenshots/lekce/u3-l1.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "area",
+      "ipa": "ˈeərɪə",
+      "cs": "okolí, oblast; plocha"
+    },
+    {
+      "type": "word",
+      "en": "awful",
+      "ipa": "ˈɔːfl",
+      "cs": "hrozný, strašný"
+    },
+    {
+      "type": "word",
+      "en": "baby",
+      "ipa": "ˈbeɪbɪ",
+      "cs": "miminko"
+    },
+    {
+      "type": "word",
+      "en": "back",
+      "ipa": "bæk",
+      "cs": "záda; zadní; zadní část"
+    },
+    {
+      "type": "word",
+      "en": "barbecue",
+      "ipa": "ˈbɑːbɪkjuː",
+      "cs": "zahradní gril(ování); grilovat"
+    },
+    {
+      "type": "word",
+      "en": "bin",
+      "ipa": "bɪn",
+      "cs": "odpadkový koš; popelnice"
+    },
+    {
+      "type": "word",
+      "en": "block",
+      "ipa": "blɒk",
+      "cs": "blok"
+    },
+    {
+      "type": "word",
+      "en": "block: block of flats",
+      "cs": "obytný blok, činžovní dům, panelák"
+    },
+    {
+      "type": "word",
+      "en": "bottom",
+      "ipa": "ˈbɒtəm",
+      "cs": "dno; spodní; spodní část"
+    },
+    {
+      "type": "word",
+      "en": "box",
+      "ipa": "bɒks",
+      "cs": "krabice, krabička"
+    },
+    {
+      "type": "word",
+      "en": "building",
+      "ipa": "ˈbɪldɪŋ",
+      "cs": "budova, stavba; stavebnictví"
+    },
+    {
+      "type": "word",
+      "en": "bungalow",
+      "ipa": "ˈbʌŋgələʊ",
+      "cs": "bungalov, přízemní dům"
+    },
+    {
+      "type": "word",
+      "en": "complain",
+      "ipa": "kəmˈpleɪn",
+      "cs": "stěžovat si"
+    },
+    {
+      "type": "word",
+      "en": "concrete",
+      "ipa": "ˈkɒŋkriːt",
+      "cs": "beton; betonový; konkrétní"
+    },
+    {
+      "type": "word",
+      "en": "cosy",
+      "ipa": "ˈkəʊzɪ",
+      "cs": "útulný"
+    },
+    {
+      "type": "word",
+      "en": "countryside",
+      "ipa": "ˈkʌntrɪsaɪd",
+      "cs": "venkov; krajina; příroda"
+    },
+    {
+      "type": "word",
+      "en": "dangerous",
+      "ipa": "ˈdeɪndʒərəs",
+      "cs": "nebezpečný"
+    },
+    {
+      "type": "word",
+      "en": "disadvantage",
+      "ipa": "ˌdɪsədˈvɑːntɪdʒ",
+      "cs": "nevýhoda"
+    },
+    {
+      "type": "word",
+      "en": "drive",
+      "ipa": "draɪv",
+      "cs": "cesta; projížďka",
+      "note": "autem"
+    },
+    {
+      "type": "word",
+      "en": "edge",
+      "ipa": "edʒ",
+      "cs": "okraj, kraj"
+    },
+    {
+      "type": "word",
+      "en": "empty",
+      "ipa": "ˈemptɪ",
+      "cs": "prázdný; vyprázdnit"
+    },
+    {
+      "type": "word",
+      "en": "estate",
+      "ipa": "ɪˈsteɪt",
+      "cs": "zástavba, sídliště"
+    },
+    {
+      "type": "word",
+      "en": "estate agent",
+      "ipa": "ɪˈsteɪt ˌeɪdʒənt",
+      "cs": "pracovník realitní kanceláře"
+    },
+    {
+      "type": "word",
+      "en": "expect",
+      "ipa": "ɪkˈspekt",
+      "cs": "očekávat; čekat",
+      "note": "dítě"
+    },
+    {
+      "type": "word",
+      "en": "fall in love with",
+      "ipa": "ˌfɔːl ɪn ˈlʌv wɪð",
+      "cs": "zamilovat se do"
+    },
+    {
+      "type": "word",
+      "en": "fence",
+      "ipa": "fens",
+      "cs": "plot"
+    },
+    {
+      "type": "word",
+      "en": "front",
+      "ipa": "frʌnt",
+      "cs": "předek; přední",
+      "note": "čeho"
+    },
+    {
+      "type": "word",
+      "en": "get ready",
+      "ipa": "get ˈredɪ",
+      "cs": "připravit se"
+    },
+    {
+      "type": "word",
+      "en": "husband",
+      "ipa": "ˈhʌzbənd",
+      "cs": "manžel"
+    },
+    {
+      "type": "word",
+      "en": "lately",
+      "ipa": "ˈleɪtlɪ",
+      "cs": "poslední dobou"
+    },
+    {
+      "type": "word",
+      "en": "litter",
+      "ipa": "ˈlɪtə",
+      "cs": "odpadky"
+    },
+    {
+      "type": "word",
+      "en": "location",
+      "ipa": "ləʊˈkeɪʃn",
+      "cs": "místo",
+      "note": "umístění"
+    },
+    {
+      "type": "word",
+      "en": "mill",
+      "ipa": "mɪl",
+      "cs": "mlýn"
+    },
+    {
+      "type": "word",
+      "en": "mortgage",
+      "ipa": "ˈmɔːgɪdʒ",
+      "cs": "hypotéka"
+    },
+    {
+      "type": "word",
+      "en": "move",
+      "ipa": "muːv",
+      "cs": "stěhování"
+    },
+    {
+      "type": "word",
+      "en": "neighbourhood",
+      "ipa": "ˈneɪbəhʊd",
+      "cs": "sousedství, okolí, oblast",
+      "note": "ve městě"
+    },
+    {
+      "type": "word",
+      "en": "noisy",
+      "ipa": "ˈnɔɪzɪ",
+      "cs": "hlučný"
+    },
+    {
+      "type": "word",
+      "en": "orchard",
+      "ipa": "ˈɔːtʃəd",
+      "cs": "sad, ovocná zahrada"
+    },
+    {
+      "type": "word",
+      "en": "own",
+      "ipa": "əʊn",
+      "cs": "vlastnit; vlastní"
+    },
+    {
+      "type": "word",
+      "en": "pack",
+      "ipa": "pæk",
+      "cs": "balit, zabalit"
+    },
+    {
+      "type": "word",
+      "en": "pavement",
+      "ipa": "ˈpeɪvmənt",
+      "cs": "chodník"
+    },
+    {
+      "type": "word",
+      "en": "property",
+      "ipa": "ˈprɒpətɪ",
+      "cs": "nemovitost; majetek"
+    },
+    {
+      "type": "word",
+      "en": "reconstruct",
+      "ipa": "ˌriːkənˈstrʌkt",
+      "cs": "rekonstruovat"
+    },
+    {
+      "type": "word",
+      "en": "relative",
+      "ipa": "ˈrelətɪv",
+      "cs": "příbuzný",
+      "note": "osoba"
+    },
+    {
+      "type": "word",
+      "en": "rent",
+      "ipa": "rent",
+      "cs": "pronajmout (si); nájem"
+    },
+    {
+      "type": "word",
+      "en": "romance",
+      "ipa": "rəʊˈmæns",
+      "cs": "romantika"
+    },
+    {
+      "type": "word",
+      "en": "rubbish",
+      "ipa": "ˈrʌbɪʃ",
+      "cs": "odpadky; nesmysl"
+    },
+    {
+      "type": "word",
+      "en": "safe",
+      "ipa": "seɪf",
+      "cs": "bezpečný; v bezpečí"
+    },
+    {
+      "type": "word",
+      "en": "semi",
+      "ipa": "ˈsemɪ",
+      "cs": "dvojdomek",
+      "note": "= semi-detached [ˌsemɪdɪˈtætʃt] house"
+    },
+    {
+      "type": "word",
+      "en": "sensitive",
+      "ipa": "ˈsensətɪv",
+      "cs": "citlivý"
+    },
+    {
+      "type": "word",
+      "en": "shout",
+      "ipa": "ʃaʊt",
+      "cs": "křičet; výkřik"
+    },
+    {
+      "type": "word",
+      "en": "side",
+      "ipa": "saɪd",
+      "cs": "strana, bok"
+    },
+    {
+      "type": "word",
+      "en": "son",
+      "ipa": "sʌn",
+      "cs": "syn"
+    },
+    {
+      "type": "word",
+      "en": "storey",
+      "ipa": "ˈstɔːrɪ",
+      "cs": "poschodí; patro"
+    },
+    {
+      "type": "word",
+      "en": "stream",
+      "ipa": "striːm",
+      "cs": "potok"
+    },
+    {
+      "type": "word",
+      "en": "suburb",
+      "ipa": "ˈsʌbɜːb",
+      "cs": "předměstí"
+    },
+    {
+      "type": "word",
+      "en": "supermarket",
+      "ipa": "ˈsuːpəˌmɑːkɪt",
+      "cs": "supermarket, samoobsluha"
+    },
+    {
+      "type": "word",
+      "en": "take down",
+      "ipa": "ˌteɪk ˈdaʊn",
+      "cs": "sundat, demontovat, odmontovat"
+    },
+    {
+      "type": "word",
+      "en": "taste",
+      "ipa": "teɪst",
+      "cs": "vkus; chuť; (o)chutnat"
+    },
+    {
+      "type": "word",
+      "en": "tenant",
+      "ipa": "ˈtenənt",
+      "cs": "nájemník"
+    },
+    {
+      "type": "word",
+      "en": "trumpet",
+      "ipa": "ˈtrʌmpɪt",
+      "cs": "trumpeta"
+    },
+    {
+      "type": "word",
+      "en": "ugly",
+      "ipa": "ˈʌglɪ",
+      "cs": "ošklivý, škaredý, nepohledný"
+    },
+    {
+      "type": "word",
+      "en": "unpack",
+      "ipa": "ʌnˈpæk",
+      "cs": "vybalit"
+    },
+    {
+      "type": "word",
+      "en": "violin",
+      "ipa": "vaɪəˈlɪn",
+      "cs": "housle"
+    },
+    {
+      "type": "word",
+      "en": "way: by the way",
+      "ipa": "baɪ ðə ˈweɪ",
+      "cs": "mimochodem"
+    },
+    {
+      "type": "word",
+      "en": "worry",
+      "ipa": "ˈwʌrɪ",
+      "cs": "starost; dělat starosti",
+      "note": "si/komu"
+    },
+    {
+      "type": "phrase",
+      "en": "detached house",
+      "ipa": "dɪˈtætʃt",
+      "cs": "samostatně stojící dům",
+      "note": "types of houses"
+    },
+    {
+      "type": "phrase",
+      "en": "semi-detached house (= semi)",
+      "ipa": "ˌsemɪdɪˈtætʃt",
+      "cs": "dvojdomek",
+      "note": "types of houses"
+    },
+    {
+      "type": "phrase",
+      "en": "terraced house",
+      "ipa": "ˈterəst",
+      "cs": "řadový dům",
+      "note": "types of houses"
+    },
+    {
+      "type": "phrase",
+      "en": "block of flats",
+      "ipa": "ˌblɒk əv ˈflæts",
+      "cs": "obytný blok",
+      "note": "types of houses"
+    },
+    {
+      "type": "phrase",
+      "en": "tower block",
+      "ipa": "ˈtaʊə ˌblɒk",
+      "cs": "věžák",
+      "note": "types of houses"
+    },
+    {
+      "type": "word",
+      "en": "cottage",
+      "ipa": "ˈkɒtɪdʒ",
+      "cs": "venkovský domek, chalupa, chata",
+      "note": "types of houses"
+    },
+    {
+      "type": "phrase",
+      "en": "come back",
+      "cs": "vrátit se",
+      "note": "phrasal verbs"
+    },
+    {
+      "type": "phrase",
+      "en": "come over",
+      "cs": "přijít na návštěvu",
+      "note": "phrasal verbs"
+    },
+    {
+      "type": "phrase",
+      "en": "move away/out",
+      "cs": "odstěhovat se",
+      "note": "phrasal verbs"
+    },
+    {
+      "type": "phrase",
+      "en": "move in",
+      "cs": "nastěhovat se",
+      "note": "phrasal verbs"
+    },
+    {
+      "type": "phrase",
+      "en": "put up",
+      "cs": "postavit, nainstalovat",
+      "note": "phrasal verbs"
+    },
+    {
+      "type": "phrase",
+      "en": "take away",
+      "cs": "odnést, odvézt, vzít pryč",
+      "note": "phrasal verbs"
+    },
+    {
+      "type": "phrase",
+      "en": "in my opinion",
+      "cs": "podle mého názoru",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "move into",
+      "cs": "nastěhovat se do",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "this Christmas",
+      "cs": "letos o Vánocích",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "move out of",
+      "cs": "vystěhovat se z",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "be sure of",
+      "cs": "být si jist čím",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "for sale",
+      "cs": "na prodej",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "to my taste",
+      "cs": "podle mého vkusu",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "complain about/of",
+      "cs": "stěžovat si na",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on a housing estate",
+      "ipa": "ˈhaʊzɪŋ",
+      "cs": "na sídlišti",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "at the bottom of",
+      "cs": "ve spodní části/na dně čeho",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on the edge of",
+      "cs": "na (o)kraji čeho",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on the other side of",
+      "cs": "na druhé straně čeho",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "The house/flat is for sale.",
+      "cs": "Dům/byt je na prodej.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's on the market.",
+      "cs": "Je na prodej.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's in a good location.",
+      "cs": "Je na dobrém místě.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's in a green suburb.",
+      "cs": "Je na předměstí, kde je hodně zeleně.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's in a quiet area.",
+      "cs": "Je v tiché oblasti.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's in a friendly neighbourhood.",
+      "cs": "Je v přátelském sousedství.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's near the town centre.",
+      "cs": "Je blízko centra města.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's on the edge of...",
+      "cs": "Je to na (o)kraji...",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's in the middle of...",
+      "cs": "Je to uprostřed...",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's at the bottom of...",
+      "cs": "Je to ve spodní části...",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's at the end of...",
+      "cs": "Je to na konci...",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's in a ten-storey block.",
+      "cs": "Je v desetipatrovém domě.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's on a quiet estate.",
+      "cs": "Je na tichém sídlišti.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's on the ground floor.",
+      "cs": "Je v přízemí.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's got a front/back garden.",
+      "cs": "Vpředu/Vzadu má zahradu.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's got an attic.",
+      "cs": "Má podkroví.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's in need of reconstruction.",
+      "cs": "Potřebuje zrekonstruovat.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "It's sold!",
+      "cs": "Je prodán!",
+      "note": "remember!"
+    }
+  ]
+}

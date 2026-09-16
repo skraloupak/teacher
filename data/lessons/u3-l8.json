@@ -1,0 +1,467 @@
+{
+  "id": "u3-l8",
+  "order": 8,
+  "title": "Učebnice 3 – lekce 8",
+  "description": "Slovníček – 60 slovíček, 15 frází.",
+  "source": [
+    "screenshots/lekce/u3-l8.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "accompany",
+      "ipa": "əˈkʌmpənɪ",
+      "cs": "doprovázet"
+    },
+    {
+      "type": "word",
+      "en": "after all",
+      "ipa": "ˌɑːftər‿ˈɔːl",
+      "cs": "konec konců; nakonec; přece jen"
+    },
+    {
+      "type": "word",
+      "en": "bee",
+      "ipa": "biː",
+      "cs": "včela"
+    },
+    {
+      "type": "word",
+      "en": "body",
+      "ipa": "ˈbɒdɪ",
+      "cs": "tělo; těleso; mrtvola"
+    },
+    {
+      "type": "word",
+      "en": "burn, burnt, burnt",
+      "ipa": "bɜːn, bɜːnt",
+      "cs": "hořet; pálit, spálit"
+    },
+    {
+      "type": "word",
+      "en": "butterfly",
+      "ipa": "ˈbʌtəflaɪ",
+      "cs": "motýl"
+    },
+    {
+      "type": "word",
+      "en": "careful",
+      "ipa": "ˈkeəfl",
+      "cs": "opatrný; pečlivý"
+    },
+    {
+      "type": "word",
+      "en": "be careful (of)",
+      "cs": "dát pozor (na)"
+    },
+    {
+      "type": "word",
+      "en": "cart",
+      "ipa": "kɑːt",
+      "cs": "vůz, povoz; kára"
+    },
+    {
+      "type": "word",
+      "en": "cockerel",
+      "ipa": "ˈkɒkərəl",
+      "cs": "kohout"
+    },
+    {
+      "type": "word",
+      "en": "compliment",
+      "ipa": "ˈkɒmplɪmənt",
+      "cs": "kompliment, lichotka; [ˈkɒmplɪment] složit poklonu"
+    },
+    {
+      "type": "word",
+      "en": "cow",
+      "ipa": "kaʊ",
+      "cs": "kráva"
+    },
+    {
+      "type": "word",
+      "en": "danger",
+      "ipa": "ˈdeɪndʒə",
+      "cs": "nebezpečí"
+    },
+    {
+      "type": "word",
+      "en": "departure",
+      "ipa": "dɪˈpɑːtʃə",
+      "cs": "odchod, odjezd, odlet"
+    },
+    {
+      "type": "word",
+      "en": "disagree",
+      "ipa": "ˌdɪsəˈgriː",
+      "cs": "nesouhlasit"
+    },
+    {
+      "type": "word",
+      "en": "doubt",
+      "ipa": "daʊt",
+      "cs": "pochybnost; pochybovat"
+    },
+    {
+      "type": "word",
+      "en": "drown",
+      "ipa": "draʊn",
+      "cs": "topit (se), utopit (se)"
+    },
+    {
+      "type": "word",
+      "en": "duck",
+      "ipa": "dʌk",
+      "cs": "kachna, kačer"
+    },
+    {
+      "type": "word",
+      "en": "ear",
+      "ipa": "ɪə",
+      "cs": "ucho"
+    },
+    {
+      "type": "word",
+      "en": "earth",
+      "ipa": "ɜːθ",
+      "cs": "země; hlína"
+    },
+    {
+      "type": "word",
+      "en": "enemy",
+      "ipa": "ˈenəmɪ",
+      "cs": "nepřítel"
+    },
+    {
+      "type": "word",
+      "en": "farewell",
+      "ipa": "ˌfeəˈwel",
+      "cs": "sbohem"
+    },
+    {
+      "type": "word",
+      "en": "farm",
+      "ipa": "fɑːm",
+      "cs": "statek, farma"
+    },
+    {
+      "type": "word",
+      "en": "fate",
+      "ipa": "feɪt",
+      "cs": "osud"
+    },
+    {
+      "type": "word",
+      "en": "fear",
+      "ipa": "fɪə",
+      "cs": "strach, obava; obávat se"
+    },
+    {
+      "type": "word",
+      "en": "feather",
+      "ipa": "ˈfeðə",
+      "cs": "péro, pírko",
+      "note": "ptačí"
+    },
+    {
+      "type": "word",
+      "en": "fool",
+      "ipa": "fuːl",
+      "cs": "hlupák, blázen"
+    },
+    {
+      "type": "word",
+      "en": "fox",
+      "ipa": "fɒks",
+      "cs": "lišák, liška"
+    },
+    {
+      "type": "word",
+      "en": "frighten",
+      "ipa": "ˈfraɪtən",
+      "cs": "(vy)děsit, (po)strašit"
+    },
+    {
+      "type": "word",
+      "en": "god",
+      "ipa": "gɒd",
+      "cs": "bůh"
+    },
+    {
+      "type": "word",
+      "en": "goose",
+      "ipa": "guːs",
+      "cs": "husa",
+      "note": "mn.č. geese [giːs]"
+    },
+    {
+      "type": "word",
+      "en": "hen",
+      "ipa": "hen",
+      "cs": "slepice"
+    },
+    {
+      "type": "word",
+      "en": "hold, held, held",
+      "ipa": "həʊld, held",
+      "cs": "držet"
+    },
+    {
+      "type": "word",
+      "en": "illness",
+      "ipa": "ˈilnəs",
+      "cs": "nemoc"
+    },
+    {
+      "type": "word",
+      "en": "last",
+      "ipa": "lɑːst",
+      "cs": "vydržet; trvat"
+    },
+    {
+      "type": "word",
+      "en": "matter",
+      "ipa": "ˈmætə",
+      "cs": "věc, záležitost, otázka"
+    },
+    {
+      "type": "word",
+      "en": "may",
+      "ipa": "meɪ",
+      "cs": "ať"
+    },
+    {
+      "type": "word",
+      "en": "meaning",
+      "ipa": "ˈmiːnɪŋ",
+      "cs": "význam"
+    },
+    {
+      "type": "word",
+      "en": "nearby",
+      "ipa": "ˌnɪəˈbaɪ",
+      "cs": "poblíž; nedaleký"
+    },
+    {
+      "type": "word",
+      "en": "nun",
+      "ipa": "nʌn",
+      "cs": "jeptiška"
+    },
+    {
+      "type": "word",
+      "en": "pass: pass the time",
+      "ipa": "pɑːs",
+      "cs": "trávit čas"
+    },
+    {
+      "type": "word",
+      "en": "pilgrim",
+      "ipa": "ˈpɪlgrɪm",
+      "cs": "poutník",
+      "note": "náb."
+    },
+    {
+      "type": "word",
+      "en": "pilgrimage",
+      "ipa": "ˈpɪlgrɪmɪdʒ",
+      "cs": "pouť",
+      "note": "náb."
+    },
+    {
+      "type": "word",
+      "en": "plant",
+      "ipa": "plɑːnt",
+      "cs": "rostlina; zasadit"
+    },
+    {
+      "type": "word",
+      "en": "priest",
+      "ipa": "priːst",
+      "cs": "kněz"
+    },
+    {
+      "type": "word",
+      "en": "proud (of)",
+      "ipa": "praʊd",
+      "cs": "hrdý (na); pyšný (na)"
+    },
+    {
+      "type": "word",
+      "en": "pull away",
+      "ipa": "ˌpʊl əˈweɪ",
+      "cs": "odtáhnout"
+    },
+    {
+      "type": "word",
+      "en": "reach",
+      "ipa": "riːtʃ",
+      "cs": "dosáhnout na; dostat se kam"
+    },
+    {
+      "type": "word",
+      "en": "rise, rose, risen",
+      "ipa": "raɪz, rəʊz, rɪzn",
+      "cs": "stoupnout; růst; vyjít",
+      "note": "o slunci"
+    },
+    {
+      "type": "word",
+      "en": "ship",
+      "ipa": "ʃɪp",
+      "cs": "loď",
+      "note": "větší"
+    },
+    {
+      "type": "word",
+      "en": "shut, shut, shut",
+      "ipa": "ʃʌt",
+      "cs": "zavřít",
+      "note": "(tt)"
+    },
+    {
+      "type": "word",
+      "en": "stand up",
+      "ipa": "ˌstænd ˈʌp",
+      "cs": "stoupnout si, vstát"
+    },
+    {
+      "type": "word",
+      "en": "tail",
+      "ipa": "teɪl",
+      "cs": "ocas"
+    },
+    {
+      "type": "word",
+      "en": "tale",
+      "ipa": "teɪl",
+      "cs": "příběh, povídka"
+    },
+    {
+      "type": "word",
+      "en": "toe",
+      "ipa": "təʊ",
+      "cs": "prst",
+      "note": "na noze"
+    },
+    {
+      "type": "word",
+      "en": "stand on one's toes",
+      "cs": "stát na špičkách"
+    },
+    {
+      "type": "word",
+      "en": "tomb",
+      "ipa": "tuːm",
+      "cs": "hrob, hrobka"
+    },
+    {
+      "type": "word",
+      "en": "warn",
+      "ipa": "wɔːn",
+      "cs": "varovat"
+    },
+    {
+      "type": "word",
+      "en": "west",
+      "ipa": "west",
+      "cs": "západ; západní"
+    },
+    {
+      "type": "word",
+      "en": "wise",
+      "ipa": "waɪz",
+      "cs": "moudrý; rozumný"
+    },
+    {
+      "type": "phrase",
+      "en": "It doesn't matter.",
+      "cs": "To nevadí. To je jedno.",
+      "note": "matter"
+    },
+    {
+      "type": "phrase",
+      "en": "It doesn't matter to me.",
+      "cs": "Mně to nevadí. Mně je to jedno.",
+      "note": "matter"
+    },
+    {
+      "type": "phrase",
+      "en": "Does it really matter?",
+      "cs": "Opravdu na tom záleží?",
+      "note": "matter"
+    },
+    {
+      "type": "phrase",
+      "en": "What's the matter?",
+      "cs": "Co je? Co se děje?",
+      "note": "matter"
+    },
+    {
+      "type": "phrase",
+      "en": "What's the matter with you?",
+      "cs": "Co ti je?",
+      "note": "matter"
+    },
+    {
+      "type": "phrase",
+      "en": "It's only a matter of time.",
+      "cs": "Je to jen otázka času.",
+      "note": "matter"
+    },
+    {
+      "type": "phrase",
+      "en": "on the way to",
+      "cs": "cestou do",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "run after sb",
+      "cs": "běžet za kým",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the sun",
+      "cs": "na sluníčku",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "die of",
+      "cs": "zemřít na/čím",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on a farm",
+      "cs": "na statku",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "proud of",
+      "cs": "hrdý/pyšný na",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the sky",
+      "cs": "na nebi",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "on his toes",
+      "cs": "na špičkách",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "break into pieces",
+      "cs": "rozbít na kusy",
+      "note": "předložky"
+    }
+  ]
+}

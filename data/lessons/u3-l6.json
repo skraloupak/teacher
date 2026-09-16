@@ -1,0 +1,674 @@
+{
+  "id": "u3-l6",
+  "order": 6,
+  "title": "Učebnice 3 – lekce 6",
+  "description": "Slovníček – 70 slovíček, 38 frází.",
+  "source": [
+    "screenshots/lekce/u3-l6.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "calculator",
+      "ipa": "ˈkælkjʊleɪtə",
+      "cs": "kalkulačka",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "rubber",
+      "ipa": "ˈrʌbə",
+      "cs": "guma",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "ink",
+      "ipa": "ɪŋk",
+      "cs": "inkoust",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "ruler",
+      "ipa": "ˈruːlə",
+      "cs": "pravítko",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "pencil case",
+      "ipa": "ˈpensl ˌkeɪs",
+      "cs": "penál",
+      "note": "obrázkový slovníček"
+    },
+    {
+      "type": "word",
+      "en": "academic",
+      "ipa": "ˌækəˈdemɪk",
+      "cs": "akademický"
+    },
+    {
+      "type": "word",
+      "en": "advise",
+      "ipa": "ədˈvaɪz",
+      "cs": "(po)radit, doporučit"
+    },
+    {
+      "type": "word",
+      "en": "afford",
+      "ipa": "əˈfɔːd",
+      "cs": "dovolit si"
+    },
+    {
+      "type": "word",
+      "en": "'A'-level",
+      "ipa": "ˈeɪ ˌlevl",
+      "cs": "závěrečná zkouška v 18 letech"
+    },
+    {
+      "type": "word",
+      "en": "allow",
+      "ipa": "əˈlaʊ",
+      "cs": "dovolit, povolit"
+    },
+    {
+      "type": "word",
+      "en": "ambitious",
+      "ipa": "æmˈbɪʃəs",
+      "cs": "ctižádostivý, ambiciózní"
+    },
+    {
+      "type": "word",
+      "en": "apply (for)",
+      "ipa": "əˈplaɪ",
+      "cs": "žádat (o)"
+    },
+    {
+      "type": "word",
+      "en": "bachelor",
+      "ipa": "ˈbætʃələ",
+      "cs": "bakalář",
+      "note": "titul"
+    },
+    {
+      "type": "word",
+      "en": "certainly",
+      "ipa": "ˈsɜːtənlɪ",
+      "cs": "rozhodně; určitě"
+    },
+    {
+      "type": "word",
+      "en": "classmate",
+      "ipa": "ˈklɑːsmeɪt",
+      "cs": "spolužák"
+    },
+    {
+      "type": "word",
+      "en": "college",
+      "ipa": "ˈkɒlɪdʒ",
+      "cs": "vyšší vzdělávací instituce"
+    },
+    {
+      "type": "word",
+      "en": "competition",
+      "ipa": "ˌkɒmpəˈtɪʃn",
+      "cs": "soutěž; konkurence"
+    },
+    {
+      "type": "word",
+      "en": "comprehensive",
+      "ipa": "ˌkɒmprɪˈhensɪv",
+      "cs": "typ britské střední školy"
+    },
+    {
+      "type": "word",
+      "en": "computing",
+      "ipa": "kəmˈpjuːtɪŋ",
+      "cs": "výpočetní technika",
+      "note": "obor"
+    },
+    {
+      "type": "word",
+      "en": "concentrate",
+      "ipa": "ˈkɒnsəntreɪt",
+      "cs": "soustředit se"
+    },
+    {
+      "type": "word",
+      "en": "copy",
+      "ipa": "ˈkɒpɪ",
+      "cs": "opisovat; imitovat; kopírovat; opis, kopie; výtisk"
+    },
+    {
+      "type": "word",
+      "en": "corridor",
+      "ipa": "ˈkɒrɪdɔː",
+      "cs": "chodba"
+    },
+    {
+      "type": "word",
+      "en": "course",
+      "ipa": "kɔːs",
+      "cs": "kurz; studium"
+    },
+    {
+      "type": "word",
+      "en": "degree",
+      "ipa": "dɪˈgriː",
+      "cs": "hodnost; stupeň",
+      "note": "akademická"
+    },
+    {
+      "type": "word",
+      "en": "have a degree in",
+      "cs": "mít vystudováno",
+      "note": "co"
+    },
+    {
+      "type": "word",
+      "en": "education",
+      "ipa": "ˌedjʊˈkeɪʃn",
+      "cs": "vzdělá(vá)ní"
+    },
+    {
+      "type": "word",
+      "en": "entrance exam",
+      "ipa": "ˈentrəns ɪgˌzæm",
+      "cs": "přijímací zkouška"
+    },
+    {
+      "type": "word",
+      "en": "fair",
+      "ipa": "feə",
+      "cs": "spravedlivý; čestný"
+    },
+    {
+      "type": "word",
+      "en": "fashionable",
+      "ipa": "ˈfæʃənəbl",
+      "cs": "módní, moderní"
+    },
+    {
+      "type": "word",
+      "en": "GCSE",
+      "ipa": "ˌdʒiː siː es ˈiː",
+      "cs": "závěrečná zkouška po střední škole"
+    },
+    {
+      "type": "word",
+      "en": "geography",
+      "ipa": "dʒɪˈɒgrəfɪ",
+      "cs": "zeměpis"
+    },
+    {
+      "type": "word",
+      "en": "grade",
+      "ipa": "greɪd",
+      "cs": "známka; stupeň; oznámkovat",
+      "note": "ze zkoušky, na vysvědčení; amer. angl."
+    },
+    {
+      "type": "word",
+      "en": "graduate",
+      "ipa": "ˈgrædʒʊət; ˈgrædʒʊeɪt",
+      "cs": "absolvent; promovat",
+      "note": "vysoké školy"
+    },
+    {
+      "type": "word",
+      "en": "hall",
+      "ipa": "hɔːl",
+      "cs": "kolej",
+      "note": "vysokoškolská"
+    },
+    {
+      "type": "word",
+      "en": "hard",
+      "ipa": "hɑːd",
+      "cs": "tvrdý; tvrdě; pilný; pilně; těžký; těžce",
+      "note": "obtížný"
+    },
+    {
+      "type": "word",
+      "en": "hardly",
+      "ipa": "ˈhɑːdlɪ",
+      "cs": "sotva, stěží, skoro ne"
+    },
+    {
+      "type": "word",
+      "en": "image",
+      "ipa": "ˈɪmɪdʒ",
+      "cs": "image; obraz"
+    },
+    {
+      "type": "word",
+      "en": "impossible",
+      "ipa": "ɪmˈpɒsəbl",
+      "cs": "nemožný"
+    },
+    {
+      "type": "word",
+      "en": "independent",
+      "ipa": "ˌɪndɪˈpendənt",
+      "cs": "nezávislý, samostatný"
+    },
+    {
+      "type": "word",
+      "en": "knowledge",
+      "ipa": "ˈnɒlɪdʒ",
+      "cs": "znalost(i)"
+    },
+    {
+      "type": "word",
+      "en": "lecture",
+      "ipa": "ˈlektʃə",
+      "cs": "přednáška; přednášet"
+    },
+    {
+      "type": "word",
+      "en": "lecturer",
+      "ipa": "ˈlektʃərə",
+      "cs": "přednášející, vysokoškolský pedagog"
+    },
+    {
+      "type": "word",
+      "en": "let, let, let",
+      "ipa": "let, let",
+      "cs": "nechat, dovolit",
+      "note": "(tt)"
+    },
+    {
+      "type": "word",
+      "en": "level",
+      "ipa": "ˈlevl",
+      "cs": "úroveň, stupeň"
+    },
+    {
+      "type": "word",
+      "en": "loan",
+      "ipa": "ləʊn",
+      "cs": "půjčka"
+    },
+    {
+      "type": "word",
+      "en": "mark",
+      "ipa": "mɑːk",
+      "cs": "známka; opravovat, oznámkovat",
+      "note": "z písemky, domácího úkolu"
+    },
+    {
+      "type": "word",
+      "en": "master",
+      "ipa": "ˈmɑːstə",
+      "cs": "magistr",
+      "note": "titul"
+    },
+    {
+      "type": "word",
+      "en": "opportunity",
+      "ipa": "ˌɒpəˈtjuːnətɪ",
+      "cs": "možnost, příležitost"
+    },
+    {
+      "type": "word",
+      "en": "original",
+      "ipa": "əˈrɪdʒənl",
+      "cs": "původní; originál(ní)"
+    },
+    {
+      "type": "word",
+      "en": "pass",
+      "ipa": "pɑːs",
+      "cs": "udělat",
+      "note": "zkoušku"
+    },
+    {
+      "type": "word",
+      "en": "pay off",
+      "ipa": "peɪ ˈɒf",
+      "cs": "splatit"
+    },
+    {
+      "type": "word",
+      "en": "peace",
+      "ipa": "piːs",
+      "cs": "klid, mír, pokoj"
+    },
+    {
+      "type": "word",
+      "en": "persuade",
+      "ipa": "pəˈsweɪd",
+      "cs": "přesvědčit"
+    },
+    {
+      "type": "word",
+      "en": "preparation",
+      "ipa": "ˌprepəˈreɪʃn",
+      "cs": "příprava"
+    },
+    {
+      "type": "word",
+      "en": "programmer",
+      "ipa": "ˈprəʊgræmə",
+      "cs": "programátor"
+    },
+    {
+      "type": "word",
+      "en": "relationship",
+      "ipa": "rɪˈleɪʃnʃɪp",
+      "cs": "vztah"
+    },
+    {
+      "type": "word",
+      "en": "report (on)",
+      "ipa": "rɪˈpɔːt",
+      "cs": "zpráva (o); podat zprávu (o)"
+    },
+    {
+      "type": "word",
+      "en": "(school) report",
+      "cs": "vysvědčení"
+    },
+    {
+      "type": "word",
+      "en": "reputation",
+      "ipa": "ˌrepjʊˈteɪʃn",
+      "cs": "jméno, pověst"
+    },
+    {
+      "type": "word",
+      "en": "rule",
+      "ipa": "ruːl",
+      "cs": "pravidlo"
+    },
+    {
+      "type": "word",
+      "en": "secondary",
+      "ipa": "ˈsekəndərɪ",
+      "cs": "týkající se střední školy"
+    },
+    {
+      "type": "word",
+      "en": "seminar",
+      "ipa": "ˈsemɪnɑː",
+      "cs": "seminář"
+    },
+    {
+      "type": "word",
+      "en": "similar",
+      "ipa": "ˈsɪmələ",
+      "cs": "podobný"
+    },
+    {
+      "type": "word",
+      "en": "state",
+      "ipa": "steɪt",
+      "cs": "stát; státní"
+    },
+    {
+      "type": "word",
+      "en": "talented",
+      "ipa": "ˈtæləntɪd",
+      "cs": "nadaný, talentovaný"
+    },
+    {
+      "type": "word",
+      "en": "technical",
+      "ipa": "ˈteknɪkl",
+      "cs": "technický"
+    },
+    {
+      "type": "word",
+      "en": "term",
+      "ipa": "tɜːm",
+      "cs": "trimestr; semestr, pololetí"
+    },
+    {
+      "type": "word",
+      "en": "timetable",
+      "ipa": "ˈtaɪmˌteɪbl",
+      "cs": "rozvrh hodin; jízdní řád"
+    },
+    {
+      "type": "word",
+      "en": "type",
+      "ipa": "taɪp",
+      "cs": "typ, druh"
+    },
+    {
+      "type": "word",
+      "en": "useful",
+      "ipa": "ˈjuːsfl",
+      "cs": "užitečný"
+    },
+    {
+      "type": "phrase",
+      "en": "exams in 3 subjects",
+      "cs": "zkoušky ze 3 předmětů",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "a degree in history",
+      "cs": "vystudovaný dějepis",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "concentrate on",
+      "cs": "soustředit se na",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "apply for",
+      "cs": "žádat o",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "live in hall",
+      "cs": "bydlet na koleji",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "in the corridor",
+      "cs": "na chodbě",
+      "note": "předložky"
+    },
+    {
+      "type": "phrase",
+      "en": "I teach at a primary or secondary school or a college. → I'm a teacher.",
+      "cs": "Učím na základní nebo střední škole nebo na vyšší vzdělávací instituci. → Jsem učitel.",
+      "note": "teacher, lecturer or professor?"
+    },
+    {
+      "type": "phrase",
+      "en": "I teach at university. → I'm a lecturer.",
+      "cs": "Učím na univerzitě. → Jsem vysokoškolský pedagog.",
+      "note": "teacher, lecturer or professor?"
+    },
+    {
+      "type": "phrase",
+      "en": "I am the head lecturer at my university department. → I'm the professor.",
+      "cs": "Jsem vedoucí pedagog na své univerzitní katedře. → Jsem profesor.",
+      "note": "teacher, lecturer or professor?"
+    },
+    {
+      "type": "phrase",
+      "en": "For everyday schoolwork, homework and tests we get marks.",
+      "cs": "Za běžnou školní práci, domácí úkoly a testy dostáváme marks.",
+      "note": "mark or grade?"
+    },
+    {
+      "type": "phrase",
+      "en": "For exams and on school reports we get grades.",
+      "cs": "Za zkoušky a na vysvědčení dostáváme grades.",
+      "note": "mark or grade?"
+    },
+    {
+      "type": "phrase",
+      "en": "The teacher marks [opravuje] our work and then gives us a mark/grade [oznámkuje].",
+      "cs": "Učitel opravuje naši práci a pak nám dá známku (oznámkuje).",
+      "note": "mark or grade?"
+    },
+    {
+      "type": "phrase",
+      "en": "We use the word pupil to describe all young people aged 16 or less and still in compulsory [povinný] full-time education.",
+      "cs": "Slovo pupil používáme pro všechny mladé lidi ve věku 16 let a méně, kteří jsou ještě v povinné denní školní docházce.",
+      "note": "pupil or student?"
+    },
+    {
+      "type": "phrase",
+      "en": "After this we may use the word student, which is the only possibility when we speak of those at university.",
+      "cs": "Poté můžeme použít slovo student, které je jedinou možností, když mluvíme o lidech na univerzitě.",
+      "note": "pupil or student?"
+    },
+    {
+      "type": "phrase",
+      "en": "go to school",
+      "cs": "chodit/jít do školy",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "be at school",
+      "cs": "být ve škole",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "go to secondary school",
+      "cs": "chodit na střední školu",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "go to university ('uni' [ˈjuːnɪ])",
+      "cs": "chodit na vysokou školu („vejšku“)",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "go to a grammar/state/private school",
+      "cs": "chodit na gymnázium/státní/soukromou školu",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm studying/reading maths.",
+      "cs": "Studuji (na univerzitě) matematiku.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm doing a degree in chemistry.",
+      "cs": "Studuji chemii na vysoké škole.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm doing/taking a course in German.",
+      "cs": "Chodím na kurz němčiny.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "He's doing his GCSEs this year.",
+      "cs": "Dělá letos zkoušky GCSE.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm taking/doing my school-leaving exams this year.",
+      "cs": "Letos maturuji.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "exams in three subjects",
+      "cs": "zkoušky ze tří předmětů",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "take/sit an exam(ination)",
+      "cs": "dělat zkoušku",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "pass/fail an exam",
+      "cs": "udělat zkoušku/propadnout u zkoušky",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "an English exam",
+      "cs": "zkouška z anglického jazyka",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm applying (for a place) to study Czech.",
+      "cs": "Hlásím se na češtinu.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I'm taking/doing (my) entrance exams.",
+      "cs": "Dělám přijímačky.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "She's an academic/creative type.",
+      "cs": "Je to studijní/tvořivý typ.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "He's got a talent for languages.",
+      "cs": "Má talent na jazyky.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "She's good/bad at history.",
+      "cs": "Jde/Nejde jí dějepis.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I get good marks for biology.",
+      "cs": "Z biologie dostávám dobré známky.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "I get mostly ones and twos.",
+      "cs": "Dostávám většinou jedničky a dvojky.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "He's doing well/badly at school.",
+      "cs": "Škola mu jde/nejde.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "She left school last year.",
+      "cs": "Školu dokončila/absolvovala loni.",
+      "note": "remember!"
+    },
+    {
+      "type": "phrase",
+      "en": "He graduated in the summer.",
+      "cs": "V létě promoval.",
+      "note": "remember!"
+    }
+  ]
+}

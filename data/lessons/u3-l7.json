@@ -1,0 +1,439 @@
+{
+  "id": "u3-l7",
+  "order": 7,
+  "title": "Učebnice 3 – lekce 7",
+  "description": "Slovníček – 71 slovíček, 0 frází.",
+  "source": [
+    "screenshots/lekce/u3-l7.jpg"
+  ],
+  "items": [
+    {
+      "type": "word",
+      "en": "ancient",
+      "ipa": "ˈeɪnʃnt",
+      "cs": "starobylý, starodávný"
+    },
+    {
+      "type": "word",
+      "en": "appreciate",
+      "ipa": "əˈpriːʃɪeɪt",
+      "cs": "oceňovat; vážit si"
+    },
+    {
+      "type": "word",
+      "en": "architecture",
+      "ipa": "ˈɑːkɪtektʃə",
+      "cs": "architektura"
+    },
+    {
+      "type": "word",
+      "en": "art nouveau",
+      "ipa": "ˌɑːt nuːˈvəʊ",
+      "cs": "secese"
+    },
+    {
+      "type": "word",
+      "en": "Baroque",
+      "ipa": "bəˈrɒk",
+      "cs": "baroko; barokní"
+    },
+    {
+      "type": "word",
+      "en": "beer hall",
+      "ipa": "ˈbɪə ˌhɔːl",
+      "cs": "pivnice"
+    },
+    {
+      "type": "word",
+      "en": "Bohemian",
+      "ipa": "bəʊˈhiːmɪən",
+      "cs": "český; Čech"
+    },
+    {
+      "type": "word",
+      "en": "bury",
+      "ipa": "ˈberɪ",
+      "cs": "pohřbít; zahrabat"
+    },
+    {
+      "type": "word",
+      "en": "café",
+      "ipa": "ˈkæfeɪ",
+      "cs": "kavárna"
+    },
+    {
+      "type": "word",
+      "en": "casino",
+      "ipa": "kəˈsiːnəʊ",
+      "cs": "kasino, herna"
+    },
+    {
+      "type": "word",
+      "en": "cellar",
+      "ipa": "ˈselə",
+      "cs": "sklep"
+    },
+    {
+      "type": "word",
+      "en": "cemetery",
+      "ipa": "ˈsemətrɪ",
+      "cs": "hřbitov"
+    },
+    {
+      "type": "word",
+      "en": "complex",
+      "ipa": "ˈkɒmpleks",
+      "cs": "komplex; složitý"
+    },
+    {
+      "type": "word",
+      "en": "composer",
+      "ipa": "kəmˈpəʊzə",
+      "cs": "skladatel"
+    },
+    {
+      "type": "word",
+      "en": "craft",
+      "ipa": "krɑːft",
+      "cs": "řemeslo; ruční práce"
+    },
+    {
+      "type": "word",
+      "en": "create",
+      "ipa": "krɪˈeɪt",
+      "cs": "tvořit, stvořit"
+    },
+    {
+      "type": "word",
+      "en": "crown",
+      "ipa": "kraʊn",
+      "cs": "koruna; korunovat"
+    },
+    {
+      "type": "word",
+      "en": "embassy",
+      "ipa": "ˈembəsɪ",
+      "cs": "ambasáda"
+    },
+    {
+      "type": "word",
+      "en": "entertainment",
+      "ipa": "ˌentəˈteɪnmənt",
+      "cs": "zábava"
+    },
+    {
+      "type": "word",
+      "en": "era",
+      "ipa": "ˈɪərə",
+      "cs": "éra, doba, věk"
+    },
+    {
+      "type": "word",
+      "en": "establish",
+      "ipa": "ɪˈstæblɪʃ",
+      "cs": "založit, zřídit"
+    },
+    {
+      "type": "word",
+      "en": "fan",
+      "ipa": "fæn",
+      "cs": "fanoušek"
+    },
+    {
+      "type": "word",
+      "en": "folk",
+      "ipa": "fəʊk",
+      "cs": "lidový; folkový"
+    },
+    {
+      "type": "word",
+      "en": "Gothic",
+      "ipa": "ˈgɒθɪk",
+      "cs": "gotika; gotický"
+    },
+    {
+      "type": "word",
+      "en": "guide",
+      "ipa": "gaɪd",
+      "cs": "provázet; průvodce",
+      "note": "jako průvodce"
+    },
+    {
+      "type": "word",
+      "en": "guided tour",
+      "cs": "prohlídka s průvodcem"
+    },
+    {
+      "type": "word",
+      "en": "historical",
+      "ipa": "hɪˈstɒrɪkl",
+      "cs": "historický"
+    },
+    {
+      "type": "word",
+      "en": "hunger",
+      "ipa": "ˈhʌŋgə",
+      "cs": "hlad"
+    },
+    {
+      "type": "word",
+      "en": "imposing",
+      "ipa": "ɪmˈpəʊzɪŋ",
+      "cs": "impozantní"
+    },
+    {
+      "type": "word",
+      "en": "incomplete",
+      "ipa": "ˌɪnkəmˈpliːt",
+      "cs": "neúplný"
+    },
+    {
+      "type": "word",
+      "en": "interior",
+      "ipa": "ɪnˈtɪərɪə",
+      "cs": "interiér, vnitřek"
+    },
+    {
+      "type": "word",
+      "en": "Jewish",
+      "ipa": "ˈdʒuːɪʃ",
+      "cs": "židovský"
+    },
+    {
+      "type": "word",
+      "en": "lane",
+      "ipa": "leɪn",
+      "cs": "ulička; cesta",
+      "note": "venkovská"
+    },
+    {
+      "type": "word",
+      "en": "lead, led, led",
+      "ipa": "liːd, led, led",
+      "cs": "vést"
+    },
+    {
+      "type": "word",
+      "en": "legend",
+      "ipa": "ˈledʒənd",
+      "cs": "pověst, legenda"
+    },
+    {
+      "type": "word",
+      "en": "memorial",
+      "ipa": "məˈmɔːrɪəl",
+      "cs": "pomník, památník"
+    },
+    {
+      "type": "word",
+      "en": "mention",
+      "ipa": "ˈmenʃn",
+      "cs": "zmínit (se); zmínka"
+    },
+    {
+      "type": "word",
+      "en": "miss",
+      "ipa": "mɪs",
+      "cs": "propást, zmeškat, nechat si ujít; chybět; stýskat se"
+    },
+    {
+      "type": "word",
+      "en": "monument",
+      "ipa": "ˈmɒnjʊmənt",
+      "cs": "památka; pomník"
+    },
+    {
+      "type": "word",
+      "en": "municipal",
+      "ipa": "mjʊˈnɪsɪpl",
+      "cs": "městský, obecní"
+    },
+    {
+      "type": "word",
+      "en": "nation",
+      "ipa": "ˈneɪʃn",
+      "cs": "národ"
+    },
+    {
+      "type": "word",
+      "en": "numerous",
+      "ipa": "ˈnjuːmərəs",
+      "cs": "četný, početný"
+    },
+    {
+      "type": "word",
+      "en": "observation",
+      "ipa": "ˌɒbzəˈveɪʃn",
+      "cs": "pozorování"
+    },
+    {
+      "type": "word",
+      "en": "observation tower",
+      "cs": "rozhledna"
+    },
+    {
+      "type": "word",
+      "en": "president",
+      "ipa": "ˈprezɪdənt",
+      "cs": "prezident"
+    },
+    {
+      "type": "word",
+      "en": "prince",
+      "ipa": "prɪns",
+      "cs": "princ, kníže"
+    },
+    {
+      "type": "word",
+      "en": "pub",
+      "ipa": "pʌb",
+      "cs": "hospoda"
+    },
+    {
+      "type": "word",
+      "en": "quarter",
+      "ipa": "ˈkwɔːtə",
+      "cs": "čtvrť",
+      "note": "městská"
+    },
+    {
+      "type": "word",
+      "en": "reformer",
+      "ipa": "rɪˈfɔːmə",
+      "cs": "reformátor"
+    },
+    {
+      "type": "word",
+      "en": "religious",
+      "ipa": "rɪˈlɪdʒəs",
+      "cs": "náboženský"
+    },
+    {
+      "type": "word",
+      "en": "royal",
+      "ipa": "ˈrɔɪəl",
+      "cs": "královský"
+    },
+    {
+      "type": "word",
+      "en": "saint",
+      "ipa": "seɪnt",
+      "cs": "svatý, světec"
+    },
+    {
+      "type": "word",
+      "en": "satisfy",
+      "ipa": "ˈsætɪsfaɪ",
+      "cs": "uspokojit"
+    },
+    {
+      "type": "word",
+      "en": "so-called",
+      "ipa": "ˈsəʊkɔːld",
+      "cs": "takzvaný"
+    },
+    {
+      "type": "word",
+      "en": "spire",
+      "ipa": "spaɪə",
+      "cs": "věž",
+      "note": "špičatá"
+    },
+    {
+      "type": "word",
+      "en": "statue",
+      "ipa": "ˈstætʃuː",
+      "cs": "socha"
+    },
+    {
+      "type": "word",
+      "en": "steep",
+      "ipa": "stiːp",
+      "cs": "příkrý, prudký, srázný"
+    },
+    {
+      "type": "word",
+      "en": "step",
+      "ipa": "step",
+      "cs": "schod; krok; udělat krok, šlapat"
+    },
+    {
+      "type": "word",
+      "en": "stunning",
+      "ipa": "ˈstʌnɪŋ",
+      "cs": "ohromující, okouzlující"
+    },
+    {
+      "type": "word",
+      "en": "survive",
+      "ipa": "səˈvaɪv",
+      "cs": "přežít; zbýt"
+    },
+    {
+      "type": "word",
+      "en": "synagogue",
+      "ipa": "ˈsɪnəgɒg",
+      "cs": "synagoga"
+    },
+    {
+      "type": "word",
+      "en": "top",
+      "ipa": "tɒp",
+      "cs": "vrchol(ek), špička; vrchní část"
+    },
+    {
+      "type": "word",
+      "en": "touch",
+      "ipa": "tʌtʃ",
+      "cs": "dotknout se, dotýkat se; dotek"
+    },
+    {
+      "type": "word",
+      "en": "tour",
+      "ipa": "tʊə",
+      "cs": "prohlídka; cesta; turné"
+    },
+    {
+      "type": "word",
+      "en": "tower",
+      "ipa": "ˈtaʊə",
+      "cs": "věž"
+    },
+    {
+      "type": "word",
+      "en": "town hall",
+      "ipa": "ˌtaʊn ˈhɔːl",
+      "cs": "radnice"
+    },
+    {
+      "type": "word",
+      "en": "translate",
+      "ipa": "trænsˈleɪt",
+      "cs": "přeložit, překládat"
+    },
+    {
+      "type": "word",
+      "en": "undoubtedly",
+      "ipa": "ʌnˈdaʊtədlɪ",
+      "cs": "nepochybně"
+    },
+    {
+      "type": "word",
+      "en": "unforgettable",
+      "ipa": "ˌʌnfəˈgetəbl",
+      "cs": "nezapomenutelný"
+    },
+    {
+      "type": "word",
+      "en": "war",
+      "ipa": "wɔː",
+      "cs": "válka; válčit"
+    },
+    {
+      "type": "word",
+      "en": "welcome",
+      "ipa": "ˈwelkʌm",
+      "cs": "(při)vítat; (při)vítání; vítaný"
+    }
+  ]
+}
