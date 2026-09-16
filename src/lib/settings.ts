@@ -14,6 +14,7 @@ export const DEFAULT_SETTINGS: StudySettings = {
   mode: "random",
   autoPlayAudio: false,
   dailyGoalMinutes: 10,
+  statsBothDirections: false,
 };
 
 export const SESSION_SIZES: Array<{ value: number | null; label: string }> = [
@@ -114,5 +115,6 @@ export function normalizeSettings(
       typeof base.dailyGoalMinutes === "number" && base.dailyGoalMinutes > 0
         ? Math.min(600, Math.round(base.dailyGoalMinutes))
         : DEFAULT_SETTINGS.dailyGoalMinutes,
+    statsBothDirections: Boolean(base.statsBothDirections),
   };
 }

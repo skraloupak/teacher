@@ -113,6 +113,10 @@ Pozor na čtení statistik: `Odstup 10 minut` neznamená, že těch kartiček se
 minut. Je to odstup, který dostanou, až je dáš správně – většina z nich má termín dávno za
 sebou a čeká. Kolik toho je opravdu na řadě, ukazuje panel **Kdy co přijde na řadu**.
 
+Přehledy ve statistikách počítají jen směr, který se právě učíš – jinak by čísla nesedla
+s tím, co vidíš při procvičování. Přepínačem *Počítat i opačný směr* se dají rozšířit na
+obojí; volba se ukládá. Tabulka **Podle směru** ukazuje obě strany vždycky, to je její smysl.
+
 Správná odpověď posune kartičku o box výš, chybná ji vrátí na začátek a zároveň ji hned
 zařadí zpátky do fronty aktuálního kola. Kolo končí, až všechno projde správně.
 

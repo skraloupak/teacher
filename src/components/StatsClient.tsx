@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Button, Panel, ProgressBar } from "@/components/ui";
+import { Button, Panel, ProgressBar, Switch } from "@/components/ui";
 import { useAppState } from "@/hooks/useAppState";
 import { DIRECTION_LABELS } from "@/lib/settings";
 import { BOX_LABELS, DUE_BUCKETS, MAX_BOX, bucketByDue, isDue } from "@/lib/srs";
@@ -27,7 +27,8 @@ function formatDate(timestamp: number): string {
 }
 
 export function StatsClient({ lessons }: { lessons: Lesson[] }) {
-  const { ready, loadedAt: now, progress, sessions, resetProgress } = useAppState(lessons);
+  const { ready, loadedAt: now, progress, sessions, settings, updateSettings, resetProgress } =
+    useAppState(lessons);
   const [confirmReset, setConfirmReset] = useState(false);
 
   const itemsById = useMemo(() => {
@@ -37,12 +38,32 @@ export function StatsClient({ lessons }: { lessons: Lesson[] }) {
   }, [lessons]);
 
   /** Jen kartičky, ke kterým pořád existuje položka v lekcích. */
-  const liveCards = useMemo(
+  const allLive = useMemo(
     () => Object.values(progress).filter((card) => itemsById.has(card.itemId)),
     [progress, itemsById],
   );
 
-  const orphanCount = Object.keys(progress).length - liveCards.length;
+  const orphanCount = Object.keys(progress).length - allLive.length;
+
+  /** Směry, které se do přehledů počítají. */
+  const shown = useMemo<Direction[]>(() => {
+    if (settings.direction === "mixed" || settings.statsBothDirections) {
+      return ["en2cs", "cs2en"];
+    }
+    return [settings.direction];
+  }, [settings.direction, settings.statsBothDirections]);
+
+  /**
+   * Přehledy počítají jen směr, který se uživatel opravdu učí – jinak čísla nesedí
+   * s tím, co vidí při procvičování. Přepínač níž to umí rozšířit na obojí.
+   */
+  const liveCards = useMemo(
+    () => allLive.filter((card) => shown.includes(card.direction)),
+    [allLive, shown],
+  );
+
+  /** Tabulka po směrech ukazuje obojí vždycky – to je její smysl. */
+  const bothDirections = allLive;
 
   /**
    * Rozložení podle boxů bereme dohromady – je to obrázek stavu, ne součet.
@@ -72,7 +93,7 @@ export function StatsClient({ lessons }: { lessons: Lesson[] }) {
    */
   const overview = useMemo(() => {
     const forDirection = (direction: Direction) => {
-      const cards = liveCards.filter((card) => card.direction === direction);
+      const cards = bothDirections.filter((card) => card.direction === direction);
       const answered = cards.reduce((sum, c) => sum + c.correct + c.wrong, 0);
       const correct = cards.reduce((sum, c) => sum + c.correct, 0);
       return {
@@ -85,7 +106,7 @@ export function StatsClient({ lessons }: { lessons: Lesson[] }) {
       };
     };
     return { en2cs: forDirection("en2cs"), cs2en: forDirection("cs2en") };
-  }, [liveCards, now]);
+  }, [bothDirections, now]);
 
   const hardest = useMemo(
     () =>
@@ -100,7 +121,7 @@ export function StatsClient({ lessons }: { lessons: Lesson[] }) {
 
   if (!ready) return <p className="py-16 text-center text-ink-muted">Načítám…</p>;
 
-  if (liveCards.length === 0) {
+  if (allLive.length === 0) {
     return (
       <Panel className="mt-4">
         <p className="text-ink">
@@ -188,9 +209,26 @@ export function StatsClient({ lessons }: { lessons: Lesson[] }) {
             })}
           </ul>
           <p className="mt-3 text-sm text-ink-muted">
-            Počítá se přes oba směry a všechny lekce. Kolik toho dostaneš v kole, závisí na
-            tom, co máš vybrané na úvodní obrazovce.
+            Počítá se ze všech lekcí. Kolik toho dostaneš v kole, závisí na tom, co máš
+            vybrané na úvodní obrazovce.
           </p>
+        </Panel>
+      )}
+
+      {settings.direction !== "mixed" && (
+        <Panel>
+          <Switch
+            label="Počítat i opačný směr"
+            hint={
+              settings.statsBothDirections
+                ? "Přehledy nad tímhle řádkem sčítají oba směry."
+                : `Přehledy nad tímhle řádkem berou jen ${
+                    settings.direction === "en2cs" ? "anglicky → česky" : "česky → anglicky"
+                  }, tedy to, co se učíš.`
+            }
+            checked={settings.statsBothDirections}
+            onChange={(statsBothDirections) => updateSettings({ statsBothDirections })}
+          />
         </Panel>
       )}
 

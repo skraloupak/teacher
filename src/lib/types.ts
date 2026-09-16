@@ -132,6 +132,11 @@ export type StudySettings = {
   autoPlayAudio: boolean;
   /** Kolik minut denně si chci dát. Po dosažení přijde oslava. */
   dailyGoalMinutes: number;
+  /**
+   * Mají statistiky počítat i opačný směr, než který se učím?
+   * Ve výchozím stavu ne – jinak čísla nesedí s tím, co uživatel při učení vidí.
+   */
+  statsBothDirections: boolean;
 };
 
 /** Záznam o dokončeném kole – pro statistiky. */
