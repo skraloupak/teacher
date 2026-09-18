@@ -5,6 +5,7 @@ import { useMemo, useState } from "react";
 import { SpeakButton } from "@/components/SpeakButton";
 import { Chip, Panel } from "@/components/ui";
 import { useAppState } from "@/hooks/useAppState";
+import { dedupeById } from "@/lib/items";
 import { TYPE_LABELS } from "@/lib/settings";
 import { BOX_LABELS, MAX_BOX, progressKey } from "@/lib/srs";
 import type { Book, Direction, Item, ItemType, Lesson } from "@/lib/types";
@@ -49,6 +50,12 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
     setPeeked(new Set());
   }
 
+  // Kolik je slovíček dohromady – sloučené se počítá jednou, i když je ve víc lekcích.
+  const totalCount = useMemo(
+    () => dedupeById(lessons.flatMap((l) => l.items)).length,
+    [lessons],
+  );
+
   const items = useMemo(() => {
     const inScope = lessons.filter((lesson) =>
       scope.kind === "all"
@@ -57,7 +64,9 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
           ? lesson.book === scope.book
           : lesson.id === scope.id,
     );
-    const all = inScope.flatMap((lesson) => lesson.items);
+    // Sloučené slovíčko patří do víc lekcí, ale je to jedna kartička – bez tohohle
+    // by se ve výpisu objevilo tolikrát, v kolika lekcích je, a s duplicitním React klíčem.
+    const all = dedupeById(inScope.flatMap((lesson) => lesson.items));
     const byType = typeFilter === "all" ? all : all.filter((i) => i.type === typeFilter);
     const byMark = onlyMarked ? byType.filter((i) => marked.has(i.id)) : byType;
     const needle = normalize(query.trim());
@@ -100,9 +109,7 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
           <div className="flex flex-wrap gap-2">
             <Chip selected={scope.kind === "all"} onClick={() => setScope({ kind: "all" })}>
               Vše
-              <span className="ml-1.5 opacity-60">
-                {lessons.reduce((sum, l) => sum + l.items.length, 0)}
-              </span>
+              <span className="ml-1.5 opacity-60">{totalCount}</span>
             </Chip>
             {books.map((book) => (
               <Chip

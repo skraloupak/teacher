@@ -16,10 +16,12 @@ import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
+import { mergeKeyFor } from "../src/lib/slug.ts";
 
 const execFileAsync = promisify(execFile);
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const LESSONS_DIR = path.join(ROOT, "data", "lessons");
+const MERGED_FILE = path.join(ROOT, "data", "merged-words.json");
 
 /** Kolik odlišných hlásek se ještě bere jako drobnost. */
 const TOLERANCE = 0.25;
@@ -79,6 +81,13 @@ async function main() {
   }
 
   const only = process.argv[2];
+  let merged = {};
+  try {
+    merged = JSON.parse(await readFile(MERGED_FILE, "utf8"));
+  } catch {
+    // Tabulka nemusí existovat – pak se nic neslučuje.
+  }
+
   const files = (await readdir(LESSONS_DIR))
     .filter((f) => f.endsWith(".json"))
     .filter((f) => !only || f === `${only}.json`);
@@ -93,7 +102,11 @@ async function main() {
 
   for (const file of files) {
     const lesson = JSON.parse(await readFile(path.join(LESSONS_DIR, file), "utf8"));
-    for (const item of lesson.items) {
+    for (const rawItem of lesson.items) {
+      // Slovíčka z víc lekcí se v aplikaci slučují a kartička pak ukazuje jinou IPA
+      // (i jiné znění), než má soubor lekce. Kontrolovat se má to, co uživatel uvidí.
+      const merge = merged[mergeKeyFor(rawItem.en ?? "")];
+      const item = merge ? { ...rawItem, en: merge.en, ipa: merge.ipa } : rawItem;
       if (!item.ipa) continue;
       // Fráze espeak čte jako větu, srovnání by nedávalo smysl.
       if (item.en.split(/\s+/).length > 2) continue;

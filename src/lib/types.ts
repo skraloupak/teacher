@@ -40,6 +40,11 @@ export type Item = RawItem & {
   audioKey: string;
   /** Je pro položku předgenerovaný zvuk? Když ne, použije se hlas prohlížeče. */
   hasAudio: boolean;
+  /**
+   * Lekce, ze kterých je slovíčko sloučené – vyplněné jen u položek z merged-words.json.
+   * Taková položka má stejné `id` ve všech těchto lekcích, takže je to jedna kartička.
+   */
+  mergedFrom?: string[];
 };
 
 export type Lesson = {

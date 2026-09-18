@@ -17,6 +17,7 @@ import {
   buildQueue,
   countUnpracticed,
   createSession,
+  lessonIdsOf,
   sessionProgress,
   sessionReducer,
   shuffle,
@@ -125,7 +126,7 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
       save({
         id: `${last.startedAt}`,
         finishedAt,
-        lessonIds: [...new Set(last.queue.map((card) => card.item.lessonId))],
+        lessonIds: lessonIdsOf(last.queue, lastSettings.lessonIds),
         direction: lastSettings.direction,
         types: lastSettings.types,
         total: lastTotal,
@@ -225,7 +226,7 @@ export function StudyClient({ lessons }: { lessons: Lesson[] }) {
       finishedAt,
       // Lekce bereme z odehrané fronty, ne z výběru – v režimu „Vybrané" se zkouší
       // napříč všemi lekcemi bez ohledu na to, co je zaškrtnuté na úvodní obrazovce.
-      lessonIds: [...new Set(state.queue.map((card) => card.item.lessonId))],
+      lessonIds: lessonIdsOf(state.queue, settings.lessonIds),
       direction: settings.direction,
       types: settings.types,
       total,

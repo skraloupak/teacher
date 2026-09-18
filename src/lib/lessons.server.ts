@@ -1,5 +1,6 @@
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
+import { mergedFor, readMergedWords, type MergedWord } from "./merged.server";
 import { audioKeyFor } from "./slug";
 import type { Book, Item, Lesson, RawItem, RawLesson } from "./types";
 
@@ -44,10 +45,12 @@ function buildLesson(
   fallbackOrder: number,
   audioKeys: Set<string>,
   file: string,
+  merged: Map<string, MergedWord>,
 ): Lesson {
   const seen = new Map<string, number>();
   const items: Item[] = [];
   let skipped = 0;
+  let collapsed = 0;
 
   for (const rawItem of raw.items) {
     if (!isRawItem(rawItem)) {
@@ -56,24 +59,51 @@ function buildLesson(
       continue;
     }
 
-    const en = rawItem.en.trim();
+    // Slovíčko z víc lekcí se nahradí jedním společným zněním, ať se uživatel nemá
+    // trefovat do toho, který z významů zrovna čekala tahle lekce.
+    const merge = mergedFor(merged, rawItem.en);
+    const en = (merge?.en ?? rawItem.en).trim();
     const audioKey = audioKeyFor(en);
-    // Stejný anglický výraz dvakrát v jedné lekci – odlišíme pořadím, ať se id nepřekrývají.
-    const dupes = seen.get(audioKey) ?? 0;
-    seen.set(audioKey, dupes + 1);
-    const id = dupes === 0 ? `${raw.id}:${audioKey}` : `${raw.id}:${audioKey}-${dupes + 1}`;
+
+    let id: string;
+    if (merge) {
+      // Napříč lekcemi jedno id – SRS pak vede jednu kartičku, ne tři.
+      id = `merged:${audioKey}`;
+      // Táž sloučená kartička může v jedné lekci vzniknout z víc zápisů – „apply (for)"
+      // ze slovníčku a „apply for" z boxu předložek. Druhý výskyt zahodíme, jinak by
+      // v lekci byly dva nerozlišitelné řádky se stejným id a nafouknuté počty.
+      if (seen.has(id)) {
+        collapsed++;
+        continue;
+      }
+      seen.set(id, 1);
+    } else {
+      // Stejný anglický výraz dvakrát v jedné lekci – odlišíme pořadím, ať se id nepřekrývají.
+      const dupes = seen.get(audioKey) ?? 0;
+      seen.set(audioKey, dupes + 1);
+      id = dupes === 0 ? `${raw.id}:${audioKey}` : `${raw.id}:${audioKey}-${dupes + 1}`;
+    }
+
+    // Sloučená položka má napříč lekcemi jedno id, takže musí mít i jeden obsah –
+    // jinak by táž kartička nesla v každé lekci něco jiného. Tabulka proto nese
+    // i poznámky posbírané ze všech lekcí (u nepravidelných sloves 2. a 3. tvar).
+    const source = merge ?? rawItem;
 
     items.push({
       ...rawItem,
+      // Zařazení slovíčko/fráze si drží každá lekce svoje – filtr „jen fráze" jinak
+      // sloučené položky schová.
+      type: rawItem.type,
       en,
-      cs: rawItem.cs.trim(),
-      ipa: rawItem.ipa?.trim().replace(/^\[|\]$/g, "") || undefined,
-      note: rawItem.note?.trim() || undefined,
+      cs: source.cs.trim(),
+      ipa: source.ipa?.trim().replace(/^\[|\]$/g, "") || undefined,
+      note: source.note?.trim() || undefined,
       id,
       lessonId: raw.id,
       lessonTitle: raw.title,
       audioKey,
       hasAudio: audioKeys.has(audioKey),
+      mergedFrom: merge ? merge.lessons : undefined,
     });
   }
 
@@ -81,6 +111,12 @@ function buildLesson(
     console.warn(
       `[lekce] ${file}: přeskočeno ${skipped} vadných položek ` +
         `(chybí type "word"/"phrase", nebo je prázdné en či cs).`,
+    );
+  }
+
+  if (collapsed > 0) {
+    console.info(
+      `[lekce] ${file}: ${collapsed} zápisů splynulo do už založené sloučené kartičky.`,
     );
   }
 
@@ -108,6 +144,7 @@ function buildLesson(
  */
 export async function getLessons(): Promise<Lesson[]> {
   const audioKeys = await readAudioKeys();
+  const merged = await readMergedWords();
 
   let files: string[] = [];
   try {
@@ -132,7 +169,7 @@ export async function getLessons(): Promise<Lesson[]> {
         continue;
       }
       usedIds.set(raw.id, file);
-      lessons.push(buildLesson(raw, index + 1, audioKeys, file));
+      lessons.push(buildLesson(raw, index + 1, audioKeys, file, merged));
     } catch (error) {
       console.warn(`[lekce] Nepodařilo se načíst ${file}:`, error);
     }
@@ -146,15 +183,22 @@ export async function getLessons(): Promise<Lesson[]> {
 /** Lekce seskupené po učebnicích – v tomhle pořadí se nabízejí k výběru. */
 export function groupByBook(lessons: Lesson[]): Book[] {
   const books = new Map<number, Book>();
+  // Sloučené slovíčko je ve víc lekcích pod stejným id, ale kartička je jen jedna –
+  // počítat ho za každou lekci zvlášť by učebnici nafouklo.
+  const counted = new Map<number, Set<string>>();
 
   for (const lesson of lessons) {
     let book = books.get(lesson.book);
     if (!book) {
       book = { number: lesson.book, title: lesson.bookTitle, lessons: [], itemCount: 0 };
       books.set(lesson.book, book);
+      counted.set(lesson.book, new Set());
     }
     book.lessons.push(lesson);
-    book.itemCount += lesson.items.length;
+
+    const ids = counted.get(lesson.book)!;
+    for (const item of lesson.items) ids.add(item.id);
+    book.itemCount = ids.size;
   }
 
   return [...books.values()].sort((a, b) => a.number - b.number);

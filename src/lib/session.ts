@@ -1,4 +1,5 @@
 import { MAX_BOX, difficultyScore, getProgress, isDue, isMastered, progressKey } from "./srs";
+import { dedupeById } from "./items";
 import { directionsOf } from "./settings";
 import type { Direction, Item, Lesson, ProgressMap, StudySettings } from "./types";
 
@@ -43,12 +44,14 @@ function selectCandidates(
   const directions = directionsOf(settings.direction);
   const onlyMarked = settings.mode === "marked";
 
-  const items = lessons
-    // Zaškrtnutá slovíčka si uživatel vybral ručně, takže je bereme ze všech lekcí.
-    .filter((lesson) => onlyMarked || selected.has(lesson.id))
-    .flatMap((lesson) => lesson.items)
-    .filter((item) => types.has(item.type))
-    .filter((item) => !onlyMarked || marked?.has(item.id));
+  const items = dedupeById(
+    lessons
+      // Zaškrtnutá slovíčka si uživatel vybral ručně, takže je bereme ze všech lekcí.
+      .filter((lesson) => onlyMarked || selected.has(lesson.id))
+      .flatMap((lesson) => lesson.items)
+      .filter((item) => types.has(item.type))
+      .filter((item) => !onlyMarked || marked?.has(item.id)),
+  );
 
   const cards: Card[] = [];
 
@@ -76,6 +79,28 @@ function selectCandidates(
   }
 
   return cards;
+}
+
+/**
+ * Lekce, kterým se má kolo připsat.
+ *
+ * Sloučené slovíčko patří do víc lekcí a `item.lessonId` u něj ukazuje jen na tu první.
+ * Bez tohohle by se čas kola zapsal lekci, kterou uživatel vůbec nestudoval.
+ */
+export function lessonIdsOf(queue: Card[], selected: readonly string[]): string[] {
+  const inScope = new Set(selected);
+  const out = new Set<string>();
+
+  for (const card of queue) {
+    const from = card.item.mergedFrom;
+    if (!from?.length) {
+      out.add(card.item.lessonId);
+      continue;
+    }
+    const chosen = from.filter((id) => inScope.has(id));
+    for (const id of chosen.length > 0 ? chosen : from) out.add(id);
+  }
+  return [...out];
 }
 
 /**

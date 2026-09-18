@@ -1,0 +1,2237 @@
+{
+  "about": {
+    "en": "about",
+    "cs": "o (kom, čem); asi, přibližně, kolem",
+    "lessons": [
+      "u1-l3",
+      "u1-l7"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "əˈbaʊt",
+    "note": "kom, čem"
+  },
+  "and": {
+    "en": "and",
+    "cs": "a",
+    "lessons": [
+      "u1-l1",
+      "u1-l10"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ænd",
+    "note": "spojky"
+  },
+  "apply for": {
+    "en": "apply (for)",
+    "cs": "žádat (o)",
+    "lessons": [
+      "u3-l6"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "əˈplaɪ",
+    "note": "předložky"
+  },
+  "as": {
+    "en": "as",
+    "cs": "jako, jak; zatímco; protože",
+    "lessons": [
+      "u1-l8",
+      "u2-l6"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "æz",
+    "pridano": "protože (as = příčinná spojka)"
+  },
+  "back": {
+    "en": "back",
+    "cs": "zpátky, zpět; záda; zadní část, zadní",
+    "lessons": [
+      "u1-l7",
+      "u3-l1"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "bæk"
+  },
+  "be": {
+    "en": "be",
+    "cs": "být",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l1"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "biː",
+    "note": "was [wɒz] / were [wɜː] – been [biːn]"
+  },
+  "be bored": {
+    "en": "be bored",
+    "cs": "nudit se",
+    "lessons": [
+      "u1-l10",
+      "u2-l10"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "bɔːd",
+    "note": "be + přídavné jméno"
+  },
+  "be hungry": {
+    "en": "be hungry",
+    "cs": "mít hlad",
+    "lessons": [
+      "u1-l10",
+      "u1-l6"
+    ],
+    "verdikt": "stejny_vyznam",
+    "note": "be + přídavné jméno"
+  },
+  "bear": {
+    "en": "bear",
+    "cs": "medvěd; snést, vydržet; nést",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l9"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "beə",
+    "note": "bore [bɔː] – borne [bɔːn]"
+  },
+  "because": {
+    "en": "because",
+    "cs": "protože",
+    "lessons": [
+      "u1-l10",
+      "u1-l4"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "bɪˈkɒz",
+    "note": "spojky"
+  },
+  "become": {
+    "en": "become",
+    "cs": "stát se (kým, čím; jakým)",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "bɪˈkʌm",
+    "note": "became, become; kým/čím, jakým; became [bɪˈkeɪm] – become [bɪˈkʌm]"
+  },
+  "before": {
+    "en": "before",
+    "cs": "před (čím); předtím (než), dříve (než)",
+    "lessons": [
+      "u1-l4",
+      "u2-l3"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "bɪˈfɔː",
+    "note": "v časových určeních"
+  },
+  "begin": {
+    "en": "begin",
+    "cs": "začít, začínat",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l10"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "bɪˈɡɪn",
+    "note": "min. čas began; (nn); began [bɪˈɡæn] – begun [bɪˈɡʌn]"
+  },
+  "book": {
+    "en": "book",
+    "cs": "kniha; rezervovat, zamluvit (si)",
+    "lessons": [
+      "u1-l3",
+      "u2-l9"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "bʊk"
+  },
+  "bookshop": {
+    "en": "bookshop",
+    "cs": "knihkupectví",
+    "lessons": [
+      "u1-l2",
+      "u3-l5"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˈbʊkʃɒp",
+    "note": "shop names"
+  },
+  "break": {
+    "en": "break",
+    "cs": "rozbít, zlomit; porušit (pravidlo, slib); přestávka",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l4"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "breɪk",
+    "note": "broke [brəʊk] – broken [ˈbrəʊkən]"
+  },
+  "break into pieces": {
+    "en": "break into pieces",
+    "cs": "rozbít na kusy",
+    "lessons": [
+      "u3-l12",
+      "u3-l8"
+    ],
+    "verdikt": "stejny_vyznam",
+    "note": "předložky"
+  },
+  "bring": {
+    "en": "bring",
+    "cs": "přinést, přivést",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l11"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "brɪŋ",
+    "note": "min. čas brought; brought – brought [brɔːt]"
+  },
+  "build": {
+    "en": "build",
+    "cs": "stavět, postavit",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l10"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "bɪld",
+    "note": "built, built; built – built [bɪlt]"
+  },
+  "but": {
+    "en": "but",
+    "cs": "ale",
+    "lessons": [
+      "u1-l10",
+      "u1-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "bʌt",
+    "note": "spojky"
+  },
+  "buy": {
+    "en": "buy",
+    "cs": "koupit, kupovat",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l8"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "baɪ",
+    "note": "bought – bought [bɔːt]"
+  },
+  "by": {
+    "en": "by",
+    "cs": "od (autora); u, vedle; do (určitého termínu); čím (7. pád – autem, vlakem)",
+    "lessons": [
+      "u1-l6",
+      "u2-l3",
+      "u3-l4"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "baɪ",
+    "note": "autora; určité doby/určitého termínu; předložka 7. pádu"
+  },
+  "call": {
+    "en": "call",
+    "cs": "zavolat, volat; telefonát; jmenovat, nazývat",
+    "lessons": [
+      "u1-l4",
+      "u2-l3"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "kɔːl"
+  },
+  "catch": {
+    "en": "catch",
+    "cs": "chytit, chytat; stihnout (autobus ap.)",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l9"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "kætʃ",
+    "note": "caught, caught; caught – caught [kɔːt]"
+  },
+  "change": {
+    "en": "change",
+    "cs": "změnit, vyměnit, změna; drobné, peníze nazpět; přestoupit (v dopravě)",
+    "lessons": [
+      "u1-l11",
+      "u1-l8"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "tʃeɪndʒ"
+  },
+  "chips": {
+    "en": "chips",
+    "cs": "hranolky; (am.) brambůrky",
+    "lessons": [
+      "u1-l6",
+      "u2-l7"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "tʃɪps",
+    "note": "crisps and chips",
+    "pridano": "americký význam brambůrky (BrE crisps), na který naráží poznámka „crisps and chips“"
+  },
+  "choose": {
+    "en": "choose",
+    "cs": "vybrat (si), zvolit",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "tʃuːz",
+    "note": "chose, chosen; chose [tʃəʊz] – chosen [ˈtʃəʊzn]"
+  },
+  "cold": {
+    "en": "cold",
+    "cs": "studený; nachlazení, rýma; zima, chlad(no)",
+    "lessons": [
+      "u1-l11",
+      "u3-l2"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "kəʊld"
+  },
+  "come": {
+    "en": "come",
+    "cs": "přijít, přijet",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "kʌm",
+    "note": "came [keɪm] – come [kʌm]"
+  },
+  "connection": {
+    "en": "connection",
+    "cs": "spojení, spoj; souvislost; připojení (IT, k databázi)",
+    "lessons": [
+      "tema-it",
+      "u3-l9"
+    ],
+    "verdikt": "oborovy_kontext",
+    "ipa": "kəˈnekʃn",
+    "note": "connection string, connection pool"
+  },
+  "cost": {
+    "en": "cost",
+    "cs": "stát (mít cenu); náklady, cena",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l8"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "kɒst",
+    "note": "o ceně; cost – cost [kɒst]",
+    "pridano": "podstatné jméno náklady, cena – běžný význam, který ani jedna lekce neuvádí"
+  },
+  "cottage": {
+    "en": "cottage",
+    "cs": "chalupa, chata, venkovský domek",
+    "lessons": [
+      "u1-l11",
+      "u3-l1"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˈkɒtɪdʒ",
+    "note": "types of houses"
+  },
+  "country": {
+    "en": "country",
+    "cs": "země, stát, vlast; venkov, krajina",
+    "lessons": [
+      "u1-l3",
+      "u2-l9"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "ˈkʌntrɪ"
+  },
+  "course": {
+    "en": "course",
+    "cs": "kurz, studium; chod (jídla)",
+    "lessons": [
+      "u2-l4",
+      "u3-l6"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "kɔːs",
+    "note": "jídlo"
+  },
+  "cross": {
+    "en": "cross",
+    "cs": "přejít, přejet, překročit; naštvaný, rozzlobený; kříž",
+    "lessons": [
+      "u2-l6",
+      "u3-l9"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "krɒs"
+  },
+  "do": {
+    "en": "do",
+    "cs": "dělat, udělat (i pomocné sloveso)",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "duː",
+    "note": "pomocné sloveso; did [dɪd] – done [dʌn]"
+  },
+  "drama": {
+    "en": "drama",
+    "cs": "drama; dramatické umění",
+    "lessons": [
+      "u1-l10",
+      "u2-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˈdrɑːmə"
+  },
+  "draw": {
+    "en": "draw",
+    "cs": "kreslit, nakreslit; táhnout",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "drɔː",
+    "note": "drew [druː] – drawn [drɔːn]"
+  },
+  "dream": {
+    "en": "dream",
+    "cs": "snít, zdát se; sen; toužit",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l6"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "driːm",
+    "note": "dreamt [dremt] / dreamed [driːmd] – stejné tvary"
+  },
+  "dress": {
+    "en": "dress",
+    "cs": "šaty; obléknout (se), oblékat se",
+    "lessons": [
+      "u1-l6",
+      "u3-l4"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "dres"
+  },
+  "drink": {
+    "en": "drink",
+    "cs": "pít, vypít; nápoj",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l5"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "drɪŋk",
+    "note": "drank [dræŋk] – drunk [drʌŋk]"
+  },
+  "drive": {
+    "en": "drive",
+    "cs": "řídit, jet autem; jízda, projížďka (autem)",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l10",
+      "u3-l1"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "draɪv",
+    "note": "min. čas drove; auto; autem; drove [drəʊv] – driven [ˈdrɪvn]"
+  },
+  "early": {
+    "en": "early",
+    "cs": "brzy, časně; raný, časný",
+    "lessons": [
+      "u1-l7",
+      "u2-l2"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˈɜːlɪ",
+    "note": "brzy; early in the morning"
+  },
+  "eat": {
+    "en": "eat",
+    "cs": "jíst, sníst",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l4"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "iːt",
+    "note": "ate [et] – eaten [ˈiːtn]"
+  },
+  "employee": {
+    "en": "employee",
+    "cs": "zaměstnanec",
+    "lessons": [
+      "tema-it",
+      "u3-l9"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ɪmˈplɔɪiː",
+    "note": "přízvuk na konci slova"
+  },
+  "escape from": {
+    "en": "escape (from)",
+    "cs": "utéct, uprchnout (před); útěk",
+    "lessons": [
+      "u3-l12"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ɪˈskeɪp",
+    "note": "předložky"
+  },
+  "fair": {
+    "en": "fair",
+    "cs": "spravedlivý, čestný; světlý, plavý (o vlasech); pouť, veletrh",
+    "lessons": [
+      "u1-l2",
+      "u3-l4",
+      "u3-l6"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "feə"
+  },
+  "fall": {
+    "en": "fall",
+    "cs": "padat, spadnout; pád; (am.) podzim",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l5"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "fɔːl",
+    "note": "fell, fallen; fell [fel] – fallen [ˈfɔːlən]",
+    "pridano": "americký význam podzim, který žádná lekce neuvádí"
+  },
+  "fan": {
+    "en": "fan",
+    "cs": "fanoušek, fanda, nadšenec; ventilátor, větrák",
+    "lessons": [
+      "u2-l10",
+      "u3-l7"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "fæn",
+    "pridano": "ventilátor, větrák – běžný druhý význam slova, který žádná lekce neuvádí"
+  },
+  "fat": {
+    "en": "fat",
+    "cs": "tlustý (o vzhledu); tuk",
+    "lessons": [
+      "u1-l6",
+      "u2-l7"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "fæt",
+    "note": "(tt); o vzhledu"
+  },
+  "feel": {
+    "en": "feel",
+    "cs": "cítit (se), mít pocit",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l10"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "fiːl",
+    "note": "min. čas felt; felt – felt [felt]"
+  },
+  "find": {
+    "en": "find",
+    "cs": "najít, nalézt; zjistit",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l7"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "faɪnd",
+    "note": "found – found [faʊnd]"
+  },
+  "fine": {
+    "en": "fine",
+    "cs": "v pořádku, fajn, prima; pěkný, pěkně (o počasí); pokuta",
+    "lessons": [
+      "u1-l1",
+      "u3-l10"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "faɪn",
+    "note": "o počasí",
+    "pridano": "pokuta – běžný a na středoškolské úrovni užitečný význam, který učebnice neuvádí"
+  },
+  "fit": {
+    "en": "fit",
+    "cs": "sedět, padnout (o velikosti); fit, v kondici",
+    "lessons": [
+      "u2-l7",
+      "u3-l3"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "fɪt",
+    "note": "(tt), o velikosti; (tt)"
+  },
+  "fly": {
+    "en": "fly",
+    "cs": "letět, létat; moucha",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l9"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "flaɪ",
+    "note": "flew, flown; flew [fluː] – flown [fləʊn]",
+    "pridano": "moucha – velmi běžné podstatné jméno, které žádná lekce neuvádí"
+  },
+  "for a while": {
+    "en": "for a while",
+    "cs": "chvíli, na chvíli",
+    "lessons": [
+      "u1-l11",
+      "u2-l6"
+    ],
+    "verdikt": "stejny_vyznam",
+    "note": "předložky"
+  },
+  "forget": {
+    "en": "forget",
+    "cs": "zapomenout (na co), zapomínat",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l6",
+      "u2-l9"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "fəˈget",
+    "note": "zapomenout; (tt); forgot [fəˈɡɒt] – forgotten [fəˈɡɒtn]"
+  },
+  "form": {
+    "en": "form",
+    "cs": "formulář; tvar, forma; třída (skupina žáků)",
+    "lessons": [
+      "u1-l4",
+      "u2-l8"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "fɔːm",
+    "note": "skupina žáků",
+    "pridano": "tvar, forma – základní význam slova, který ani jedna lekce neuvádí"
+  },
+  "free": {
+    "en": "free",
+    "cs": "volný, svobodný; zadarmo, bezplatný",
+    "lessons": [
+      "u1-l3",
+      "u2-l5"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "friː"
+  },
+  "from there": {
+    "en": "from there",
+    "cs": "odtud, odtamtud",
+    "lessons": [
+      "u1-l9",
+      "u3-l9"
+    ],
+    "verdikt": "stejny_vyznam",
+    "note": "předložky; kudy kam..."
+  },
+  "front": {
+    "en": "front",
+    "cs": "předek, přední strana; přední",
+    "lessons": [
+      "u1-l10",
+      "u3-l1"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "frʌnt",
+    "note": "viz in front of; čeho"
+  },
+  "get": {
+    "en": "get",
+    "cs": "dostat, získat; koupit (hovorově); stát se; dostat se (kam)",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l11",
+      "u1-l8"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "get",
+    "note": "(tt); hovorově; sloveso get; hovorově; got – got [ɡɒt]"
+  },
+  "get around to": {
+    "en": "get (a)round to",
+    "cs": "dostat se k (nějaké činnosti)",
+    "lessons": [
+      "u3-l9"
+    ],
+    "verdikt": "stejny_vyznam",
+    "note": "předložky"
+  },
+  "get dressed": {
+    "en": "get dressed",
+    "cs": "obléknout se, oblékat se",
+    "lessons": [
+      "u1-l11",
+      "u1-l4"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˌgetˈdrest",
+    "note": "(tt); sloveso get"
+  },
+  "get into": {
+    "en": "get into",
+    "cs": "nastoupit, nasednout do (auta, taxíku)",
+    "lessons": [
+      "u1-l10"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˌgetˈɪntuː",
+    "note": "(tt); do auta; předložky"
+  },
+  "get to": {
+    "en": "get to",
+    "cs": "dostat se (kam, do, na)",
+    "lessons": [
+      "u1-l11"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˈget tuː, ˈget tə",
+    "note": "předložky"
+  },
+  "get up": {
+    "en": "get up",
+    "cs": "vstát, vstávat",
+    "lessons": [
+      "u1-l11",
+      "u1-l4"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˌgetˈʌp",
+    "note": "(tt); sloveso get"
+  },
+  "give": {
+    "en": "give",
+    "cs": "dát, dávat (něco někomu)",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l6",
+      "u1-l8"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "gɪv",
+    "note": "give a put; gave [ɡeɪv] – given [ˈɡɪvn]"
+  },
+  "give up": {
+    "en": "give up",
+    "cs": "vzdát se čeho, přestat; vydat, odevzdat",
+    "lessons": [
+      "u2-l7",
+      "u3-l12"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "gɪv ˈʌp",
+    "note": "čeho"
+  },
+  "go": {
+    "en": "go",
+    "cs": "jít, jet, chodit, jezdit",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "gəʊ",
+    "note": "went [went] – gone [ɡɒn]"
+  },
+  "go in": {
+    "en": "go in",
+    "cs": "vstoupit, jít dovnitř; zajít (slunce za mraky)",
+    "lessons": [
+      "u2-l6",
+      "u3-l10"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "note": "předložky; slunce za mraky"
+  },
+  "great": {
+    "en": "great",
+    "cs": "skvělý, báječný; velký, ohromný",
+    "lessons": [
+      "u1-l3",
+      "u2-l6"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "greɪt"
+  },
+  "grow": {
+    "en": "grow",
+    "cs": "růst, vyrůst; pěstovat",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l10"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "grəʊ",
+    "note": "grew, grown; pěstovat rostlinu; grew [ɡruː] – grown [ɡrəʊn]"
+  },
+  "guide": {
+    "en": "guide",
+    "cs": "průvodce (člověk i kniha); provázet, vést",
+    "lessons": [
+      "u2-l5",
+      "u3-l7"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "gaɪd",
+    "note": "člověk i kniha; jako průvodce"
+  },
+  "guilty of": {
+    "en": "guilty (of)",
+    "cs": "vinen (čím)",
+    "lessons": [
+      "u3-l12"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˈgɪltɪ",
+    "note": "předložky"
+  },
+  "habit": {
+    "en": "habit",
+    "cs": "zvyk, zvyklost",
+    "lessons": [
+      "u2-l3",
+      "u2-l7"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˈhæbɪt"
+  },
+  "hall": {
+    "en": "hall",
+    "cs": "hala, sál; síň, předsíň; kolej (vysokoškolská)",
+    "lessons": [
+      "u2-l6",
+      "u3-l6"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "hɔːl",
+    "note": "vysokoškolská"
+  },
+  "hang": {
+    "en": "hang",
+    "cs": "viset; pověsit, zavěsit",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l2"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "hæŋ",
+    "note": "hung [hʌŋ]; hung – hung [hʌŋ]"
+  },
+  "hard": {
+    "en": "hard",
+    "cs": "tvrdý, tvrdě; těžký, obtížný; pilný, pilně",
+    "lessons": [
+      "u2-l1",
+      "u3-l6"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "hɑːd",
+    "note": "obtížný"
+  },
+  "hear": {
+    "en": "hear",
+    "cs": "slyšet",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l5"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "hɪə",
+    "note": "heard, heard; heard – heard [hɜːd]"
+  },
+  "hide": {
+    "en": "hide",
+    "cs": "schovat (se), ukrýt (se), skrýt",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "haɪd",
+    "note": "hid, hidden; hid [hɪd] – hidden [ˈhɪdn]"
+  },
+  "however": {
+    "en": "however",
+    "cs": "však, avšak, přesto; jakkoliv, ať jakkoli",
+    "lessons": [
+      "u2-l8",
+      "u3-l12"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "haʊˈevə",
+    "note": "všimněte si"
+  },
+  "hurt": {
+    "en": "hurt",
+    "cs": "zranit, ublížit; bolet",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l11"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "hɜːt",
+    "note": "hurt, hurt; hurt – hurt [hɜːt]"
+  },
+  "if": {
+    "en": "if",
+    "cs": "jestli, pokud, když; zda",
+    "lessons": [
+      "u1-l10",
+      "u1-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ɪf",
+    "note": "spojky"
+  },
+  "ill keep you posted": {
+    "en": "I'll keep you posted.",
+    "cs": "Budu tě průběžně informovat.",
+    "lessons": [
+      "tema-it"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "aɪl ˈkiːp juː ˈpəʊstɪd",
+    "note": "typické v mailu klientovi"
+  },
+  "in my opinion": {
+    "en": "in my opinion",
+    "cs": "podle mého názoru",
+    "lessons": [
+      "u2-l7",
+      "u3-l1"
+    ],
+    "verdikt": "stejny_vyznam",
+    "note": "předložky"
+  },
+  "in the bedroom": {
+    "en": "in the bedroom",
+    "cs": "v ložnici",
+    "lessons": [
+      "u1-l2",
+      "u1-l5"
+    ],
+    "verdikt": "stejny_vyznam",
+    "note": "předložky"
+  },
+  "in the garden": {
+    "en": "in the garden",
+    "cs": "na zahradě",
+    "lessons": [
+      "u1-l2",
+      "u2-l11"
+    ],
+    "verdikt": "stejny_vyznam",
+    "note": "předložky"
+  },
+  "it works on my machine": {
+    "en": "It works on my machine.",
+    "cs": "U mě to funguje. (vývojářský vtip)",
+    "lessons": [
+      "tema-it"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ɪt wɜːks ɒn maɪ məˈʃiːn",
+    "note": "vžitý vtip mezi vývojáři; klasický vývojářský vtip; myšleno napůl v žertu"
+  },
+  "just": {
+    "en": "just",
+    "cs": "jenom, prostě, akorát; právě, zrovna",
+    "lessons": [
+      "u1-l5",
+      "u1-l8"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "dʒʌst"
+  },
+  "keep": {
+    "en": "keep",
+    "cs": "nechat si, udržovat; stále/dále něco dělat (keep doing)",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l6"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "kiːp",
+    "note": "něco dělat; kept – kept [kept]"
+  },
+  "kind": {
+    "en": "kind",
+    "cs": "laskavý, hodný, milý; druh, typ",
+    "lessons": [
+      "u1-l2",
+      "u2-l1",
+      "u2-l8"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "kaɪnd"
+  },
+  "know": {
+    "en": "know",
+    "cs": "vědět, znát",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "nəʊ",
+    "note": "knew [njuː] – known [nəʊn]"
+  },
+  "last": {
+    "en": "last",
+    "cs": "poslední, minulý; vydržet, trvat",
+    "lessons": [
+      "u1-l11",
+      "u3-l8"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "lɑːst"
+  },
+  "lay": {
+    "en": "lay",
+    "cs": "položit, klást; prostřít (stůl); ležel (minulý čas od lie)",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l11"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "leɪ",
+    "note": "minulý čas od lie (ležet); laid – laid [leɪd]"
+  },
+  "learn": {
+    "en": "learn",
+    "cs": "učit se, naučit se; dozvědět se",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l1"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "lɜːn",
+    "note": "learnt [lɜːnt] / learned [lɜːnd] – stejné tvary; learnt"
+  },
+  "leave": {
+    "en": "leave",
+    "cs": "odejít, odjet (z); opustit; nechat, zapomenout (co kde)",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l8",
+      "u2-l9"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "liːv",
+    "note": "zapomenout; left – left [left]"
+  },
+  "left": {
+    "en": "left",
+    "cs": "levý; odešel, odjel, opustil (min. čas od leave); zbylý, zbývající",
+    "lessons": [
+      "u1-l10",
+      "u1-l11",
+      "u2-l5"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "left",
+    "note": "minulý čas od leave"
+  },
+  "leg": {
+    "en": "leg",
+    "cs": "noha (celá)",
+    "lessons": [
+      "u2-l10",
+      "u2-l11"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "leg",
+    "note": "noha, ruka"
+  },
+  "lend": {
+    "en": "lend",
+    "cs": "půjčit (někomu co)",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l6"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "lend",
+    "note": "komu co; lent – lent [lent]"
+  },
+  "let let let": {
+    "en": "let, let, let",
+    "cs": "nechat, dovolit, povolit",
+    "lessons": [
+      "u3-l2",
+      "u3-l6"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "let",
+    "note": "(tt)"
+  },
+  "lie": {
+    "en": "lie",
+    "cs": "ležet, lehnout si; nacházet se; lhát (lie – lied – lied)",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l11"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "laɪ",
+    "note": "min. čas lay; lay [leɪ] – lain [leɪn]",
+    "pridano": "lhát – běžný druhý význam se samostatným pravidelným časováním, žádná lekce ho neuvádí"
+  },
+  "lift": {
+    "en": "lift",
+    "cs": "výtah; odvoz, svezení; zdvihnout, zvednout",
+    "lessons": [
+      "u2-l7",
+      "u3-l9"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "lɪft"
+  },
+  "light": {
+    "en": "light",
+    "cs": "světlo; světlý; lehký; rozsvítit, zapálit",
+    "lessons": [
+      "tema-slovesa",
+      "u3-l4"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "laɪt",
+    "note": "lit – lit [lɪt]",
+    "pridano": "lehký – velmi běžný význam (light bag, light meal), který žádná lekce neuvádí"
+  },
+  "like": {
+    "en": "like",
+    "cs": "mít rád; jako",
+    "lessons": [
+      "u1-l3",
+      "u1-l9"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "laɪk"
+  },
+  "long": {
+    "en": "long",
+    "cs": "dlouhý; dlouho",
+    "lessons": [
+      "u1-l2",
+      "u1-l7"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "lɒŋ"
+  },
+  "look at": {
+    "en": "look at",
+    "cs": "dívat se na",
+    "lessons": [
+      "u1-l7",
+      "u2-l1"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˈlʊk æt",
+    "note": "předložky; look"
+  },
+  "look for": {
+    "en": "look for",
+    "cs": "hledat",
+    "lessons": [
+      "u1-l5",
+      "u2-l1"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˈlʊk fɔː",
+    "note": "look"
+  },
+  "lose": {
+    "en": "lose",
+    "cs": "ztratit; prohrát",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l10"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "luːz",
+    "note": "min. čas lost; lost – lost [lɒst]"
+  },
+  "make": {
+    "en": "make",
+    "cs": "(u)dělat, vyrobit",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l10"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "meɪk",
+    "note": "min. čas made; made – made [meɪd]"
+  },
+  "match": {
+    "en": "match",
+    "cs": "zápas; hodit se k (sobě), ladit; zápalka",
+    "lessons": [
+      "u3-l2",
+      "u3-l3"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "mætʃ",
+    "pridano": "zápalka – běžný třetí význam, který učebnice neuvádí"
+  },
+  "matter": {
+    "en": "matter",
+    "cs": "vadit, záležet; věc, záležitost",
+    "lessons": [
+      "u2-l5",
+      "u3-l8"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "ˈmætə"
+  },
+  "mean": {
+    "en": "mean",
+    "cs": "znamenat; mínit, myslet vážně; zlý, ošklivý, lakomý (povahou)",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l6",
+      "u3-l12"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "miːn",
+    "note": "povahou; meant – meant [ment]"
+  },
+  "meet": {
+    "en": "meet",
+    "cs": "potkat, setkat se s; seznámit se s",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "miːt",
+    "note": "met – met [met]"
+  },
+  "mistake": {
+    "en": "mistake",
+    "cs": "chyba, omyl; splést si, zaměnit",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l9"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "mɪsˈteɪk",
+    "note": "mistook [mɪˈstʊk] – mistaken [mɪˈsteɪkən]"
+  },
+  "move": {
+    "en": "move",
+    "cs": "hýbat (se), pohnout; stěhovat (se), stěhování; posunout (se), přesednout si",
+    "lessons": [
+      "u2-l6",
+      "u3-l1"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "muːv"
+  },
+  "much": {
+    "en": "much",
+    "cs": "mnoho, moc; mnohem (s 2. stupněm)",
+    "lessons": [
+      "u1-l4",
+      "u1-l8"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "mʌtʃ"
+  },
+  "on the way to": {
+    "en": "on the way to",
+    "cs": "na cestě do, cestou do",
+    "lessons": [
+      "u2-l8",
+      "u3-l8"
+    ],
+    "verdikt": "stejny_vyznam",
+    "note": "předložky"
+  },
+  "or": {
+    "en": "or",
+    "cs": "nebo",
+    "lessons": [
+      "u1-l10",
+      "u1-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ɔː",
+    "note": "spojky"
+  },
+  "order": {
+    "en": "order",
+    "cs": "objednat (si), objednávka; rozkaz, příkaz; pořádek, pořadí, seřadit",
+    "lessons": [
+      "u2-l4",
+      "u3-l5"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "ˈɔːdə"
+  },
+  "out": {
+    "en": "out",
+    "cs": "ven, venku; pryč (mimo domov)",
+    "lessons": [
+      "u1-l3",
+      "u1-l7"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "aʊt",
+    "note": "pryč mimo domov"
+  },
+  "own": {
+    "en": "own",
+    "cs": "vlastní; vlastnit",
+    "lessons": [
+      "u1-l11",
+      "u3-l1"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "əʊn"
+  },
+  "park": {
+    "en": "park",
+    "cs": "park; parkovat, zaparkovat",
+    "lessons": [
+      "u1-l2",
+      "u3-l4"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "pɑːk"
+  },
+  "pass": {
+    "en": "pass",
+    "cs": "projít, minout; uběhnout (o čase); udělat (zkoušku); podat",
+    "lessons": [
+      "u2-l11",
+      "u3-l6"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "pɑːs",
+    "note": "o čase; zkoušku",
+    "pridano": "podat (něco někomu) – velmi častý základní význam, který ani jedna lekce neuvádí"
+  },
+  "patient": {
+    "en": "patient",
+    "cs": "trpělivý; pacient",
+    "lessons": [
+      "u1-l4",
+      "u2-l8"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "ˈpeɪʃnt"
+  },
+  "pay": {
+    "en": "pay",
+    "cs": "platit, zaplatit",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l8"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "peɪ",
+    "note": "paid – paid [peɪd]"
+  },
+  "pick up": {
+    "en": "pick up",
+    "cs": "zvednout, sebrat, vzít do ruky; vyzvednout (někoho, něco)",
+    "lessons": [
+      "u2-l6",
+      "u3-l2"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˌpɪk ˈʌp",
+    "note": "phrasal verbs"
+  },
+  "play": {
+    "en": "play",
+    "cs": "hrát, hrát si; divadelní hra",
+    "lessons": [
+      "u1-l4",
+      "u1-l7"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "pleɪ"
+  },
+  "please": {
+    "en": "please",
+    "cs": "prosím (v prosbách, žádostech); potěšit, udělat radost",
+    "lessons": [
+      "u1-l5",
+      "u2-l11"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "pliːz",
+    "note": "v prosbách, žádostech"
+  },
+  "point": {
+    "en": "point",
+    "cs": "bod; smysl, pointa; desetinná tečka (u čísel); ukázat (prstem)",
+    "lessons": [
+      "u3-l10",
+      "u3-l2"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "pɔɪnt",
+    "pridano": "ukázat, ukazovat (prstem) – běžný slovesný význam, který žádná lekce neuvádí"
+  },
+  "production": {
+    "en": "production",
+    "cs": "výroba, produkce; ostrý provoz, produkční prostředí (IT)",
+    "lessons": [
+      "tema-it",
+      "u3-l11"
+    ],
+    "verdikt": "oborovy_kontext",
+    "ipa": "prəˈdʌkʃn",
+    "note": "hovorově zkráceně prod [prɒd]"
+  },
+  "promotion": {
+    "en": "promotion",
+    "cs": "povýšení; propagace, reklamní akce",
+    "lessons": [
+      "tema-it",
+      "u3-l2"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "prəˈməʊʃn",
+    "note": "get a promotion = být povýšen"
+  },
+  "proud of": {
+    "en": "proud (of)",
+    "cs": "hrdý (na), pyšný (na)",
+    "lessons": [
+      "u3-l8"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "praʊd",
+    "note": "předložky"
+  },
+  "put": {
+    "en": "put",
+    "cs": "dát, položit (někam)",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l8"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "pʊt",
+    "note": "(tt); někam; put – put [pʊt]"
+  },
+  "put on": {
+    "en": "put on",
+    "cs": "obléknout (si), obout (si); zapnout, pustit (světlo, hudbu)",
+    "lessons": [
+      "u3-l2",
+      "u3-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˌpʊt ˈɒn",
+    "note": "phrasal verbs and prepositions",
+    "pridano": "zapnout, pustit (světlo, televizi, hudbu) – běžný druhý význam tohoto frázového slovesa"
+  },
+  "queue": {
+    "en": "queue",
+    "cs": "fronta; stát ve frontě; fronta zpráv, úloh (IT)",
+    "lessons": [
+      "tema-it",
+      "u3-l5"
+    ],
+    "verdikt": "oborovy_kontext",
+    "ipa": "kjuː",
+    "note": "vyslovuje se jako písmeno Q"
+  },
+  "read": {
+    "en": "read",
+    "cs": "číst, přečíst",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "riːd",
+    "note": "read – read [red]"
+  },
+  "relationship": {
+    "en": "relationship",
+    "cs": "vztah; vazba mezi tabulkami (IT)",
+    "lessons": [
+      "tema-it",
+      "u3-l6"
+    ],
+    "verdikt": "oborovy_kontext",
+    "ipa": "rɪˈleɪʃnʃɪp",
+    "note": "kratší varianta relation rɪˈleɪʃn"
+  },
+  "rely on": {
+    "en": "rely (on)",
+    "cs": "spoléhat se (na), spolehnout se (na)",
+    "lessons": [
+      "u3-l9"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "rɪˈlaɪ",
+    "note": "předložky"
+  },
+  "rest": {
+    "en": "rest",
+    "cs": "odpočinek, odpočívat; zbytek, zbývající část",
+    "lessons": [
+      "u2-l10",
+      "u3-l2"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "rest"
+  },
+  "return": {
+    "en": "return",
+    "cs": "vrátit (se); návrat; zpáteční (jízdenka, letenka)",
+    "lessons": [
+      "u2-l3",
+      "u3-l9"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "rɪˈtɜːn",
+    "note": "jízdenka/letenka"
+  },
+  "ride": {
+    "en": "ride",
+    "cs": "jezdit, jet (na kole, na koni); jízda",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l9"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "raɪd",
+    "note": "rode, ridden; jet na; jedna jízda; rode [rəʊd] – ridden [ˈrɪdn]"
+  },
+  "ring": {
+    "en": "ring",
+    "cs": "zvonit, zazvonit; zatelefonovat; prsten",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l5"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "rɪŋ",
+    "note": "rang [ræŋ] – rung [rʌŋ]",
+    "pridano": "prsten (podstatné jméno)"
+  },
+  "romance": {
+    "en": "romance",
+    "cs": "romantika; milostný román; románek, milostný vztah",
+    "lessons": [
+      "u2-l3",
+      "u3-l1"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "rəʊˈmæns",
+    "pridano": "románek, milostný vztah"
+  },
+  "room": {
+    "en": "room",
+    "cs": "pokoj, místnost; prostor, místo",
+    "lessons": [
+      "u1-l5",
+      "u2-l6"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "ruːm",
+    "note": "prostor"
+  },
+  "row": {
+    "en": "row",
+    "cs": "řada; veslovat",
+    "lessons": [
+      "u2-l5",
+      "u3-l12"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "rəʊ"
+  },
+  "run": {
+    "en": "run",
+    "cs": "běžet, běhat, utíkat; řídit, provozovat (firmu ap.)",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l5"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "rʌn",
+    "note": "nn; ran [ræn] – run [rʌn]"
+  },
+  "salary": {
+    "en": "salary",
+    "cs": "plat, mzda (měsíční/roční)",
+    "lessons": [
+      "tema-it",
+      "u3-l11"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˈsælərɪ",
+    "note": "měsíční/roční, na rozdíl od hodinové wage"
+  },
+  "say": {
+    "en": "say",
+    "cs": "říct, říkat",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l4"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "seɪ",
+    "note": "něco; said – said [sed]"
+  },
+  "see": {
+    "en": "see",
+    "cs": "vidět, spatřit",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l6"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "siː",
+    "note": "saw [sɔː] – seen [siːn]"
+  },
+  "sell": {
+    "en": "sell",
+    "cs": "prodat, prodávat",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l8"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "sel",
+    "note": "sold – sold [səʊld]"
+  },
+  "send": {
+    "en": "send",
+    "cs": "poslat, posílat",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l9"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "send",
+    "note": "min. čas sent; sent – sent [sent]"
+  },
+  "serve": {
+    "en": "serve",
+    "cs": "obsluhovat, podávat (jídlo), servírovat",
+    "lessons": [
+      "u2-l4",
+      "u3-l5"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "sɜːv",
+    "note": "jídlo"
+  },
+  "set": {
+    "en": "set",
+    "cs": "nastavit; stanovit, určit; sada, souprava",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l10"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "set",
+    "note": "set – set [set]"
+  },
+  "shine": {
+    "en": "shine",
+    "cs": "svítit, zářit; lesknout se",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l9"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ʃaɪn",
+    "note": "shone, shone; shone – shone [ʃɒn]"
+  },
+  "show": {
+    "en": "show",
+    "cs": "ukázat, ukazovat; přehlídka, představení, pořad",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l3",
+      "u1-l7"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "ʃəʊ",
+    "note": "showed [ʃəʊd] – shown [ʃəʊn]",
+    "pridano": "představení, pořad"
+  },
+  "shower": {
+    "en": "shower",
+    "cs": "sprcha; přeháňka",
+    "lessons": [
+      "u1-l4",
+      "u3-l10"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "ˈʃaʊə"
+  },
+  "sign": {
+    "en": "sign",
+    "cs": "značka, nápis; znamení; podepsat (se)",
+    "lessons": [
+      "u2-l11",
+      "u3-l2"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "saɪn"
+  },
+  "sing": {
+    "en": "sing",
+    "cs": "zpívat, zazpívat",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l5"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "sɪŋ",
+    "note": "sang [sæŋ] – sung [sʌŋ]"
+  },
+  "sit": {
+    "en": "sit",
+    "cs": "sedět, sednout si",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l9"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "sɪt",
+    "note": "min. čas sat; (tt); sat – sat [sæt]"
+  },
+  "sleep": {
+    "en": "sleep",
+    "cs": "spát",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l6"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "sliːp",
+    "note": "slept, slept; slept – slept [slept]"
+  },
+  "smell": {
+    "en": "smell",
+    "cs": "cítit, čichat; vonět, páchnout; vůně, zápach",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l11"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "smel",
+    "note": "čichem; smelt [smelt] / smelled [smeld] – stejné tvary"
+  },
+  "so": {
+    "en": "so",
+    "cs": "tak, takže",
+    "lessons": [
+      "u1-l1",
+      "u1-l10"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "səʊ",
+    "note": "spojky"
+  },
+  "soon": {
+    "en": "soon",
+    "cs": "brzy, zanedlouho",
+    "lessons": [
+      "u1-l5",
+      "u2-l2"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "suːn",
+    "note": "brzy; Write soon!"
+  },
+  "speak": {
+    "en": "speak",
+    "cs": "mluvit, hovořit",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l5"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "spiːk",
+    "note": "spoke [spəʊk] – spoken [ˈspəʊkən]"
+  },
+  "spell": {
+    "en": "spell",
+    "cs": "hláskovat, psát pravopisně správně; období, doba",
+    "lessons": [
+      "tema-slovesa",
+      "u3-l10"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "spel",
+    "note": "spelt [spelt] / spelled [speld] – stejné tvary"
+  },
+  "spend": {
+    "en": "spend",
+    "cs": "utratit, utrácet; strávit (čas)",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l9"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "spend",
+    "note": "min. čas spent; spent – spent [spent]"
+  },
+  "spring": {
+    "en": "spring",
+    "cs": "jaro; vyskočit, vymrštit se, tryskat; pružina",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l4"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "sprɪŋ",
+    "note": "sprang [spræŋ] – sprung [sprʌŋ]",
+    "pridano": "pružina"
+  },
+  "stand": {
+    "en": "stand",
+    "cs": "stát, postavit se; snést, vydržet",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l11"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "stænd",
+    "note": "stood – stood [stʊd]"
+  },
+  "standup": {
+    "en": "stand-up",
+    "cs": "krátká denní porada týmu (agilní vývoj)",
+    "lessons": [
+      "tema-it"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˈstændʌp",
+    "note": "agilní vývoj; daily stand-up; celé daily standup [ˌdeɪlɪ ˈstændʌp]"
+  },
+  "store": {
+    "en": "store",
+    "cs": "obchod, sklad; ukládat, uchovávat (IT: data)",
+    "lessons": [
+      "tema-it",
+      "u3-l5"
+    ],
+    "verdikt": "oborovy_kontext",
+    "ipa": "stɔː",
+    "note": "we store it in the database"
+  },
+  "straight away": {
+    "en": "straight away",
+    "cs": "ihned, okamžitě, rovnou",
+    "lessons": [
+      "u1-l8",
+      "u3-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˌstreɪt əˈweɪ",
+    "note": "straight"
+  },
+  "study": {
+    "en": "study",
+    "cs": "učit se, studovat; studovna, pracovna",
+    "lessons": [
+      "u1-l4",
+      "u1-l5"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "ˈstʌdɪ"
+  },
+  "suit": {
+    "en": "suit",
+    "cs": "oblek, kostým; slušet, hodit se",
+    "lessons": [
+      "u1-l8",
+      "u2-l8"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "suːt"
+  },
+  "swim": {
+    "en": "swim",
+    "cs": "plavat",
+    "lessons": [
+      "tema-slovesa",
+      "u2-l1"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "swɪm",
+    "note": "swam [swæm] – swum [swʌm]; swam; (mm)"
+  },
+  "take": {
+    "en": "take",
+    "cs": "vzít, brát; trvat (o čase); vyfotit (take a photo)",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l3",
+      "u3-l5"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "teɪk",
+    "note": "o čase; took [tʊk] – taken [ˈteɪkən]"
+  },
+  "take off": {
+    "en": "take off",
+    "cs": "svléknout (si), zout; vzlétnout (o letadle)",
+    "lessons": [
+      "u3-l2",
+      "u3-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˌteɪk ˈɒf",
+    "note": "phrasal verbs and prepositions",
+    "pridano": "vzlétnout (o letadle)"
+  },
+  "take out": {
+    "en": "take out",
+    "cs": "vyndat, vyjmout",
+    "lessons": [
+      "u1-l11",
+      "u3-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "teɪk ˈaʊt",
+    "note": "phrasal verbs and prepositions"
+  },
+  "teach": {
+    "en": "teach",
+    "cs": "učit, vyučovat",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l4"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "tiːtʃ",
+    "note": "taught – taught [tɔːt]"
+  },
+  "teacher": {
+    "en": "teacher",
+    "cs": "učitel(ka)",
+    "lessons": [
+      "u1-l4",
+      "u2-l8"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˈtiːtʃə",
+    "note": "názvy profesí; většinou název označuje jak muže, tak ženu; dále např.: lawyer, driver, clerk, dentist, baker, doctor"
+  },
+  "tell": {
+    "en": "tell",
+    "cs": "říct, říkat (někomu); povědět, vyprávět",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "tel",
+    "note": "told – told [təʊld]"
+  },
+  "that": {
+    "en": "that",
+    "cs": "tamten, tamta, tamto; že (spojka); který (ve vztažné větě)",
+    "lessons": [
+      "u1-l1",
+      "u1-l10"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "ðæt",
+    "note": "spojky",
+    "pridano": "který (ve vztažné větě)"
+  },
+  "these": {
+    "en": "these",
+    "cs": "tito, tyto (mn. č. od this)",
+    "lessons": [
+      "u1-l2",
+      "u1-l6"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ðiːz",
+    "note": "atp.; atd.; mn. č. od this"
+  },
+  "these days": {
+    "en": "these days",
+    "cs": "v dnešní době, v současnosti",
+    "lessons": [
+      "u2-l3",
+      "u3-l9"
+    ],
+    "verdikt": "stejny_vyznam",
+    "note": "předložky"
+  },
+  "think": {
+    "en": "think",
+    "cs": "myslet (si), přemýšlet",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l6"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "θɪŋk",
+    "note": "thought – thought [θɔːt]"
+  },
+  "through": {
+    "en": "through",
+    "cs": "skrz, přes, po; přímý (o spoji)",
+    "lessons": [
+      "u1-l9",
+      "u3-l9"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "θruː",
+    "note": "čím/7. pád; spoj"
+  },
+  "too": {
+    "en": "too",
+    "cs": "také, taky; příliš, moc",
+    "lessons": [
+      "u1-l1",
+      "u1-l6"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "tuː"
+  },
+  "top": {
+    "en": "top",
+    "cs": "vrchol(ek), špička, vrchní část; triko, top",
+    "lessons": [
+      "u3-l3",
+      "u3-l7"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "tɒp"
+  },
+  "traffic": {
+    "en": "traffic",
+    "cs": "doprava, provoz (na cestách); síťový provoz, návštěvnost (IT)",
+    "lessons": [
+      "tema-it",
+      "u3-l9"
+    ],
+    "verdikt": "oborovy_kontext",
+    "ipa": "ˈtræfɪk",
+    "note": "nepočitatelné, bez množného čísla; na cestách"
+  },
+  "try on": {
+    "en": "try on",
+    "cs": "zkusit si, vyzkoušet si (oblečení)",
+    "lessons": [
+      "u1-l8",
+      "u3-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "note": "phrasal verbs and prepositions, oděv; oblečení"
+  },
+  "understand": {
+    "en": "understand",
+    "cs": "rozumět, chápat",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l4"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˌʌndəˈstænd",
+    "note": "understood – understood [ˌʌndəˈstʊd]"
+  },
+  "up": {
+    "en": "up",
+    "cs": "nahoru, vzhůru; nahoře",
+    "lessons": [
+      "u2-l10",
+      "u2-l5"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ʌp"
+  },
+  "value": {
+    "en": "value",
+    "cs": "hodnota, cena; vážit si, cenit si",
+    "lessons": [
+      "tema-it",
+      "u3-l5"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˈvæljuː",
+    "pridano": "slovesný význam vážit si, cenit si"
+  },
+  "waiter": {
+    "en": "waiter",
+    "cs": "číšník",
+    "lessons": [
+      "u2-l4",
+      "u2-l8"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˈweɪtə",
+    "note": "názvy profesí"
+  },
+  "waitress": {
+    "en": "waitress",
+    "cs": "číšnice, servírka",
+    "lessons": [
+      "u1-l2",
+      "u2-l8"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˈweɪtrəs",
+    "note": "názvy profesí; u několika profesí se ženský ekvivalent tvoří příponou -ess; dále např.: actor – actress"
+  },
+  "water": {
+    "en": "water",
+    "cs": "voda; zalévat",
+    "lessons": [
+      "u2-l4",
+      "u3-l10"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "ˈwɔːtə"
+  },
+  "wear": {
+    "en": "wear",
+    "cs": "nosit (oblečení), mít na sobě",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l6"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "weə",
+    "note": "wore [wɔː] – worn [wɔːn]"
+  },
+  "week": {
+    "en": "week",
+    "cs": "týden",
+    "lessons": [
+      "u1-l3",
+      "u1-l7"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "wiːk",
+    "note": "dny v týdnu"
+  },
+  "welcome": {
+    "en": "welcome",
+    "cs": "(při)vítat; (při)vítání; vítaný",
+    "lessons": [
+      "u2-l3",
+      "u3-l7"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˈwelkəm"
+  },
+  "when": {
+    "en": "when",
+    "cs": "kdy; když, až",
+    "lessons": [
+      "u1-l10",
+      "u1-l4",
+      "u1-l9",
+      "u2-l2"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "wen",
+    "note": "spojky"
+  },
+  "where": {
+    "en": "where",
+    "cs": "kde; kam",
+    "lessons": [
+      "u1-l1",
+      "u1-l10"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "weə",
+    "note": "spojky"
+  },
+  "whichever": {
+    "en": "whichever",
+    "cs": "kterýkoliv",
+    "lessons": [
+      "u2-l8",
+      "u3-l12"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "wɪtʃˈevə",
+    "note": "všimněte si"
+  },
+  "wonder": {
+    "en": "wonder",
+    "cs": "přemýšlet, ptát se sám sebe; divit se; div, údiv",
+    "lessons": [
+      "u2-l8",
+      "u3-l10"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "ˈwʌndə",
+    "note": "sám sebe"
+  },
+  "work": {
+    "en": "work",
+    "cs": "práce, pracovat; fungovat; dílo (umělecké)",
+    "lessons": [
+      "u1-l3",
+      "u2-l3",
+      "u3-l10"
+    ],
+    "verdikt": "ruzne_vyznamy",
+    "ipa": "wɜːk",
+    "note": "jeden kus"
+  },
+  "worry": {
+    "en": "worry",
+    "cs": "dělat si starosti, bát se o; starost, obava",
+    "lessons": [
+      "u1-l10",
+      "u3-l1"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "ˈwʌrɪ",
+    "note": "si/komu"
+  },
+  "write": {
+    "en": "write",
+    "cs": "psát, napsat",
+    "lessons": [
+      "tema-slovesa",
+      "u1-l3"
+    ],
+    "verdikt": "stejny_vyznam",
+    "ipa": "raɪt",
+    "note": "wrote [rəʊt] – written [ˈrɪtn]"
+  }
+}

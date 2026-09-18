@@ -75,6 +75,9 @@ export async function GET() {
         streak: card.streak,
         lastSeen: card.lastSeen,
         dueAt: card.dueAt,
+        // Bez tohohle se „tohle už umím" ztratilo při každém načtení z databáze
+        // a odložená slovíčka se vracela do opakování.
+        mastered: card.mastered,
       };
     }
 

@@ -18,7 +18,7 @@ import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
-import { audioKeyFor } from "../src/lib/slug.ts";
+import { audioKeyFor, mergeKeyFor } from "../src/lib/slug.ts";
 import { stripFreeAtoms } from "./m4a.mjs";
 
 const execFileAsync = promisify(execFile);
@@ -27,6 +27,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const LESSONS_DIR = path.join(ROOT, "data", "lessons");
 const AUDIO_DIR = path.join(ROOT, "public", "audio");
 const MANIFEST = path.join(AUDIO_DIR, "manifest.json");
+const MERGED_FILE = path.join(ROOT, "data", "merged-words.json");
 /** Mezivýsledky patří do systémového tempu, ne do public/ – po pádu by se jinak dostaly do buildu. */
 const TEMP_DIR = path.join(os.tmpdir(), "teacher-app-audio");
 
@@ -92,8 +93,23 @@ async function pickVoice() {
   return installed[0]?.name ?? "Samantha";
 }
 
+/**
+ * Slovíčka z víc lekcí se v aplikaci slučují do jedné kartičky a ta může mít jiné
+ * znění než kterákoli z předloh („apply (for)" místo „apply for"). Audio se generuje
+ * pro to znění, které uživatel uvidí, jinak by kartička zůstala němá.
+ */
+async function loadMerged() {
+  try {
+    const raw = JSON.parse(await readFile(MERGED_FILE, "utf8"));
+    return new Map(Object.entries(raw));
+  } catch {
+    return new Map();
+  }
+}
+
 async function collectItems() {
   const files = (await readdir(LESSONS_DIR)).filter((f) => f.endsWith(".json")).sort();
+  const merged = await loadMerged();
   /** @type {Map<string, string>} klíč -> anglický text */
   const wanted = new Map();
 
@@ -101,11 +117,22 @@ async function collectItems() {
     const raw = JSON.parse(await readFile(path.join(LESSONS_DIR, file), "utf8"));
     for (const item of raw.items ?? []) {
       if (typeof item?.en !== "string" || !item.en.trim()) continue;
-      const en = item.en.trim();
+      const en = (merged.get(mergeKeyFor(item.en))?.en ?? item.en).trim();
       wanted.set(audioKeyFor(en), en);
     }
   }
   return wanted;
+}
+
+/**
+ * Znění pro syntézu. `say` čte závorku jako pauzu, takže „get (a)round to" vysloví
+ * jako „get – a – round to". Na kartičce závorky význam nesou, v nahrávce překážejí.
+ */
+function speechTextFor(englishText) {
+  return englishText
+    .replace(/[()]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 async function loadManifest() {
@@ -202,7 +229,7 @@ async function main() {
   await runPool(
     todo.map(({ key, text }) => async () => {
       try {
-        await synthesize(voice, key, text);
+        await synthesize(voice, key, speechTextFor(text));
       } catch (error) {
         failed++;
         console.warn(`  ✗ ${text} → ${error.message}`);

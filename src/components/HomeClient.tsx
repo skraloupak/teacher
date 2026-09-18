@@ -6,6 +6,7 @@ import { useMemo } from "react";
 import { Button, Chip, Panel, ProgressBar, Switch } from "@/components/ui";
 import { useAppState } from "@/hooks/useAppState";
 import { primeAudio } from "@/lib/audio";
+import { dedupeById } from "@/lib/items";
 import { nextDueAt, previewSize } from "@/lib/session";
 import {
   DIRECTION_LABELS,
@@ -38,9 +39,13 @@ export function HomeClient({ lessons, books }: { lessons: Lesson[]; books: Book[
 
   const stats = useMemo(() => {
     if (now === null) return null;
-    const items = selectedLessons
-      .flatMap((lesson) => lesson.items)
-      .filter((item) => settings.types.includes(item.type));
+    // Sloučené slovíčko je ve víc lekcích jedna kartička – bez dedupe by panel
+    // hlásil víc položek, než kolik jich kolo opravdu nabídne.
+    const items = dedupeById(
+      selectedLessons
+        .flatMap((lesson) => lesson.items)
+        .filter((item) => settings.types.includes(item.type)),
+    );
     return summarize(items, directionsOf(settings.direction), progress, now);
   }, [selectedLessons, settings.types, settings.direction, progress, now]);
 
