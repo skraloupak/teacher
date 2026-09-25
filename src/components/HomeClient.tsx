@@ -284,7 +284,11 @@ export function HomeClient({ lessons, books }: { lessons: Lesson[]; books: Book[
         </Panel>
       )}
 
-      <div className="fixed inset-x-0 bottom-0 z-10 border-t border-line bg-surface/85 px-4 py-3 backdrop-blur-md">
+      {/* Sedí nad spodní lištou, ne pod ní – na telefonu jsou přilepené ke spodku oba. */}
+      <div
+        className="fixed inset-x-0 z-10 border-t border-line bg-surface/85 px-4 py-3 backdrop-blur-md"
+        style={{ bottom: "var(--bottom-nav)" }}
+      >
         <div className="mx-auto flex w-full max-w-2xl items-center gap-3">
           <div className="min-w-0 flex-1 text-sm text-ink-muted">
             {!ready || preview === null ? (

@@ -114,7 +114,7 @@ function Chrome({ children }: { children: ReactNode }) {
   const pathname = usePathname();
 
   return (
-    <div className="mx-auto flex min-h-dvh w-full max-w-2xl flex-col px-4 pb-24 sm:pb-8">
+    <div className="mx-auto flex min-h-dvh w-full max-w-2xl flex-col px-4 pb-8">
       <header className="flex items-center justify-between gap-2 py-4">
         <Link href="/" className="text-lg font-bold tracking-tight text-ink">
           Slovíčka<span className="text-brand">.</span>
@@ -138,13 +138,16 @@ function Chrome({ children }: { children: ReactNode }) {
         <ThemeToggle />
       </header>
 
-      <main className="flex flex-1 flex-col">{children}</main>
+      {/* Spodní odsazení o výšku lišty, ať ji obsah nekončí pod ní. */}
+      <main className="flex flex-1 flex-col" style={{ paddingBottom: "var(--bottom-nav)" }}>
+        {children}
+      </main>
 
       {/* Spodní lišta na telefonu – palec na ni dosáhne a popisky se nikam netlačí. */}
       <nav
         aria-label="Hlavní navigace"
-        className="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-surface/95 backdrop-blur sm:hidden"
-        style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
+        className="fixed inset-x-0 bottom-0 z-40 h-[var(--bottom-nav)] border-t border-line bg-surface/95 backdrop-blur sm:hidden"
+        style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}
       >
         <div className="mx-auto flex max-w-2xl items-stretch">
           {NAV.map((item) => {

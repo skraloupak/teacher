@@ -22,6 +22,21 @@
   --color-bad-soft: var(--bad-soft);
 }
 
+/*
+ * Výška spodní navigační lišty. Na telefonu nad ní musí začínat všechno ostatní,
+ * co je přilepené ke spodku obrazovky – jinak si dva plovoucí pruhy sednou na sebe.
+ * Od šířky `sm` je lišta schovaná a proměnná je nulová.
+ */
+:root {
+  --bottom-nav: calc(3.5rem + env(safe-area-inset-bottom, 0px));
+}
+
+@media (min-width: 40rem) {
+  :root {
+    --bottom-nav: 0px;
+  }
+}
+
 /* Barvy jsou zvolené tak, aby text splnil kontrast 4,5 : 1 na všech podkladech, kde se používá. */
 :root {
   --surface: #f6f6f9;
