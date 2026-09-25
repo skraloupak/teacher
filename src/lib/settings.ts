@@ -4,6 +4,7 @@ import type {
   ItemType,
   StudyMode,
   StudySettings,
+  VocabScope,
 } from "./types";
 
 export const DEFAULT_SETTINGS: StudySettings = {
@@ -15,6 +16,9 @@ export const DEFAULT_SETTINGS: StudySettings = {
   autoPlayAudio: false,
   dailyGoalMinutes: 10,
   statsBothDirections: false,
+  // Slovníček startuje na první lekci, ne na celé sbírce – vypsat přes tři tisíce
+  // hesel naráz trvá a uživatel se k tomu stejně dostane jedním klepnutím.
+  vocabScope: { kind: "lesson", id: "" },
 };
 
 export const SESSION_SIZES: Array<{ value: number | null; label: string }> = [
@@ -75,6 +79,29 @@ function readMode(base: Partial<StudySettings> & Record<string, unknown>): Study
 }
 
 /** Načtené nastavení může být staré nebo poškozené – doplníme chybějící a zahodíme nesmysly. */
+/**
+ * Uložený rozsah slovníčku. Lekce, která mezitím zmizela z dat, se nahradí první
+ * dostupnou – jinak by slovníček zůstal prázdný a nebylo by poznat proč.
+ */
+function readVocabScope(raw: unknown, availableLessonIds: string[]): VocabScope {
+  const fallback: VocabScope =
+    availableLessonIds.length > 0
+      ? { kind: "lesson", id: availableLessonIds[0] }
+      : { kind: "all" };
+
+  if (!raw || typeof raw !== "object") return fallback;
+  const scope = raw as Record<string, unknown>;
+
+  if (scope.kind === "all") return { kind: "all" };
+  if (scope.kind === "book" && typeof scope.book === "number") {
+    return { kind: "book", book: scope.book };
+  }
+  if (scope.kind === "lesson" && typeof scope.id === "string") {
+    return availableLessonIds.includes(scope.id) ? { kind: "lesson", id: scope.id } : fallback;
+  }
+  return fallback;
+}
+
 export function normalizeSettings(
   raw: Partial<StudySettings> | null | undefined,
   availableLessonIds: string[],
@@ -116,5 +143,6 @@ export function normalizeSettings(
         ? Math.min(600, Math.round(base.dailyGoalMinutes))
         : DEFAULT_SETTINGS.dailyGoalMinutes,
     statsBothDirections: Boolean(base.statsBothDirections),
+    vocabScope: readVocabScope(base.vocabScope, availableLessonIds),
   };
 }

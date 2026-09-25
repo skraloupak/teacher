@@ -8,9 +8,8 @@ import { useAppState } from "@/hooks/useAppState";
 import { dedupeById } from "@/lib/items";
 import { TYPE_LABELS } from "@/lib/settings";
 import { BOX_LABELS, MAX_BOX, progressKey } from "@/lib/srs";
-import type { Book, Direction, Item, ItemType, Lesson } from "@/lib/types";
+import type { Book, Direction, Item, ItemType, Lesson, VocabScope } from "@/lib/types";
 
-type Scope = { kind: "all" } | { kind: "book"; book: number } | { kind: "lesson"; id: string };
 /** Který sloupec je zakrytý, aby se dalo zkoušet sám ze sebe. */
 type Cover = "none" | "cs" | "en";
 
@@ -38,8 +37,11 @@ function normalize(text: string): string {
 }
 
 export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book[] }) {
-  const { progress, marked, toggleMark, clearMarks, resetMastered } = useAppState(lessons);
-  const [scope, setScope] = useState<Scope>({ kind: "all" });
+  const { progress, marked, toggleMark, clearMarks, resetMastered, settings, updateSettings } =
+    useAppState(lessons);
+  // Rozsah si drží profil, ne komponenta – jinak by se po každém příchodu začínalo
+  // od celé sbírky, což je přes tři tisíce hesel a znatelné čekání.
+  const scope = settings.vocabScope;
   const [typeFilter, setTypeFilter] = useState<ItemType | "all">("all");
   const [onlyMarked, setOnlyMarked] = useState(false);
   const [cover, setCover] = useState<Cover>("none");
@@ -58,8 +60,8 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
 
   // Každá změna filtru vrací výpis na začátek – jinak by po zúžení zůstala
   // odscrollovaná pozice u položek, které už ve výsledku nejsou.
-  function changeScope(next: Scope) {
-    setScope(next);
+  function changeScope(next: VocabScope) {
+    updateSettings({ vocabScope: next });
     setShown(PAGE_SIZE);
   }
 

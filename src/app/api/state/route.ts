@@ -7,6 +7,12 @@ export const dynamic = "force-dynamic";
 
 /** Kolik posledních kol se drží v historii. */
 const MAX_SESSIONS = 1000;
+/**
+ * O kolik smí razítko profilu předběhnout server, než ho začneme považovat za vadné.
+ * Den pokryje rozdíl časových pásem i rozjeté hodiny v telefonu; cokoli dál v budoucnosti
+ * je chyba a nesmí zablokovat zápis nastavení napořád.
+ */
+const STALE_FUTURE_MS = 24 * 60 * 60 * 1000;
 
 type StatePayload = {
   progress?: ProgressMap;
@@ -184,7 +190,16 @@ export async function PUT(request: Request) {
                 field,
                 {
                   $cond: [
-                    { $gte: [updatedAt, { $ifNull: ["$updatedAt", -1] }] },
+                    {
+                      $or: [
+                        { $gte: [updatedAt, { $ifNull: ["$updatedAt", -1] }] },
+                        // Razítko z daleké budoucnosti nemohlo vzniknout poctivým zápisem
+                        // (rozjeté hodiny, špatná jednotka, ruční zásah). Kdyby se bralo
+                        // vážně, žádné další nastavení by se už neuložilo – aplikace by
+                        // tiše zapomínala výběr lekcí až do konce života profilu.
+                        { $gt: [{ $ifNull: ["$updatedAt", -1] }, updatedAt + STALE_FUTURE_MS] },
+                      ],
+                    },
                     { $literal: value },
                     `$${field}`,
                   ],

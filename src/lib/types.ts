@@ -127,6 +127,12 @@ export type GrammarQuestion = {
   explain: string;
 };
 
+/** Co má slovníček vypisovat – celá sbírka, jedna učebnice, nebo jedna lekce. */
+export type VocabScope =
+  | { kind: "all" }
+  | { kind: "book"; book: number }
+  | { kind: "lesson"; id: string };
+
 export type StudySettings = {
   lessonIds: string[];
   types: ItemType[];
@@ -142,6 +148,11 @@ export type StudySettings = {
    * Ve výchozím stavu ne – jinak čísla nesedí s tím, co uživatel při učení vidí.
    */
   statsBothDirections: boolean;
+  /**
+   * Naposledy zvolený rozsah slovníčku. Vypsat rovnou všech přes tři tisíce hesel
+   * znamená dlouhé čekání, takže se začíná jednou lekcí a volba se pamatuje.
+   */
+  vocabScope: VocabScope;
 };
 
 /** Záznam o dokončeném kole – pro statistiky. */
