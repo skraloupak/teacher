@@ -2,14 +2,25 @@
 
 import type { ProgressMap, SessionRecord, StudySettings } from "../types";
 import { LocalProgressStore } from "./local";
-import { mergeProgress, mergeSessions } from "./merge";
+import { mergeProgress, mergeSessions, progressToPush } from "./merge";
 import type { ProgressStore } from "./types";
 
 const MAX_SESSIONS = 1000;
 /** Jak dlouho se sbírají změny, než odletí jeden zápis na server. */
 const FLUSH_DELAY = 1200;
+/**
+ * Nastavení a zaškrtnutí odcházejí dřív než kartičky. Jsou malá, mění se po jednom
+ * kliknutí a uživatel hned potom klidně obnoví stránku – čekat s nimi přes vteřinu
+ * znamená, že se výběr lekcí nestihne uložit.
+ */
+const SETTINGS_FLUSH_DELAY = 300;
 /** Server nesmí blokovat učení – když se neozve, jede se z prohlížeče. */
 const FETCH_TIMEOUT = 6000;
+/**
+ * Strop pro tělo `fetch`u s `keepalive` podle specifikace Fetch. Větší zápis prohlížeč
+ * odmítne, takže se při zavírání karty musí poslat jen to podstatné.
+ */
+const KEEPALIVE_LIMIT = 60_000;
 
 type RemoteState = {
   progress: ProgressMap;
@@ -93,10 +104,17 @@ export class SyncedProgressStore implements ProgressStore {
     return this.remote;
   }
 
-  private schedule(): void {
+  private timerAt = 0;
+
+  private schedule(delay: number = FLUSH_DELAY): void {
     if (!this.available) return;
+    const at = Date.now() + delay;
+    // Naplánovaný dřívější zápis se neodsouvá – jinak by proud odpovědí donekonečna
+    // odkládal nastavení, které čeká na odeslání.
+    if (this.timer && this.timerAt <= at) return;
     if (this.timer) clearTimeout(this.timer);
-    this.timer = setTimeout(() => void this.flush(), FLUSH_DELAY);
+    this.timerAt = at;
+    this.timer = setTimeout(() => void this.flush(), delay);
   }
 
   /** Odešle nasbírané změny. `immediate` se používá při zavírání stránky. */
@@ -104,6 +122,7 @@ export class SyncedProgressStore implements ProgressStore {
     if (this.timer) {
       clearTimeout(this.timer);
       this.timer = null;
+      this.timerAt = 0;
     }
     if (!this.available) return;
 
@@ -125,16 +144,36 @@ export class SyncedProgressStore implements ProgressStore {
       updatedAt: Date.now(),
     });
 
-    // Při zavírání stránky už fetch nemusí doběhnout, sendBeacon ano.
-    if (immediate && typeof navigator !== "undefined" && "sendBeacon" in navigator) {
-      // sendBeacon umí jen POST; PUT tu obsloužíme běžným fetchem s keepalive.
+    // Při zavírání stránky fetch nemusí doběhnout; `keepalive` ho nechá dojet i po
+    // odchodu ze stránky, ale tělo smí mít jen 64 kB. Když se dávka nevejde, odešleme
+    // aspoň nastavení a zaškrtnutí – kartičky jsou v prohlížeči a odejdou příště,
+    // kdežto ztracené nastavení uživatel uvidí hned po načtení stránky.
+    if (immediate) {
+      // Limit platí pro bajty, ne pro znaky – české texty jsou v UTF-8 delší.
+      const bytes = new Blob([body]).size;
+      const small =
+        bytes <= KEEPALIVE_LIMIT
+          ? body
+          : JSON.stringify({
+              progress: {},
+              sessions: batch.sessions,
+              settings: batch.settings,
+              marked: batch.marked,
+              updatedAt: Date.now(),
+            });
       try {
         await fetch("/api/state", {
           method: "PUT",
           headers: { "Content-Type": "application/json" },
-          body,
+          body: small,
           keepalive: true,
         });
+        if (small !== body) {
+          // Kartičky se neodeslaly. Fronta je jen v paměti a se zavřenou kartou zanikne,
+          // ale odpovědi zůstávají v prohlížeči – odejdou při první odpovědi příště
+          // (saveProgress posílá celou mapu) nebo startovním doplněním v loadProgress.
+          this.pending.progress = { ...batch.progress, ...this.pending.progress };
+        }
       } catch {
         // Nedoručeno – data zůstávají v prohlížeči a odejdou příště.
       }
@@ -161,12 +200,19 @@ export class SyncedProgressStore implements ProgressStore {
     const [local, remote] = await Promise.all([this.local.loadProgress(), this.loadRemote()]);
     if (!remote) return local;
 
+    // Rozdíl se musí spočítat DŘÍV, než se přepíše cache: `remote` je tentýž objekt,
+    // který drží `this.cached`, takže po přiřazení níž by se mapa porovnávala sama
+    // se sebou a nikdy by se nic neodeslalo.
     const merged = mergeProgress(local, remote.progress);
+    // Doplníme jen to, co prohlížeč má navíc – posílat po každém startu celou mapu
+    // znamená stovky kB a při zavírání karty se takový zápis vůbec neodešle.
+    const push = progressToPush(merged, remote.progress);
     await this.local.saveProgress(merged);
     if (this.cached) this.cached.progress = merged;
-    // Co má prohlížeč navíc, doplníme na server.
-    this.pending.progress = { ...this.pending.progress, ...merged };
-    this.schedule();
+    if (Object.keys(push).length > 0) {
+      this.pending.progress = { ...this.pending.progress, ...push };
+      this.schedule();
+    }
     return merged;
   }
 
@@ -187,7 +233,7 @@ export class SyncedProgressStore implements ProgressStore {
     await this.local.saveSettings(settings);
     if (this.cached) this.cached.settings = settings;
     this.pending.settings = settings;
-    this.schedule();
+    this.schedule(SETTINGS_FLUSH_DELAY);
   }
 
   async loadMarked(): Promise<string[]> {
@@ -199,7 +245,7 @@ export class SyncedProgressStore implements ProgressStore {
     await this.local.saveMarked(itemIds);
     if (this.cached) this.cached.marked = itemIds;
     this.pending.marked = itemIds;
-    this.schedule();
+    this.schedule(SETTINGS_FLUSH_DELAY);
   }
 
   async loadSessions(): Promise<SessionRecord[]> {

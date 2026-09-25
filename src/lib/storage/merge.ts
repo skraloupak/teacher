@@ -13,6 +13,22 @@ export function mergeProgress(base: ProgressMap, incoming: ProgressMap): Progres
   return merged;
 }
 
+/**
+ * Záznamy, které má prohlížeč navíc nebo čerstvější než server.
+ *
+ * Posílat po každém startu celou mapu je zbytečné – u tisícovky kartiček z ní je
+ * přes 300 kB a `fetch` s `keepalive`, kterým se odesílá rozdělaný zápis při zavírání
+ * karty, takhle velké tělo odmítne. Spolu s ním by propadlo i nastavení.
+ */
+export function progressToPush(local: ProgressMap, remote: ProgressMap): ProgressMap {
+  const out: ProgressMap = {};
+  for (const [key, card] of Object.entries(local)) {
+    const theirs = remote[key];
+    if (!theirs || card.lastSeen > theirs.lastSeen) out[key] = card;
+  }
+  return out;
+}
+
 /** Sloučí historii kol podle id a seřadí ji podle času dokončení. */
 export function mergeSessions(
   base: SessionRecord[],

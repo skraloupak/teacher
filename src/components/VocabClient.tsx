@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { SpeakButton } from "@/components/SpeakButton";
 import { Chip, Panel } from "@/components/ui";
 import { useAppState } from "@/hooks/useAppState";
@@ -13,6 +13,15 @@ import type { Book, Direction, Item, ItemType, Lesson } from "@/lib/types";
 type Scope = { kind: "all" } | { kind: "book"; book: number } | { kind: "lesson"; id: string };
 /** Který sloupec je zakrytý, aby se dalo zkoušet sám ze sebe. */
 type Cover = "none" | "cs" | "en";
+
+/**
+ * Po kolika slovíčkách se výpis dokresluje.
+ *
+ * Celý slovníček má přes tři tisíce položek a každý řádek je zhruba dvacet prvků
+ * včetně dvou ikon – vykreslit je naráz znamená desítky tisíc uzlů a na telefonu
+ * stránka zamrzne. Zbytek se přidá, jakmile se uživatel doscrolluje k patě.
+ */
+const PAGE_SIZE = 120;
 
 const COVER_LABELS: Record<Cover, string> = {
   none: "Nic",
@@ -36,6 +45,8 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
   const [cover, setCover] = useState<Cover>("none");
   const [peeked, setPeeked] = useState<ReadonlySet<string>>(() => new Set());
   const [query, setQuery] = useState("");
+  const [shown, setShown] = useState(PAGE_SIZE);
+  const sentinel = useRef<HTMLDivElement | null>(null);
 
   function peek(id: string) {
     setPeeked((prev) => {
@@ -43,6 +54,28 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
       next.add(id);
       return next;
     });
+  }
+
+  // Každá změna filtru vrací výpis na začátek – jinak by po zúžení zůstala
+  // odscrollovaná pozice u položek, které už ve výsledku nejsou.
+  function changeScope(next: Scope) {
+    setScope(next);
+    setShown(PAGE_SIZE);
+  }
+
+  function changeType(next: ItemType | "all") {
+    setTypeFilter(next);
+    setShown(PAGE_SIZE);
+  }
+
+  function changeOnlyMarked(next: boolean) {
+    setOnlyMarked(next);
+    setShown(PAGE_SIZE);
+  }
+
+  function changeQuery(next: string) {
+    setQuery(next);
+    setShown(PAGE_SIZE);
   }
 
   function changeCover(next: Cover) {
@@ -55,6 +88,23 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
     () => dedupeById(lessons.flatMap((l) => l.items)).length,
     [lessons],
   );
+
+  // Dokreslování: značka pod výpisem se objeví v dohledu a přidá další porci.
+  useEffect(() => {
+    const target = sentinel.current;
+    if (!target) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          setShown((count) => count + PAGE_SIZE);
+        }
+      },
+      // Přidáváme s předstihem, ať uživatel nenarazí na konec seznamu.
+      { rootMargin: "600px" },
+    );
+    observer.observe(target);
+    return () => observer.disconnect();
+  }, []);
 
   const items = useMemo(() => {
     const inScope = lessons.filter((lesson) =>
@@ -78,6 +128,10 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
         normalize(item.note ?? "").includes(needle),
     );
   }, [lessons, scope, typeFilter, onlyMarked, marked, query]);
+
+  // Vykresluje se jen začátek; zbytek přibývá při scrollu.
+  const visible = useMemo(() => items.slice(0, shown), [items, shown]);
+  const rest = items.length - visible.length;
 
   /** Nejnižší dosažený box napříč oběma směry – hrubý ukazatel „jak to umím". */
   function boxOf(item: Item): number | null {
@@ -107,7 +161,7 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
       <Panel title="Odkud">
         <div className="flex flex-col gap-3">
           <div className="flex flex-wrap gap-2">
-            <Chip selected={scope.kind === "all"} onClick={() => setScope({ kind: "all" })}>
+            <Chip selected={scope.kind === "all"} onClick={() => changeScope({ kind: "all" })}>
               Vše
               <span className="ml-1.5 opacity-60">{totalCount}</span>
             </Chip>
@@ -115,7 +169,7 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
               <Chip
                 key={book.number}
                 selected={scope.kind === "book" && scope.book === book.number}
-                onClick={() => setScope({ kind: "book", book: book.number })}
+                onClick={() => changeScope({ kind: "book", book: book.number })}
               >
                 {book.title}
                 <span className="ml-1.5 opacity-60">{book.itemCount}</span>
@@ -127,7 +181,7 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
               <Chip
                 key={lesson.id}
                 selected={scope.kind === "lesson" && scope.id === lesson.id}
-                onClick={() => setScope({ kind: "lesson", id: lesson.id })}
+                onClick={() => changeScope({ kind: "lesson", id: lesson.id })}
               >
                 {lesson.title}
                 <span className="ml-1.5 opacity-60">{lesson.items.length}</span>
@@ -140,15 +194,15 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
       <Panel title="Filtr">
         <div className="flex flex-col gap-3">
           <div className="flex flex-wrap gap-2">
-            <Chip selected={typeFilter === "all"} onClick={() => setTypeFilter("all")}>
+            <Chip selected={typeFilter === "all"} onClick={() => changeType("all")}>
               Vše
             </Chip>
             {(["word", "phrase"] as ItemType[]).map((type) => (
-              <Chip key={type} selected={typeFilter === type} onClick={() => setTypeFilter(type)}>
+              <Chip key={type} selected={typeFilter === type} onClick={() => changeType(type)}>
                 {TYPE_LABELS[type]}
               </Chip>
             ))}
-            <Chip selected={onlyMarked} onClick={() => setOnlyMarked(!onlyMarked)}>
+            <Chip selected={onlyMarked} onClick={() => changeOnlyMarked(!onlyMarked)}>
               Jen zaškrtnuté
               <span className="ml-1.5 opacity-60">{marked.size}</span>
             </Chip>
@@ -156,7 +210,7 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
           <input
             type="search"
             value={query}
-            onChange={(event) => setQuery(event.target.value)}
+            onChange={(event) => changeQuery(event.target.value)}
             placeholder="Hledat česky nebo anglicky…"
             className="w-full rounded-2xl border border-line bg-surface-raised px-4 py-3 text-base text-ink outline-none placeholder:text-ink-muted focus-visible:border-brand"
           />
@@ -198,7 +252,7 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
           <p className="px-4 text-ink-muted sm:px-5">Nic neodpovídá filtru.</p>
         ) : (
           <ul className="divide-y divide-line">
-            {items.map((item) => {
+            {visible.map((item) => {
               const box = boxOf(item);
               const setAside = setAsideIn(item);
               const byHand = setAside.length > 0;
@@ -304,6 +358,20 @@ export function VocabClient({ lessons, books }: { lessons: Lesson[]; books: Book
               );
             })}
           </ul>
+        )}
+        {/* Značka pro dokreslení – musí být v DOM i než se seznam naplní. */}
+        <div ref={sentinel} aria-hidden className="h-px" />
+        {rest > 0 && (
+          <p className="px-4 pt-3 text-sm text-ink-muted sm:px-5">
+            Zobrazeno {visible.length} z {items.length}.{" "}
+            <button
+              type="button"
+              onClick={() => setShown(items.length)}
+              className="font-medium text-brand"
+            >
+              Zobrazit zbývajících {rest}
+            </button>
+          </p>
         )}
       </Panel>
     </div>
